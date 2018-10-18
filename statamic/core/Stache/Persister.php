@@ -44,13 +44,18 @@ class Persister
      */
     public function persist($updates)
     {
+        // Compile all the cacheable data in preparation for writing it into the cache.
+        $this->compile($updates);
+
+        // Write all the data to the cache. We will make sure to acquire a lock while doing
+        // this to prevent other requests from loading an incompletely written cache.
         if ($this->stache->lock()->acquire(true)) {
-            $this->handle($updates);
+            $this->cache();
             $this->stache->lock()->release();
         }
     }
 
-    public function handle($updates)
+    protected function compile($updates)
     {
         // Get the meta from the stache
         $this->meta = collect($this->stache->meta());
@@ -70,7 +75,10 @@ class Persister
                 $this->items->put($key, $arr['items']);
             }
         });
+    }
 
+    protected function cache()
+    {
         // Persist the taxonomies
         $this->store('taxonomies/data', $this->stache->taxonomies->toPersistableArray());
         $this->keys[] = 'taxonomies/data';

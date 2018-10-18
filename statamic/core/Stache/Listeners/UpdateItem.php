@@ -13,6 +13,7 @@ use Statamic\Data\Pages\PageStructure;
 use Statamic\Events\Data\EntryDeleted;
 use Statamic\Contracts\Data\Pages\Page;
 use Statamic\Contracts\Data\Users\User;
+use Statamic\Events\Data\CollectionSaved;
 use Statamic\Events\Data\UserGroupDeleted;
 use Statamic\Contracts\Data\Entries\Entry;
 use Statamic\Contracts\Data\Taxonomies\Term;
@@ -20,6 +21,7 @@ use Statamic\Contracts\Assets\AssetContainer;
 use Statamic\Events\Data\AssetContainerSaved;
 use Statamic\Contracts\Permissions\UserGroup;
 use Statamic\Contracts\Data\Globals\GlobalSet;
+use Statamic\Contracts\Data\Entries\Collection;
 use Statamic\Events\Data\AssetContainerDeleted;
 use Statamic\Data\Taxonomies\TermTracker;
 
@@ -59,6 +61,7 @@ class UpdateItem
             self::class.'@updateSavedItem'
         );
 
+        $events->listen(CollectionSaved::class, self::class.'@updateCollection');
         $events->listen(AssetContainerSaved::class, self::class.'@updateAssetContainer');
 
         $events->listen(EntryDeleted::class, self::class.'@removeDeletedEntry');
@@ -192,6 +195,11 @@ class UpdateItem
         $this->updateSavedItem($event->container);
     }
 
+    public function updateCollection(CollectionSaved $event)
+    {
+        $this->updateSavedItem($event->collection);
+    }
+
     /**
      * Remove a deleted entry
      *
@@ -294,6 +302,8 @@ class UpdateItem
             return 'usergroups';
         } elseif ($this->data instanceof AssetContainer) {
             return 'assetcontainers';
+        } elseif ($this->data instanceof Collection) {
+            return 'collections';
         }
     }
 

@@ -8,6 +8,6 @@ class ObfuscateTags extends Tags
 {
     public function index()
     {
-        return app('html')->obfuscate($this->content);
+        return app('html')->obfuscate($this->parse());
     }
 }

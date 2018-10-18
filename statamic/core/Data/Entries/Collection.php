@@ -250,4 +250,15 @@ class Collection extends DataFolder implements CollectionContract
             Config::get('theming.default_fieldset')
         ])->withTaxonomies();
     }
+
+    /**
+     * Get or set the ID
+     *
+     * @param null|string $id
+     * @return string
+     */
+    public function id($id = null)
+    {
+        return $this->path($id);
+    }
 }

@@ -116,6 +116,11 @@ class Manager
 
             sleep(1);
         }
+
+        // We want to immediately release the lock that was acquired when checking,
+        // otherwise this request will hold it until it's complete. That would
+        // result in all other requests waiting for this one to finish.
+        $this->stache->lock()->release();
     }
 
     protected function isLocked()
