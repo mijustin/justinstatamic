@@ -1,2 +1,5 @@
 collections:
-  articles: /{slug}
+  articles: '/{slug}'
+redirect:
+  /ladder: freedom
+  /im-a-fcking-webmaster: webmaster
