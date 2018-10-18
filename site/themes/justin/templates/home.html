@@ -9,7 +9,7 @@ hide_justin: true
             <div class="pl-3 text-grey text-md">
                 <h6>Recent Posts</h6>
                 <div class="mb-7">
-                    {{ collection:articles }}
+                    {{ collection:articles limit="3" }}
                     <p class="group">
                         <a href="{{ url }}" class="plain text-md no-underline group-hover:bg-black group-hover:text-white text-grey">
                             {{ title }}
