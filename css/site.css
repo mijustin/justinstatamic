@@ -725,6 +725,10 @@ footer.zine {
   outline: 0;
 }
 
+.twitter-tweet {
+  margin-bottom: 32px !important;
+}
+
 /* Base Typography
    ========================================================================== */
 
@@ -849,7 +853,13 @@ img {
   position: relative;
 }
 
-.content h1,
+.content h1 {
+  max-width: 60rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
 .content h2,
 .content h3,
 .content h4,
