@@ -1,0 +1,14 @@
+<div class="content max-w-md mx-auto py-5">
+    <h1>{{ title | widont }}</h1>
+
+    {{ article_content }}
+        {{ partial src="blocks/{type}" }}
+    {{ /article_content }}
+
+    {{ collection:articles }}
+        <div class="mb-0">
+            <img src="/assets/brutal/rating-star.svg" height="12" width="12" alt="">
+            <a href="{{ url }}" class="plain font-bold text-black no-underline hover:text-blue">{{ title }}</a>
+        </div>
+    {{ /collection:articles}}
+</div>

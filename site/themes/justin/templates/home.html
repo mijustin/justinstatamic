@@ -1,0 +1,65 @@
+---
+hide_justin: true
+---
+<div class="md:py-6 relative w-full">
+    <img src="{{ theme:img src="justin.svg" }}" alt="Justin Jackson" class="absolute rotate w-full z--1">
+    <div class="flex-col flex-col-reverse md:flex-row flex md:pt-8 max-w-xl">
+        <div class="w-full md:w-300">
+            <img src="/assets/brutal/justin-jackson-dots-circle.png" alt="Justin Jackson's Head" class="hidden md:block mb-5">
+            <div class="pl-3 text-grey text-md">
+                <h6>Recent Posts</h6>
+                <div class="mb-7">
+                    {{ collection:articles }}
+                    <p class="group">
+                        <a href="{{ url }}" class="plain text-md no-underline group-hover:bg-black group-hover:text-white text-grey">
+                            {{ title }}
+                        </a>
+                    </p>
+                    {{ /collection:articles }}
+                </div>
+
+                <h6>On the web</h6>
+                <p class="flex items-center">
+                    <span class="h-4 w-4 mr-1">{{ theme:output src="img/twitter.svg" }}</span>
+                    <a href="http://twitter.com/mijustin">
+                        <span>twitter.com/mijustin</span>
+                    </a>
+                </p>
+                <p class="flex items-center">
+                    <span class="h-4 w-4 mr-1">{{ theme:output src="img/youtube.svg" }}</span>
+                    <a href="http://youtube.com/justinjackson">
+                        <span>youtube.com/justinjackson</span>
+                    </a>
+                </p>
+                <p class="flex items-center">
+                    <span class="h-4 w-4 mr-1">{{ theme:output src="img/instagram.svg" }}</span>
+                    <a href="https://instagram.com/mijustin">
+                        <span>instagram.com/mijustin</span>
+                    </a>
+                </p>
+                <p class="flex items-center">
+                    <span class="h-4 w-4 mr-1">{{ theme:output src="img/twitch.svg" }}</span>
+                    <a href="https://twitch.tv/megajustin">
+                        <span>twitch.tv/megajustin</span>
+                    </a>
+                </p>
+                <p class="flex items-center">
+                    <span class="h-4 w-4 mr-1">{{ theme:output src="img/email.svg" }}</span>
+                    <a href="newsletter">
+                        <span>Email newsletter</span>
+                    </a>
+                </p>
+                <p>You can email me at words [at]&nbsp;megamaker.co</p>
+            </div>
+        </div>
+        <div class="w-full md:max-w-md content mb-5">
+
+            <img src="/assets/brutal/justin-jackson-dots-circle.png" alt="Justin Jackson's Head" class="block mx-auto mb-3 md:hidden">
+
+            {{ article_content }}
+                {{ partial src="blocks/{type}" }}
+            {{ /article_content }}
+
+        </div>
+    </div>
+</div>

@@ -1,0 +1,35 @@
+asset_container: main
+open_graph_image_width: 1200
+open_graph_image_height: 1200
+sitemap_enabled: true
+sitemap_url: sitemap.xml
+sitemap_cache_length: 60
+defaults:
+  title: '@seo:title'
+  site_name: 'Site Name'
+  site_name_position: none
+  site_name_separator: '|'
+  description: 'Building software? An app? SaaS? I send a newsletter on Saturday morning with stories, lessons, and tips for building an indie software business in 2018.'
+  image: /assets/content/adam-wathan-justin-jackson-jason-fried-taylor-otwell.jpg
+  twitter_site: mijustin
+  priority: 0.5
+  change_frequency: weekly
+humans:
+  enabled: true
+  content: |
+    /* TEAM */
+    
+    Designer: Jack McDade (jackmcdade.com)
+    Creator: {{ site_name }}
+    URL: {{ site_url }}
+    Description: {{ description }}
+    
+    /* THANKS */
+    
+    Statamic: https://statamic.com
+    
+    /* SITE */
+    
+    Standards: HTML5, CSS3
+    Components: Statamic 2, Laravel, PHP, JavaScript
+    

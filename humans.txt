@@ -1,0 +1,20 @@
+/* TEAM */
+
+   Designer/Developer: Jack McDade
+   Site: jackmcdade.com
+   Email: shout@jackmcdade.com
+   Twitter: @jackmcdade
+   Location: Saratoga Springs, New York
+
+/* SITE */
+
+   Standards: HTML5, CSS3
+   Components: Statamic, Laravel, Tailwind CSS, PHP
+   Fonts: Roboto Mono, Shadows Into Light
+   Icons: Streamline
+
+/* THANKS */
+
+   Statamic: statamic.com
+   Tailwind: tailwindcss.com
+   Streamline Icons: streamlineicons.com

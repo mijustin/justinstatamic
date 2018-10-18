@@ -1,0 +1,59 @@
+/* Layout
+   ========================================================================== */
+
+header.zine {
+    @apply .bg-black .h-10 .w-1/2;
+    clip-path: polygon(0 0, 100% 0, 0 60%, 0 0);
+}
+
+footer.zine {
+    @apply .bg-black .h-10 .w-2/3 absolute pin-b pin-r;
+    clip-path: polygon(100% 100%, 100% 4%, 0 100%, 0 100%);
+    float: right;
+}
+
+#justin-heads {
+    @apply .h-full .w-full .absolute .pin-t;
+    background: url('/assets/brutal/justin-jackson-dots-circle.png') repeat-y;
+    left: -100px;
+    opacity: .05;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+    z-index: -1;
+}
+
+#credit {
+    @apply .font-hand uppercase p-2;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+@screen md {
+    #credit {
+        transform-origin: top left;
+        transform: translateY(100%) rotate(-90deg);
+    }
+}
+
+.block-sidebar {
+    @apply font-hand text-lg px-4 py-5 max-w-lg my-6 mx-auto shadow-fax;
+    .texture-light;
+    transform: rotate(1deg);
+
+    p:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.newsletter-callout {
+    @apply text-white p-4 max-w-md my-5 mx-auto;
+    .texture-dark;
+    clip-path: polygon(90% 0, 100% 10%, 100% 100%, 0 100%, 0 0);
+
+    input:focus {
+        @apply shadow-blue;
+        outline: 0;
+    }
+}

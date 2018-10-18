@@ -1,0 +1,41 @@
+sections:
+  main:
+    fields:
+      enabled:
+        type: toggle
+        default: true
+      meta_section:
+        type: section
+      title:
+        type: seo_pro.source
+        field:
+          type: text
+      description:
+        type: seo_pro.source
+        field:
+          type: text
+      og_section:
+        type: section
+      image:
+        type: seo_pro.source
+        allowed_fieldtypes:
+          - assets
+        field:
+          type: seo_pro.asset
+      sitemap_section:
+        type: section
+      priority:
+        type: seo_pro.source
+        field:
+          type: text
+      change_frequency:
+        type: seo_pro.source
+        field:
+          type: select
+          options:
+            hourly: Hourly
+            daily: Daily
+            weekly: Weekly
+            monthly: Monthly
+            yearly: Yearly
+            never: Never

@@ -1,0 +1,17 @@
+title: Globals
+sections:
+  main:
+    display: Main
+    fields:
+      favicon:
+        container: main
+        folder: /
+        restrict: false
+        max_files: 1
+        type: assets
+        display: Favicon
+      twitter:
+        type: text
+        display: Twitter
+taxonomies: true
+hide: true

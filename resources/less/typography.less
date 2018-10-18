@@ -1,0 +1,92 @@
+/* Base Typography
+   ========================================================================== */
+
+body {
+    @apply leading-normal text-base;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   @apply font-bold leading-tight;
+   margin-bottom: 1em;
+}
+
+h1 {
+    @apply text-xl uppercase;
+}
+
+@screen md {
+    h1 { @apply .text-2xl; }
+}
+
+h2 { @apply text-xl; }
+h3 { @apply text-lg; }
+h4 { @apply text-base; }
+h5 { @apply text-md; }
+h6 { @apply text-sm tracking-wide uppercase; }
+
+a:not(.plain) {
+   @apply .cursor-pointer .text-blue .no-underline .relative .font-bold;
+    &:before {
+        @apply .bg-yellow-light .w-full .absolute .pin-b;
+        content: '';
+        height: 12px;
+        left: 8px;
+        z-index: -1;
+   }
+   &:hover:before {
+       @apply .bg-yellow;
+   }
+}
+
+p, ul, ol {
+    margin-bottom: 1.5em;
+}
+
+blockquote {
+    @apply .border-4 .py-2 .border-blue .text-blue .font-hand .px-4 .text-xl .-ml-4 .mt-4 .mb-6;
+
+    transform: rotate(-2deg);
+
+    p:last-child {
+        margin: 0;
+    }
+
+    em, i {
+        @apply .font-normal .normal-case .text-grey-dark .px-1 .bg-yellow .roman;
+    }
+}
+
+img { @apply max-w-full; }
+
+
+/* Content Blocks
+   ========================================================================== */
+
+
+.content {
+    @apply .relative;
+
+    h1, h2, h3, h4, h5, h6, p, ul {
+        @apply .max-w-md .mx-auto;
+    }
+
+    h2, h3, h4, h5, h6, ul, ol {
+        padding-top: 1em;
+    }
+
+    ul, ol {
+        margin-bottom: 2em;
+
+        li {
+            @apply .mb-3;
+        }
+    }
+
+    ul {
+        list-style-type: square;
+    }
+
+    .embed {
+        @apply .py-6;
+    }
+}

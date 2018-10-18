@@ -1,0 +1,40 @@
+fieldtype_fields:
+  spellcheck:
+    type: toggle
+    default: true
+    width: 50
+  allow_source:
+    type: toggle
+    default: true
+    width: 50
+  autoLink:
+    type: toggle
+    default: false
+    width: 50
+  target_blank:
+    type: toggle
+    default: false
+    width: 50
+  link_validation:
+    type: toggle
+    default: false
+    width: 50
+  force_plain_text:
+    type: toggle
+    default: true
+    width: 50
+  clean_pasted_html:
+    type: toggle
+    default: false
+    width: 50
+  container:
+    type: asset_container
+    allow_blank: true
+  folder:
+    type: asset_folder
+    width: 50
+  restrict_assets:
+    type: toggle
+    width: 50
+  sets:
+    type: replicator_sets

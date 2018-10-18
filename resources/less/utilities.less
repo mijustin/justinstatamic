@@ -1,0 +1,31 @@
+/* Rotation
+   ========================================================================== */
+.rotate {
+    transform: rotate(-2deg);
+}
+
+
+/* Texture
+   ========================================================================== */
+.texture-dark {
+    background: url('/assets/brutal/facsimile-texture-2.png');
+    background-size: 700px 300px;
+}
+
+.texture-light {
+    background: url('/assets/brutal/facsimile-texture.png');
+    background-size: contain;
+}
+
+
+/* Animation
+   ========================================================================== */
+.brightness {
+    animation: brightness 15s;
+}
+
+@keyframes brightness {
+    0%  { filter: brightness(10); }
+    85%  { filter: brightness(10); }
+    100% { filter: brightness(none); }
+}

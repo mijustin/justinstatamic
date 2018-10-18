@@ -1,0 +1,80 @@
+title: Article
+sections:
+  main:
+    display: Main
+    fields:
+      title:
+        display: Title
+        type: text
+        width: 66
+        localizable: true
+      slug:
+        display: Slug
+        type: text
+        width: 33
+      article_content:
+        type: bard
+        display: Content
+        buttons:
+          - bold
+          - italic
+          - anchor
+          - unorderedlist
+          - orderedlist
+          - image
+          - h2
+          - h3
+          - h4
+          - quote
+        sets:
+          image:
+            display: 'Single Image'
+            fields:
+              image:
+                type: assets
+                container: main
+                folder: content
+                max_files: 1
+              size:
+                type: radio
+                inline: true
+                display: Width
+                default: inline
+                width: 50
+                options:
+                  md: inline
+                  xl: oversized
+                  full: 'full width'
+          sidebar:
+            display: 'Sidebar Callout'
+            fields:
+              text:
+                display: 'Sidebar/Callout Content'
+                type: markdown
+          newsletter:
+            display: 'Newsletter Callout'
+            fields:
+              section:
+                type: section
+                instructions: 'Your Newsletter callout will be shown here.'
+          html_embed:
+            display: 'HTML Embed'
+            fields:
+              embed_code:
+                type: textarea
+                display: 'Embed Code'
+          jumbo_text:
+            display: 'Jumbo Text'
+            fields:
+              text:
+                spellcheck: true
+                allow_source: true
+                autoLink: false
+                target_blank: false
+                link_validation: false
+                force_plain_text: true
+                clean_pasted_html: false
+                restrict_assets: false
+                type: bard
+                display: Text
+taxonomies: true

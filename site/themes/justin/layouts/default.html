@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {{ partial:head }}
+</head>
+<body class="font-mono relative">
+    <header class="zine"></header>
+        <div id="site" class="px-3 relative min-h-site">
+            {{ template_content }}
+            {{ unless hide_justin }}<div id="justin-heads"></div>{{ /unless }}
+            {{ partial:nav }}
+        </div>
+    </div>
+    <div id="credit">
+        <div>Powered by <a href="https://statamic.com?ref={{ site_url }}">Statamic</a></div>
+    </div>
+    <footer class="zine"></footer>
+    {{ partial:scripts }}
+</body>
+</html>
