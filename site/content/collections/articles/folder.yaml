@@ -1,6 +1,3 @@
 order: date
 fieldset: article
-template: default
-seo:
-  image: '@seo:article_content'
-  priority: '0.9'
+template: article
