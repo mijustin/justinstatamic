@@ -43,6 +43,13 @@ class Cache
             return;
         }
 
+        // Only GET requests should be cached. For instance, Live Preview hits frontend URLs as
+        // POST requests to preview the changes. We don't want those to trigger any caching,
+        // or else pending changes will be shown immediately, even without hitting save.
+        if ($request->method() !== 'GET') {
+            return;
+        }
+
         // Draft pages should not be cached.
         if ($response->headers->has('X-Statamic-Draft')) {
             return;

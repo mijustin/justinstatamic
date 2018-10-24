@@ -21,7 +21,6 @@
         'conditions': {},
         'MediumEditorExtensions': {},
         'flash': [],
-        'staticCachingEnabled': {{ \Statamic\API\Config::get('caching.static_caching_enabled') ? 'true' : 'false' }},
         'userId': '{{ \Statamic\API\User::loggedIn() ? \Statamic\API\User::getCurrent()->id() : null }}',
         'dateFormat': '{{ to_moment_js_date_format(\Statamic\API\Config::get('cp.date_format')) }}'
     };

@@ -26,7 +26,7 @@ class Retrieve
      */
     public function handle($request, Closure $next)
     {
-        if ($cached = $this->cacher->getCachedPage($request)) {
+        if ($request->method() === 'GET' && ($cached = $this->cacher->getCachedPage($request))) {
             return response($cached);
         }
 

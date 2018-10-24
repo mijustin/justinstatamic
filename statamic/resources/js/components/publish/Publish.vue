@@ -33,10 +33,6 @@
                     <user-options v-if="isUser && !isNew" :username="slug" :status="contentData.status" class="mr-2"></user-options>
 
                     <div class="btn-group my-1 mr-2" v-if="$parent.isPublishPage && url">
-                        <template v-if="staticCachingEnabled">
-                            <a href="{{ url }}" target="_blank" class="btn">{{ translate('cp.visit_url') }}</a>
-                        </template>
-                        <template v-else>
                             <button type="button" class="btn" @click.prevent="$parent.preview">{{ translate('cp.sneak_peek') }}</button>
                             <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <span class="caret"></span>
@@ -45,7 +41,6 @@
                             <ul class="dropdown-menu">
                                 <li><a href="{{ url }}" target="_blank">{{ translate('cp.visit_url') }}</a></li>
                             </ul>
-                        </template>
                     </div>
 
                     <div class="btn-group btn-group-primary my-1" v-if="canEdit">
@@ -204,7 +199,6 @@ export default {
             previewRequestQueued: false,
             errors: [],
             publishType: 'save',
-            staticCachingEnabled: window.Statamic.staticCachingEnabled,
             activeSection: null
         };
     },
