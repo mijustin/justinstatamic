@@ -1,5 +1,9 @@
----
 title: 'Tell me anything'
+fieldset: article
 id: ce1e5364-482d-46cb-8882-794b21142bee
----
-[gravityform id="3" title="false" description="false"]
+article_content:
+  -
+    type: text
+    text: |
+      [gravityform id="3" title="false" description="false"]
+      
