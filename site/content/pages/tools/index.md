@@ -1,72 +1,73 @@
+---
 title: Tools
-post_content: |
-  These are tools for bootstrappers, solopreneurs, founders, startups. I use all of these to run <a href="https://megamaker.co">my small business</a>. If they're here, it's because I recommend them!
-  
-  <h2>Podcasting</h2>
-  
-  <ul>
-      <li><a href="https://transistor.fm/?utm_source=justinjackson.ca&amp;utm_medium=link&amp;utm_campaign=jjlinks">Transistor.fm</a> – professional podcast hosting. (My new startup!)</li>
-      <li><a href="http://www.apple.com/ca/mac/garageband/">Garageband</a> – for editing audio and creating MP3s. (On the PC try <a href="http://www.audacityteam.org/">Audacity</a>)</li>
-      <li><a href="http://www.conversationsnetwork.org/levelator">Levelator</a> – automatically fix the levels in your audio files.</li>
-      <li><a href="https://www.premiumbeat.com/">Premium Beat</a> – royalty free music for your podcast.</li>
-      <li><a href="http://www.amazon.ca/gp/product/B004QJOZS4/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&amp;camp=15121&amp;creative=330641&amp;creativeASIN=B004QJOZS4&amp;linkCode=as2&amp;tag=justjackblog-20">ATR2100 USB Mic</a> – a high quality, low cost, dynamic microphone</li>
-  </ul>
-  
-  <h2>Online store</h2>
-  
-  <ul>
-      <li><a href="http://partners.withcoach.com/41479/4006">Podia</a> – Podia is an all-in-one selling platform for solopreneurs. It's where I sell <a href="https://justinjackson.podia.com/#courses">my digital products</a>: downloads, courses, membership, and books. <a href="https://megamaker.co/podia/">Read my full review here.</a></li>
-  </ul>
-  
-  <h2>Email Newsletter / Drip Campaigns</h2>
-  
-  <ul>
-      <li><a href="http://mbsy.co/convertkit/75552">ConvertKit</a> – a simple tool for sending email newsletters + created automated sequences.</li>
-      <li><a href="http://eepurl.com/cB6cCz">MailChimp</a> – another great option for email newsletters and automations. Free for up to 2,000 subscribers.</li>
-      <li><a href="http://partners.withcoach.com/41479/4006">Podia</a> – this all-in-one platform also has a good basic newsletter + drip sequence functionality.</li>
-  </ul>
-  
-  <h2>Screencasts / Video</h2>
-  
-  <ul>
-      <li><a href="https://store.telestream.net/affiliate.php?ACCOUNT=TELESTRE&amp;AFFILIATE=89620&amp;PATH=http://www.telestream.net/screenflow/">ScreenFlow</a> – screencasting and video editing for the Mac.</li>
-      <li><a href="http://tracking.goanimate.com/aff_c?offer_id=4&amp;aff_id=3045">GoAnimate</a> – create cartoons and animations.</li>
-      <li><a href="https://www.renderforest.com/signup?afil_link=b665a03f47f3bdf1c4c943105a4c7b47">Render Forest</a> – create awesome intro / outros and animations.</li>
-      <li><a href="https://musicformakers.com/">Music For Makers</a> – royalty free music for your videos.</li>
-      <li><a href="http://www.decksetapp.com/">DeckSet</a> – simple presentations and powerpoints from markdown text.</li>
-      <li><a href="http://www.logitech.com/en-us/product/c930e-webcam">Logitech Pro Webcam 930e</a> – a high quality, low cost, video camera for screencasts.</li>
-  </ul>
-  
-  <h2>Website / Landing Pages</h2>
-  
-  <ul>
-      <li><a href="http://wpengine.com/?SSAID=760553">WPengine</a> and WordPress – I almost always build my marketing sites in WordPress and host them on WPengine.</li>
-      <li><a href="https://m.do.co/c/d12c8c2c375a">Digital Ocean</a> – all my apps and coding projects are deployed here. I like it way better than Heroku.</li>
-      <li><a href="https://pages.github.com/">GitHub Pages</a> – a free way to host static sites.</li>
-      <li><a href="https://wrapbootstrap.com/">WrapBootstrap</a> – themes and templates built on the popular Boostrap framework.</li>
-      <li><a href="https://carrd.co/">Carrd.co</a> – the best landing page builder I've found.</li>
-  </ul>
-  
-  <h2>Images / Graphics</h2>
-  
-  <ul>
-      <li><a href="https://canva.com">Canva</a> – create banners, ebook covers, social media headers and more.</li>
-      <li><a href="http://unsplash.com">Unsplash</a> – awesome, royalty free images.</li>
-      <li><a href="https://www.pexels.com/">Pexels</a> – a great collection of stock photos.</li>
-      <li><a href="https://placeit.net/">PlaceIt</a> – easily create Macbook, iPad, iMac &amp; iPhone mockups and demo videos.</li>
-      <li><a href="https://www.logojoy.com/">LogoJoy</a> – simple logo generator.</li>
-  </ul>
-  
-  <h2>Creating eBooks / PDFs</h2>
-  
-  <ul>
-      <li><a href="https://reedsy.com/">Reedsy</a> – I use Reedsy for writing, layout, and publishing of ebooks.</li>
-      <li><a href="https://www.grammarly.com/">Grammarly</a> – check your writing for typos and grammar mistakes.</li>
-  </ul>
-  
-  <hr />
-  
-  Those are the big ones. I'll continue to add / modify this list as I think of other things.
-  
-  <em>Note: some of these links are affiliate links. This means I'll get a small percentage commission on the sale.</em>
-id: 7b25776b-46e3-438d-bdf1-a65125123e65
+id: 4b298bfa-c368-42f6-932d-9ab74fe2e954
+---
+These are tools for bootstrappers, solopreneurs, founders, startups. I use all of these to run <a href="https://megamaker.co">my small business</a>. If they're here, it's because I recommend them!
+
+<h2>Podcasting</h2>
+
+<ul>
+    <li><a href="https://transistor.fm/?utm_source=justinjackson.ca&amp;utm_medium=link&amp;utm_campaign=jjlinks">Transistor.fm</a> – professional podcast hosting. (My new startup!)</li>
+    <li><a href="http://www.apple.com/ca/mac/garageband/">Garageband</a> – for editing audio and creating MP3s. (On the PC try <a href="http://www.audacityteam.org/">Audacity</a>)</li>
+    <li><a href="http://www.conversationsnetwork.org/levelator">Levelator</a> – automatically fix the levels in your audio files.</li>
+    <li><a href="https://www.premiumbeat.com/">Premium Beat</a> – royalty free music for your podcast.</li>
+    <li><a href="http://www.amazon.ca/gp/product/B004QJOZS4/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&amp;camp=15121&amp;creative=330641&amp;creativeASIN=B004QJOZS4&amp;linkCode=as2&amp;tag=justjackblog-20">ATR2100 USB Mic</a> – a high quality, low cost, dynamic microphone</li>
+</ul>
+
+<h2>Online store</h2>
+
+<ul>
+    <li><a href="http://partners.withcoach.com/41479/4006">Podia</a> – Podia is an all-in-one selling platform for solopreneurs. It's where I sell <a href="https://justinjackson.podia.com/#courses">my digital products</a>: downloads, courses, membership, and books. <a href="https://megamaker.co/podia/">Read my full review here.</a></li>
+</ul>
+
+<h2>Email Newsletter / Drip Campaigns</h2>
+
+<ul>
+    <li><a href="http://mbsy.co/convertkit/75552">ConvertKit</a> – a simple tool for sending email newsletters + created automated sequences.</li>
+    <li><a href="http://eepurl.com/cB6cCz">MailChimp</a> – another great option for email newsletters and automations. Free for up to 2,000 subscribers.</li>
+    <li><a href="http://partners.withcoach.com/41479/4006">Podia</a> – this all-in-one platform also has a good basic newsletter + drip sequence functionality.</li>
+</ul>
+
+<h2>Screencasts / Video</h2>
+
+<ul>
+    <li><a href="https://store.telestream.net/affiliate.php?ACCOUNT=TELESTRE&amp;AFFILIATE=89620&amp;PATH=http://www.telestream.net/screenflow/">ScreenFlow</a> – screencasting and video editing for the Mac.</li>
+    <li><a href="http://tracking.goanimate.com/aff_c?offer_id=4&amp;aff_id=3045">GoAnimate</a> – create cartoons and animations.</li>
+    <li><a href="https://www.renderforest.com/signup?afil_link=b665a03f47f3bdf1c4c943105a4c7b47">Render Forest</a> – create awesome intro / outros and animations.</li>
+    <li><a href="https://musicformakers.com/">Music For Makers</a> – royalty free music for your videos.</li>
+    <li><a href="http://www.decksetapp.com/">DeckSet</a> – simple presentations and powerpoints from markdown text.</li>
+    <li><a href="http://www.logitech.com/en-us/product/c930e-webcam">Logitech Pro Webcam 930e</a> – a high quality, low cost, video camera for screencasts.</li>
+</ul>
+
+<h2>Website / Landing Pages</h2>
+
+<ul>
+    <li><a href="http://wpengine.com/?SSAID=760553">WPengine</a> and WordPress – I almost always build my marketing sites in WordPress and host them on WPengine.</li>
+    <li><a href="https://m.do.co/c/d12c8c2c375a">Digital Ocean</a> – all my apps and coding projects are deployed here. I like it way better than Heroku.</li>
+    <li><a href="https://pages.github.com/">GitHub Pages</a> – a free way to host static sites.</li>
+    <li><a href="https://wrapbootstrap.com/">WrapBootstrap</a> – themes and templates built on the popular Boostrap framework.</li>
+    <li><a href="https://carrd.co/">Carrd.co</a> – the best landing page builder I've found.</li>
+</ul>
+
+<h2>Images / Graphics</h2>
+
+<ul>
+    <li><a href="https://canva.com">Canva</a> – create banners, ebook covers, social media headers and more.</li>
+    <li><a href="http://unsplash.com">Unsplash</a> – awesome, royalty free images.</li>
+    <li><a href="https://www.pexels.com/">Pexels</a> – a great collection of stock photos.</li>
+    <li><a href="https://placeit.net/">PlaceIt</a> – easily create Macbook, iPad, iMac &amp; iPhone mockups and demo videos.</li>
+    <li><a href="https://www.logojoy.com/">LogoJoy</a> – simple logo generator.</li>
+</ul>
+
+<h2>Creating eBooks / PDFs</h2>
+
+<ul>
+    <li><a href="https://reedsy.com/">Reedsy</a> – I use Reedsy for writing, layout, and publishing of ebooks.</li>
+    <li><a href="https://www.grammarly.com/">Grammarly</a> – check your writing for typos and grammar mistakes.</li>
+</ul>
+
+<hr />
+
+Those are the big ones. I'll continue to add / modify this list as I think of other things.
+
+<em>Note: some of these links are affiliate links. This means I'll get a small percentage commission on the sale.</em>

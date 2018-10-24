@@ -1,3 +1,5 @@
+---
 title: Blog
-post_content: '[display-posts posts_per_page="100" include_excerpt="false"]'
-id: 6aae45ca-0bbe-4664-ad39-16251d54abf4
+id: bc50fe73-a342-4d0d-bb00-c2c8fbd6766e
+---
+[display-posts posts_per_page="100" include_excerpt="false"]

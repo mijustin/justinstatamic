@@ -1,3 +1,2 @@
 title: Marketing
-post_content: ''
-id: 00587d8e-b8d4-44ac-bb91-81fa77cf5ae5
+id: d02552e2-27ba-4d19-a38a-e63b40680df1
