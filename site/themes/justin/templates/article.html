@@ -5,7 +5,9 @@
         {{ partial src="blocks/{type}" }}
     {{ /article_content }}
 
+    {{ if date }}
     <div class="max-w-md mx-auto">
         <div class="bg-black text-white p-1 inline-block my-1 text-sm">Published on {{ date }}</div>
     </div>
+    {{ /if }}
 </div>
