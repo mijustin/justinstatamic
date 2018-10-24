@@ -1,1 +1,9 @@
 /* Custom Control Panel styles... */
+.outside {
+    background: url('/assets/brutal/photocopy-club.jpg') top no-repeat;
+    background-size: cover;
+}
+
+.outside .logo svg path {
+    fill: #fff;
+}
