@@ -25,17 +25,14 @@ h5 { @apply text-md; }
 h6 { @apply text-sm tracking-wide uppercase; }
 
 a:not(.plain) {
-   @apply .cursor-pointer .text-blue .no-underline .relative .font-bold;
-    &:before {
-        @apply .bg-yellow-light .w-full .absolute .pin-b;
-        content: '';
-        height: 12px;
-        left: 8px;
-        z-index: -1;
-   }
-   &:hover:before {
-       @apply .bg-yellow;
-   }
+    @apply .cursor-pointer .text-blue .no-underline .relative .font-bold;
+    background-image: linear-gradient(180deg,rgba(0,0,0,0) 70%, config('colors.yellow-light') 0);
+    background-position: 4px bottom;
+    background-repeat: no-repeat;
+
+    &:hover {
+        background-image: linear-gradient(180deg,rgba(0,0,0,0) 10%, config('colors.yellow') 0);
+    }
 }
 
 p, ul, ol {

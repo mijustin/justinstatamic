@@ -787,21 +787,15 @@ a:not(.plain) {
   text-decoration: none;
   position: relative;
   font-weight: 700;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, rgba(0, 0, 0, 0)), color-stop(0, #fff5c4));
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 70%, #fff5c4 0);
+  background-position: 4px bottom;
+  background-repeat: no-repeat;
 }
 
-a:not(.plain):before {
-  background-color: #fff5c4;
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-  content: '';
-  height: 12px;
-  left: 8px;
-  z-index: -1;
-}
-
-a:not(.plain):hover:before {
-  background-color: #ff0;
+a:not(.plain):hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10%, rgba(0, 0, 0, 0)), color-stop(0, #ff0));
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 10%, #ff0 0);
 }
 
 p,
