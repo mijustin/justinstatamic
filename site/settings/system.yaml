@@ -4,7 +4,7 @@ locales:
     name: English
     full: en_US
     url: /
-timezone: UTC
+timezone: America/Los_Angeles
 date_format: 'F jS, Y'
 default_extension: md
 filesystems:
