@@ -13,5 +13,8 @@ sections:
       twitter:
         type: text
         display: Twitter
+      site_name:
+        type: text
+        display: Site Name
 taxonomies: true
 hide: true
