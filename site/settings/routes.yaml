@@ -3,3 +3,8 @@ collections:
 redirect:
   /ladder: freedom
   /im-a-fcking-webmaster: webmaster
+routes:
+  /feed:
+    layout: feed
+    template: feeds/articles
+    content_type: atom

@@ -1,0 +1,22 @@
+<rss version="2.0">
+    <channel>
+    {{ get_content from="/articles" }}
+        <title>{{ title | cdata }}</title>
+        <link>https://justinjackson.ca</link>
+        <description>{{ content | cdata }}</description>
+    {{ /get_content }}
+    <lastBuildDate>{{ collection:articles limit="1" }}{{ date format="r" }}{{ /collection:articles }}</lastBuildDate>
+    <language>en-us</language>
+    <copyright>Copyright {{ current_date format='Y' }}</copyright>
+    <ttl>3600</ttl>
+    {{ collection:articles }}
+    <item>
+        <title>{{ title | cdata }}</title>
+        <link>{{ permalink }}</link>
+        <guid>{{ permalink }}</guid>
+        <pubDate>{{ date format="r" }}</pubDate>
+        <description><![CDATA[{{ article_content }}{{ partial src="blocks/{type}" }}]]>{{ /article_content }}</description>
+    </item>
+    {{ /collection:articles }}
+    </channel>
+</rss>
