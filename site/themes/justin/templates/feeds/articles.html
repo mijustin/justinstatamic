@@ -15,7 +15,18 @@
         <link>{{ permalink }}</link>
         <guid>{{ permalink }}</guid>
         <pubDate>{{ date format="r" }}</pubDate>
-        <description><![CDATA[{{ article_content }}{{ partial src="blocks/{type}" }}]]>{{ /article_content }}</description>
+        <description><![CDATA[{{ article_content }}
+            {{ if type == "text" }}
+                {{ text | striptags:div }}
+            {{ elseif type == "image" }}
+                {{ if brutalized }}
+                    <img src="{{ glide:image filter="greyscale" contrast="+70" sharpen="70" }}" alt="{{ image | get:alt }}">
+                {{ else }}
+                    <img src="{{ image }}" alt="{{ image | get:alt }}">
+                {{ /if }}
+            {{ /if }}
+            {{ /article_content }}
+        ]]></description>
     </item>
     {{ /collection:articles }}
     </channel>
