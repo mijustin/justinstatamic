@@ -31,10 +31,10 @@ article_content:
       </li> <li>
           <a href="https://justinjackson.ca/webmaster">I’m a f*cking webmaster</a> – a nostalgic piece about the early internet. Featured on <a href="http://www.cbc.ca/radio/spark/322-web-brutalism-millennial-interests-and-more-1.3602286/video-why-brutalism-is-the-hottest-trend-in-web-design-1.3602292">CBC Radio’s Spark</a>.</li></ul>
   -
-    type: html_embed
-    embed_code: |
-      <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">The cool thing about buying from independent makers is your dollars get invested directly in their families. 🙌 <a href="https://t.co/aSHbqbplXp">pic.twitter.com/aSHbqbplXp</a></p>&mdash; Justin Jackson (@mijustin) <a href="https://twitter.com/mijustin/status/753771080779571200?ref_src=twsrc%5Etfw">July 15, 2016</a></blockquote>
-      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    type: image
+    image: /assets/content/justin-jackson-support-indie-makers-tweet.png
+    size: xl
+    brutalized: true
 template: home
 fieldset: article
 id: 8ea5e804-f13f-46fc-ac06-f2c82ffcecd9
