@@ -23,6 +23,8 @@ class FileNotFoundException extends Exception
         $this->path = $path;
 
         parent::__construct('File not found at path: ' . $this->getPath(), $code, $previous);
+
+        \Log::debug($this);
     }
 
     /**
