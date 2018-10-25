@@ -40,11 +40,13 @@ sections:
                 inline: true
                 display: Width
                 default: inline
-                width: 50
                 options:
                   md: inline
                   xl: oversized
                   full: 'full width'
+              brutalized:
+                type: toggle
+                instructions: CRANK UP THE BRUTALITY?
           sidebar:
             display: 'Sidebar Callout'
             fields:

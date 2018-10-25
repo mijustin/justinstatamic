@@ -1,3 +1,7 @@
 <div class="block-embed text-center mb-4 max-w-{{ size }} mx-auto texture-light p-1">
-    <img src="{{ image }}" alt="{{ image | get:alt }}">
+    {{ if brutalized }}
+        <img src="{{ glide:image filter="greyscale" contrast="+70" sharpen="70" }}" alt="{{ image | get:alt }}">
+    {{ else }}
+        <img src="{{ image }}" alt="{{ image | get:alt }}">
+    {{ /if }}
 </div>
