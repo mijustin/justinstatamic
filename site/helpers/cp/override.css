@@ -2,8 +2,41 @@
 .outside {
     background: url('/assets/brutal/photocopy-club.jpg') top no-repeat;
     background-size: cover;
+    font-family: monospace;
 }
 
 .outside .logo svg path {
-    fill: #fff;
+    fill: #ffff00;
+}
+
+.outside .box.card {
+    background: url('/assets/brutal/facsimile-texture-2.png');
+    background-size: 700px 300px;
+    box-shadow: 0 10px 60px black;
+    border-radius: 0;
+}
+
+.outside label, .outside a {
+    color: white;
+    background: black;
+}
+
+.outside input {
+    border-radius: 0;
+}
+
+.outside a:hover {
+    color: #ffff00;
+}
+
+.outside .btn-primary {
+    background: #0000ff;
+    box-shadow: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: none;
+}
+
+.outside .btn-primary:hover {
+    color: #ffff00;
 }
