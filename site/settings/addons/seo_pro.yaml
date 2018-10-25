@@ -6,7 +6,7 @@ sitemap_url: sitemap.xml
 sitemap_cache_length: 60
 defaults:
   title: '@seo:title'
-  site_name: 'Site Name'
+  site_name: 'Justin Jackson'
   site_name_position: none
   site_name_separator: '|'
   description: 'Building software? An app? SaaS? I send a newsletter on Saturday morning with stories, lessons, and tips for building an indie software business in 2018.'
