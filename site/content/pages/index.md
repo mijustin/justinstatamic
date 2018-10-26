@@ -5,7 +5,7 @@ article_content:
     text: '<p>Hi, I’m Justin.</p><p>This year, in 2018, I’m building a new podcasting startup with my friend Jon Buda. It’s called <a href="https://transistor.fm/?via=justin">Transistor.fm</a>. If you need podcast hosting, let me know!</p><p>I also run <a href="https://megamaker.co">MegaMaker</a> (resources for indie entrepreneurs). This is what’s paying the bills while I build Transistor! My offerings include <a href="https://devmarketing.xyz">Marketing for Developers</a> and <a href="https://justinjackson.ca/jolt">Jolt</a>, which have sold 6,000+ copies.</p><p>I’ve been working with SaaS companies since 2008. I was the Product Manager at Sprintly and Mailout, and have consulted on marketing &amp; growth for startups in London, San Francisco, Boulder, and Portland.</p><p>My <a href="https://justinjackson.ca">blog</a>, <a href="http://www.productpeople.tv/">podcasts</a>, and <a href="https://youtube.com/justinjackson">videos</a> focus on topics like product marketing, traction, finding out what people want, idea validation, and mental health.</p>'
   -
     type: text
-    text: '<p>Get my newsletter here:</p>'
+    text: '<p>Every Saturday morning I send an email to my list about bootstrapping, making stuff as a geek, and earning a living on the internet.</p>'
   -
     type: newsletter
   -
@@ -30,6 +30,7 @@ article_content:
           <a href="https://medium.com/life-hacks/17f71562a063">Heads Down</a> – was featured on Adobe’s&nbsp;<a href="http://99u.com/workbook/16807/go-head-down-for-a-week-to-focus">99u</a>, and in <a href="http://www.fastcompany.com/3012397/leadership-now/for-productive-people-the-position-of-choice-is-head-down">Fast Company</a>.
       </li> <li>
           <a href="https://justinjackson.ca/webmaster">I’m a f*cking webmaster</a> – a nostalgic piece about the early internet. Featured on <a href="http://www.cbc.ca/radio/spark/322-web-brutalism-millennial-interests-and-more-1.3602286/video-why-brutalism-is-the-hottest-trend-in-web-design-1.3602292">CBC Radio’s Spark</a>.</li></ul>
+      
   -
     type: image
     image: /assets/content/justin-jackson-support-indie-makers-tweet.png
