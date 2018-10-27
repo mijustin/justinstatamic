@@ -5,7 +5,7 @@ article_content:
     text: '<p>Hi, I’m Justin.</p><p>This year, I’m building <a href="https://transistor.fm/?via=justin">Transistor.fm</a> with my friend Jon Buda. If you need podcast hosting, let me know!</p><p>I also run <a href="https://megamaker.co">MegaMaker</a> (resources for geeks who make stuff). I''ve also written&nbsp;<a href="https://devmarketing.xyz">Marketing for Developers</a> and <a href="https://justinjackson.ca/jolt">Jolt</a>, which have sold 6,000+ copies.</p><p>I’ve been working with SaaS companies since 2008. I was the Product Manager at Sprintly and Mailout, and have consulted on marketing &amp; growth for startups in London, San Francisco, Boulder, and Portland.</p><p>My <a href="https://justinjackson.ca">blog</a>, <a href="http://www.productpeople.tv/">podcasts</a>, and <a href="https://youtube.com/justinjackson">videos</a> focus on topics like product marketing, traction, finding out what people want, idea validation, and mental health.</p>'
   -
     type: text
-    text: '<p>Every Saturday morning I send an email to my list about bootstrapping, making stuff as a geek, and earning a living on the internet.</p>'
+    text: '<p>Every Saturday morning I send an email to my list. I talk about bootstrapping, making stuff as a geek, and earning a living on the internet.</p>'
   -
     type: newsletter
   -
