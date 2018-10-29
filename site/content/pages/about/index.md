@@ -9,9 +9,6 @@ article_content:
     size: md
   -
     type: text
-    text: |
-      <p>Ever since then, I've liked making things with computers.</p>
-      
-      <div><p><br></p></div>
+    text: '<p>Ever since then, I''ve liked making things with computers.</p><div><p>These days, I run <a href="https://megamaker.co">MegaMaker</a>, and I''m bootstrapping a new podcasting platform called <a href="https://transistor.fm/?via=justin">Transistor</a>.</p></div>'
 fieldset: article
 id: b53554e9-42bc-4c23-a72d-c29c10c54f4d
