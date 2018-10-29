@@ -31,5 +31,8 @@ article_content:
           <li><a href="https://streamlabs.com/">Streamlabs</a>&nbsp;– a Windows-only fork of OBS, that tries to improve on its downsides.</li>
           <li><a href="https://www.golightstream.com/studio">Lightstream</a>&nbsp;– another impressive looking livestreaming suite.</li>
       </ul>
+seo:
+  description: 'Here is the livestreaming setup, software, and equipment I use for streaming to Twitch, YouTube, and Periscope.'
+  image: /assets/content/use-restream-to-stream-to-youtube-facebook-twitch.png
 fieldset: article
 id: c775b0fd-2800-4cda-b971-3a5aec5641a2
