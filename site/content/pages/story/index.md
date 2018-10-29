@@ -2,7 +2,7 @@ title: 'My story'
 article_content:
   -
     type: text
-    text: '<p>In 1983 my family got a Commodore VIC-20.</p><p>I think my dad had it in his office for a while, but then he brought it home.</p><p>I was fascinated by it. I&nbsp;spent hours trying to figure out <g class="gr_ gr_135 gr-alert gr_gramm gr_inline_cards gr_disable_anim_appear Punctuation only-del replaceWithoutSep" id="135" data-gr-id="135">BASIC,</g> and&nbsp;made a few little programs.&nbsp;</p>'
+    text: '<p>In 1983 my family got a Commodore VIC-20.</p><p>I think my dad had it in his office for a while, but then he brought it home.</p><p>I was fascinated by it. I&nbsp;spent hours on it. Wrote a few BASIC programs.</p>'
   -
     type: image
     image: /assets/content/commodore-vic-20-computer-justin-jackson-1986-basic-1024x838.jpg
