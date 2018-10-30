@@ -3,7 +3,7 @@ article_content:
   -
     type: image
     image: /assets/content/justin-jackson-livestreaming-setup.jpg
-    size: inline
+    size: md
     brutalized: true
   -
     type: text
