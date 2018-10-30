@@ -1,10 +1,15 @@
 title: 'My livestreaming setup'
 article_content:
   -
+    type: image
+    image: /assets/content/justin-jackson-livestreaming-setup.jpg
+    size: inline
+    brutalized: true
+  -
     type: text
     text: |
       <p>I've been experimenting with livestreaming lately. Here is the livestreaming setup, software, and equipment I use for streaming to&nbsp;<a href="https://twitch.tv/megajustin">Twitch</a>, <a href="https://youtube.com/justinjackson">YouTube</a>, and <a href="https://www.periscope.tv/mijustin">Periscope</a>.</p><h3>Hardware</h3><ul>
-          <li>Computer: <g class="gr_ gr_43 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" id="43" data-gr-id="43">Macbook</g> Pro 2013, 16 GB RAM, i7 2.6 GHz</li>
+          <li>Computer: <g class="gr_ gr_18 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" id="18" data-gr-id="18">Macbook</g> Pro 2013, 16 GB RAM, i7 2.6 GHz</li>
           <li>Microphone: ATR2100 USB</li>
           <li>Webcam: Logitech Webcam Pro</li>
       </ul><h3>Software</h3><ul>
