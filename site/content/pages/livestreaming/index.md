@@ -26,9 +26,9 @@ article_content:
     type: text
     text: |
       <h3>Where I stream</h3><ul>
-          <li><a href="https://twitch.tv/megajustin">Twitch.tv/<g class="gr_ gr_38 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling" id="38" data-gr-id="38">megajustin</g></a>&nbsp;– originally meant for video game streamers, it’s increasingly becoming the home for “technical content.”</li>
+          <li><a href="https://twitch.tv/megajustin">Twitch.tv/<g class="gr_ gr_23 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling" id="23" data-gr-id="23">megajustin</g></a>&nbsp;– originally meant for video game streamers, it’s increasingly becoming the home for “technical content.”</li>
           <li><a href="https://youtube.com/justinjackson">YouTube.com/justinjackson</a>&nbsp;– still the king of video.</li>
-          <li><a href="https://www.periscope.tv/mijustin/1yNxaXmqOMQJj">Periscope.tv/<g class="gr_ gr_37 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" id="37" data-gr-id="37">mijustin</g></a>&nbsp;– this is Twitter’s live stream service, and it’s currently where I’m getting most of my views.</li>
+          <li><a href="https://www.periscope.tv/mijustin/1yNxaXmqOMQJj">Periscope.tv/<g class="gr_ gr_22 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" id="22" data-gr-id="22">mijustin</g></a>&nbsp;– this is Twitter’s live stream service, and it’s currently where I’m getting most of my views.</li>
           <li><a href="https://facebook.com/nerdmullet">Facebook.com/nerdmullet</a>&nbsp;–&nbsp;I don’t have a huge following on Facebook, but I’m still streaming there a bit.</li>
           <li><a href="https://larastream.com/@mijustin">Larastream.com/@mijustin</a>&nbsp;– my current livestreaming series is around programming and learning Laravel, so I’ve been streaming here too.</li>
       </ul><h3>Other software you can use:</h3><ul>
@@ -36,6 +36,8 @@ article_content:
           <li><a href="https://streamlabs.com/">Streamlabs</a>&nbsp;– a Windows-only fork of OBS, that tries to improve on its downsides.</li>
           <li><a href="https://www.golightstream.com/studio">Lightstream</a>&nbsp;– another impressive looking livestreaming suite.</li>
       </ul>
+  -
+    type: newsletter
 seo:
   description: 'Here is the livestreaming setup, software, and equipment I use for streaming to Twitch, YouTube, and Periscope.'
   image: /assets/content/use-restream-to-stream-to-youtube-facebook-twitch.png
