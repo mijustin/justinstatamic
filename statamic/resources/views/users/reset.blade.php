@@ -25,14 +25,15 @@
 
         <form method="post">
             {!! csrf_field() !!}
+            <input type="hidden" name="redirect" value="{{ request('redirect') }}" />
 
-            <div class="form-group">
-                <label>{{ trans_choice('cp.passwords', 1) }}</label>
+            <div class="mb-4">
+                <label>{{ t('new_password') }}</label>
                 <input type="password" class="form-control" name="password" id="password">
             </div>
 
-            <div class="form-group">
-                <label>{{ trans('cp.confirm_password') }}</label>
+            <div class="mb-4">
+                <label>{{ t('confirm_password') }}</label>
                 <input type="password" class="form-control" name="password_confirmation" id="password_confirmation">
             </div>
 

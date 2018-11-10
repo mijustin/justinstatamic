@@ -110,7 +110,9 @@ class PagesTags extends CollectionTags
 
         $from = Str::ensureLeft($from, '/');
 
-        $this->collection = Page::whereUri($from)->children(1);
+        $this->collection = Page::whereUri($from)
+            ->children(1)
+            ->localize($this->get('locale', site_locale()));
     }
 
     /**

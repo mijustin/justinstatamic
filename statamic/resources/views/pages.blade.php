@@ -23,7 +23,7 @@
                     </button>
                 </div>
                 @can('pages:create')
-                    <button type="button" class="btn btn-primary ml-1 mt-1 md:mt-0" @click="createPage('/')">
+                    <button type="button" class="btn btn-primary ml-1 mt-1 md:mt-0" @click="createPage('/')" v-if="! changed">
                         {{ t('create_page_button') }}
                     </button>
                 @endcan
@@ -59,11 +59,12 @@
                         :edit-url="homeEditUrl"
                         :has-entries="{{ bool_str(array_get($home, 'has_entries')) }}"
                         entries-url="{{ array_get($home, 'entries_url') }}"
-                        create-entry-url="{{ array_get($home, 'create_entry_url') }}">
+                        create-entry-url="{{ array_get($home, 'create_entry_url') }}"
+                        :dirty="changed">
                 </branch>
             </ul>
 
-            <branches :pages="pages" :depth="1" :sortable="isSortable"></branches>
+            <branches :pages="pages" :depth="1" :sortable="isSortable" :dirty="changed"></branches>
         </div>
 
         <create-page :locale="locale"></create-page>

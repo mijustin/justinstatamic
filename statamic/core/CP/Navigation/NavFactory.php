@@ -62,7 +62,9 @@ class NavFactory
         }
 
         if ($this->access('globals:*:view')) {
-            $nav->add($this->buildGlobalsNav());
+             if (! GlobalSet::all()->isEmpty()) {
+                 $nav->add($this->buildGlobalsNav());
+             }
         }
 
         return $nav;

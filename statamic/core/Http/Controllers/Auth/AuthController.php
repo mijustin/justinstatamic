@@ -132,6 +132,7 @@ class AuthController extends CpController
         if ($user) {
             $resetter = new PasswordReset;
             $resetter->user($user);
+            $resetter->redirect(route('login'));
             $resetter->send();
         }
 

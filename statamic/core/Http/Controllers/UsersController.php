@@ -301,6 +301,10 @@ class UsersController extends CpController
 
         $resetter->user($user);
 
+        if ($user->can('cp:access')) {
+            $resetter->redirect(route('login'));
+        }
+
         return [
             'success' => true,
             'url' => $resetter->url()

@@ -98,7 +98,7 @@ class Asset extends Data implements AssetContract
     public function path($path = null)
     {
         if (is_null($path)) {
-            return $this->attributes['path'];
+            return ltrim($this->attributes['path'], '/');
         }
 
         $this->attributes['path'] = $path;

@@ -225,7 +225,7 @@ class BaseModifiers extends Modifier
         $needle = array_get($context, $params[0], $params[0]);
 
         if (is_array($haystack)) {
-            return in_array($needle, $haystack);
+            return in_array($needle, $haystack, bool(array_get($params, 1, false)));
         }
 
         return Stringy::contains($haystack, $needle, array_get($params, 1, false));
@@ -597,7 +597,7 @@ class BaseModifiers extends Modifier
 
         // If the requested value (it should be an ID) doesn't exist, we'll just
         // spit the value back as-is. This seems like a sensible solution here.
-        if (! $item = Data::find($value)) {
+        if (! $item = Data::find($value)->in(site_locale())) {
             return $value;
         }
 
@@ -808,6 +808,11 @@ class BaseModifiers extends Modifier
     {
         $date1 = carbon(array_get($context, $params[0], $params[0]));
         $date2 = carbon(array_get($context, $params[1], $params[1]));
+
+        // If dealing with whole days, set to the end of the day.
+        if ($date2->isStartOfDay()) {
+            $date2->endOfDay();
+        }
 
         return carbon($value)->between($date1, $date2);
     }
@@ -2049,7 +2054,7 @@ class BaseModifiers extends Modifier
         }
 
         if (! $item = Asset::find($value)) {
-            if (! $item = Content::find($value)) {
+            if (! $item = Content::find($value)->in(site_locale())) {
                 return $value;
             }
         }
@@ -2144,6 +2149,19 @@ class BaseModifiers extends Modifier
     public function yearsAgo($value, $params)
     {
         return carbon($value)->diffInYears(array_get($params, 0));
+    }
+
+    /**
+     * Maps values for True and False to the strings “yes” and “no”, or a
+     * custom mapping, and returns one of those strings according to the value.
+     *
+     * @param $value
+     * @param $params
+     * @return string
+     */
+    public function yesNo($value, $params)
+    {
+        return $value ? array_get($params, 0, 'yes') : array_get($params, 1, 'no');
     }
 
     /**

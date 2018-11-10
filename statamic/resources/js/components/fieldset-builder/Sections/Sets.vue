@@ -29,6 +29,7 @@ export default {
         this.sets = this.sets || [];
 
         this.makeSetsSortable();
+        this.updateFieldWidths();
     },
 
     methods: {

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="{{ site_locale() }}">
 <head>
       @include('partials.head')
 </head>

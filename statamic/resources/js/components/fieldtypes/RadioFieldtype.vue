@@ -26,7 +26,12 @@ export default {
             var option = _.findWhere(this.config.options, {value: this.data});
             return (option) ? option.text : this.data;
         },
+    },
 
+    ready() {
+        if (this.data == null) {
+            this.data = this.config.default || null;
+        }
     }
 };
 </script>

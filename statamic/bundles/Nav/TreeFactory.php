@@ -57,6 +57,10 @@ class TreeFactory
             $tree_content = $this->prependHome($tree_content);
         }
 
+        if ($this->params['include_root']) {
+            $tree_content = $this->prependRoot($tree_content);
+        }
+
         $tree_content = $this->limitAndOffset($tree_content);
 
         $tree = new Tree($tree_content);
@@ -82,6 +86,26 @@ class TreeFactory
 
         $tree_content = array_reverse($tree_content);
         $tree_content[] = $home;
+
+        return array_reverse($tree_content);
+    }
+
+    /**
+     * Add the root page to the start of the array
+     *
+     * @param array $output
+     * @return array
+     */
+    private function prependRoot($tree_content)
+    {
+        $root = [
+            'page'     => Page::whereUri($this->params['from'])->in($this->params['locale'])->get(),
+            'depth'    => 1,
+            'children' => []
+        ];
+
+        $tree_content = array_reverse($tree_content);
+        $tree_content[] = $root;
 
         return array_reverse($tree_content);
     }

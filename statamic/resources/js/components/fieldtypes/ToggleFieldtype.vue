@@ -41,7 +41,7 @@ export default {
         }
     },
     ready() {
-        if (this.data === null) {
+        if (this.data == null && this.config) {
             this.data = this.config.default || false;
         }
 

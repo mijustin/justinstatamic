@@ -2,6 +2,7 @@
 
 namespace Statamic\Addons\Grid;
 
+use Statamic\API\Arr;
 use Statamic\API\Helper;
 use Statamic\CP\Fieldset;
 use Statamic\Extend\Fieldtype;
@@ -64,7 +65,7 @@ class GridFieldtype extends Fieldtype
             $processed[$field] = $this->processField($value, $field_config);
         }
 
-        return array_filter($processed);
+        return Arr::removeEmptyValues($processed);
     }
 
     private function processField($field_data, $field_config)

@@ -8,12 +8,14 @@ class UsersMode extends AbstractMode
 {
     public function suggestions()
     {
-        $suggestions = [];
-
-        foreach (User::all() as $user) {
-            $suggestions[$user->id()] = $this->label($user, 'username');
-        }
-
-        return format_input_options($suggestions);
+        return User::all()
+            ->map(function ($user) {
+                return [
+                    'value' => (string) $user->id(),
+                    'text' => $this->label($user, 'username'),
+                ];
+            })
+            ->values()
+            ->all();
     }
 }

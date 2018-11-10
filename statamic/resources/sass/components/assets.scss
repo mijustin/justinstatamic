@@ -904,6 +904,10 @@
         overflow: auto;
     }
 
+    .editor-form-fields .form-group {
+        @apply .p-3;
+    }
+
     .editor-form-actions {
         padding: 15px;
         text-align: right;

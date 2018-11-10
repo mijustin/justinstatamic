@@ -18,7 +18,7 @@ $.Redactor.prototype.assets = function () {
         },
 
         vue: function () {
-            return this.$editor.closest('.redactor-fieldtype-wrapper')[0].__vue__;
+            return this.opts.vueInstance;
         }
 
     }

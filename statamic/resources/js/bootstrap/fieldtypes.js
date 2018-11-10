@@ -5,6 +5,7 @@ import AssetsFieldtype from '../components/fieldtypes/assets/AssetsFieldtype.vue
 import AssetsFolderFieldtype from '../components/fieldtypes/AssetsFolderFieldtype.vue'
 import AssetContainerFieldtype from '../components/fieldtypes/AssetContainerFieldtype.vue'
 import BardFieldtype from '../components/fieldtypes/bard/BardFieldtype.vue'
+import BardButtonsSettingFieldtype from '../components/fieldtypes/bard/BardButtonsSettingFieldtype.vue'
 import CheckboxesFieldtype from '../components/fieldtypes/CheckboxesFieldtype.vue'
 import CollectionFieldtype from '../components/fieldtypes/CollectionFieldtype.vue'
 import CollectionsFieldtype from '../components/fieldtypes/CollectionsFieldtype.vue'
@@ -49,6 +50,7 @@ Vue.component('assets-fieldtype', AssetsFieldtype);
 Vue.component('asset_container-fieldtype', AssetContainerFieldtype);
 Vue.component('asset_folder-fieldtype', AssetsFolderFieldtype);
 Vue.component('bard-fieldtype', BardFieldtype);
+Vue.component('bard_buttons_setting-fieldtype', BardButtonsSettingFieldtype);
 Vue.component('checkboxes-fieldtype', CheckboxesFieldtype);
 Vue.component('collection-fieldtype', CollectionFieldtype);
 Vue.component('collections-fieldtype', CollectionsFieldtype);

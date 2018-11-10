@@ -1,6 +1,18 @@
 <template>
     <div class="bard-fieldtype-wrapper replicator" :class="{'bard-fullscreen': fullScreenMode, 'no-sets': !hasSets }">
 
+        <div class="bard-toolbar" v-el:toolbar :style="{ top: toolbarCoords.top, left: toolbarCoords.left }" :class="{'bard-toolbar-active': toolbarShowing }" v-if="!config.markdown && buttons.length">
+            <button
+                v-for="button in buttons"
+                v-tip
+                :tip-text="button.text"
+                :data-command-name="button.command"
+                v-html="button.html"
+            ></button>
+        </div>
+
+        <link-toolbar v-ref:link-toolbar :config="config" v-if="!config.markdown"></link-toolbar>
+
         <div class="bard-blocks" v-if="isReady" v-el:blocks>
             <component
                 :is="block.type === 'text' ? 'BardText' : 'BardSet'"
@@ -19,6 +31,7 @@
                 @arrow-up-at-start="goToPreviousTextField"
                 @arrow-down-at-end="goToNextTextField"
                 @text-updated="updateText"
+                @selection-changed="selectionChanged"
             >
                 <template slot="divider-start">
                     <div v-show="canShowDividerAtStart(index)" class="bard-divider bard-divider-start" @click="addTextBlock(index-1)"></div>
@@ -45,6 +58,7 @@
 <script>
 import Replicator from '../replicator/Replicator';
 import { Draggable } from '@shopify/draggable';
+import { availableButtons, addButtonHtml } from './buttons';
 
 export default {
 
@@ -52,7 +66,8 @@ export default {
 
     components: {
         BardSet: require('./BardSet.vue'),
-        BardText: require('./BardText.vue')
+        BardText: require('./BardText.vue'),
+        LinkToolbar: require('./LinkToolbar')
     },
 
     computed: {
@@ -79,7 +94,10 @@ export default {
             fullScreenMode: false,
             autoBindChangeWatcher: false,
             changeWatcherWatchDeep: false,
-            previousScrollPosition: null
+            previousScrollPosition: null,
+            toolbarCoords: { },
+            toolbarShowing: false,
+            buttons: []
         };
     },
 
@@ -87,6 +105,8 @@ export default {
         if (! this.data) {
             this.data = [{type: 'text', text: '<p><br></p>'}];
         }
+
+        this.initToolbarButtons();
 
         this.combineConsecutiveTextBlocks();
 
@@ -97,6 +117,8 @@ export default {
             if (this.accordionMode) this.collapseAll();
             this.bindChangeWatcher();
         });
+
+        this.hideToolbar();
     },
 
     watch: {
@@ -119,7 +141,7 @@ export default {
             this.$nextTick(() => {
                 const block = this.getBlock(index);
                 if (text) {
-                    block.focusAt(0);
+                    block.focusAtStart();
                 } else {
                     block.focus();
                 }
@@ -249,6 +271,13 @@ export default {
                 this.$nextTick(() => {
                     window.scrollTo(0, this.previousScrollPosition);
                     this.previousScrollPosition = null;
+
+                    // Temporary workaround for hiding the empty link
+                    // toolbar that pops up after moving sets around.
+                    setTimeout(() => {
+                        this.$refs.linkToolbar.positionTop = '-999em';
+                        this.$refs.linkToolbar.positionLeft = '-999em';
+                    }, 1);
                 });
             });
         },
@@ -292,7 +321,7 @@ export default {
 
             this.data.splice(end, 0, this.data.splice(start, 1)[0]);
 
-            this.combineConsecutiveTextBlocks();
+            this.$nextTick(() => this.combineConsecutiveTextBlocks());
         },
 
         moveSetIntoText(block) {
@@ -315,7 +344,7 @@ export default {
 
             this.setBeingDragged = null;
 
-            this.combineConsecutiveTextBlocks();
+            this.$nextTick(() => this.combineConsecutiveTextBlocks());
         },
 
         removeDropAreas() {
@@ -363,14 +392,33 @@ export default {
         },
 
         deleteSet(index) {
-            const block = this.getBlock(index - 1);
-            const focus = (block && block.data.type === 'text') ? block.plainText().length : null;
+            let block = this.getBlock(index - 1);
+            const previousBlockWasText = block && block.data.type === 'text';
 
+            // If there's a previous text block, we will add a blank paragraph to determine
+            // where the caret should be positioned once the block is deleted. We use a data
+            // attribute instead of just a reference to the DOM element because Scribe
+            // will be manipulating the DOM and the element we choose will be removed
+            // but the data attribute will be maintained. We'll remove it later.
+            if (previousBlockWasText) {
+                let placeholder = document.createElement('p');
+                placeholder.dataset.bardFocus = true;
+                block.editor.el.appendChild(placeholder);
+            }
+
+            // Remove the set and combine the surrounding text blocks.
             this.data.splice(index, 1);
-            this.combineConsecutiveTextBlocks();
+            this.$nextTick(() => this.combineConsecutiveTextBlocks());
 
-            if (block) {
-                this.$nextTick(() => this.getBlock(index - 1).focusAt(focus));
+            // We'll now move the caret behind the element we targeted earlier and remove the data attribute.
+            if (previousBlockWasText) {
+                // Use a setTimeout instead of a nextTick. Scribe appears be changing the dom, and the
+                // focusable element is still the outdated one if we were to use nextTick here.
+                setTimeout(() => {
+                    const focusableEl = block.$el.querySelector('[data-bard-focus]');
+                    block.setCaretAfter(focusableEl);
+                    delete focusableEl.dataset.bardFocus;
+                }, 10);
             }
         },
 
@@ -381,7 +429,7 @@ export default {
                 index--;
                 const block = this.getBlock(index);
                 if (block.data.type === 'text') {
-                    setTimeout(() => { block.focusAt('end') }, 10);
+                    setTimeout(() => { block.focusAtEnd() }, 10);
                     return;
                 }
             }
@@ -396,7 +444,7 @@ export default {
                 index++;
                 const block = this.getBlock(index);
                 if (block.data.type === 'text') {
-                    setTimeout(() => { block.focusAt('start') }, 10);
+                    setTimeout(() => { block.focusAtStart() }, 10);
                     return;
                 }
             }
@@ -411,6 +459,66 @@ export default {
                 return (set.data.type === 'text') ? set.plainText() : set.getCollapsedPreview();
             }).join(', ');
         },
+
+        selectionChanged() {
+            let selection = window.getSelection();
+            let selectionStr = selection.toString().trim();
+            (selectionStr === '') ? this.hideToolbar() : this.moveToolbar();
+        },
+
+        hideToolbar() {
+            if (this.config.markdown) return;
+
+            this.toolbarCoords = { top: '-999em', left: '-999em' };
+            this.toolbarShowing = false;
+        },
+
+        moveToolbar() {
+            if (this.config.markdown) return;
+
+            var selection = window.getSelection(),
+                range = selection.getRangeAt(0),
+                boundary = range.getBoundingClientRect(),
+                coords = {},
+                outer = this.$el,
+                outerBoundary = outer.getBoundingClientRect(),
+                toolbarEl = this.$els.toolbar;
+
+            coords.top = (boundary.top - outerBoundary.top) + 'px';
+            coords.left = (((boundary.left + boundary.right) / 2) - (toolbarEl.offsetWidth / 2) - outerBoundary.left) + 'px';
+
+            this.toolbarCoords = coords;
+            this.toolbarShowing = true;
+        },
+
+        initToolbarButtons() {
+            const selectedButtons = this.config.buttons || [
+                'h2', 'h3', 'bold', 'italic', 'unorderedlist', 'orderedlist', 'removeformat', 'quote', 'anchor',
+            ];
+
+            // Get the configured buttons and swap them with corresponding objects
+            let buttons = selectedButtons.map(button => {
+                return _.findWhere(availableButtons, { name: button.toLowerCase() })
+                    || button;
+            });
+
+            // Let addons add, remove, or control the position of buttons.
+            Statamic.bard.buttons.forEach(callback => callback.call(null, buttons));
+
+            // Remove any non-objects. This would happen if you configure a button name that doesn't exist.
+            buttons = buttons.filter(button => typeof button != 'string');
+
+            // Generate fallback html for each button
+            buttons = addButtonHtml(buttons);
+
+            // Remove buttons that don't pass conditions.
+            // eg. only the insert asset button can be shown if a container has been set.
+            buttons = buttons.filter(button => {
+                return (button.condition) ? button.condition.call() : true;
+            });
+
+            this.buttons = buttons;
+        }
     }
 };
 </script>

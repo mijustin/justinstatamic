@@ -35,9 +35,7 @@ class FieldtypeJsComposer
 
         $defaults = [];
 
-        $str = '';
-
-        foreach ($this->repo->fieldtypes()->files() as $path) {
+        $str = collect($this->repo->fieldtypes()->files())->map(function ($path) {
             $dir = collect(explode('/', $path))->take(3)->implode('/');
 
             // Add the default value to the array
@@ -46,9 +44,9 @@ class FieldtypeJsComposer
             $defaults[$fieldtype->getHandle()] = $fieldtype->blank();
 
             if (File::exists(Path::assemble($dir, 'resources/assets/js/fieldtype.js'))) {
-                $str .= $fieldtype->js->tag('fieldtype');
+                return $fieldtype->js->tag('fieldtype');
             }
-        }
+        })->filter()->unique()->implode('');
 
         return '<script>Statamic.fieldtypeDefaults = '.json_encode($defaults).';</script>' . $str . $this->redactor();
     }

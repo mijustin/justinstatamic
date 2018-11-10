@@ -1,4 +1,24 @@
 fieldtype_fields:
+  buttons:
+    type: bard_buttons_setting
+    display: Buttons
+    default:
+      - h2
+      - h3
+      - bold
+      - italic
+      - unorderedlist
+      - orderedlist
+      - removeformat
+      - quote
+      - anchor
+  style:
+    type: radio
+    default: sans
+    options:
+      sans: Github (sans-serif)
+      serif: A book (serif)
+    width: 50
   spellcheck:
     type: toggle
     default: true
@@ -7,7 +27,11 @@ fieldtype_fields:
     type: toggle
     default: true
     width: 50
-  autoLink:
+  link_noopener:
+    type: toggle
+    default: false
+    width: 50
+  link_noreferrer:
     type: toggle
     default: false
     width: 50
@@ -15,15 +39,7 @@ fieldtype_fields:
     type: toggle
     default: false
     width: 50
-  link_validation:
-    type: toggle
-    default: false
-    width: 50
-  force_plain_text:
-    type: toggle
-    default: true
-    width: 50
-  clean_pasted_html:
+  semantic_elements:
     type: toggle
     default: false
     width: 50
