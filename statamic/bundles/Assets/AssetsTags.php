@@ -88,6 +88,7 @@ class AssetsTags extends Tags
             }
         }
 
+
         return $this->output();
     }
 
@@ -96,6 +97,10 @@ class AssetsTags extends Tags
         $this->supplement();
         $this->sort();
         $this->limit();
+
+        if ($as = $this->get('as')) {
+            return $this->parse([$as => $this->assets]);
+        }
 
         return $this->parseLoop($this->assets);
     }

@@ -229,7 +229,7 @@ class FieldsetController extends CpController
                 return $this->processSection($section);
             })->all();
 
-        $fieldset = Fieldset::create($slug, $contents);
+        $fieldset = Fieldset::create($slug, array_filter($contents));
 
         return $fieldset;
     }

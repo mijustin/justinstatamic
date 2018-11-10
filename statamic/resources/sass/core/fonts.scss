@@ -459,18 +459,16 @@
 .icon-youtube-with-circle:before { content: "\EB9C" }
 .icon-youtube:before { content: "\EB9D" }
 
-// Font Awesome for MediumEditor
-
+// Font Awesome for bard's text editor
 @font-face {
   font-family: 'fontawesome';
   src:
-    url('../fonts/fontawesome.ttf?hj1qzi') format('truetype'),
-    url('../fonts/fontawesome.woff?hj1qzi') format('woff'),
-    url('../fonts/fontawesome.svg?hj1qzi#fontawesome') format('svg');
+    url('../fonts/fontawesome.ttf?u1gkgw') format('truetype'),
+    url('../fonts/fontawesome.woff?u1gkgw') format('woff'),
+    url('../fonts/fontawesome.svg?u1gkgw#fontawesome') format('svg');
   font-weight: normal;
   font-style: normal;
 }
-
 
 [class^="fa-"], [class*=" fa-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
@@ -538,6 +536,15 @@
 .fa-picture-o:before {
   content: "\f03e";
 }
+.fa-pencil:before {
+  content: "\f040";
+}
+.fa-edit:before {
+  content: "\f044";
+}
+.fa-pencil-square-o:before {
+  content: "\f044";
+}
 .fa-chain:before {
   content: "\f0c1";
 }
@@ -556,11 +563,20 @@
 .fa-underline:before {
   content: "\f0cd";
 }
+.fa-magic:before {
+  content: "\f0d0";
+}
 .fa-quote-right:before {
   content: "\f10e";
 }
 .fa-code:before {
   content: "\f121";
+}
+.fa-chain-broken:before {
+  content: "\f127";
+}
+.fa-unlink:before {
+  content: "\f127";
 }
 .fa-superscript:before {
   content: "\f12b";
@@ -585,4 +601,13 @@
 }
 .fa-paint-brush:before {
   content: "\f1fc";
+}
+.fa-address-card-o:before {
+  content: "\f2bc";
+}
+.fa-vcard-o:before {
+  content: "\f2bc";
+}
+.fa-user-circle:before {
+  content: "\f2bd";
 }

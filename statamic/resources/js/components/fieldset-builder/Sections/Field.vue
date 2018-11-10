@@ -120,7 +120,7 @@ export default {
             handleModified: false,
             isEditing: false,
             isShowingGridFields: false,
-            isShowingSets: false,
+            isShowingSets: true,
             isAddingGridField: false,
             displayFieldWidth: '100%',
             nameFieldWidth: '100%',

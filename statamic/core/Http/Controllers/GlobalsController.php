@@ -20,7 +20,7 @@ class GlobalsController extends CpController
             return redirect()->route('globals.edit', $globals->first()->slug());
         }
         if (count($globals) === 0) {
-            return redirect()->route('forms');
+            return redirect()->route('globals.create');
         }
 
         return view('globals.index', [

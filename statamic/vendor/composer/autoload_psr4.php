@@ -60,7 +60,7 @@ return array(
     'ComposerIncludeFiles\\' => array($vendorDir . '/funkjedi/composer-include-files/src'),
     'Collective\\Html\\' => array($vendorDir . '/laravelcollective/html/src'),
     'ClassPreloader\\' => array($vendorDir . '/classpreloader/classpreloader/src'),
-    'Carbon\\' => array($vendorDir . '/nesbot/carbon/src/Carbon'),
     'Barryvdh\\Debugbar\\' => array($vendorDir . '/barryvdh/laravel-debugbar/src'),
     'Aws\\' => array($vendorDir . '/aws/aws-sdk-php/src'),
+    '' => array($vendorDir . '/nesbot/carbon/src'),
 );

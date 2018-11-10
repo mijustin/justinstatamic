@@ -142,6 +142,7 @@ export default {
 
         var defaults = {
             minHeight: 250,
+            toolbarFixed: false,
             changeCallback: function () {
                 womp.update(this.code.get());
             }
@@ -163,9 +164,12 @@ export default {
 
         settings.plugins = settings.plugins || [];
 
-        if (this.assetsEnabled) {
-            settings.plugins.push('assets');
+        if (this.assetsEnabled && settings.plugins.indexOf('assets') === -1) {
+            settings.plugins.push('assets')
         }
+
+        // Add the vue instance to the redactor object so plugins (like assets) can reach it.
+        settings.vueInstance = this;
 
         $(this.$els.redactor).redactor(settings);
     }

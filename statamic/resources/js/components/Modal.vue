@@ -110,7 +110,7 @@ export default {
     },
 
     ready: function() {
-        Mousetrap.bind('esc', function(e) {
+        Mousetrap.bindGlobal('esc', function(e) {
             this.close();
         }.bind(this), 'keyup');
     },

@@ -14,6 +14,7 @@
                 :collapsed.sync="page.collapsed"
                 :depth="depth"
                 :sortable="sortable"
+                :dirty="dirty"
         ></branch>
     </ul>
 </template>
@@ -29,7 +30,11 @@ export default {
             default: ''
         },
         collapsed: Boolean,
-        sortable: Boolean
+        sortable: Boolean,
+        dirty: {
+            type: Boolean,
+            default: false
+        }
     },
 
     computed: {

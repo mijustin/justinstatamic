@@ -105,6 +105,7 @@ class NavTags extends Tags
             'entries'      => $this->getBool('include_entries', false),
             'sort'         => $this->get('sort'),
             'include_home' => $this->getBool('include_home'),
+            'include_root' => $this->getBool('include_root'),
             'exclude'      => $this->getList('exclude'),
             'conditions'   => $this->getConditionParameters(),
             'locale'       => $this->get('locale', site_locale()),

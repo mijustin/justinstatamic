@@ -269,7 +269,7 @@
   font-weight: bold;
 }
 .selectize-dropdown .active {
-  background-color: #f5fafd;
+  @apply .bg-bg;
   color: #495c68;
 }
 .selectize-dropdown .active.create {

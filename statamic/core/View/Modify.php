@@ -233,6 +233,9 @@ class Modify implements \IteratorAggregate
             case "^":
                 return "exponent";
 
+            case "?":
+                return "yes_no";
+
             case "dd":
                 return "dump";
 

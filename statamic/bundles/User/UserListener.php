@@ -54,7 +54,7 @@ class UserListener extends Listener
         return view('users.reset', [
             'code'  => $resetter->code(),
             'valid' => $resetter->valid(),
-            'title' => $user->status() === 'pending' ? t('activate_account') : t('reset_password')
+            'title' => $user->status() === 'pending' ? t('activate_account') : t('choose_new_password')
         ]);
     }
 

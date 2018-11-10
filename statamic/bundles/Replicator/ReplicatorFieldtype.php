@@ -2,6 +2,7 @@
 
 namespace Statamic\Addons\Replicator;
 
+use Statamic\API\Arr;
 use Statamic\Extend\Fieldtype;
 use Statamic\CP\FieldtypeFactory;
 
@@ -63,7 +64,7 @@ class ReplicatorFieldtype extends Fieldtype
             $processed[$field] = $this->processField($value, $field_config);
         }
 
-        return array_filter($processed);
+        return Arr::removeEmptyValues($processed);
     }
 
     private function processField($field_data, $field_config)

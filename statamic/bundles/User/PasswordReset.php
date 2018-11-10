@@ -7,6 +7,8 @@ use Statamic\API\URL;
 use Statamic\API\User;
 use Statamic\API\Email;
 use Statamic\API\Config;
+use Statamic\Events\PasswordResetEmailSent;
+use Statamic\Events\PasswordReset as PasswordResetEvent;
 
 class PasswordReset
 {
@@ -19,6 +21,11 @@ class PasswordReset
      * @var string
      */
     private $base_url;
+
+    /**
+     * @var string
+     */
+    private $redirect;
 
     /**
      * @var Statamic\Contracts\Data\Users\User
@@ -55,6 +62,11 @@ class PasswordReset
         $this->base_url = $url;
     }
 
+    public function redirect($url)
+    {
+        $this->redirect = $url;
+    }
+
     /**
      * Get the full reset form URL
      *
@@ -69,7 +81,19 @@ class PasswordReset
         $this->user->save();
 
         $url = $this->base_url ?: EVENT_ROUTE.'/user/reset';
-        $url .= "?user={$this->user->id()}&code={$code}";
+
+        parse_str(parse_url($url, PHP_URL_QUERY) ?: '', $query);
+
+        $query = array_merge($query, [
+            'user' => $this->user->id(),
+            'code' => $code,
+        ]);
+
+        if ($this->redirect) {
+            $query['redirect'] = $this->redirect;
+        }
+
+        $url = explode('?', $url)[0] . '?' . http_build_query($query);
 
         return URL::makeAbsolute(URL::prependSiteUrl($url));
     }
@@ -111,6 +135,8 @@ class PasswordReset
         $this->user->setPasswordResetToken(null);
 
         $this->user->save();
+
+        event(new PasswordResetEvent($this->user));
     }
 
     /**
@@ -129,5 +155,7 @@ class PasswordReset
              ->template($template)
              ->with(['reset_url' => $this->url()])
              ->send();
+
+        event(new PasswordResetEmailSent($this->user));
     }
 }

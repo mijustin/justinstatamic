@@ -234,6 +234,9 @@ class Fieldset implements FieldsetContract
     {
         return collect($fields)->mapWithKeys(function ($item, $key) {
             if (array_get($item, 'type', 'text') === 'partial') {
+                if (!isset($item['fieldset'])) {
+                    throw new \Exception("Partial field [$key] has not specified a fieldset.");
+                }
                 return $this->getFieldset($item['fieldset'])->inlinedFields();
             }
 

@@ -123,6 +123,9 @@ function default_locale()
     return Config::getDefaultLocale();
 }
 
+/**
+ * @return string
+ */
 function cp_route($route, $params = [])
 {
     if (! CP_ROUTE) {
@@ -132,21 +135,36 @@ function cp_route($route, $params = [])
     return route($route, $params);
 }
 
+/**
+ * @return string
+ */
 function cp_resource_url($url)
 {
     return resource_url('cp/' . $url);
 }
 
+/**
+ * @return string
+ */
 function resource_url($url)
 {
     return URL::assemble(SITE_ROOT, pathinfo(request()->getScriptName())['basename'], RESOURCES_ROUTE, $url);
 }
 
+/**
+ * @return string
+ */
 function path($from, $extra = null)
 {
     return Path::tidy($from . '/' . $extra);
 }
 
+/**
+ * Path to the statamic application directory
+ *
+ * @param string|null $path
+ * @return string
+ */
 function statamic_path($path = null)
 {
     return path(APP, $path);
@@ -175,51 +193,91 @@ function webroot_path($path = null)
     return path(realpath(STATAMIC_ROOT), $path);
 }
 
+/**
+ * @param string|null $path
+ * @return string
+ */
 function site_path($path = null)
 {
     return path(statamic_path('../site'), $path);
 }
 
+/**
+ * @param string|null $path
+ * @return string
+ */
 function local_path($path = null)
 {
     return path(statamic_path('../local'), $path);
 }
 
+/**
+ * @param string|null $path
+ * @return string
+ */
 function bundles_path($path = null)
 {
     return path(statamic_path('bundles'), $path);
 }
 
+/**
+ * @param string|null $path
+ * @return string
+ */
 function addons_path($path = null)
 {
     return path(site_path('addons'), $path);
 }
 
+/**
+ * @param string|null $path
+ * @return string
+ */
 function settings_path($path = null)
 {
     return path(site_path('settings'), $path);
 }
 
+/**
+ * @param string|null $path
+ * @return string
+ */
 function site_storage_path($path = null)
 {
     return path(site_path('storage'), $path);
 }
 
+/**
+ * @param string|null $path
+ * @return string
+ */
 function cache_path($path = null)
 {
     return path(local_path('cache'), $path);
 }
 
+/**
+ * @param string|null $path
+ * @return string
+ */
 function logs_path($path = null)
 {
     return path(local_path('logs'), $path);
 }
 
+/**
+ * @param string|null $path
+ * @return string
+ */
 function temp_path($path = null)
 {
     return path(local_path('temp'), $path);
 }
 
+/**
+ * @param string $value
+ * @return \Carbon\Carbon
+ */
 function carbon($value)
 {
     if (! $value instanceof Carbon) {
@@ -309,6 +367,9 @@ function collect_users($value = [])
     return new \Statamic\Data\Users\UserCollection($value);
 }
 
+/**
+ * @return \Statamic\Data\Users\User
+ */
 function me()
 {
     return User::getCurrent();
@@ -506,6 +567,10 @@ function int($value)
     return intval($value);
 }
 
+/**
+ * Dump and don't die
+ * @return void
+ */
 function d()
 {
     array_map(function ($x) {
@@ -532,6 +597,12 @@ function gravatar($email, $size = null)
     return $url;
 }
 
+/**
+ * Format select options
+ *
+ * @param  array  $options
+ * @return array
+ */
 function format_input_options($options)
 {
     $formatted_options = [];
@@ -546,6 +617,13 @@ function format_input_options($options)
 
     return $formatted_options;
 }
+
+/**
+ * Format a changelog release, parsing the [new], [fix], and [break] tags
+ *
+ * @param  string  $string
+ * @return string
+ */
 
 function format_update($string)
 {

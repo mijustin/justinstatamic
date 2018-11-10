@@ -29,7 +29,7 @@ export default {
         }
 
         if ( ! this.data) {
-            this.data = [];
+            this.data = this.config.default || [];
         }
 
         this.bindChangeWatcher();

@@ -135,7 +135,7 @@ class User extends Data implements UserContract, Authenticatable, PermissibleCon
     }
 
     /**
-     * Save a user to file
+     * Save a user to file.
      *
      * @return $this
      */
@@ -498,9 +498,7 @@ class User extends Data implements UserContract, Authenticatable, PermissibleCon
     }
 
     /**
-     * Delete the data
-     *
-     * @return mixed
+     * Delete the user.
      */
     public function delete()
     {

@@ -24,8 +24,7 @@ static_caching_default_cache_length: null
 static_caching_file_path: static
 
 # When enabled, a page will be treated as the same URL regardless of any query string parameters.
-# Cannot be disabled when using file-based static caching.
-static_caching_ignore_query_strings: true
+static_caching_ignore_query_strings: false
 
 # An array of URLs to exclude from static caching.
 static_caching_exclude: []
@@ -38,3 +37,6 @@ static_caching_invalidation: []
 # little longer than necessary to ensure that subsequent requests don't attempt to write again.
 # On some servers, this delay will be noticeable in the browser on the initial request.
 static_caching_lock_hold_length: 0
+
+# Whether the {{ cache }} tags actually function. Disabling this setting applies to all tag instances.
+cache_tags_enabled: true

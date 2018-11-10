@@ -224,12 +224,9 @@ abstract class Tags
         if ($attrs = $this->getList('attr')) {
             foreach ($attrs as $attr) {
                 $bits = explode(':', $attr);
+                $param = array_shift($bits);
 
-                $param = array_get($bits, 0);
-                $value = array_get($bits, 1);
-
-                $attr_str .= $param;
-                $attr_str .= ($value) ? '="' . $value . '" ' : ' ';
+                $attr_str .= $param . '="' . implode($bits, ': ') . '" ';
             }
         }
 

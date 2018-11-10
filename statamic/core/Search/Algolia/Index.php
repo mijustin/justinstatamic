@@ -122,7 +122,9 @@ class Index extends AbstractIndex
      */
     private function handleAlgoliaException($e)
     {
-        if (Str::contains($e->getMessage(), "Index {$this->name} does not exist")) {
+        $indexName = str_replace('/', '_', $this->name);
+
+        if (Str::contains($e->getMessage(), "Index {$indexName} does not exist")) {
             throw new IndexNotFoundException("Index [{$this->name}] does not exist.");
         }
 
