@@ -596,10 +596,13 @@ class BaseModifiers extends Modifier
         }
 
         // If the requested value (it should be an ID) doesn't exist, we'll just
-        // spit the value back as-is. This seems like a sensible solution here.
-        if (! $item = Data::find($value)->in(site_locale())) {
+        // send the value back as-is.
+        if (! $item = Data::find($value)) {
             return $value;
         }
+
+        // Localize the data
+        $item = $item->in(site_locale());
 
         // Get the requested variable, which is the first parameter.
         $var = array_get($params, 0);
@@ -2053,13 +2056,11 @@ class BaseModifiers extends Modifier
             $value = array_get($value, 0);
         }
 
-        if (! $item = Asset::find($value)) {
-            if (! $item = Content::find($value)->in(site_locale())) {
-                return $value;
-            }
+        if (! $item = Content::find($value)) {
+            return $value;
         }
 
-        return $item->url();
+        return $item->in(site_locale())->url();
     }
 
     /**
