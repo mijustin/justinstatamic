@@ -8,3 +8,7 @@ routes:
     layout: feed
     template: feeds/articles
     content_type: atom
+  /feed/atom:
+    layout: feed
+    template: feeds/articles
+    content_type: atom
