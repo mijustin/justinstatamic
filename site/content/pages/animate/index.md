@@ -2,11 +2,6 @@ title: Animate
 article_content:
   -
     type: text
-    text: '<p>fdsfgd</p>'
-  -
-    type: image
-    image: /assets/content/tooth---nail-records-discography---wikipedia-2018-11-23-11-34-56.png
-    size: xl
-    brutalized: true
+    text: '<p>Want to create animations like me? Check out <a href="http://tracking.goanimate.com/aff_c?offer_id=4&amp;aff_id=3045">GoAnimate</a>.</p>'
 fieldset: article
 id: 326fa86a-65ac-4d21-be11-9905e26b82c1
