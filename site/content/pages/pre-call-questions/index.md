@@ -2,7 +2,7 @@ title: 'Pre-call questions'
 article_content:
   -
     type: image
-    image: /assets/content/hamish.jpg
+    image: /assets/content/hamish.png
     size: md
     brutalized: true
 fieldset: article
