@@ -2,7 +2,7 @@ title: 'Pre-call questions'
 article_content:
   -
     type: image
-    image: /assets/content/apple-podcasts.png
+    image: /assets/content/hamish.jpg
     size: md
     brutalized: true
 fieldset: article
