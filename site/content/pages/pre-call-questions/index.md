@@ -2,7 +2,7 @@ title: 'Pre-call questions'
 article_content:
   -
     type: image
-    image: /assets/content/listen-on-apple-podcasts-badge.jpg
+    image: /assets/content/apple-podcast-png-who-is-a-brian-this-experiment-attempts-to-answer-brian-questions-by-having-a-brian-interview-other-people-named-brian-it-s-a-podcast-and-now-2652.png
     size: md
     brutalized: true
 fieldset: article
