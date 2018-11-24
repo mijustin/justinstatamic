@@ -1,9 +1,9 @@
 title: 'Pre-call questions'
-fieldset: article
-id: fd43ae39-7bec-4f1e-afe5-ea4f4b30b23f
 article_content:
   -
-    type: text
-    text: |
-      [gravityform id="1" title="false" description="false"]
-      
+    type: image
+    image: /assets/content/listen-on-apple-podcasts-badge.jpg
+    size: md
+    brutalized: true
+fieldset: article
+id: fd43ae39-7bec-4f1e-afe5-ea4f4b30b23f
