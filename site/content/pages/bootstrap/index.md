@@ -20,5 +20,8 @@ article_content:
       — Danavir Sarria, <a href="https://twitter.com/danavirsarria/status/1044266832998412288?ref_src=twsrc%5Etfw">September 24, 2018</a></p></blockquote><h3>Get future bootstrapping articles here:</h3>
   -
     type: newsletter
+seo:
+  description: 'An honest look at bootstrapping and building a startup in 2018.'
+  image: /assets/brutal/glitchy-justin.jpg
 fieldset: article
 id: 59b1cc05-0a97-4fb5-ad53-0a8a6aa0d92a
