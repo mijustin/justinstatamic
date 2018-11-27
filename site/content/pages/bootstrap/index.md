@@ -6,7 +6,7 @@ article_content:
       <p>My series on "what it's like to bootstrap in 2018" have been getting a lot of attention.
       
       </p><blockquote><p>This is a great series of ideas you’re piecing together.</p><p>
-      — Des Traynor (@destraynor) <a href="https://twitter.com/destraynor/status/1043515959292698624?ref_src=twsrc%5Etfw">September 22, 2018</a></p></blockquote><p>
+      — Des Traynor, Intercom,&nbsp;<a href="https://twitter.com/destraynor/status/1043515959292698624?ref_src=twsrc%5Etfw">September 22, 2018</a></p></blockquote><p>
       
       
       
@@ -17,7 +17,7 @@ article_content:
       Readers are enjoying these posts, so I'm going to keep writing them!
       
       </p><blockquote><p>Your bootstrapping series has honestly been the most interesting business related content on the internet for the past few weeks haha Can't wait to read the rest.</p><p>
-      — Danavir Sarria (@danavirsarria) <a href="https://twitter.com/danavirsarria/status/1044266832998412288?ref_src=twsrc%5Etfw">September 24, 2018</a></p></blockquote><h3>Subscribe to future bootstrapping articles here:</h3>
+      — Danavir Sarria, <a href="https://twitter.com/danavirsarria/status/1044266832998412288?ref_src=twsrc%5Etfw">September 24, 2018</a></p></blockquote><h3>Subscribe to future bootstrapping articles here:</h3>
   -
     type: newsletter
 fieldset: article
