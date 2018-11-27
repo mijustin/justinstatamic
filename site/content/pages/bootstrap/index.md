@@ -12,7 +12,7 @@ article_content:
       
       Here is the whole series, in order:
       
-      </p><ol><li><a href="https://justinjackson.ca/bootstrap-reality/">Bootstrapper's paradox</a></li><li><a href="https://justinjackson.ca/cost/">The hidden cost of bootstrapping</a></li><li><a href="https://justinjackson.ca/round1/">Unconventional bootstrapping: round 1</a></li><li><a href="https://justinjackson.ca/risks/">Two things that kill bootstrapped companies</a></li><li><a href="https://justinjackson.ca/goodwork/">Do you even want to be a bootstrapper?</a></li><li><a href="https://justinjackson.ca/costs">Let's talk about startup costs</a></li><li><a href="https://justinjackson.ca/solorisk">The financial risk of being a solopreneur</a></li></ol><p>
+      </p><ol><li><a href="https://justinjackson.ca/bootstrap-reality/">Bootstrapper's paradox</a></li><li><a href="https://justinjackson.ca/cost/">The hidden cost of bootstrapping</a></li><li><a href="https://justinjackson.ca/round1/">Unconventional bootstrapping: round 1</a></li><li><a href="https://justinjackson.ca/risks/">Two things that kill bootstrapped companies</a></li><li><a href="https://justinjackson.ca/goodwork/">Do you even want to be a bootstrapper?</a></li><li><a href="https://justinjackson.ca/costs">Let's talk about startup costs</a></li><li><a href="https://justinjackson.ca/solorisk">Being a solopreneur is a risk</a></li></ol><p>
       
       Readers are enjoying these posts, so I'm going to keep writing them!
       
