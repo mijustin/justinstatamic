@@ -17,7 +17,7 @@ article_content:
       Readers are enjoying these posts, so I'm going to keep writing them!
       
       </p><blockquote><p>Your bootstrapping series has honestly been the most interesting business related content on the internet for the past few weeks haha Can't wait to read the rest.</p><p>
-      — Danavir Sarria, <a href="https://twitter.com/danavirsarria/status/1044266832998412288?ref_src=twsrc%5Etfw">September 24, 2018</a></p></blockquote><h3>Subscribe to future bootstrapping articles here:</h3>
+      — Danavir Sarria, <a href="https://twitter.com/danavirsarria/status/1044266832998412288?ref_src=twsrc%5Etfw">September 24, 2018</a></p></blockquote><h3>Get future bootstrapping articles here:</h3>
   -
     type: newsletter
 fieldset: article
