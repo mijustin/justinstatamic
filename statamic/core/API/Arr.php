@@ -95,17 +95,17 @@ class Arr extends IlluminateArr
     }
 
     /**
-     * Remove empty values from array.
-     *
-     * Similar to array_filter(), but treats zeroes `0` as valid values.
+     * Get rid of null values. (Empty arrays, literal null values, and empty strings)
      *
      * @param array $array
      * @return array
      */
-    public static function removeEmptyValues(array $array)
+    public static function removeNullValues($data)
     {
-        return collect($array)->filter(function ($value) {
-            return $value == "0" ? true : $value;
-        })->all();
+        return array_filter($data, function ($item) {
+            return is_array($item)
+                ? !empty($item)
+                : !in_array($item, [null, ''], true);
+        });
     }
 }

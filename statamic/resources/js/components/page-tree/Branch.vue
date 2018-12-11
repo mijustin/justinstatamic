@@ -30,7 +30,7 @@
             </div>
 
             <div class="branch-meta flex items-center pr-1" v-if="! dirty">
-                <div class="page-actions" v-if="can('pages:create') || can('pages:delete')">
+                <div class="page-actions" v-if="can('pages:create') || canDelete">
                     <a :href="url" :title="url" class="page-action text-grey-dark px-sm bloop" target="_blank">
                         <svg-icon name="visit" class="opacity-25 hover:opacity-75 h-4 w-4"></svg-icon>
                     </a>
@@ -43,8 +43,8 @@
                                 <a href="" @click.prevent="unmountCollection" v-if="hasEntries">{{ translate('cp.unmount_collection') }}</a>
                             </li>
                             <li v-if="can('pages:create')"><a href="" @click.prevent="duplicatePage">{{ translate('cp.duplicate') }}</a></li>
-                            <li v-if="can('pages:create') && can('pages:delete')" class="divider"></li>
-                            <li v-if="can('pages:delete')" class="warning"><a href="" @click.prevent="deletePage">{{ translate('cp.delete') }}</a></li>
+                            <li v-if="can('pages:create') && canDelete" class="divider"></li>
+                            <li v-if="canDelete" class="warning"><a href="" @click.prevent="deletePage">{{ translate('cp.delete') }}</a></li>
                         </ul>
                     </div>
                 </div>
@@ -105,6 +105,10 @@ export default {
 
         isSingleTopLevelPage() {
             return this.$parent.pages.length === 1 && this.depth === 1;
+        },
+
+        canDelete() {
+            return this.home ? false : this.can('pages:delete');
         }
 
     },

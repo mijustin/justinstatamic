@@ -50,7 +50,7 @@ trait HasLocalizedSlugsInData
             // If this is not the default locale, we want to store the slug in the
             // front-matter and leave the property as-is. Also, we only need to
             // store the slug if it's different from the default locale slug.
-            if ($slug !== $this->get('slug')) {
+            if ($slug !== $this->attributes['slug']) {
                 $this->set('slug', $slug);
             }
         }

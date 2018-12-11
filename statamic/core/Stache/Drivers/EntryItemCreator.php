@@ -60,9 +60,16 @@ class EntryItemCreator
 
     private function createEntry($contents, $path, $collection)
     {
+        $data = YAML::parse($contents);
+
+        if ($existing = $this->stache->repo('entries::'.$collection)->getItem(array_get($data, 'id'))) {
+            $existing->data($data);
+            return $existing;
+        }
+
         return Entry::create(pathinfo(Path::clean($path))['filename'])
             ->collection($collection)
-            ->with(YAML::parse($contents))
+            ->with($data)
             ->published(app('Statamic\Contracts\Data\Content\StatusParser')->entryPublished($path))
             ->order(app('Statamic\Contracts\Data\Content\OrderParser')->getEntryOrder($path))
             ->get();

@@ -130,6 +130,7 @@
     @apply bg-black rounded absolute leading-none shadow;
     margin-top: 8px;
     z-index: 1100;
+    width: 300px;
 
     &:before {
         content: '';
@@ -141,8 +142,13 @@
         margin-left: -3px
     }
 
+    .link-container {
+        @apply w-full overflow-hidden text-white leading-normal;
+        text-overflow: ellipsis;
+    }
+
     .link {
-        @apply text-xs text-white;
+        @apply text-xs text-white whitespace-no-wrap;
 
         &:hover { @apply text-blue }
     }
@@ -171,6 +177,35 @@
         position: relative;
         left: auto;
         margin: 0 0 0 8px;
+    }
+
+    .select {
+        @apply bg-transparent text-white p-0;
+    }
+
+    .typeahead {
+        input {
+            @apply w-full bg-transparent border-none text-white p-0 text-sm;
+            outline: none;
+        }
+
+        ul {
+            @apply p-0 bg-black text-white w-auto leading-normal rounded;
+        }
+
+        li {
+            @apply border-none whitespace-no-wrap;
+        }
+
+        .active {
+            @apply bg-grey-darkest;
+        }
+
+        .title {
+            @apply text-white;
+        }
+
+        .state-container { display: none; }
     }
 }
 
@@ -213,11 +248,17 @@
 
     @apply .text-lg .font-serif;
 
-    h2, h3, h4, h5, h6 {
+    h1, h2, h3, h4, h5, h6 {
+        @apply .font-serif;
         font-weight: bold;
         margin: 0 0 .5em;
         padding-top: 1em;
         line-height: 1.5;
+    }
+
+    h1 {
+        font-size: 40px;
+        line-height: 1.25;
     }
 
     h2 {
@@ -335,11 +376,13 @@
         clear: both
     }
 
-    h2, h3, h4, h5, h6 {
+    h1, h2, h3, h4, h5, h6 {
         margin-top: 1.275em;
         margin-bottom: .85em;
         font-weight: 700
     }
+
+    h1 { font-size: 2em }
 
     h2 { font-size: 1.75em }
 

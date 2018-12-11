@@ -58,17 +58,17 @@ class GetContentTags extends CollectionTags
      */
     protected function getContent($from, $locale)
     {
+        if ($content = Content::find($from)) {
+            return $content;
+        }
+
         // If a secondary locale is specified, get the default URI
         // since that's how they are referenced internally.
         if ($locale !== default_locale()) {
             $from = URL::unlocalize($from, $locale);
         }
 
-        if (Content::uriExists($from)) {
-            return Content::whereUri($from);
-        }
-
-        return Content::find($from);
+        return Content::whereUri($from);
     }
 
     protected function getSortOrder()

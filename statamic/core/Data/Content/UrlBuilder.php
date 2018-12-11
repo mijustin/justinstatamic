@@ -134,8 +134,8 @@ class UrlBuilder implements UrlBuilderContract
     {
         // If the given variable exists as data on the content object
         // (ie. in the front-matter), we'll just use that as-is.
-        if ($this->content->has($variable)) {
-            return $this->content->get($variable);
+        if ($this->content->hasWithDefaultLocale($variable)) {
+            return $this->content->getWithDefaultLocale($variable);
         }
 
         // Otherwise, attempt to get it from a method on the object if one exists.

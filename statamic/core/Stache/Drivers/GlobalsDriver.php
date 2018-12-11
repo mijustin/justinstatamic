@@ -19,8 +19,15 @@ class GlobalsDriver extends AbstractDriver
 
     public function createItem($path, $contents)
     {
+        $data = YAML::parse($contents);
+
+        if ($existing = $this->stache->repo($this->key())->getItem(array_get($data, 'id'))) {
+            $existing->data($data);
+            return $existing;
+        }
+
         return GlobalSet::create(pathinfo($path)['filename'])
-            ->with(YAML::parse($contents))
+            ->with($data)
             ->get();
     }
 

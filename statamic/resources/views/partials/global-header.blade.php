@@ -7,7 +7,7 @@
         </a>
     </div>
 
-    <typeahead v-ref:search :src="cp_url('search/perform')" :limit="10" class="flex-1"></typeahead>
+    <search-typeahead v-ref:search></search-typeahead>
 
     <div class="head-links pl-1 flex items-center">
         <a href="{{ route('site') }}" target="_blank" v-cloak v-tip :tip-text="translate('cp.view_site')">

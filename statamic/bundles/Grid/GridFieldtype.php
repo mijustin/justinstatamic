@@ -65,7 +65,7 @@ class GridFieldtype extends Fieldtype
             $processed[$field] = $this->processField($value, $field_config);
         }
 
-        return Arr::removeEmptyValues($processed);
+        return Arr::removeNullValues($processed);
     }
 
     private function processField($field_data, $field_config)

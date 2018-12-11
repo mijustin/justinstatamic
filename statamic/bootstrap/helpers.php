@@ -438,6 +438,19 @@ function inline_svg($src)
 }
 
 /**
+ * Check if a string is a UUID4, which are used as content IDs
+ *
+ * @param string $src string
+ * @return bool
+ */
+function is_id($str)
+{
+    $regex = "/([a-f0-9]{8}\-[a-f0-9]{4}\-4[a-f0-9]{3}\-[8|9|a|b][a-f0-9]{3}\-[a-f0-9]{12})/";
+
+    return preg_match($regex, $str) === 1;
+}
+
+/**
  * Output an "active" class if a url matches
  *
  * @param string $url

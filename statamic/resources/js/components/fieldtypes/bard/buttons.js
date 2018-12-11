@@ -1,4 +1,5 @@
 const availableButtons = [
+    { name: 'h1', text: translate('cp.heading_1'), command: 'h1', html: '<i class="fa fa-header"><sup>1</sup></i>' },
     { name: 'h2', text: translate('cp.heading_2'), command: 'h2', html: '<i class="fa fa-header"><sup>2</sup></i>' },
     { name: 'h3', text: translate('cp.heading_3'), command: 'h3', html: '<i class="fa fa-header"><sup>3</sup></i>' },
     { name: 'h4', text: translate('cp.heading_4'), command: 'h4', html: '<i class="fa fa-header"><sup>4</sup></i>' },
@@ -15,7 +16,7 @@ const availableButtons = [
     { name: 'superscript', text: translate('cp.superscript'), command: 'superscript', icon: 'superscript' },
     { name: 'subscript', text: translate('cp.subscript'), command: 'subscript', icon: 'subscript' },
     { name: 'anchor', text: translate('cp.add_link'), command: 'linkTooltip', icon: 'link' },
-    { name: 'assets', text: translate('cp.link_to_asset'), command: 'insertAsset', icon: 'picture-o', condition: () => this.config.container },
+    { name: 'assets', text: translate('cp.link_to_asset'), command: 'insertAsset', icon: 'picture-o', condition: (config) => config.container },
     { name: 'code', text: translate('cp.code'), command: 'code', icon: 'code' },
 ];
 

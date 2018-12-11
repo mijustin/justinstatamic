@@ -19,7 +19,9 @@ class PagesTags extends CollectionTags
     {
         $depth = $this->getInt('depth', 1);
 
-        $this->collection = $this->getPage()->children($depth);
+        $this->collection = $this->getPage()
+            ->children($depth)
+            ->localize($this->get('locale', site_locale()));
 
         // Convert taxonomy fields to actual taxonomy terms.
         // This will allow taxonomy term data to be available in the template without additional tags.

@@ -35,7 +35,7 @@ class FieldtypeJsComposer
 
         $defaults = [];
 
-        $str = collect($this->repo->fieldtypes()->files())->map(function ($path) {
+        $str = collect($this->repo->fieldtypes()->files())->map(function ($path) use (&$defaults) {
             $dir = collect(explode('/', $path))->take(3)->implode('/');
 
             // Add the default value to the array

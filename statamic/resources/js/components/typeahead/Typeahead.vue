@@ -1,24 +1,26 @@
 <template>
     <div>
-        <div id="typeahead" v-cloak :class="{'dirty': isDirty}">
+        <div class="typeahead" v-cloak :class="{'dirty': isDirty}">
             <div class="state-container">
                 <i class="icon icon-magnifying-glass" @click="focus"></i>
             </div>
 
             <typeahead-input class="search alt"
-                            id="global-search"
+                            v-ref:input
+                            :placeholder="placeholder"
                             :query.sync="query"
                             :on-up="up"
                             :on-down="down"
                             :on-hit="hit"
                             :on-reset="reset"
+                            :reset-on-blur="resetOnBlur"
                             @keyup.esc="reset"
             ></typeahead-input>
 
             <i class="icon icon-cross" v-show="isDirty || loading" @click="reset"></i>
 
-            <ul v-show="hasItems">
-                <li v-for="item in items" :class="{'active': isActive($index)}" @mousedown="hit" @mousemove="setActive($index)">
+            <ul v-show="hasResults">
+                <li v-for="item in results" :class="{'active': isActive($index)}" @mousedown="hit" @mousemove="setActive($index)">
                     <span class="title" v-html="item.title"></span>
                     <span class="url" v-html="item.url"></span>
                 </li>
@@ -33,13 +35,17 @@ export default {
 
     props: {
         limit: Number,
-        src: String
+        src: String,
+        options: Array,
+        initialQuery: String,
+        placeholder: String,
+        resetOnBlur: Boolean
     },
 
     data: function () {
         return {
             items: [],
-            query: '',
+            query: this.initialQuery,
             current: -1,
             loading: false
         }
@@ -50,8 +56,16 @@ export default {
     },
 
     computed: {
-        hasItems: function () {
-            return this.items.length > 0;
+        results() {
+            if (! this.query) return [];
+
+            if (! this.options) return this.items;
+
+            return this.options.filter(option => option.text.toLowerCase().includes(this.query.toLowerCase()));
+        },
+
+        hasResults: function () {
+            return this.results.length > 0;
         },
 
         isEmpty: function () {
@@ -65,10 +79,17 @@ export default {
 
     methods: {
         update: function () {
-            if (!this.query) {
-                this.reset();
-                return;
+            if (this.options) {
+                this.current = -1;
+            } else {
+                this.performRequest();
             }
+
+            this.$emit('query-changed', this.query);
+        },
+
+        performRequest() {
+            if (!this.query) return;
 
             this.loading = true;
 
@@ -96,13 +117,15 @@ export default {
         },
 
         focus: function() {
-            $('#global-search').focus();
+            this.select()
+        },
+
+        select: function () {
+            this.$refs.input.select();
         },
 
         hit: function () {
-            if (this.hasItems) {
-                window.location.href = this.items[this.current].edit_url;
-            }
+            this.$emit('selected', this.results[this.current]);
         },
 
         up: function () {
@@ -110,14 +133,20 @@ export default {
         },
 
         down: function () {
-            if (this.current < this.items.length-1) this.current++;
+            if (this.current < this.results.length-1) this.current++;
         }
     },
 
-    ready: function() {
-        this.$watch('query', function(newval, oldval) {
+    watch: {
+
+        query() {
             this.update();
-        });
+        },
+
+        initialQuery(val) {
+            this.query = val;
+        }
+
     }
 };
 </script>

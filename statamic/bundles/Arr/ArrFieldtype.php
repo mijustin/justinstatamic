@@ -51,7 +51,7 @@ class ArrFieldtype extends Fieldtype
             $result[$key] = $value;
         }
 
-        return $result;
+        return empty($result) ? null : $result;
     }
 
     private function keyed()

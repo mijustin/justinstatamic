@@ -34,7 +34,11 @@ class LocalesTags extends Tags
      */
     public function __call($method, $args)
     {
-        $data = $this->getLocalizedData($key = $this->tag_method);
+        try {
+            $data = $this->getLocalizedData($key = $this->tag_method);
+        } catch (NoDataException $e) {
+            $data = [];
+        }
 
         $data['locale'] = $this->getLocale($key);
 
@@ -78,7 +82,12 @@ class LocalesTags extends Tags
     private function addData($locales)
     {
         return $locales->map(function ($locale, $key) {
-            $localized = $this->getLocalizedData($key);
+            try {
+                $localized = $this->getLocalizedData($key);
+            } catch (NoDataException $e) {
+                return null;
+            }
+
             $localized['locale'] = $locale;
             $localized['current'] = site_locale();
             $localized['is_current'] = $key === site_locale();
@@ -108,7 +117,9 @@ class LocalesTags extends Tags
             return $this->data;
         }
 
-        $id = $this->get('id', array_get($this->context, 'id'));
+        if (! $id = $this->get('id', array_get($this->context, 'id'))) {
+            throw new NoDataException;
+        }
 
         return $this->data = Content::find($id);
     }

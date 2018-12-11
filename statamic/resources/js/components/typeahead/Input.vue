@@ -2,12 +2,12 @@
     <input type="text"
         autocomplete="off"
         v-model="query"
-        @keydown.up="up"
-        @keydown.down="down"
-        @keydown.enter="hit"
-        @keydown.esc="reset"
-        @blur="reset"
-        placeholder="{{ translate('cp.search') }}..."
+        @keydown.prevent.up="up"
+        @keydown.prevent.down="down"
+        @keydown.prevent.enter="hit"
+        @keydown.prevent.esc="reset"
+        @blur="blur"
+        :placeholder="placeholder"
     />
 </template>
 
@@ -15,7 +15,15 @@
 <script>
 export default {
 
-    props: ['query', 'onUp', 'onDown', 'onHit', 'onReset'],
+    props: {
+        query: {},
+        onUp: {},
+        onDown: {},
+        onHit: {},
+        onReset: {},
+        resetOnBlur: Boolean,
+        placeholder: { default: `${translate('cp.search')}...` }
+    },
 
     methods: {
 
@@ -33,6 +41,16 @@ export default {
 
         reset: function() {
             this.onReset();
+        },
+
+        select: function () {
+            this.$el.select();
+        },
+
+        blur: function () {
+            if (this.resetOnBlur) {
+                this.reset();
+            }
         }
     }
 

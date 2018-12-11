@@ -50,6 +50,8 @@ module.exports = function (vue) {
         }
 
         const showTooltipForExistingLink = (anchor) => {
+            addBlurListener();
+
             vue.scribe = scribe;
             vue.anchorElement = anchor;
             vue.isEditing = false;
@@ -116,7 +118,9 @@ module.exports = function (vue) {
 
             // Since queryState is called all the time, even when navigating using
             // the keyboard, it's a good opportunity to reposition the tooltip.
-            (isInsideAnchor) ? showTooltipForExistingLink(anchor) : hideTooltip();
+            (isInsideAnchor && selection.isInScribe())
+                ? showTooltipForExistingLink(anchor)
+                : hideTooltip();
 
             return isInsideAnchor || containsAnchor;
         };

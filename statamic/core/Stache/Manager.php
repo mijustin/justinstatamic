@@ -73,6 +73,14 @@ class Manager
 
     public function update()
     {
+        if ($this->stache->lock()->acquire(true)) {
+            $this->doUpdate();
+            $this->stache->lock()->release();
+        }
+    }
+
+    protected function doUpdate()
+    {
         $locale = site_locale();
 
         site_locale(default_locale());

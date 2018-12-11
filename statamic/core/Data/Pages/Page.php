@@ -112,7 +112,7 @@ class Page extends Content implements PageContract
             // in the front-matter and leave the property as-is. Also, we
             // only need to store the slug if it's different from the
             // default locale slug.
-            if ($slug !== $this->getSlug()) {
+            if ($slug !== URL::slug($this->defaultUri())) {
                 $this->set('slug', $slug);
             }
         }

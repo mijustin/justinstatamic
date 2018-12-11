@@ -60,14 +60,17 @@ body > svg { display: none; }
         bottom: -3px;
     }
 
-    #typeahead {
+    .global-search {
         @extend .z-depth-1;
         border-radius: 4px;
         background: #fff;
-        padding: 0 8px;
         width: 100%;
         max-width: 400px;
         margin-right: 16px;
+
+        .typeahead {
+            padding: 0 8px;
+        }
     }
 
 	.search {

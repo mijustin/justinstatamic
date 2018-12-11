@@ -2,6 +2,7 @@
 
 namespace Statamic\Http\Controllers;
 
+use Statamic\API\Arr;
 use Statamic\API\Addon;
 use Statamic\API\Config;
 use Statamic\API\Fieldset;
@@ -229,7 +230,7 @@ class FieldsetController extends CpController
                 return $this->processSection($section);
             })->all();
 
-        $fieldset = Fieldset::create($slug, array_filter($contents));
+        $fieldset = Fieldset::create($slug, Arr::removeNullValues($contents));
 
         return $fieldset;
     }

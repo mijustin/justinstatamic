@@ -41,8 +41,10 @@ export default {
         }
     },
     ready() {
-        if (this.data == null && this.config) {
-            this.data = this.config.default || false;
+        // Set the toggle to the appropriate default state if undefined.
+        if (this.data == null) {
+            const config = this.config || {};
+            this.data = config.default || false;
         }
 
         this.bindChangeWatcher();

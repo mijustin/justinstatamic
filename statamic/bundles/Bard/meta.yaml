@@ -27,6 +27,10 @@ fieldtype_fields:
     type: toggle
     default: true
     width: 50
+  allow_internal_links:
+    type: toggle
+    default: true
+    width: 50
   link_noopener:
     type: toggle
     default: false

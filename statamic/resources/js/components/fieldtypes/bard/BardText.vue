@@ -241,6 +241,7 @@
             initScribe() {
                 this.editor = new ScribeEditor(this.field);
 
+                this.editor.use(ScribeHeadingCommand(1));
                 this.editor.use(ScribeHeadingCommand(2));
                 this.editor.use(ScribeHeadingCommand(3));
                 this.editor.use(ScribeHeadingCommand(4));
@@ -265,6 +266,7 @@
                         ul: {},
                         li: {},
                         a: { href: true, target: true, rel: true },
+                        h1: {},
                         h2: {},
                         h3: {},
                         h4: {},

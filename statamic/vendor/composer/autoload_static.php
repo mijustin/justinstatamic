@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInite05e96764f65b956905507c586b1c858
+class ComposerStaticInit0e2a1c61d40ac6c0e79762b6c7388d79
 {
     public static $files = array (
         '95a22d2145ae40de20dc7ea7be07a610' => __DIR__ . '/../..' . '/bootstrap/helpers.php',
@@ -2575,6 +2575,7 @@ class ComposerStaticInite05e96764f65b956905507c586b1c858
         'Statamic\\Addons\\Lists\\ListsFieldtype' => __DIR__ . '/../..' . '/bundles/Lists/ListsFieldtype.php',
         'Statamic\\Addons\\LocaleSettings\\LocaleSettingsFieldtype' => __DIR__ . '/../..' . '/bundles/LocaleSettings/LocaleSettingsFieldtype.php',
         'Statamic\\Addons\\Locales\\LocalesTags' => __DIR__ . '/../..' . '/bundles/Locales/LocalesTags.php',
+        'Statamic\\Addons\\Locales\\NoDataException' => __DIR__ . '/../..' . '/bundles/Locales/NoDataException.php',
         'Statamic\\Addons\\Markdown\\MarkdownFieldtype' => __DIR__ . '/../..' . '/bundles/Markdown/MarkdownFieldtype.php',
         'Statamic\\Addons\\Markdown\\MarkdownTags' => __DIR__ . '/../..' . '/bundles/Markdown/MarkdownTags.php',
         'Statamic\\Addons\\Member\\MemberTags' => __DIR__ . '/../..' . '/bundles/Member/MemberTags.php',
@@ -2620,6 +2621,7 @@ class ComposerStaticInite05e96764f65b956905507c586b1c858
         'Statamic\\Addons\\Session\\SessionTags' => __DIR__ . '/../..' . '/bundles/Session/SessionTags.php',
         'Statamic\\Addons\\Suggest\\Mode' => __DIR__ . '/../..' . '/bundles/Suggest/Mode.php',
         'Statamic\\Addons\\Suggest\\Modes\\AbstractMode' => __DIR__ . '/../..' . '/bundles/Suggest/Modes/AbstractMode.php',
+        'Statamic\\Addons\\Suggest\\Modes\\BardLinkMode' => __DIR__ . '/../..' . '/bundles/Suggest/Modes/BardLinkMode.php',
         'Statamic\\Addons\\Suggest\\Modes\\CollectionMode' => __DIR__ . '/../..' . '/bundles/Suggest/Modes/CollectionMode.php',
         'Statamic\\Addons\\Suggest\\Modes\\CollectionsMode' => __DIR__ . '/../..' . '/bundles/Suggest/Modes/CollectionsMode.php',
         'Statamic\\Addons\\Suggest\\Modes\\FormMode' => __DIR__ . '/../..' . '/bundles/Suggest/Modes/FormMode.php',
@@ -3770,11 +3772,11 @@ class ComposerStaticInite05e96764f65b956905507c586b1c858
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInite05e96764f65b956905507c586b1c858::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInite05e96764f65b956905507c586b1c858::$prefixDirsPsr4;
-            $loader->fallbackDirsPsr4 = ComposerStaticInite05e96764f65b956905507c586b1c858::$fallbackDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInite05e96764f65b956905507c586b1c858::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInite05e96764f65b956905507c586b1c858::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit0e2a1c61d40ac6c0e79762b6c7388d79::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit0e2a1c61d40ac6c0e79762b6c7388d79::$prefixDirsPsr4;
+            $loader->fallbackDirsPsr4 = ComposerStaticInit0e2a1c61d40ac6c0e79762b6c7388d79::$fallbackDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit0e2a1c61d40ac6c0e79762b6c7388d79::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit0e2a1c61d40ac6c0e79762b6c7388d79::$classMap;
 
         }, null, ClassLoader::class);
     }

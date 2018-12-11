@@ -20,6 +20,7 @@ Vue.component('page-tree', require('../components/page-tree/PageTree.vue'));
 Vue.component('publish', require('../components/publish/Publish.vue'));
 Vue.component('publish-fields', require('../components/publish/Fields.vue'));
 Vue.component('typeahead', require('../components/typeahead/Typeahead.vue'));
+Vue.component('search-typeahead', require('../components/typeahead/SearchTypeahead.vue'));
 Vue.component('installer', require('../components/installer/installer'));
 Vue.component('updater', require('../components/updater'));
 Vue.component('importer', require('../components/importer/importer'));

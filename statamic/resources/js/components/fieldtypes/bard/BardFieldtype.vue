@@ -514,7 +514,7 @@ export default {
             // Remove buttons that don't pass conditions.
             // eg. only the insert asset button can be shown if a container has been set.
             buttons = buttons.filter(button => {
-                return (button.condition) ? button.condition.call() : true;
+                return (button.condition) ? button.condition.call(null, this.config) : true;
             });
 
             this.buttons = buttons;

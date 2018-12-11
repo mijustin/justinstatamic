@@ -581,7 +581,7 @@ class CollectionTags extends Tags
             $this->collection = $this->collection->supplement('date_group', function ($entry) use ($format, $field) {
                 $date = ($field === 'date')
                         ? $entry->date()
-                        : carbon($entry->get($field));
+                        : carbon($entry->getWithDefaultLocale($field));
 
                 return $date->format($format);
             });

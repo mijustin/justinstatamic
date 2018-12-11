@@ -28,6 +28,11 @@ class PagesDriver extends AbstractDriver
         // The publish state can be located in the yaml. Otherwise, infer it from the path.
         $published = array_get($data, 'published', app(StatusParser::class)->pagePublished($path));
 
+        if ($existing = $this->stache->repo($this->key())->getItem(array_get($data, 'id'))) {
+            $existing->data($data);
+            return $existing;
+        }
+
         return Page::create(URL::buildFromPath($path))
             ->path($path)
             ->with($data)
