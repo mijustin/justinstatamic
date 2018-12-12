@@ -2,8 +2,16 @@ title: 'Justin Jackson conference speaking'
 article_content:
   -
     type: text
+    text: '<blockquote><p>"Justin Jackson gave an extremely entertaining talk about product &amp; marketing for developers." –&nbsp;Luis Colón, attendee</p></blockquote>'
+  -
+    type: image
+    image: /assets/content/laravel-2017-justin-jackson-talk.jpg
+    size: md
+    brutalized: true
+  -
+    type: text
     text: |
-      <blockquote><p>"Justin Jackson gave an extremely entertaining talk about product &amp; marketing for developers." –&nbsp;Luis Colón, attendee</p></blockquote><p>
+      <p>
       
       Looking for an engaging speaker, with a different approach, for your audience?&nbsp;</p>
   -
