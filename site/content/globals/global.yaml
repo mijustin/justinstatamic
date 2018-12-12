@@ -2,6 +2,7 @@ favicon: /assets/brutal/justin-jackson-dots-circle.png
 twitter: mijustin
 site_name: 'Justin Jackson'
 working_on_url: 'https://transistor.fm'
+now: '<p>This year, in {{ now format="Y" }}, I''m building a new podcasting startup with my friend Jon Buda. It''s called&nbsp;<a href="https://transistor.fm/">Transistor.fm</a>. If you need podcast hosting, let me know!</p><p>I also run&nbsp;<a href="https://megamaker.co/">MegaMaker</a>&nbsp;(community for geeks who make stuff). This is what''s paying the bills while I build Transistor! My offerings include&nbsp;<a href="https://devmarketing.xyz/">Marketing for Developers</a>&nbsp;and&nbsp;<a href="https://justinjackson.ca/jolt">Jolt</a>, which have sold 6,000+ copies.</p>'
 fieldset: globals
 title: Global
 id: 5ce8a84f-f016-4493-9248-9c4329d76b30
