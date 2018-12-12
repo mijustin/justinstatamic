@@ -13,7 +13,7 @@ article_content:
     brutalized: true
   -
     type: text
-    text: '<p>&nbsp;Justin Jackson has been speaking professionally since 2001. He regularly speaks at tech conferences on product marketing. His audiences have included Fortune 100&nbsp;CEOs and political leaders, but he prefers speaking to entrepreneurs, product people, developers and designers in technology.</p>'
+    text: '<p>Justin regularly speaks at tech conferences on bootstrapping, product marketing, and growing a software business. His audiences have included Fortune 100 CEOs and political leaders, but he prefers speaking to entrepreneurs, product people, developers and designers.</p>'
   -
     type: html_embed
     embed_code: '<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; -webkit-filter: grayscale(100%); filter: grayscale(100%); } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class=''embed-container''><iframe src=''https://www.youtube.com/embed/OgZhIWquqiw?rel=0'' frameborder=''0'' allowfullscreen></iframe></div>'
@@ -26,7 +26,7 @@ article_content:
   -
     type: text
     text: |
-      <h3>Talk topics include:</h3><ul><li>Marketing and growth for SaaS, software, and digital product companies</li><li>Creative marketing ideas for online businesses</li><li>Amplifying online content to bigger audiences</li><li>Creating and launching digital products</li><li>Building an audience online through blogs, podcasts, and social media</li><li>Product Management, team leadership, and development processes at software companies</li></ul><h3>Justin Jackson's bio:</h3><p>{{ bio }}</p><h3>What's Justin working on now?</h3><p>{{ workingon }}</p><h3>For rates and availability, contact:</h3><ul><li>Email: words@megamaker.co</li><li>Twitter: <a href="http://twitter.com/mijustin">@mijustin</a></li><li>Blog: <a href="http://justinjackson.ca">justinjackson.ca</a></li></ul><h3>Justin Jackson head shots</h3><p><br></p><p>More on events:
+      <h3>Talk topics include:</h3><ul><li>Marketing and growth for SaaS, software, and digital product companies</li><li>Creative marketing ideas for online businesses</li><li>Amplifying online content to bigger audiences</li><li>Creating and launching digital products</li><li>Building an audience online through blogs, podcasts, and social media</li><li>Product Management, team leadership, and development processes at software companies</li></ul><h3>Justin Jackson's bio:</h3><p>{{ bio }}</p><h3>What's Justin working on now?</h3><p>{{ workingon }}</p><h3>For rates and availability, contact:</h3><ul><li>Email: words@megamaker.co</li><li>Twitter: <a href="http://twitter.com/mijustin">@mijustin</a></li><li>Blog: <a href="http://justinjackson.ca">justinjackson.ca</a></li></ul><h3>Justin Jackson head shots</h3><p><a href="https://www.dropbox.com/sh/amhox1q0eb2d4za/AACdn8YIn2t4XoZH1sOZMjmTa?dl=0">View here</a></p><p>More on events:
       
       </p><ul><li><a href="https://justinjackson.ca/microconf/">MicroConf 2017 tips</a></li><li><a href="https://justinjackson.ca/stop-networking/">Stop networking at events</a></li></ul>
 seo:
