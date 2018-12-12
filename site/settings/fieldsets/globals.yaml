@@ -15,6 +15,9 @@ sections:
         display: Twitter
       site_name:
         type: text
-        display: Site Name
+        display: 'Site Name'
+      working_on_url:
+        type: text
+        display: 'Working On URL'
 taxonomies: true
 hide: true
