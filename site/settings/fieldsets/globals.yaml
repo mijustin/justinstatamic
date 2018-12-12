@@ -20,9 +20,6 @@ sections:
         type: text
         display: 'Working On URL'
       bio:
-        type: textarea
-        display: bio
-      bionew:
         buttons:
           - h2
           - h3
@@ -43,6 +40,6 @@ sections:
         semantic_elements: false
         restrict_assets: false
         type: bard
-        display: bionew
+        display: Biography
 taxonomies: true
 hide: true
