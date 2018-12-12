@@ -41,7 +41,7 @@ sections:
         restrict_assets: false
         type: bard
         display: Biography
-      now:
+      workingon:
         buttons:
           - h2
           - h3
@@ -62,6 +62,6 @@ sections:
         semantic_elements: false
         restrict_assets: false
         type: bard
-        display: Now
+        display: 'Currently working on'
 taxonomies: true
 hide: true
