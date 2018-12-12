@@ -21,7 +21,7 @@ article_content:
     brutalized: true
   -
     type: text
-    text: '<p>Justin regularly speaks at tech conferences on bootstrapping, product marketing, and growing a software business. His audiences have included Fortune 100 CEOs and political leaders, but he prefers speaking to entrepreneurs, product people, developers and designers.</p>'
+    text: '<p>Justin regularly speaks at tech conferences on bootstrapping, product marketing, and growing a software business. His audiences have included Fortune 100 CEOs, but he prefers speaking to entrepreneurs, product people, developers and designers.</p>'
   -
     type: html_embed
     embed_code: '<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; -webkit-filter: grayscale(100%); filter: grayscale(100%); } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class=''embed-container''><iframe src=''https://www.youtube.com/embed/OgZhIWquqiw?rel=0'' frameborder=''0'' allowfullscreen></iframe></div>'
