@@ -35,9 +35,9 @@ article_content:
       
       </p><h3>What day and time should I fly in?</h3><p>
       
-      For Starter Edition (May 1 - 3, 2018), arrive early in the day on&nbsp;Tuesday (May 1), and if you can, check out on Friday (May 4).
+      For Starter Edition (March 26-29, 2019), arrive early in the day on&nbsp;Tuesday (March 26), and if you can, check out on Friday (March 29).
       
-      For Growth Edition (April 29 - May 1, 2018), arrive early in the day on Sunday (April 29), and if you can, check out on Wednesday (May 2).
+      For Growth Edition (March 24-26), arrive early in the day on Sunday (March 24), and if you can, check out on Wednesday (March 27).
       
       Many folks will fly in a day before the conference to hang out and tour around Las Vegas. I always regret it when I arrive to conference right when it’s starting.
       
