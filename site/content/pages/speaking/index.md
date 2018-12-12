@@ -1,4 +1,4 @@
-title: Speaking
+title: 'Justin Jackson conference speaking'
 article_content:
   -
     type: text
