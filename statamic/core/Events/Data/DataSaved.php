@@ -20,20 +20,20 @@ class DataSaved extends Event implements DataEvent
     public $original;
 
     /**
-     * @var string
+     * @var array
      */
-    public $oldPath;
+    public $oldPaths = [];
 
     /**
      * @param Data $data
      * @param array $original
-     * @param string|null $ooldPath
+     * @param array $oldPaths
      */
-    public function __construct(Data $data, $original, $oldPath = null)
+    public function __construct(Data $data, $original, $oldPaths = [])
     {
         $this->data = $data;
         $this->original = $original;
-        $this->oldPath = $oldPath;
+        $this->oldPaths = $oldPaths;
     }
 
     /**
@@ -53,14 +53,24 @@ class DataSaved extends Event implements DataEvent
      */
     public function affectedPaths()
     {
+        return collect($this->data->locales())->map(function ($locale) {
+            return $this->data->localizedPath($locale);
+        })->merge($this->oldPaths)->map(function ($path) {
+            return $this->fullPath($path);
+        })->unique()->all();
+    }
+
+    /**
+     * Build full path from relative path.
+     *
+     * @param string $path
+     * @return string
+     */
+    protected function fullPath($path)
+    {
         $disk = isset($this->disk) ? $this->disk : 'content';
         $pathPrefix = File::disk($disk)->filesystem()->getAdapter()->getPathPrefix();
 
-        return collect([$this->oldPath, $this->data->path()])
-            ->filter()
-            ->map(function ($path) use ($pathPrefix) {
-                return $pathPrefix . $path;
-            })
-            ->all();
+        return $pathPrefix . $path;
     }
 }

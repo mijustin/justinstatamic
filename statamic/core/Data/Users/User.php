@@ -130,8 +130,7 @@ class User extends Data implements UserContract, Authenticatable, PermissibleCon
      */
     public function localizedPath($locale)
     {
-        // @todo
-        dd('todo user@localizedpath');
+        return $this->path();
     }
 
     /**

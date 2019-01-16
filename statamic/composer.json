@@ -5,7 +5,7 @@
         "statamic",
         "cms",
         "flat file",
-        "ron swanson"
+        "laravel"
     ],
     "require": {
         "php": ">=5.5.9",
@@ -32,7 +32,8 @@
         "guzzlehttp/guzzle": "^6.3",
         "symfony/yaml": "^3.0",
         "symfony/lock": "^3.4",
-        "nesbot/carbon": "^1.34.0"
+        "nesbot/carbon": "^1.34.0",
+        "statamic/stringy": "^3.1"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

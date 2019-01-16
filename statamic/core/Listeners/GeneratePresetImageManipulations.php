@@ -3,6 +3,7 @@
 namespace Statamic\Listeners;
 
 use Statamic\API\Path;
+use Statamic\API\Config;
 use Statamic\API\Folder;
 use Statamic\Imaging\PresetGenerator;
 use Statamic\Events\Data\AssetUploaded;
@@ -31,6 +32,10 @@ class GeneratePresetImageManipulations implements ShouldQueue
      */
     public function subscribe($events)
     {
+        if (! Config::get('assets.image_manipulation_presets_generate_on_upload')) {
+            return;
+        }
+
         $events->listen(AssetUploaded::class, self::class.'@handle');
         $events->listen(AssetReplaced::class, self::class.'@handle');
     }

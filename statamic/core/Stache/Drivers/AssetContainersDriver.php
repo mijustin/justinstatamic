@@ -55,6 +55,10 @@ class AssetContainersDriver extends AbstractDriver
 
     private function getS3Url($id, $data)
     {
+        if ($url = array_get($data, 'url')) {
+            return $url;
+        }
+
         // Double getAdapter since we're using CachedAdapter for s3.
         $adapter = File::disk("assets:$id")->filesystem()->getAdapter()->getAdapter();
 

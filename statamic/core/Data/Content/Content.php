@@ -220,7 +220,9 @@ abstract class Content extends Data implements ContentContract
         }
 
         // If file was moved, set the old path.
-        $oldPath = $this->path() !== $this->originalPath() ? $this->originalPath() : null;
+        $oldPaths = collect($this->locales())->map(function ($locale) {
+            return $this->originalLocalizedPath($locale);
+        })->all();
 
         // Write files to disk. One for each locale stored in this data.
         $this->writeFiles();
@@ -234,9 +236,9 @@ abstract class Content extends Data implements ContentContract
 
         // Setup event for whoever wants to know about the saved content.
         $eventClass = 'Statamic\Events\Data\\' . ucfirst($this->contentType()) . 'Saved';
-        event(new $eventClass($this, $original, $oldPath));
+        event(new $eventClass($this, $original, $oldPaths));
         event('content.saved', [$this, $original]); // Deprecated! Please listen on ContentSaved event instead!
-        event(new ContentSaved($this, $original, $oldPath));
+        event(new ContentSaved($this, $original, $oldPaths));
 
         return $this;
     }

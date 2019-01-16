@@ -28,7 +28,7 @@ return array(
     'Symfony\\Component\\CssSelector\\' => array($vendorDir . '/symfony/css-selector'),
     'Symfony\\Component\\Console\\' => array($vendorDir . '/symfony/console'),
     'SuperClosure\\' => array($vendorDir . '/jeremeamia/SuperClosure/src'),
-    'Stringy\\' => array($vendorDir . '/danielstjules/stringy/src'),
+    'Stringy\\' => array($vendorDir . '/danielstjules/stringy/src', $vendorDir . '/statamic/stringy/src'),
     'Statamic\\SiteHelpers\\' => array($baseDir . '/../site/helpers'),
     'Statamic\\Addons\\' => array($baseDir . '/bundles', $baseDir . '/../site/addons'),
     'Statamic\\' => array($baseDir . '/core'),

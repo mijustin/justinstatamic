@@ -294,7 +294,12 @@ export default {
                 return html;
             }
 
-            return Array.isArray(value) ? value.join(', ') : value;
+            function htmlEntities(str) {
+                if (!str) return '';
+                return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+            }
+
+            return Array.isArray(value) ? value.map(v => htmlEntities(v)).join(', ') : htmlEntities(value);
         }
     },
 

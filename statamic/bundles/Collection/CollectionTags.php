@@ -434,7 +434,7 @@ class CollectionTags extends Tags
     protected function getSortOrder()
     {
         // If a sort parameter has been explicitly specified, we're done.
-        if ($sort = $this->get('sort')) {
+        if (! is_null($sort = $this->get('sort'))) {
             return $sort;
         }
 
