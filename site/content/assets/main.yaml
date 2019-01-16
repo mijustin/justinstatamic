@@ -62,3 +62,6 @@ assets:
   content/products-that-win.png:
     title: '"Good products don''t always win. Products with distribution win."'
     alt: '"Good products don''t always win. Products with distribution win."'
+  content/comic-creative-fear.png:
+    title: 'Fear of launch comic'
+    alt: 'Fear of launch comic'
