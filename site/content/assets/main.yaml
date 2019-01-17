@@ -71,3 +71,6 @@ assets:
   content/get-outside.jpg:
     title: 'Get outside'
     alt: 'Get outside'
+  content/re-focus-on-your-destination.png:
+    title: 'Where do you want to be? What are 3 things you need to do to get there?'
+    alt: 'Where do you want to be? What are 3 things you need to do to get there?'
