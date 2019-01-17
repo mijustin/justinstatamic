@@ -19,7 +19,7 @@ article_content:
   -
     type: text
     text: |
-      <h3>Best posts</h3><ul><li>
+      <h3>Popular posts</h3><ul><li>
           <a href="http://justinjackson.ca/words.html">This is a webpage</a>&nbsp;– by far the most popular thing I’ve written, it’s been translated into 16 different languages and was featured by <a href="http://www.creativebloq.com/netmag/web-industry-warned-don-t-forget-power-words-6135573">Net Magazine</a>,&nbsp;<a href="http://www.smashingmagazine.com/2013/10/14/strategies-design-marketing-campaigns/">Smashing Magazine</a>, <a href="https://twitter.com/alistapart/status/347778749107945473">A List Apart</a>, <a href="http://uxpodcast.com/50-james-per-begin-with-words/#comment-3004">The UX Podcast</a>, <a href="https://twitter.com/rands/status/347870413164015616">Rands</a>, and <a href="http://t3n.de/news/justin-jackson-vergesst-flat-design-fancy-css-475524/">T3N Magazine</a>.
       </li><li>
           <a href="https://justinjackson.ca/focus-on-your-own-shit/">Focus on your own shit</a> – my most popular piece on Medium.
