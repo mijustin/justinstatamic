@@ -15,7 +15,7 @@ article_content:
     type: image
     image: /assets/content/as_seen_on_b.png
     size: md
-    brutalized: false
+    brutalized: true
   -
     type: text
     text: |
