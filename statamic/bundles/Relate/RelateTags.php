@@ -27,7 +27,7 @@ class RelateTags extends CollectionTags
         return $this->collect($this->get('field'));
     }
 
-    private function collect($var)
+    protected function collect($var)
     {
         $this->collection = collect_content();
 
@@ -62,7 +62,7 @@ class RelateTags extends CollectionTags
         return $this->output();
     }
 
-    private function getRelation($value)
+    protected function getRelation($value)
     {
         if ($value instanceof Term) {
             return $value;

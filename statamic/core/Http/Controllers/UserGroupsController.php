@@ -13,7 +13,7 @@ class UserGroupsController extends CpController
         $this->access('super');
 
         return view('usergroups.index', [
-            'title' => 'Roles'
+            'title' => t('user_groups')
         ]);
     }
 

@@ -103,14 +103,15 @@ class Sender
 
         // Split out the text version and the html versions
         $separator = Config::get('theming.email_separator', '---');
-        $split = preg_split("#".PHP_EOL.$separator.PHP_EOL."#", $raw_template);
-        $text = $split[0];
-        $html = array_get($split, 1);
+        $template = explode($separator, $raw_template);
+        $text = array_get($template, 0);
+        $html = array_get($template, 1);
 
         // Parse the templates
-        $html = Parse::template($html, $this->message->data());
+        $html = Parse::template(trim($html), $this->message->data());
+
         if ($text) {
-            $text = Parse::template($text, $this->message->data());
+            $text = Parse::template(trim($text), $this->message->data());
         }
 
         return [$html, $text];

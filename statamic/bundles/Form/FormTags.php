@@ -13,12 +13,12 @@ class FormTags extends CollectionTags
     /**
      * @var string
      */
-    private $formsetName;
+    protected $formsetName;
 
     /**
      * @var object
      */
-    private $errorBag;
+    protected $errorBag;
 
     /**
      * Maps to {{ form:set }}
@@ -168,7 +168,7 @@ class FormTags extends CollectionTags
      *
      * @return string
      */
-    private function getFormset()
+    protected function getFormset()
     {
         if (! $formset = $this->get(['formset', 'in'], array_get($this->context, 'formset'))) {
             throw new \Exception('A formset is required on Form tags. Please refer to the docs for more information.');
@@ -182,7 +182,7 @@ class FormTags extends CollectionTags
      *
      * @return bool
      */
-    private function hasErrors()
+    protected function hasErrors()
     {
         if (! $formset = $this->getFormset()) {
             return false;
@@ -198,7 +198,7 @@ class FormTags extends CollectionTags
      *
      * @return object
      */
-    private function getErrorBag()
+    protected function getErrorBag()
     {
         if ($this->hasErrors()) {
             return session('errors')->getBag('form.'.$this->formsetName);
@@ -210,7 +210,7 @@ class FormTags extends CollectionTags
      *
      * @return array
      */
-    private function getErrors()
+    protected function getErrors()
     {
         return array_combine($this->errorBag->keys(), $this->getErrorMessages());
     }
@@ -220,7 +220,7 @@ class FormTags extends CollectionTags
      *
      * @return array
      */
-    private function getErrorMessages()
+    protected function getErrorMessages()
     {
         return $this->errorBag->all();
     }
@@ -234,7 +234,7 @@ class FormTags extends CollectionTags
      *
      * @param array $data
      */
-    private function addToDebugBar($data)
+    protected function addToDebugBar($data)
     {
         $debug = [];
         $debug[$this->formsetName] = $data;

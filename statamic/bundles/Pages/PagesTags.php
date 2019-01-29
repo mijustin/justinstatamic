@@ -44,7 +44,7 @@ class PagesTags extends CollectionTags
      *
      * @return \Statamic\Contracts\Data\Pages\Page
      */
-    private function getPage()
+    protected function getPage()
     {
         if ($id = $this->get(['id', 'from_id'])) {
             return Page::find($id);
@@ -106,7 +106,7 @@ class PagesTags extends CollectionTags
     /**
      * Set the collection for a sequence
      */
-    private function collectSequence()
+    protected function collectSequence()
     {
         $from = $this->get(['from', 'folder', 'url'], URL::parent(URL::getCurrent()));
 

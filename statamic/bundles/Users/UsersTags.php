@@ -12,7 +12,7 @@ class UsersTags extends CollectionTags
 {
     public function index()
     {
-        $this->collection = $this->getCollection();
+        $this->collection = $this->getUserCollection();
 
         if ($group = $this->get('group')) {
             $this->filterByGroup($group);
@@ -31,16 +31,16 @@ class UsersTags extends CollectionTags
         return $this->output();
     }
 
-    private function getCollection()
+    protected function getUserCollection()
     {
         if ($this->getBool('taxonomy')) {
-            return $this->getTaxonomyCollection();
+            return $this->getTaxonomyUserCollection();
         }
 
         return collect_content(User::all());
     }
 
-    private function getTaxonomyCollection()
+    protected function getTaxonomyUserCollection()
     {
         $data = Term::whereSlug(
             array_get($this->context, 'page.default_slug'),

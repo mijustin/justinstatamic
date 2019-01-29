@@ -16,7 +16,7 @@ class GetValueTags extends Tags
      */
     public function __call($method, $arguments)
     {
-        $variable = $method;
+        $variable = $this->tag_method;
 
         // Any parameters will be used for filtering the value unless we unset them.
         $filters = $this->parameters;
