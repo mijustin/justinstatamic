@@ -86,3 +86,6 @@ assets:
   content/buffer-revenue-dashboard-baremetrics-crop.png:
     title: 'Baremetrics'' revenue dashboard for Buffer'
     alt: 'Baremetrics'' revenue dashboard for Buffer'
+  content/instagram-user-growth.png:
+    title: 'Instagram''s user growth chart'
+    alt: 'Instagram''s user growth chart'
