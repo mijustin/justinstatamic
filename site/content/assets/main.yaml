@@ -83,3 +83,6 @@ assets:
   content/small-steam-engine-animated.gif:
     title: 'Small steam engine animated gif'
     alt: 'Small steam engine animated gif'
+  content/buffer-revenue-dashboard-baremetrics-crop.png:
+    title: 'Baremetrics'' revenue dashboard for Buffer'
+    alt: 'Baremetrics'' revenue dashboard for Buffer'
