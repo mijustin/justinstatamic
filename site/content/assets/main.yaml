@@ -92,3 +92,6 @@ assets:
   content/baremetrics-riding-big-stripe-wave.png:
     title: 'Baremetrics was like a surfer catching a big wave (Stripe)'
     alt: 'Baremetrics was like a surfer catching a big wave (Stripe)'
+  content/megamaker-revenue.png:
+    title: 'Total membership revenue: $116,740'
+    alt: 'Total membership revenue: $116,740'
