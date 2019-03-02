@@ -95,3 +95,6 @@ assets:
   content/megamaker-revenue.png:
     title: 'Total membership revenue: $116,740'
     alt: 'Total membership revenue: $116,740'
+  content/josh-pigford-projects-tiny.png:
+    title: 'Josh Pigford''s project list'
+    alt: 'Josh Pigford''s project list'
