@@ -101,3 +101,5 @@ assets:
   failed-products-successful-product.jpg:
     title: 'Why startups fail'
     alt: 'Why startups fail'
+  content/chris_hawk_tweet.png:
+    alt: '"Had such a nice interaction w/a barista @Starbucks, I might make this my regular location even though it''s a few miles out of my way."'
