@@ -2,7 +2,7 @@ title: 'About Justin Jackson'
 article_content:
   -
     type: text
-    text: '<p>I''ve been building things with computers since my family got a Commodore VIC-20 in 1983.</p>'
+    text: '<p>I started building things with computers in 1983, when my family got a Commodore VIC-20.</p>'
   -
     type: image
     image: /assets/content/commodore-vic-20-computer-justin-jackson-1986-basic-1024x838.jpg
