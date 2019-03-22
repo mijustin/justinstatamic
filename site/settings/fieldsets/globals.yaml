@@ -63,7 +63,7 @@ sections:
         restrict_assets: false
         type: bard
         display: 'Currently working on'
-      contact-info:
+      contact:
         buttons:
           - h2
           - h3
