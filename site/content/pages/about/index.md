@@ -18,6 +18,6 @@ article_content:
     brutalized: true
   -
     type: text
-    text: '<p>{{ bio }}</p>'
+    text: '<p>{{ bio }}</p><p>{{ contact }}</p>'
 fieldset: article
 id: b53554e9-42bc-4c23-a72d-c29c10c54f4d
