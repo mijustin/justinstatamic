@@ -45,6 +45,10 @@ class UpdateConfiguration
         $this->app = $app;
         $this->filesystem = new Filesystem;
 
+        $app->detectEnvironment(function () {
+            return env('APP_ENV', DEFAULT_ENVIRONMENT);
+        });
+
         $this->env = $this->loadEnvironment();
 
         $this->loadSettings();

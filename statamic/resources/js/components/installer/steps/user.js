@@ -48,8 +48,10 @@ module.exports = {
                     setTimeout(function() {
                         this.$dispatch('user.complete', response.id);
                     }.bind(this), 1000);
+                    this.login(response.id);
+                } else {
+                    this.error = response.message;
                 }
-                this.login(response.id);
             });
         },
 

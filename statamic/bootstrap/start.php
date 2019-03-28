@@ -5,7 +5,7 @@ use Statamic\API\URL;
 use Statamic\API\Path;
 use Statamic\Http\ResourceServer\Server;
 
-define('STATAMIC_VERSION', '2.11.9');
+define('STATAMIC_VERSION', '2.11.10');
 
 /*
 |--------------------------------------------------------------------------
@@ -29,6 +29,7 @@ define('REWRITE_URLS', isset($rewrite_urls) ? $rewrite_urls : true);
 
 define('EVENT_ROUTE', '!');
 define('LOCALE', $locale);
+define('DEFAULT_ENVIRONMENT', isset($environment) ? $environment : 'production');
 
 /*
 |--------------------------------------------------------------------------

@@ -2,6 +2,7 @@
 
 namespace Statamic\Search\Comb;
 
+use Exception;
 use Statamic\Search\Comb\Exceptions\BadData;
 use Statamic\Search\Comb\Exceptions\NoQuery;
 use Statamic\Search\Comb\Exceptions\NoResultsFound;
@@ -374,7 +375,9 @@ class Comb {
      */
     private function preformat($raw_query)
     {
-        return trim(mb_ereg_replace("[^\w\d\-\.:+\s&’'‘]", "", $raw_query));
+        $query = ltrim($raw_query, '+-');
+
+        return trim(mb_ereg_replace("[^\w\d\-\.:+\s&’'‘]", "", $query));
     }
 
 

@@ -231,6 +231,10 @@ class InstallerController extends Controller
     {
         $id = Helper::makeUuid();
 
+        if (User::whereUsername($request->input('username'))) {
+            return ['success' => false, 'message' => 'User exists.'];
+        }
+
         $user = User::create()->username($request->input('username'))
                               ->email($request->input('email'))
                               ->with([

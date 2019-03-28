@@ -3,6 +3,7 @@
 namespace Statamic\Data\Content;
 
 use Carbon\Carbon;
+use Statamic\API\Str;
 use Statamic\API\Config;
 use Statamic\API\File;
 use Statamic\API\Helper;
@@ -461,7 +462,15 @@ abstract class Content extends Data implements ContentContract
         $array = [];
 
         foreach ($fields as $field) {
-            $array[$field] = method_exists($this, $field) ? $this->$field() : $this->getWithDefaultLocale($field);
+            $value = method_exists($this, $camel = Str::camel($field))
+                ? $this->$camel()
+                : $this->getWithDefaultLocale($field);
+
+            if ($value instanceof Carbon) {
+                $value = $value->timestamp;
+            }
+
+            $array[$field] = $value;
         }
 
         return $array;

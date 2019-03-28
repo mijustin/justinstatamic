@@ -3,7 +3,7 @@
 	<table v-if="hasData && !stacked" class="grid-table bordered-table">
 		<thead>
 			<tr>
-				<th v-for="field in config.fields" :style="{ width: gridColWidth(field.width) }">
+				<th v-for="field in visibleFields" :style="{ width: gridColWidth(field.width) }">
 					<div class="flexy">
 						<label class="block fill">
 							<template v-if="field.display">{{ field.display }}</template>
@@ -18,7 +18,7 @@
 		</thead>
 		<tbody>
 			<tr v-for="(rowIndex, row) in data" :class="{excess: isExcessive(rowIndex)}">
-				<td v-for="field in config.fields">
+				<td v-for="field in visibleFields">
 					<div class="{{ field.type }}-fieldtype">
 						<component :is="componentName(field.type)"
 						           :name="name + '.' + rowIndex + '.' + field.name"
@@ -129,6 +129,10 @@ export default {
 
         addRowButton: function() {
             return this.config.add_row || translate_choice('cp.rows', 1);
+        },
+
+        visibleFields: function () {
+            return this.config.fields.filter(field => field.type !== 'hidden');
         }
     },
 

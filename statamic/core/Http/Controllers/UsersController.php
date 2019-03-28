@@ -267,7 +267,7 @@ class UsersController extends CpController
 
         $this->success(t('saved_success'));
 
-        return redirect()->route('users');
+        return back();
     }
 
     /**

@@ -124,7 +124,7 @@ class Taxonomy extends DataFolder implements TaxonomyContract
         $date = null;
 
         foreach ($this->terms() as $taxonomy) {
-            $modified = $taxonomy->getLastModified();
+            $modified = $taxonomy->lastModified();
 
             if ($date) {
                 if ($modified->gt($date)) {
