@@ -1,4 +1,4 @@
-title: Tools
+title: 'Tools for bootstrappers'
 article_content:
   -
     type: text
