@@ -14,7 +14,7 @@ article_content:
       <em>Note:&nbsp;some of these links are affiliate links. This means I'll get a small percentage commission on the sale.</em></p>
 seo:
   title: 'Tools for bootstrappers'
-  description: 'These are all the tools I use for podcasting, email newsletters, blogging, making videos, and selling things online. ⚡️'
+  description: 'These are all the tools I use for SaaS, podcasting, email newsletters, blogging, making videos, and selling things online. ⚡️'
   image: /assets/justin-computer-tools.jpg
 fieldset: article
 id: 4b298bfa-c368-42f6-932d-9ab74fe2e954
