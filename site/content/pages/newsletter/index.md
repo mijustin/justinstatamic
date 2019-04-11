@@ -2,7 +2,7 @@ title: 'Justin Jackson''s newsletter'
 article_content:
   -
     type: text
-    text: '<blockquote><p>“I’m already signed up to Justin’s newsletter, and I love it!”<br>– Nick Beattie</p></blockquote>'
+    text: '<p>Every Saturday morning I send an email to my list. I talk about bootstrapping, making stuff with computers, and earning a living on the internet.</p><blockquote><p>“I’m already signed up to Justin’s newsletter, and I love it!”<br>– Nick Beattie</p></blockquote>'
   -
     type: newsletter
   -
