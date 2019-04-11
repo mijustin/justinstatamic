@@ -15,7 +15,15 @@ article_content:
     brutalized: false
   -
     type: text
-    text: '<p>{{ workingon }}</p><p>{{ bio }}</p>'
+    text: '<p>{{ workingon }}</p>'
+  -
+    type: image
+    image: /assets/content/jon-buda-justin-jackson.jpg
+    size: md
+    brutalized: true
+  -
+    type: text
+    text: '<p>{{ bio }}</p>'
 seo:
   title: 'Justin Jackson''s newsletter'
   description: 'Every Saturday morning I send an email to my list. I talk about bootstrapping, making stuff with computers, and earning a living on the internet.'
