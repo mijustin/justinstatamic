@@ -1,8 +1,8 @@
-title: 'Sign up'
+title: 'Justin Jackson''s newsletter'
 article_content:
   -
     type: text
-    text: '<blockquote>“I’m already signed up to Justin’s newsletter, and I love it!”<br>– Nick Beattie</blockquote>'
+    text: '<blockquote><p>“I’m already signed up to Justin’s newsletter, and I love it!”<br>– Nick Beattie</p></blockquote>'
   -
     type: newsletter
   -
@@ -12,6 +12,7 @@ article_content:
     type: image
     image: /assets/content/as_seen_on_b.png
     size: full
+    brutalized: false
   -
     type: text
     text: '<p>What I’m focused on currently:</p><p>This year, in 2018, I’m building a new podcasting startup with my friend Jon Buda. It’s called Transistor.fm. If you need podcast hosting, let me know!</p><p>I also run MegaMaker (resources for indie entrepreneurs). This is what’s paying the bills while I build Transistor! My offerings include Marketing for Developers and Jolt, which have sold 6,000+ copies.</p>'
