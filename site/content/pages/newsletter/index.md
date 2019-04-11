@@ -15,7 +15,7 @@ article_content:
     brutalized: false
   -
     type: text
-    text: '<p>What I’m focused on currently:</p><p>This year, in 2018, I’m building a new podcasting startup with my friend Jon Buda. It’s called Transistor.fm. If you need podcast hosting, let me know!</p><p>I also run MegaMaker (resources for indie entrepreneurs). This is what’s paying the bills while I build Transistor! My offerings include Marketing for Developers and Jolt, which have sold 6,000+ copies.</p>'
+    text: '<p>{{ workingon }}</p><p>{{ bio }}</p>'
 seo:
   title: 'Justin Jackson''s newsletter'
   description: 'Every Saturday morning I send an email to my list. I talk about bootstrapping, making stuff with computers, and earning a living on the internet.'
