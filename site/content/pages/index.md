@@ -36,6 +36,9 @@ article_content:
     image: /assets/content/justin-jackson-twitter-optimized.jpg
     size: md
     brutalized: false
+seo:
+  description: 'Building software? An app? SaaS? I send a newsletter on Saturday morning with stories, lessons, and tips for building an indie software business.'
+  image: /assets/justin-jackson-tech-conference-speaker.png
 template: home
 fieldset: article
 id: 8ea5e804-f13f-46fc-ac06-f2c82ffcecd9
