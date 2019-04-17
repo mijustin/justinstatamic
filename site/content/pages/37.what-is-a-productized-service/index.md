@@ -8,6 +8,11 @@ article_content:
     image: /assets/content/productized-service-bench-accounting.png
     size: md
     brutalized: false
+  -
+    type: text
+    text: '<p>You sign up for Bench the same way you would for a web app. You pay a monthly subscription. You get a dashboard. What''s different, is behind the scenes, the service is performed by human beings.</p>'
+  -
+    type: newsletter
 seo:
   description: 'A productized service is a service that''s been packaged, sold, and delivered like a software product would be.'
   image: /assets/what-is-a-productized-service.jpg
