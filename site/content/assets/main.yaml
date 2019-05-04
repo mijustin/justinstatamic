@@ -109,3 +109,6 @@ assets:
   content/jtbd-forces-diagram-b-w.jpg:
     title: 'The forces affecting purchasing decisions - Jobs to be Done'
     alt: 'The forces affecting purchasing decisions - Jobs to be Done'
+  content/taylor-otwell-announces-laravel-forge-2014-bw.png:
+    title: 'People react to Laravel Forge for the first time'
+    alt: '"Taylor Otwell announces Laravel Forge. This is BIG!!!"'
