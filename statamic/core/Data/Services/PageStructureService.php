@@ -23,10 +23,11 @@ class PageStructureService extends BaseService
         $base_url,
         $depth = null,
         $include_entries = false,
-        $show_drafts = true,
+        $show_drafts = false,
         $exclude = false,
         $locale = null
-    ) {
+    )
+    {
         $locale = $locale ?: default_locale();
 
         // If a localized URL was requested, we'll get the unlocalized version since that's what's stored in the structure array.
@@ -52,7 +53,7 @@ class PageStructureService extends BaseService
         }
 
         // Make sure we can find the requested URL in the structure
-        if (!$structure->has($base_url)) {
+        if (! $structure->has($base_url)) {
             return [];
         }
 
@@ -70,7 +71,7 @@ class PageStructureService extends BaseService
             }
 
             // Is this under the appropriate parent?
-            if (!Pattern::startsWith(Path::tidy($data['parent'] . '/'), Path::tidy($base_url . '/'))) {
+            if (! Pattern::startsWith(Path::tidy($data['parent'] . '/'), Path::tidy($base_url . '/'))) {
                 continue;
             }
 
@@ -84,7 +85,7 @@ class PageStructureService extends BaseService
             $content->setSupplement('depth', $current_depth);
 
             // Draft?
-            if (!$show_drafts && !$content->published()) {
+            if (! $show_drafts && ! $content->published()) {
                 continue;
             }
 
@@ -100,7 +101,7 @@ class PageStructureService extends BaseService
         }
 
         // Sort by page order key
-        uasort($output, function ($one, $two) {
+        uasort($output, function($one, $two) {
             return Helper::compareValues($one['page']->order(), $two['page']->order());
         });
 
@@ -129,7 +130,7 @@ class PageStructureService extends BaseService
         // (correctly) exists in the page structure, but is missing from the meta
         // data. Rebuilding the cache should fix the issue temporarily. Once we
         // track down the cause for the invalid cache, this can be removed.
-        if (!$page = Page::whereUri($url)) {
+        if (! $page = Page::whereUri($url)) {
             Stache::clear();
             Stache::update();
             $page = Page::whereUri($url);

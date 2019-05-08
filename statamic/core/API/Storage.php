@@ -8,7 +8,7 @@ class Storage
      * Save a key to storage
      *
      * @param string $key   Key to save under
-     * @param mixed  $data  Data to cache
+     * @param mixed  $data  Data to store
      */
     public static function put($key, $data)
     {
@@ -19,7 +19,7 @@ class Storage
      * Save a key to storage as YAML
      *
      * @param string $key   Key to save under
-     * @param mixed  $data  Data to cache
+     * @param mixed  $data  Data to store
      */
     public static function putYAML($key, $data)
     {
@@ -34,7 +34,7 @@ class Storage
      * Save a key to storage as a serialized array
      *
      * @param string $key   Key to save under
-     * @param mixed  $data  Data to cache
+     * @param mixed  $data  Data to store
      */
     public static function putSerialized($key, $data)
     {
@@ -45,7 +45,7 @@ class Storage
      * Save a key to storage as JSON
      *
      * @param string $key   Key to save under
-     * @param mixed  $data  Data to cache
+     * @param mixed  $data  Data to store
      */
     public static function putJSON($key, $data)
     {
@@ -53,7 +53,7 @@ class Storage
     }
 
     /**
-     * Check if a key exists
+     * Check if a key exists in storage
      *
      * @param  string $key Key to check
      * @return bool
@@ -64,6 +64,39 @@ class Storage
     }
 
     /**
+     * Check if a key exists in storage as YAML
+     *
+     * @param  string $key Key to check
+     * @return bool
+     */
+    public static function existsYAML($key)
+    {
+        return self::exists(Str::ensureRight($key, '.yaml'));
+    }
+
+    /**
+     * Check if a key exists in storage as a serialized array
+     *
+     * @param  string $key Key to check
+     * @return bool
+     */
+    public static function existsSerialized($key)
+    {
+        return self::exists(Str::ensureRight($key, '.php'));
+    }
+
+    /**
+     * Check if a key exists in storage as JSON
+     *
+     * @param  string $key Key to check
+     * @return bool
+     */
+    public static function existsJSON($key)
+    {
+        return self::exists(Str::ensureRight($key, '.json'));
+    }
+
+    /**
      * Delete a key from storage
      *
      * @param string $key   Key to delete
@@ -71,6 +104,36 @@ class Storage
     public static function delete($key)
     {
         File::disk('storage')->delete(self::getPath($key));
+    }
+
+    /**
+     * Delete a YAML key from storage
+     *
+     * @param string $key   Key to delete
+     */
+    public static function deleteYAML($key)
+    {
+        self::delete(Str::ensureRight($key, '.yaml'));
+    }
+
+    /**
+     * Delete a serialized array key from storage
+     *
+     * @param string $key   Key to delete
+     */
+    public static function deleteSerialized($key)
+    {
+        self::delete(Str::ensureRight($key, '.php'));
+    }
+
+    /**
+     * Delete a JSON key from storage
+     *
+     * @param string $key   Key to delete
+     */
+    public static function deleteJSON($key)
+    {
+        self::delete(Str::ensureRight($key, '.json'));
     }
 
     /**

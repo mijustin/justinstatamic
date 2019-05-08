@@ -91,7 +91,7 @@ export default {
         return {
             columns: this.$parent.columns,
             reordering: false,
-            sortable: false,
+            sortable: true,
         }
     },
 

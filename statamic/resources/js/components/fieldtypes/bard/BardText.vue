@@ -181,6 +181,8 @@
 
                 const editor = this.editor.el;
 
+                editor.setAttribute('contenteditable', false);
+
                 let firstAdded = false;
 
                 Array.from(editor.children).forEach(child => {
@@ -237,6 +239,7 @@
                 const els = this.editor.el.getElementsByClassName('bard-drop-area');
                 Array.from(els).forEach(el => el.remove());
                 this.text = this.editor.getContent();
+                this.editor.el.setAttribute('contenteditable', true);
             },
             initScribe() {
                 this.editor = new ScribeEditor(this.field);

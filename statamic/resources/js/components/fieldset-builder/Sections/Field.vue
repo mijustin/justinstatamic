@@ -119,7 +119,7 @@ export default {
         return {
             handleModified: false,
             isEditing: false,
-            isShowingGridFields: false,
+            isShowingGridFields: true,
             isShowingSets: true,
             isAddingGridField: false,
             displayFieldWidth: '100%',
@@ -274,6 +274,9 @@ export default {
         updateFieldWidths() {
             this.displayFieldWidth = this.$els.fieldDisplaySizer.offsetWidth + 'px';
             this.nameFieldWidth = this.$els.fieldNameSizer.offsetWidth + 'px';
+
+            if (this.$refs.sets) this.$refs.sets.updateFieldWidths();
+            if (this.$refs.fields) this.$refs.fields.updateFieldWidths();
         },
 
         addReplicatorSet() {

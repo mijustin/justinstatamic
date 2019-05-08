@@ -96,7 +96,9 @@ abstract class DataCollection extends IlluminateCollection
 
         $method = Str::camel($key);
 
-        return (method_exists($item, $method)) ? call_user_func([$item, $method]) : $item->getWithDefaultLocale($key);
+        return (method_exists($item, $method))
+            ? call_user_func([$item, $method])
+            : (method_exists($item, 'getWithDefaultLocale') ? $item->getWithDefaultLocale($key) : $item->get($key));
     }
 
     /**

@@ -91,8 +91,8 @@ class UserTags extends Tags
     {
         $data = [];
 
-        if (session('errors')) {
-            $data = ['errors' => session('errors')->all()];
+        if (session('errors') && session('errors')->userLogin) {
+            $data = ['errors' => session('errors')->userLogin->all()];
         }
 
         $html = $this->formOpen('login');
@@ -119,8 +119,8 @@ class UserTags extends Tags
     {
         $data = [];
 
-        if (session('errors')) {
-            $data = ['errors' => session('errors')->all()];
+        if (session('errors') && session('errors')->userRegister) {
+            $data = ['errors' => session('errors')->userRegister->all()];
         }
 
         $html = $this->formOpen('register');

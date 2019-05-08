@@ -87,6 +87,10 @@ class PagesMode extends AbstractMode
      */
     protected function getPage($page)
     {
+        if (is_array($page)) {
+            $page = reset($page);
+        }
+
         return Str::startsWith($page, '/') ? Page::whereUri($page) : Page::find($page);
     }
 
