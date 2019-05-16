@@ -2,6 +2,7 @@
   "private": true,
   "devDependencies": {
     "gulp": "^3.9.0",
-    "laravel-elixir": "^6.0.0-15"
+    "laravel-elixir": "^6.0.0-15",
+    "tailwindcss": "^1.0.1"
   }
 }
