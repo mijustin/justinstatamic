@@ -130,3 +130,6 @@ assets:
   content/selling-ice-cream-on-a-hot-day.jpg:
     title: 'Selling ice cream at the beach on a hot day'
     alt: 'Selling ice cream at the beach on a hot day'
+  content/an-email-from-jason-fried-37signals.png:
+    title: 'My email to Jason Fried in 2010'
+    alt: 'My email to Jason Fried in 2010'
