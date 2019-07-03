@@ -321,7 +321,10 @@ class AssetsController extends CpController
         $stream = $filesystem->readStream($file);
 
         return response()->stream(function () use ($stream) {
-            fpassthru($stream);
+            while (! feof($stream)) {
+                echo fread($stream, 8192);
+            }
+            fclose($stream);
         }, 200, [
             "Content-Type" => $filesystem->getMimetype($file),
             "Content-Length" => $filesystem->getSize($file),

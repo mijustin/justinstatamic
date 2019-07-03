@@ -12,7 +12,7 @@
         "laravel/framework": "5.1.*",
         "league/flysystem-ziparchive": "^1.0@dev",
         "league/flysystem-aws-s3-v3": "~1.0",
-        "league/glide": "^1.1",
+        "league/glide": "^1.5",
         "league/glide-laravel": "^1.0.0",
         "mustangostang/spyc": "dev-master#dfd9aadc1f5224065d55b42b712c7e99a50a3f4d",
         "laravelcollective/html": "~5.0",

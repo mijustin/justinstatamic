@@ -2,6 +2,7 @@
 namespace Aws\Credentials;
 
 use Aws\Exception\CredentialsException;
+use Aws\Sdk;
 use GuzzleHttp\Promise;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Promise\PromiseInterface;
@@ -14,6 +15,8 @@ class InstanceProfileProvider
 {
     const SERVER_URI = 'http://169.254.169.254/latest/';
     const CRED_PATH = 'meta-data/iam/security-credentials/';
+
+    const ENV_DISABLE = 'AWS_EC2_METADATA_DISABLED';
 
     /** @var string */
     private $profile;
@@ -67,8 +70,21 @@ class InstanceProfileProvider
      */
     private function request($url)
     {
+        $disabled = getenv(self::ENV_DISABLE) ?: false;
+        if (strcasecmp($disabled, 'true') === 0) {
+            throw new CredentialsException(
+                $this->createErrorMessage('EC2 metadata server access disabled')
+            );
+        }
+
         $fn = $this->client;
         $request = new Request('GET', self::SERVER_URI . $url);
+        $userAgent = 'aws-sdk-php/' . Sdk::VERSION;
+        if (defined('HHVM_VERSION')) {
+            $userAgent .= ' HHVM/' . HHVM_VERSION;
+        }
+        $userAgent .= ' ' . \Aws\default_user_agent();
+        $request = $request->withHeader('User-Agent', $userAgent);
 
         return $fn($request, ['timeout' => $this->timeout])
             ->then(function (ResponseInterface $response) {
@@ -77,7 +93,7 @@ class InstanceProfileProvider
                 $reason = $reason['exception'];
                 $msg = $reason->getMessage();
                 throw new CredentialsException(
-                    $this->createErrorMessage($msg, 0, $reason)
+                    $this->createErrorMessage($msg)
                 );
             });
     }

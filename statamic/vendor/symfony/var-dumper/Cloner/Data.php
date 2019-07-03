@@ -22,7 +22,7 @@ class Data
     private $useRefHandles = -1;
 
     /**
-     * @param array $data A array as returned by ClonerInterface::cloneVar()
+     * @param array $data An array as returned by ClonerInterface::cloneVar()
      */
     public function __construct(array $data)
     {
@@ -179,7 +179,7 @@ class Data
                     $item = clone $item;
                     $item->type = $item->class;
                     $item->class = $item->value;
-                    // No break;
+                    // no break
                 case Stub::TYPE_OBJECT:
                 case Stub::TYPE_RESOURCE:
                     $withChildren = $children && $cursor->depth !== $this->maxDepth && $this->maxItemsPerDepth;

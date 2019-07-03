@@ -39,8 +39,8 @@ abstract class AbstractDumper implements DataDumperInterface, DumperInterface
     public function __construct($output = null, $charset = null)
     {
         $this->setCharset($charset ?: ini_get('php.output_encoding') ?: ini_get('default_charset') ?: 'UTF-8');
-        $this->decimalPoint = (string) 0.5;
-        $this->decimalPoint = $this->decimalPoint[1];
+        $this->decimalPoint = localeconv();
+        $this->decimalPoint = $this->decimalPoint['decimal_point'];
         $this->setOutput($output ?: static::$defaultOutput);
         if (!$output && is_string(static::$defaultOutput)) {
             static::$defaultOutput = $this->outputStream;
@@ -114,9 +114,9 @@ abstract class AbstractDumper implements DataDumperInterface, DumperInterface
     /**
      * Sets the indentation pad string.
      *
-     * @param string $pad A string the will be prepended to dumped lines, repeated by nesting level
+     * @param string $pad A string that will be prepended to dumped lines, repeated by nesting level
      *
-     * @return string The indent pad
+     * @return string The previous indent pad
      */
     public function setIndentPad($pad)
     {
@@ -134,6 +134,9 @@ abstract class AbstractDumper implements DataDumperInterface, DumperInterface
      */
     public function dump(Data $data, $output = null)
     {
+        $this->decimalPoint = localeconv();
+        $this->decimalPoint = $this->decimalPoint['decimal_point'];
+
         $exception = null;
         if ($output) {
             $prevOutput = $this->setOutput($output);
@@ -157,7 +160,8 @@ abstract class AbstractDumper implements DataDumperInterface, DumperInterface
     /**
      * Dumps the current line.
      *
-     * @param int $depth The recursive depth in the dumped structure for the line being dumped
+     * @param int $depth The recursive depth in the dumped structure for the line being dumped,
+     *                   or -1 to signal the end-of-dump to the line dumper callable
      */
     protected function dumpLine($depth)
     {

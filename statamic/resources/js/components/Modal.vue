@@ -93,6 +93,7 @@ export default {
     methods: {
         close: function() {
             this.show = false
+            this.$dispatch('modal.close');
         },
         closeIfDismissible: function() {
             if (this.dismissible) {

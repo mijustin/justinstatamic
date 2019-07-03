@@ -195,8 +195,8 @@ class ThemeTags extends Tags
             $url .= '?v=' . File::disk('theme')->lastModified($path);
         }
 
-        if (! $this->getBool('absolute')) {
-            $url = URL::makeRelative($url);
+        if ($this->getBool('absolute')) {
+            $url = URL::makeAbsolute($url);
         }
 
         return $url;

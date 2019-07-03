@@ -20,9 +20,13 @@ class YamlFieldtype extends Fieldtype
         // For example, the `settings` config in the Redactor fieldtype should be an
         // array when being passed into the fieldtype, but should be converted to a
         // string when inside the fieldset builder and we're editing the actual YAML.
-        return ($this->is_config)
-            ? $data
-            : (is_array($data) ? YAML::dump($data) : $data);
+        if ($this->is_config) return $data;
+
+        if (is_array($data)) {
+            return count($data) > 0 ? YAML::dump($data) : '';
+        }
+
+        return $data;
     }
 
     public function process($data)

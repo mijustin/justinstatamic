@@ -13,7 +13,6 @@ namespace Symfony\Component\Lock\Store;
 
 use Symfony\Component\Lock\Exception\InvalidArgumentException;
 use Symfony\Component\Lock\Exception\LockConflictedException;
-use Symfony\Component\Lock\Exception\LockExpiredException;
 use Symfony\Component\Lock\Key;
 use Symfony\Component\Lock\StoreInterface;
 
@@ -24,6 +23,8 @@ use Symfony\Component\Lock\StoreInterface;
  */
 class MemcachedStore implements StoreInterface
 {
+    use ExpiringStoreTrait;
+
     private $memcached;
     private $initialTtl;
     /** @var bool */
@@ -31,7 +32,7 @@ class MemcachedStore implements StoreInterface
 
     public static function isSupported()
     {
-        return extension_loaded('memcached');
+        return \extension_loaded('memcached');
     }
 
     /**
@@ -64,14 +65,12 @@ class MemcachedStore implements StoreInterface
             $this->putOffExpiration($key, $this->initialTtl);
         }
 
-        if ($key->isExpired()) {
-            throw new LockExpiredException(sprintf('Failed to store the "%s" lock.', $key));
-        }
+        $this->checkNotExpired($key);
     }
 
     public function waitAndSave(Key $key)
     {
-        throw new InvalidArgumentException(sprintf('The store "%s" does not supports blocking locks.', get_class($this)));
+        throw new InvalidArgumentException(sprintf('The store "%s" does not supports blocking locks.', \get_class($this)));
     }
 
     /**
@@ -110,9 +109,7 @@ class MemcachedStore implements StoreInterface
             throw new LockConflictedException();
         }
 
-        if ($key->isExpired()) {
-            throw new LockExpiredException(sprintf('Failed to put off the expiration of the "%s" lock within the specified time.', $key));
-        }
+        $this->checkNotExpired($key);
     }
 
     /**
@@ -173,15 +170,15 @@ class MemcachedStore implements StoreInterface
         if ($this->useExtendedReturn) {
             $extendedReturn = $this->memcached->get((string) $key, null, \Memcached::GET_EXTENDED);
             if (\Memcached::GET_ERROR_RETURN_VALUE === $extendedReturn) {
-                return array($extendedReturn, 0.0);
+                return [$extendedReturn, 0.0];
             }
 
-            return array($extendedReturn['value'], $extendedReturn['cas']);
+            return [$extendedReturn['value'], $extendedReturn['cas']];
         }
 
         $cas = 0.0;
         $value = $this->memcached->get((string) $key, null, $cas);
 
-        return array($value, $cas);
+        return [$value, $cas];
     }
 }

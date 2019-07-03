@@ -237,8 +237,8 @@ abstract class Content extends Data implements ContentContract
 
         // Setup event for whoever wants to know about the saved content.
         $eventClass = 'Statamic\Events\Data\\' . ucfirst($this->contentType()) . 'Saved';
-        event(new $eventClass($this, $original, $oldPaths));
         event('content.saved', [$this, $original]); // Deprecated! Please listen on ContentSaved event instead!
+        event(new $eventClass($this, $original, $oldPaths));
         event(new ContentSaved($this, $original, $oldPaths));
 
         return $this;

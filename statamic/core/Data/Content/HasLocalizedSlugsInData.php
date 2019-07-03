@@ -2,6 +2,8 @@
 
 namespace Statamic\Data\Content;
 
+use Statamic\API\Str;
+
 trait HasLocalizedSlugsInData
 {
     /**
@@ -42,6 +44,8 @@ trait HasLocalizedSlugsInData
      */
     protected function setSlug($slug)
     {
+        $slug = Str::slug($slug);
+
         if ($this->isDefaultLocale()) {
             // If this content belongs to the default locale, we want to update
             // the slug property. It is not stored in the front matter.
