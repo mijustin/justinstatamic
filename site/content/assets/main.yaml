@@ -138,3 +138,6 @@ assets:
   justin-as-a-kid.jpg:
     title: 'Justin Jackson as a kid in the 80s'
     alt: 'Justin Jackson as a kid in the 80s'
+  content/delete-your-project-backlog-software-development.png:
+    title: 'Delete your backlog'
+    alt: 'Delete your backlog'
