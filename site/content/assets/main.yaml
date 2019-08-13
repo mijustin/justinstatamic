@@ -147,3 +147,6 @@ assets:
   content/php-is-a-joke.jpg:
     title: 'PHP is a joke'
     alt: 'PHP is a joke'
+  content/laravel-vs-cakephp-codeigniter-zend-yii.png:
+    title: 'Laravel vs other PHP frameworks'
+    alt: 'Laravel vs other PHP frameworks'
