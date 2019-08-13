@@ -153,3 +153,6 @@ assets:
   content/laravel-daily-installs-total-users.png:
     title: 'How many times has Laravel been installed?'
     alt: 'How many times has Laravel been installed?'
+  laracon-line-how-to-build-something-people-want.jpg:
+    title: 'Line up at Laracon'
+    alt: 'Line up at Laracon'
