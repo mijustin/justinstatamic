@@ -150,3 +150,6 @@ assets:
   content/laravel-vs-cakephp-codeigniter-zend-yii.png:
     title: 'Laravel vs other PHP frameworks'
     alt: 'Laravel vs other PHP frameworks'
+  content/laravel-daily-installs-total-users.png:
+    title: 'How many times has Laravel been installed?'
+    alt: 'How many times has Laravel been installed?'
