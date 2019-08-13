@@ -144,3 +144,6 @@ assets:
   content/tumblr-ads-are-terrible.jpg:
     title: 'Tumblr ads are terrible'
     alt: 'Tumblr ads are terrible'
+  content/php-is-a-joke.jpg:
+    title: 'PHP is a joke'
+    alt: 'PHP is a joke'
