@@ -162,3 +162,6 @@ assets:
   content/time.png:
     title: 'Steve Jobs quote on the iPhone'
     alt: '"You know, everybody has a cell phone, but I don’t know one person who likes their cell phone. I want to make a phone that people love."'
+  content/steve-jobs-time-magazine-2011.png:
+    title: 'Steve Jobs - Time Magazine 2011'
+    alt: 'Steve Jobs - Time Magazine 2011'
