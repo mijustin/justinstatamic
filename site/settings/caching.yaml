@@ -1,9 +1,6 @@
 stache_always_update: false
 cache_tags_enabled: true
-static_caching_enabled: true
-static_caching_type: cache
-static_caching_ignore_query_strings: true
-static_caching_invalidation: '{  }'
+static_caching_enabled: false
 stache_lock_enabled: true
 stache_lock_wait_length: 30
 static_caching_lock_hold_length: 0
