@@ -46,7 +46,10 @@ sections:
                   full: 'full width'
               brutalized:
                 type: toggle
-                instructions: CRANK UP THE BRUTALITY?
+                instructions: 'CRANK UP THE BRUTALITY?'
+              clickable_image_url:
+                type: text
+                display: 'Clickable image URL'
           sidebar:
             display: 'Sidebar Callout'
             fields:
