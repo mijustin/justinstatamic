@@ -5,8 +5,7 @@ article_content:
     text: |
       <p>My series on "what it's like to bootstrap these days" have been getting a lot of attention.
       
-      </p><blockquote><p>This is a great series of ideas you’re piecing together.</p><p>
-      — Des Traynor, Intercom,&nbsp;<a href="https://twitter.com/destraynor/status/1043515959292698624?ref_src=twsrc%5Etfw">September 22, 2018</a></p></blockquote><p>
+      </p><blockquote><p><i>"This is a great series of ideas you’re piecing together."</i><br>— Des Traynor, Intercom,&nbsp;<a href="https://twitter.com/destraynor/status/1043515959292698624?ref_src=twsrc%5Etfw">September 22, 2018</a></p></blockquote><p>
       
       
       
