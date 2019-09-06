@@ -168,3 +168,6 @@ assets:
   content/shopify-app-store-revenue.png:
     title: 'How much revenue does a Shopify app make?'
     alt: 'How much revenue does a Shopify app make?'
+  content/25k-in-saas-mrr.png:
+    title: 'Graph: going from $750 to $25,015 in MRR in 13 months'
+    alt: 'Graph: going from $750 to $25,015 in MRR in 13 months'
