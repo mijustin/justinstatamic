@@ -317,15 +317,23 @@ class TaxonomyStache
     }
 
     /**
-     * Remove all localized URIs.
+     * Remove all localized URIs for a given taxonomy
      *
      * (Leaves all URIs from the default locale in as-is)
      *
      * @return void
      */
-    public function clearLocalizedUris()
+    public function clearLocalizedUris($taxonomy)
     {
-        $this->uris = $this->uris->take(1);
+        $this->uris = $this->uris->map(function ($uris, $locale) use ($taxonomy) {
+            if ($locale === Config::getDefaultLocale()) {
+                return $uris;
+            }
+
+            return $uris->filterWithKey(function ($uri, $term) use ($taxonomy) {
+                return !starts_with($term, $taxonomy);
+            });
+        });
     }
 
     /**

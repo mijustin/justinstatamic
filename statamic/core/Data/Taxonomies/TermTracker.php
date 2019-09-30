@@ -88,7 +88,7 @@ class TermTracker
     {
         $terms = [];
 
-        $this->taxonomyStache->clearLocalizedUris();
+        $this->taxonomyStache->clearLocalizedUris($taxonomy->path());
 
         // Collect all the terms that have had their slugs localized.
         foreach ($taxonomy->get('slugs', []) as $locale => $slugs) {

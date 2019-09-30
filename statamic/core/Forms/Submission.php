@@ -42,7 +42,7 @@ class Submission implements SubmissionContract
     public function id($id = null)
     {
         if (is_null($id)) {
-            $id = $this->id ?: microtime(true);
+            $id = $this->id ?: str_replace(',', '.', microtime(true));
         }
 
         return $this->id = $id;

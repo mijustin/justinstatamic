@@ -160,6 +160,13 @@ export default {
         this.$watch('stacked', function() {
             this.initSortable();
         });
+
+        // Initialize sortable when the publish section changes. If the
+        // grid is on the first section when the page is loaded, it
+        // will be hidden, and the initialization gets ignored.
+        this.$root.$on('publish.section.changed', () => {
+            this.$nextTick(() => this.initSortable());
+        });
     },
 
     methods: {
