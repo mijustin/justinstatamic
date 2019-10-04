@@ -176,3 +176,6 @@ assets:
     alt: 'How do you deal with toxic people online?'
   peanuts-tired.jpg:
     alt: 'Peanuts comic - "I''m already tired tomorrow"'
+  content/mrr-growth-gray.gif:
+    title: 'MRR growth rate'
+    alt: 'MRR growth rate'
