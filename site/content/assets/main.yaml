@@ -188,3 +188,6 @@ assets:
   30k-gray.png:
     title: 'Almost at $30k MRR'
     alt: 'Almost at $30k MRR'
+  content/out-of-office-calendar.png:
+    title: 'Out of office on the calendar'
+    alt: 'Out of office on the calendar'
