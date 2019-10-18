@@ -15,8 +15,8 @@ article_content:
   -
     type: newsletter
 seo:
-  title: 'MicroConf 2019 tips and guide'
-  description: 'Going to Las Vegas for MicroConf 2019? Here are my best tips on travel, hotels, taxi, and my guide for getting the most out of this conference for bootstrapped entrepreneurs.'
+  title: 'MicroConf 2020 tips and guide'
+  description: 'Going to Las Vegas for MicroConf 2020? Here are my best tips on travel, hotels, taxi, and my guide for getting the most out of this conference for bootstrapped entrepreneurs.'
   image: /assets/microconf2017-less03.jpg
 fieldset: article
 id: d5a5c312-9abd-4afc-aec7-1c30208c11e5
