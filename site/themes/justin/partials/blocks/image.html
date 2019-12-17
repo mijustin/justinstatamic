@@ -3,7 +3,7 @@
     size
   }} mx-auto texture-light p-1"
 >
-<a {{ if clickable_image_url }}href="{{ clickable_image_url }}"{{ /if }}>
+<a {{ if clickable_image_url }}href="{{ clickable_image_url }}"{{ /if }} style="background:0;">
   {{ if brutalized }}
   <img src="{{ glide:image filter="greyscale" contrast="+70" sharpen="70" }}"
   alt="{{ image | get: alt }}">
