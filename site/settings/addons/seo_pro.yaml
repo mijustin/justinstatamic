@@ -9,7 +9,7 @@ defaults:
   site_name: 'Justin Jackson'
   site_name_position: none
   site_name_separator: '|'
-  description: 'Building software? An app? SaaS? I send a newsletter on Saturday morning with stories, lessons, and tips for building an indie software business in 2018.'
+  description: 'I''m the co-founder of Transistor.fm (podcast hosting and analytics). I write weekly about bootstrapping.'
   image: /assets/content/justin-jackson-canada-2019-bw-40.jpg
   twitter_site: mijustin
   priority: 0.5
