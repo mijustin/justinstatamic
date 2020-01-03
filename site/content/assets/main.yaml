@@ -227,3 +227,6 @@ assets:
   content/new-york-trip-2019.png:
     title: 'My trip to New York, 2019'
     alt: 'My trip to New York, 2019'
+  content/justin-jackson-jon-buda-2019.jpg:
+    title: 'Justin Jackson and Jon Buda in 2019 working on Transistor.fm'
+    alt: 'Justin Jackson and Jon Buda in 2019 working on Transistor.fm'
