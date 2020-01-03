@@ -224,3 +224,6 @@ assets:
   content/wilderness-hiking.jpg:
     title: 'Hiking in the BC mountains'
     alt: 'Hiking in the BC mountains'
+  content/new-york-trip-2019.png:
+    title: 'My trip to New York, 2019'
+    alt: 'My trip to New York, 2019'
