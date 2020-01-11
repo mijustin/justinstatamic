@@ -71,6 +71,13 @@ class SearchTags extends CollectionTags
             $this->collection = $this->collection->localize($this->locale);
 
             $this->filter(false);
+
+        } elseif (! $this->getBool('show_unpublished', false)) {
+            // If data hasn't been supplemented, and we want unpublished items filtered out,
+            // do that here. But, the index must have the "published" value available.
+            $this->collection = $this->collection->reject(function ($item) {
+                return isset($item['published']) && $item['published'] === false;
+            });
         }
 
         $this->limit();

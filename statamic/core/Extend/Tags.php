@@ -226,7 +226,7 @@ abstract class Tags
                 $bits = explode(':', $attr);
                 $param = array_shift($bits);
 
-                $attr_str .= $param . '="' . implode($bits, ': ') . '" ';
+                $attr_str .= $param . '="' . implode(': ', $bits) . '" ';
             }
         }
 

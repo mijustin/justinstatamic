@@ -5,6 +5,7 @@
                 :uuid="page.id"
                 :title="page.title || page.slug"
                 :url="buildUrl(page.slug)"
+                :slug="page.slug"
                 :published="page.published"
                 :edit-url="page.edit_url"
                 :has-entries="page.has_entries"

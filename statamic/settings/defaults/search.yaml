@@ -5,3 +5,4 @@ auto_index: false
 default_index: default
 searchable:
   - title
+  - published

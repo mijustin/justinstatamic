@@ -173,8 +173,8 @@ class Engine implements EngineInterface
             throw $e;
         } catch (\Exception $e) {
             throw $e;
+        } finally {
+            stop_measure($tag_measure);
         }
-
-        stop_measure($tag_measure);
     }
 }

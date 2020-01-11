@@ -145,7 +145,7 @@ class NavTags extends Tags
         // Create crumbs from segments
         $segment_urls = [];
         for ($i = 1; $i <= $segment_count; $i++) {
-            $segment_urls[] = URL::tidy(join($segments, '/'));
+            $segment_urls[] = URL::tidy(join('/', $segments));
             array_pop($segments);
         }
 

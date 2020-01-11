@@ -152,6 +152,16 @@ export default {
 
                     // Let the plugin continue
                     _super($item, container);
+                },
+                isValidTarget: function ($item, container) {
+                    // Prevent an item being dragging into a location where that slug already exists.
+                    // It would be nice if there was some feedback in the UI as you do it, but the
+                    // plugin doesn't seem to support it. We'll call this a workaround.
+                    // https://github.com/statamic/v2-hub/issues/1938
+                    const draggedSlug = $item[0].__vue__.slug;
+                    return !container.items
+                        .map(item => item.__vue__.slug)
+                        .some(slug => slug === draggedSlug);
                 }
             });
         },

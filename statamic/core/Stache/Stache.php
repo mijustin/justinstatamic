@@ -36,11 +36,6 @@ class Stache
     private $keys = [];
 
     /**
-     * @var array|null
-     */
-    protected $config;
-
-    /**
      * @var array
      */
     private $updates = [];
@@ -233,21 +228,6 @@ class Stache
     }
 
     /**
-     * Get or set the config
-     *
-     * @param null|array $config
-     * @return array|null
-     */
-    public function config($config = null)
-    {
-        if (is_null($config)) {
-            return $this->config;
-        }
-
-        $this->config = $config;
-    }
-
-    /**
      * Get all relatable items
      *
      * @return Collection
@@ -367,7 +347,7 @@ class Stache
 
         $config = Config::all();
 
-        return compact('meta', 'config');
+        return md5(json_encode(compact('meta', 'config')));
     }
 
     /**

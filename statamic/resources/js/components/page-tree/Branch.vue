@@ -70,6 +70,7 @@ export default {
         uuid: String,
         title: String,
         url: String,
+        slug: String,
         published: {
             type: Boolean,
             default: true
