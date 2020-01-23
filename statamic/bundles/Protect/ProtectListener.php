@@ -69,7 +69,7 @@ class ProtectListener extends Listener
     {
         $passwords = session()->get('protect.password.passwords', []);
 
-        $key = $this->isSiteWide() ? 'site' : md5($this->getUrl());
+        $key = $this->isSiteWide() ? 'site' : md5(json_encode($this->getScheme()));
 
         $passwords[$key][] = $this->getPassword();
 

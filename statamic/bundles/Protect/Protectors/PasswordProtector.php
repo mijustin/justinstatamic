@@ -45,7 +45,7 @@ class PasswordProtector extends AbstractProtector
 
     protected function getUserPasswords()
     {
-        $key = $this->siteWide ? 'site' : md5($this->url);
+        $key = $this->siteWide ? 'site' : md5(json_encode($this->scheme));
 
         return session()->get("protect.password.passwords.{$key}", []);
     }

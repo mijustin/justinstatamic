@@ -2,6 +2,7 @@
 
 namespace Statamic\Routing;
 
+use Statamic\API\Config;
 use Statamic\API\URL;
 
 class Router
@@ -71,6 +72,11 @@ class Router
             $this->extractWildcardNames($route),
             $matches
         );
+
+        // Sanitize the values
+        $wildcardData = array_map(function ($value) {
+            return htmlspecialchars($value, ENT_QUOTES, Config::get('system.charset', 'UTF-8'), false);
+        }, $wildcardData);
 
         // Merge in any data defined in the route itself
         $data = array_merge($routeData, $wildcardData);
