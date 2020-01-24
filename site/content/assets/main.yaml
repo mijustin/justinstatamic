@@ -236,3 +236,6 @@ assets:
   content/real-deal-skateboard-shop-ad.jpg:
     title: 'Grand opening flyer for our skateboard and snowboard shop – The Real Deal'
     alt: 'Grand opening flyer for our skateboard and snowboard shop – The Real Deal'
+  content/main-entree.jpg:
+    title: 'Main dinner entree'
+    alt: 'Main dinner entree'
