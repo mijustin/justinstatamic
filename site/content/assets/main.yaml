@@ -239,3 +239,6 @@ assets:
   content/main-entree.jpg:
     title: 'Main dinner entree'
     alt: 'Main dinner entree'
+  content/mapping-the-email-value-chain.png:
+    title: 'Mapping the value chain of the email newsletter category'
+    alt: 'Mapping the value chain of the email newsletter category'
