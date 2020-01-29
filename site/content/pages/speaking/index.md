@@ -5,9 +5,9 @@ article_content:
     text: '<blockquote><p>"Justin Jackson gave an extremely entertaining talk about product &amp; marketing for developers." –&nbsp;Luis Colón, attendee</p></blockquote>'
   -
     type: image
-    image: /assets/content/laravel-2017-justin-jackson-talk.jpg
+    image: /assets/content/laracon-2019-justin-jackson-speaking.jpg
     size: md
-    brutalized: true
+    brutalized: false
   -
     type: text
     text: |
@@ -27,7 +27,7 @@ article_content:
     embed_code: '<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; -webkit-filter: grayscale(100%); filter: grayscale(100%); } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class=''embed-container''><iframe src=''https://www.youtube.com/embed/OgZhIWquqiw?rel=0'' frameborder=''0'' allowfullscreen></iframe></div>'
   -
     type: text
-    text: '<h3>Justin Jackson conference talk resume</h3><ul><li>2019, Laracon, New York City</li><li>2019, Podsummit, Calgary</li><li><a href="https://www.flickr.com/photos/ninjaparade/43792024671/in/album-72157699336717324/">2018, Laracon, Chicago</a></li><li><a href="https://youtu.be/F-q3PLqMOoc">2018, MicroConf, Las Vegas</a></li><li><a href="https://www.youtube.com/watch?v=OgZhIWquqiw">2017, Laracon, New York City</a></li><li><a href="https://youtu.be/JGBAyzw0dG8?t=27s">2017, MicroConf, Las Vegas</a></li><li>2016 SumoCon by AppSumo, Austin, Texas</li><li>2016 WordCamp Okanagan, Vernon</li><li>2016 Marketing and&nbsp;Developers Night, Kelowna</li><li>2015 MicroConf, Barcelona, Spain</li><li>2015 MicroConf, Las Vegas</li><li>2014 Design Jam (Mentor)</li><li>2014 Static App Challenge (Judge)</li><li>New Media Expo, 2014 (Podcasting panel)</li><li>2013 Kamloops Startup Weekend (Judge)</li><li>2013 Self Publishing Hangout (Host and panelist)</li><li>2013 Rails Rumble (Judge)</li><li>Okanagan Developers Group ("Why you should build your own digital products")</li></ul><h3>Video sample:</h3>'
+    text: '<h3>Justin Jackson conference talk resume</h3><ul><li><a href="https://justinjackson.ca/laracon">2019, Laracon, New York City</a></li><li><a href="https://www.youtube.com/watch?v=yHWpqov1Rvk">2019, Podsummit, Calgary</a></li><li><a href="https://www.flickr.com/photos/ninjaparade/43792024671/in/album-72157699336717324/">2018, Laracon, Chicago</a></li><li><a href="https://youtu.be/F-q3PLqMOoc">2018, MicroConf, Las Vegas</a></li><li><a href="https://www.youtube.com/watch?v=OgZhIWquqiw">2017, Laracon, New York City</a></li><li><a href="https://youtu.be/JGBAyzw0dG8?t=27s">2017, MicroConf, Las Vegas</a></li><li>2016 SumoCon by AppSumo, Austin, Texas</li><li>2016 WordCamp Okanagan, Vernon</li><li>2016 Marketing and&nbsp;Developers Night, Kelowna</li><li>2015 MicroConf, Barcelona, Spain</li><li>2015 MicroConf, Las Vegas</li><li>2014 Design Jam (Mentor)</li><li>2014 Static App Challenge (Judge)</li><li>New Media Expo, 2014 (Podcasting panel)</li><li>2013 Kamloops Startup Weekend (Judge)</li><li>2013 Self Publishing Hangout (Host and panelist)</li><li>2013 Rails Rumble (Judge)</li><li>Okanagan Developers Group ("Why you should build your own digital products")</li></ul><h3>Video sample:</h3>'
   -
     type: html_embed
     embed_code: '<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; -webkit-filter: grayscale(100%); filter: grayscale(100%); }</style><div class=''embed-container''><iframe src=''https://www.youtube.com/embed/zC-Otz1UQ_o?rel=0'' frameborder=''0'' allowfullscreen></iframe></div>'
