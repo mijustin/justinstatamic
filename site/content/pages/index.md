@@ -5,7 +5,7 @@ article_content:
     text: '<p>Hi, I’m Justin.</p><p>{{ workingon }}</p><p>{{ bio }}</p>'
   -
     type: text
-    text: '<p>Every Saturday morning I send an email to my list. I talk about bootstrapping, making stuff with computers, and earning a living on the internet.</p>'
+    text: '<p>Most Saturday mornings I send an email to my list. I talk about bootstrapping, making stuff with computers, and earning a living on the internet.</p>'
   -
     type: newsletter
   -
