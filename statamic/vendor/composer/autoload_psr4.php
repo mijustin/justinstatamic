@@ -42,6 +42,7 @@ return array(
     'Predis\\' => array($vendorDir . '/predis/predis/src'),
     'PhpParser\\' => array($vendorDir . '/nikic/php-parser/lib/PhpParser'),
     'Monolog\\' => array($vendorDir . '/monolog/monolog/src/Monolog'),
+    'Michelf\\' => array($vendorDir . '/michelf/php-markdown/Michelf'),
     'League\\OAuth1\\' => array($vendorDir . '/league/oauth1-client/src'),
     'League\\Glide\\' => array($vendorDir . '/league/glide/src', $vendorDir . '/league/glide-symfony/src', $vendorDir . '/league/glide-laravel/src'),
     'League\\Flysystem\\ZipArchive\\' => array($vendorDir . '/league/flysystem-ziparchive/src'),

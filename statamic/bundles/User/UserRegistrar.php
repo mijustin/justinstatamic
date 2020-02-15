@@ -100,7 +100,9 @@ class UserRegistrar
         // Ensure the username field is required and alpha_dash. We'll break it into an array and rejoin
         // it so we can avoid duplication if the fieldset already contained required validation.
         $username_rules = $this->appendRule('required', $username_rules);
-        $username_rules = $this->appendRule('alpha_dash', $username_rules);
+        if (Config::get('users.login_type') === 'username') {
+            $username_rules = $this->appendRule('alpha_dash', $username_rules);
+        }
         array_set($fields, 'username.validate', $username_rules);
 
         // If the login type is email, we'll change the "username" field to "email".

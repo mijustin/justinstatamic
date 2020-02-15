@@ -2504,6 +2504,7 @@ return array(
     'Statamic\\Config\\Globals' => $baseDir . '/core/Config/Globals.php',
     'Statamic\\Config\\Roles' => $baseDir . '/core/Config/Roles.php',
     'Statamic\\Config\\Settings' => $baseDir . '/core/Config/Settings.php',
+    'Statamic\\Console\\Application' => $baseDir . '/core/Console/Application.php',
     'Statamic\\Console\\Commands\\AbstractCommand' => $baseDir . '/core/Console/Commands/AbstractCommand.php',
     'Statamic\\Console\\Commands\\Assets\\AssetsFindCommand' => $baseDir . '/core/Console/Commands/Assets/AssetsFindCommand.php',
     'Statamic\\Console\\Commands\\Assets\\AssetsGeneratePresetsCommand' => $baseDir . '/core/Console/Commands/Assets/AssetsGeneratePresetsCommand.php',
