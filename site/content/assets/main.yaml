@@ -251,3 +251,6 @@ assets:
   content/stop-burning-money.jpg:
     title: 'Stop burning your startup''s money'
     alt: 'Stop burning your startup''s money'
+  content/dave-lost-his-job.png:
+    title: 'Dave lost his job.'
+    alt: 'Dave lost his job.'
