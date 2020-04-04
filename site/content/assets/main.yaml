@@ -254,3 +254,6 @@ assets:
   content/dave-lost-his-job.png:
     title: 'Dave lost his job.'
     alt: 'Dave lost his job.'
+  content/covid-usa-unemployment-chart.png:
+    title: 'COVID USA unemployment chart'
+    alt: 'COVID USA unemployment chart'
