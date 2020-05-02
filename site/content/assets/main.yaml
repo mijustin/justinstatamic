@@ -257,3 +257,5 @@ assets:
   content/covid-usa-unemployment-chart.png:
     title: 'COVID USA unemployment chart'
     alt: 'COVID USA unemployment chart'
+  content/the-value-of-a-good-idea.png:
+    alt: 'The value of a good idea'
