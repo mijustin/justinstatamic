@@ -68,6 +68,10 @@ class YAML
             $yaml = $fenced . $content;
         }
 
+        // Prevent any leftover CRs. symfony/yaml has a fix, but only in >4.x
+        // See https://github.com/symfony/symfony/pull/36004
+        $yaml = str_replace("\r", '', $yaml);
+
         return $yaml ?: '';
     }
 
