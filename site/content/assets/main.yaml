@@ -259,3 +259,6 @@ assets:
     alt: 'COVID USA unemployment chart'
   content/the-value-of-a-good-idea.png:
     alt: 'The value of a good idea'
+  content/basecamp-hill-chart-for-ideas-execution.png:
+    title: 'Basecamp Hill Chart'
+    alt: 'Basecamp Hill Chart'
