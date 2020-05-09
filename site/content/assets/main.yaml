@@ -262,3 +262,6 @@ assets:
   content/basecamp-hill-chart-for-ideas-execution.png:
     title: 'Basecamp Hill Chart'
     alt: 'Basecamp Hill Chart'
+  content/ben-tweet.png:
+    title: '"Now I know what Justin was talking about"'
+    alt: '"Now I know what Justin was talking about"'
