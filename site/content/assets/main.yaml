@@ -283,3 +283,6 @@ assets:
   content/update-theme.png:
     title: 'Git workflow for WordPress theme'
     alt: 'Git workflow for WordPress theme'
+  content/peter-suhm-tweet.png:
+    title: '"I wish I''d bought WP Pusher ages ago."'
+    alt: 'My tweet: "I wish I''d bought WP Pusher ages ago."'
