@@ -280,3 +280,6 @@ assets:
   content/get-started.png:
     title: 'Getting started onboarding in WordPress plugin'
     alt: 'Getting started onboarding in WordPress plugin'
+  content/update-theme.png:
+    title: 'Git workflow for WordPress theme'
+    alt: 'Git workflow for WordPress theme'
