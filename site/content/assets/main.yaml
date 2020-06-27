@@ -265,3 +265,6 @@ assets:
   content/ben-tweet.png:
     title: '"Now I know what Justin was talking about"'
     alt: '"Now I know what Justin was talking about"'
+  content/google-search.png:
+    title: 'Finding software to buy with a Google search'
+    alt: 'Finding software to buy with a Google search'
