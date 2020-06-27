@@ -292,3 +292,6 @@ assets:
   content/checkout.png:
     title: 'WordPress plugin checkout screen'
     alt: 'WordPress plugin checkout screen'
+  content/more-likely-to-buy.png:
+    title: 'Tweet: "I''m more likely to buy if there''s PayPal"'
+    alt: 'Tweet: "I''m more likely to buy if there''s PayPal"'
