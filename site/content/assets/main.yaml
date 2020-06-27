@@ -271,3 +271,6 @@ assets:
   content/github-wordpress-plugin.png:
     title: 'Adding a purchasing to-do to Trello'
     alt: 'Adding a purchasing to-do to Trello'
+  content/do-it-live.png:
+    title: 'Updating my WordPress theme manually'
+    alt: 'Updating my WordPress theme manually'
