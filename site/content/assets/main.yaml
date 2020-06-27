@@ -268,3 +268,6 @@ assets:
   content/google-search.png:
     title: 'Finding software to buy with a Google search'
     alt: 'Finding software to buy with a Google search'
+  content/github-wordpress-plugin.png:
+    title: 'Adding a purchasing to-do to Trello'
+    alt: 'Adding a purchasing to-do to Trello'
