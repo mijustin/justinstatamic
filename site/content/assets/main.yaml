@@ -277,3 +277,6 @@ assets:
   content/wp-pusher-homepage.png:
     title: 'WP Pusher landing page'
     alt: 'WP Pusher landing page'
+  content/get-started.png:
+    title: 'Getting started onboarding in WordPress plugin'
+    alt: 'Getting started onboarding in WordPress plugin'
