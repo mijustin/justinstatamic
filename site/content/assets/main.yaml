@@ -286,3 +286,6 @@ assets:
   content/peter-suhm-tweet.png:
     title: '"I wish I''d bought WP Pusher ages ago."'
     alt: 'My tweet: "I wish I''d bought WP Pusher ages ago."'
+  content/buy.png:
+    title: 'Pricing plans for WordPress plugin'
+    alt: 'Pricing plans for WordPress plugin'
