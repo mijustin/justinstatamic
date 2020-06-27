@@ -274,3 +274,6 @@ assets:
   content/do-it-live.png:
     title: 'Updating my WordPress theme manually'
     alt: 'Updating my WordPress theme manually'
+  content/wp-pusher-homepage.png:
+    title: 'WP Pusher landing page'
+    alt: 'WP Pusher landing page'
