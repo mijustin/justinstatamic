@@ -289,3 +289,6 @@ assets:
   content/buy.png:
     title: 'Pricing plans for WordPress plugin'
     alt: 'Pricing plans for WordPress plugin'
+  content/checkout.png:
+    title: 'WordPress plugin checkout screen'
+    alt: 'WordPress plugin checkout screen'
