@@ -295,3 +295,6 @@ assets:
   content/more-likely-to-buy.png:
     title: 'Tweet: "I''m more likely to buy if there''s PayPal"'
     alt: 'Tweet: "I''m more likely to buy if there''s PayPal"'
+  content/business-stress.jpg:
+    title: 'Business stress'
+    alt: 'Business stress'
