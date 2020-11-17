@@ -9,7 +9,7 @@ article_content:
   -
     type: newsletter
 seo:
-  description: 'An honest look at bootstrapping and building a startup in 2019.'
+  description: 'An honest look at bootstrapping and building a business online'
   image: /assets/brutal/glitchy-justin.jpg
 fieldset: article
 id: 59b1cc05-0a97-4fb5-ad53-0a8a6aa0d92a
