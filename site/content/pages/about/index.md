@@ -26,7 +26,15 @@ article_content:
     brutalized: false
   -
     type: text
-    text: '<p>That summer I started doing web design and video production.&nbsp;</p><p>{{ workingon }}</p>'
+    text: '<p>That summer I started doing web design and video production.</p><h2>Post-graduation</h2><p>After graduating, I became a manager with a non-profit. But my desire to run a business continued.</p><p>In my early 20s, I opened a skateboard and snowboard shop with my friend. I''d dreamt about it since I was a teenager. I was passionate about snowboarding, and I''d spent two years working on the manufacturing side. I was looking forward to earning a profit from doing something I loved.</p>'
+  -
+    type: image
+    image: /assets/content/real-deal-skateboard-shop-ad.jpg
+    size: inline
+    brutalized: false
+  -
+    type: text
+    text: '<p>Ultimately, I learned that retail is a hard business, with small margins. We tried to make it work for as long as we could, before closing the shop in 2005.</p><h2>First tech job</h2><p><br></p><p>{{ workingon }}</p>'
   -
     type: image
     image: /assets/content/jon-buda-justin-jackson.jpg
