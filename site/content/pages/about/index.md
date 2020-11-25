@@ -34,7 +34,12 @@ article_content:
     brutalized: false
   -
     type: text
-    text: '<p>Ultimately, I learned that retail is a hard business, with small margins. We tried to make it work for as long as we could, before closing the shop in 2005. (Those lessons ended up inspiring this post: <i><a href="https://justinjackson.ca/margin">Good businesses have margins</a>.)</i></p><h2>First tech job</h2><p>After losing the Real Deal, I was flustered. I had a university education in business, but I still didn''t understand how to build a business that worked.</p><p>Then in 2008, I got a call from a guy named Gregg. He wanted to hire me to work at his tech startup, Mailout Interactive. I learned a lot from all three owners: Gregg, Mike, and Jon. They introduced me to this book by 37signals called&nbsp;<a href="https://basecamp.com/books/getting-real">Getting Real</a>. I read the whole thing in a day.</p><p>I started going to tech conferences. I took a workshop from Mike McDerment, the founder of Freshbooks, called "How to build a Web app from A-Z.” I bought books and online courses.</p><h2>First podcast: Product People</h2><p><br></p><p>{{ workingon }}</p>'
+    text: |
+      <p>Ultimately, I learned that retail is a hard business, with small margins. We tried to make it work for as long as we could, before closing the shop in 2005. (Those lessons ended up inspiring this post: <i><a href="https://justinjackson.ca/margin">Good businesses have margins</a>.)</i></p><h2>First tech job</h2><p>After losing the Real Deal, I was flustered. I had a university education in business, but I still didn't understand how to build a business that worked.</p><p>Then in 2008, I got a call from a guy named Gregg. He wanted to hire me to work at his tech startup, Mailout Interactive. I learned a lot from all three owners: Gregg, Mike, and Jon. They introduced me to this book by 37signals called&nbsp;<a href="https://basecamp.com/books/getting-real">Getting Real</a>. I read the whole thing in a day.</p><p>I started going to tech conferences. I took a workshop from Mike McDerment, the founder of Freshbooks, called "How to build a Web app from A-Z.” I bought books and online courses.</p><h2>First podcast: Product People</h2><p>On Sep 12, 2012, <a href="https://twitter.com/kylefox">@kylefox</a> sent me a DM that changed my life forever.
+      
+      It resulted in me changing my career, earning more money, meeting most of my current friends, growing an audience online, and (ultimately) building <a href="https://twitter.com/TransistorFM">@TransistorFM</a>.
+      
+      Kyle asked if I wanted to start a podcast.</p><p>{{ workingon }}</p>
   -
     type: image
     image: /assets/content/jon-buda-justin-jackson.jpg
