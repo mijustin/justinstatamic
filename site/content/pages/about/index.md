@@ -10,7 +10,23 @@ article_content:
     brutalized: false
   -
     type: text
-    text: '<p>For me, computers opened up a whole new world of creativity and connection. By the time I was a teenager, I was heavily involved in the&nbsp;<a href="http://en.wikipedia.org/wiki/Bulletin_board_system">BBS</a>&nbsp;scene. Bulletin board systems were really the precursor to the web the way we know it today. I was able to connect with people from all around the world.</p><p>The operator of Absolute Future BBS asked me to co-sysop his board when I was 13. This is when I started getting interested in marketing and business. Here''s a line from my diary:</p><blockquote><p>On the BBS, I mostly create artwork as well as some other tasks. With my help, we''ve jumped from 35 users to 236 (in 3 months!).</p></blockquote><p>I posted about our launch on&nbsp;<a href="https://groups.google.com/g/alt.bbs.ads/c/jRqDjtR8CZo?pli=1">Usenet</a>&nbsp;<a href="https://groups.google.com/g/comp.bbs.misc/c/40z321LUsM8">groups</a>, on&nbsp;<a href="http://en.wikipedia.org/wiki/FidoNet">FidoNet</a>, invited people personally on message boards, and did&nbsp;<a href="http://sixteencolors.net/">ANSI</a>&nbsp;artwork for other BBSes in exchange for advertising.</p><p>The BBS scene also showed me how independent developers could create and sell software online. I watched Seth Hamilton release&nbsp;<a href="http://en.wikipedia.org/wiki/RoboBOARD/FX">Roboboard/FX</a>. It was shareware, which you could download for free. But you could unlock additional features by paying for an upgrade (back then, you had to send a check in the mail!).</p><p><br></p><p>{{ workingon }}</p>'
+    text: '<p>For me, computers opened up a whole new world of creativity and connection. By the time I was a teenager, I was heavily involved in the&nbsp;<a href="http://en.wikipedia.org/wiki/Bulletin_board_system">BBS</a>&nbsp;scene. Bulletin board systems were really the precursor to the web the way we know it today. I was able to connect with people from all around the world.</p><p>The operator of Absolute Future BBS asked me to co-sysop his board when I was 13. This is when I started getting interested in marketing and business. Here''s a line from my diary:</p><blockquote><p>On the BBS, I mostly create artwork as well as some other tasks. With my help, we''ve jumped from 35 users to 236 (in 3 months!).</p></blockquote><p>I posted about our launch on&nbsp;<a href="https://groups.google.com/g/alt.bbs.ads/c/jRqDjtR8CZo?pli=1">Usenet</a>&nbsp;<a href="https://groups.google.com/g/comp.bbs.misc/c/40z321LUsM8">groups</a>, on&nbsp;<a href="http://en.wikipedia.org/wiki/FidoNet">FidoNet</a>, invited people personally on message boards, and did&nbsp;<a href="http://sixteencolors.net/">ANSI</a>&nbsp;artwork for other BBSes in exchange for advertising.</p><p>The BBS scene also showed me how independent developers could create and sell software online. I watched Seth Hamilton release&nbsp;<a href="http://en.wikipedia.org/wiki/RoboBOARD/FX">Roboboard/FX</a>. It was shareware, which you could download for free. But you could unlock additional features by paying for an upgrade (back then, you had to send a check in the mail!).</p><h3>In grade 12, I put on a rave in my hometown</h3><p>My buddy, Adrian, and I wanted to bring that big-city rave experience to our little town of 7,000 people.</p><p>It was 1998, and I was 17 years old. By some miracle, I still have the Word and Excel files we used to plan the event. Our budget was $1,232.48:</p>'
+  -
+    type: image
+    image: /assets/content/1998-rave-budget.png
+    size: md
+    brutalized: false
+  -
+    type: text
+    text: '<p>We ended up selling out the event and netted a nice profit ($1,000 I believe).</p><h2>College and a side-business</h2><p>I didn''t want to go to college at all, but my dad convinced me to get my Business Management diploma.</p><p>Initially, I got a job as a bellboy at a local hotel but then decided to quit and start a business. I was able to get a student business loan, and I bought a computer and a video camera. I called my new company Mediahead Productions.&nbsp;</p>'
+  -
+    type: image
+    image: /assets/content/mediahead-productions-business-card.png
+    size: md
+    brutalized: false
+  -
+    type: text
+    text: '<p>That summer I started doing web design and videos production.&nbsp;</p><p>{{ workingon }}</p>'
   -
     type: image
     image: /assets/content/jon-buda-justin-jackson.jpg
