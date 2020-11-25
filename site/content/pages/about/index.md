@@ -26,7 +26,7 @@ article_content:
     brutalized: false
   -
     type: text
-    text: '<p>That summer I started doing web design and videos production.&nbsp;</p><p>{{ workingon }}</p>'
+    text: '<p>That summer I started doing web design and video production.&nbsp;</p><p>{{ workingon }}</p>'
   -
     type: image
     image: /assets/content/jon-buda-justin-jackson.jpg
