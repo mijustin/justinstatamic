@@ -77,7 +77,7 @@ article_content:
     clickable_image_url: 'https://justinjackson.ca/bootstrap'
   -
     type: text
-    text: '<p>{{ bio }}</p><p>{{ contact }}</p>'
+    text: '<p>{{ contact }}<br></p>'
   -
     type: newsletter
 fieldset: article
