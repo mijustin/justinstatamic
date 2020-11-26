@@ -60,7 +60,7 @@ article_content:
       <p>These connections lead me to almost every opportunity that's come my way.</p><p>For example, I interviewed <a href="https://twitter.com/SachaGreif">Sacha Greif</a>, which lead to <a href="https://twitter.com/nathanbarry">Nathan Barry</a>, and then <a href="https://twitter.com/pjrvs">Paul Jarvis</a>. The three of us did an episode together.
       <a href="https://twitter.com/chasewreeves">Chase Reeves</a> listened and reached out.
       
-      One year later, he introduced me to <a href="https://twitter.com/jonbuda">Jon Buda</a>&nbsp;at the XOXO festival.&nbsp;</p><p>And, four years after that, Jon and I started <a href="https://transistor.fm/?via=justin">Transistor.fm</a> together.</p><h2>Current: Transistor.fm</h2>
+      One year later, he introduced me to <a href="https://twitter.com/jonbuda">Jon Buda</a>&nbsp;at the XOXO festival.&nbsp;</p><p>And, four years after that, Jon and I started <a href="https://transistor.fm/?via=justin">Transistor.fm</a> together.</p><h2>Current: Transistor.fm</h2><p>We signed the partnership documents in February of 2018 and officially launched on August 1, 2018.</p>
   -
     type: image
     image: /assets/content/jon-buda-justin-jackson.jpg
@@ -68,7 +68,7 @@ article_content:
     brutalized: true
   -
     type: text
-    text: '<p>I cataloged our whole journey in this <a href="/bootstrap">bootstrapping series</a>.</p>'
+    text: '<p>Today, we serve over 10,000 podcasts of all types. Our customers include indie podcasters, small businesses, and enterprise companies. Current customers include Indie Hackers,&nbsp;<a href="https://rework.fm/">Basecamp</a>, VH1, ProfitWell, Ionic, and Laravel.</p><p>I cataloged our whole journey in this <a href="/bootstrap">bootstrapping series</a>.</p>'
   -
     type: image
     image: /assets/content/2019-transistor-jon-justin-go-full-time-mrr.png
