@@ -30,7 +30,7 @@ article_content:
   -
     type: image
     image: /assets/content/real-deal-skateboard-shop-ad.jpg
-    size: inline
+    size: md
     brutalized: false
   -
     type: text
@@ -41,7 +41,7 @@ article_content:
   -
     type: image
     image: /assets/content/kyle-texting-about-podcast.jpeg
-    size: inline
+    size: md
     brutalized: false
   -
     type: text
