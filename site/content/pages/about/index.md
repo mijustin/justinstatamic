@@ -37,9 +37,30 @@ article_content:
     text: |
       <p>Ultimately, I learned that retail is a hard business, with small margins. We tried to make it work for as long as we could, before closing the shop in 2005. (Those lessons ended up inspiring this post: <i><a href="https://justinjackson.ca/margin">Good businesses have margins</a>.)</i></p><h2>First tech job</h2><p>After losing the Real Deal, I was flustered. I had a university education in business, but I still didn't understand how to build a business that worked.</p><p>Then in 2008, I got a call from a guy named Gregg. He wanted to hire me to work at his tech startup, Mailout Interactive. I learned a lot from all three owners: Gregg, Mike, and Jon. They introduced me to this book by 37signals called&nbsp;<a href="https://basecamp.com/books/getting-real">Getting Real</a>. I read the whole thing in a day.</p><p>I started going to tech conferences. I took a workshop from Mike McDerment, the founder of Freshbooks, called "How to build a Web app from A-Z.” I bought books and online courses.</p><h2>First podcast: Product People</h2><p>On Sep 12, 2012, <a href="https://twitter.com/kylefox">Kyle Fox</a> sent me a DM that changed my life forever.
       
-      It resulted in me changing my career, earning more money, meeting most of my current friends, growing an audience online, and (ultimately) building <a href="https://twitter.com/TransistorFM">@TransistorFM</a>.
+      It resulted in me changing my career, earning more money, meeting most of my current friends, growing an audience online, and (ultimately) building <a href="https://transistor.fm/?via=justin">Transistor.fm</a>.&nbsp;</p><p>&nbsp;Kyle asked if I wanted to start a podcast.</p><p>Initially, we thought it'd be a podcast about Product Management (we were both PMs at the time). But, it quickly became clear that we were both interested in building and launching our own products.</p>
+  -
+    type: image
+    image: /assets/content/kyle-texting-about-podcast.jpeg
+    size: inline
+    brutalized: false
+  -
+    type: text
+    text: |
+      <p>Podcasting opened up my world.
       
-      Kyle asked if I wanted to start a podcast.</p><p><br></p><p>{{ workingon }}</p>
+      Through the show, I was able to connect with the most incredible people. Many of these people became my friends.&nbsp;</p>
+  -
+    type: image
+    image: /assets/content/podcast-guests.png
+    size: inline
+    brutalized: false
+  -
+    type: text
+    text: |
+      <p>These connections lead me to almost every opportunity that's come my way.</p><p>For example: I interviewed <a href="https://twitter.com/SachaGreif">Sacha Greif</a>, which lead to <a href="https://twitter.com/nathanbarry">Nathan Barry</a>, and then <a href="https://twitter.com/pjrvs">Paul Jarvis</a>. The 3 of us did an episode together.
+      <a href="https://twitter.com/chasewreeves">Chase Reeves</a> listened and reached out.
+      
+      One year later, he introduced me to <a href="https://twitter.com/jonbuda">Jon Buda</a>&nbsp;at the XOXO festival.&nbsp;</p><p>And, four years after that, Jon and I started <a href="https://transistor.fm/?via=justin">Transistor.fm</a> together.</p><p>{{ workingon }}</p>
   -
     type: image
     image: /assets/content/jon-buda-justin-jackson.jpg
