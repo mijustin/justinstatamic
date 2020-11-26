@@ -57,7 +57,7 @@ article_content:
   -
     type: text
     text: |
-      <p>These connections lead me to almost every opportunity that's come my way.</p><p>For example: I interviewed <a href="https://twitter.com/SachaGreif">Sacha Greif</a>, which lead to <a href="https://twitter.com/nathanbarry">Nathan Barry</a>, and then <a href="https://twitter.com/pjrvs">Paul Jarvis</a>. The 3 of us did an episode together.
+      <p>These connections lead me to almost every opportunity that's come my way.</p><p>For example, I interviewed <a href="https://twitter.com/SachaGreif">Sacha Greif</a>, which lead to <a href="https://twitter.com/nathanbarry">Nathan Barry</a>, and then <a href="https://twitter.com/pjrvs">Paul Jarvis</a>. The three of us did an episode together.
       <a href="https://twitter.com/chasewreeves">Chase Reeves</a> listened and reached out.
       
       One year later, he introduced me to <a href="https://twitter.com/jonbuda">Jon Buda</a>&nbsp;at the XOXO festival.&nbsp;</p><p>And, four years after that, Jon and I started <a href="https://transistor.fm/?via=justin">Transistor.fm</a> together.</p>
@@ -66,6 +66,15 @@ article_content:
     image: /assets/content/jon-buda-justin-jackson.jpg
     size: md
     brutalized: true
+  -
+    type: text
+    text: '<p>I cataloged our whole journey in this <a href="/bootstrap">bootstrapping series</a>.</p>'
+  -
+    type: image
+    image: /assets/content/2019-transistor-jon-justin-go-full-time-mrr.png
+    size: inline
+    brutalized: false
+    clickable_image_url: 'https://justinjackson.ca/bootstrap'
   -
     type: text
     text: '<p>{{ bio }}</p><p>{{ contact }}</p>'
