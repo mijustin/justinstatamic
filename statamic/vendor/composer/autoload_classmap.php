@@ -2970,6 +2970,7 @@ return array(
     'Statamic\\StaticCaching\\Invalidator' => $baseDir . '/core/StaticCaching/Invalidator.php',
     'Statamic\\StaticCaching\\Middleware\\Cache' => $baseDir . '/core/StaticCaching/Middleware/Cache.php',
     'Statamic\\StaticCaching\\Middleware\\Retrieve' => $baseDir . '/core/StaticCaching/Middleware/Retrieve.php',
+    'Statamic\\StaticCaching\\NullCacher' => $baseDir . '/core/StaticCaching/NullCacher.php',
     'Statamic\\StaticCaching\\ServiceProvider' => $baseDir . '/core/StaticCaching/ServiceProvider.php',
     'Statamic\\StaticCaching\\Writer' => $baseDir . '/core/StaticCaching/Writer.php',
     'Statamic\\Testing\\Doubles\\EventFake' => $baseDir . '/core/Testing/Doubles/EventFake.php',

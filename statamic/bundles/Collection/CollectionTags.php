@@ -277,6 +277,10 @@ class CollectionTags extends Tags
 
     protected function getAllTaxonomyCollection($taxonomy, $slugs, $collection)
     {
+        if (is_array($slugs)) {
+            $slugs = collect($slugs);
+        }
+
         return $this
             ->getEntryCollection($collection)
             ->filter(function ($entry) use ($taxonomy, $slugs) {

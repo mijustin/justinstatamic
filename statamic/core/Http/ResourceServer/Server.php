@@ -175,7 +175,7 @@ class Server
      */
     private function serve404Response()
     {
-        if (! $this->filesystem->exists($this->path) || $this->filesystem->isDirectory($this->path)) {
+        if ($this->path !== realpath($this->path) || ! $this->filesystem->exists($this->path) || $this->filesystem->isDirectory($this->path)) {
             Headers::set('HTTP/1.0 404 Not Found');
             die('Resource not found');
         }

@@ -42,6 +42,11 @@ class ClearStaticCommand extends Command
      */
     public function fire()
     {
+        if ($this->cacher instanceof NullCacher) {
+            $this->error('Static caching is disabled.');
+            return;
+        }
+
         $this->cacher->flush();
 
         $this->info('Your static page cache is now so very, very empty.');

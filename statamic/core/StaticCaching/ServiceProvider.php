@@ -27,6 +27,10 @@ class ServiceProvider extends LaravelServiceProvider
             $cache = app(Repository::class);
             $config = $this->getStaticCachingConfig();
 
+            if ($config['enabled'] === false) {
+                return new NullCacher;
+            }
+
             return ($config['type'] === 'file')
                 ? new FileCacher(new Writer, $cache, $config)
                 : new ApplicationCacher($cache, $config);
@@ -59,6 +63,10 @@ class ServiceProvider extends LaravelServiceProvider
 
         $config['base_url'] = $this->app['request']->root();
         $config['locale'] = site_locale();
+
+        if ($config['enabled'] && $config['type'] === 'file' && empty($config['file_path'])) {
+            throw new \Exception('static_caching_file_path cannot be empty.');
+        }
 
         return $config;
     }
