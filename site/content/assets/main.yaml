@@ -323,3 +323,6 @@ assets:
   content/the-beach-2020.jpg:
     title: 'Okanagan Lake and Kalamalka Lake, 2020'
     alt: 'Okanagan Lake and Kalamalka Lake, 2020'
+  content/rev-per-unit.png:
+    title: 'Revenue per stream/download on iTunes vs Spotify'
+    alt: 'You earn way more for a download on iTunes than a stream on Spotify'
