@@ -326,3 +326,6 @@ assets:
   content/rev-per-unit.png:
     title: 'Revenue per stream/download on iTunes vs Spotify'
     alt: 'You earn way more for a download on iTunes than a stream on Spotify'
+  content/monthly-sales-needed.png:
+    title: 'Sales / plays per month required for $2,500 in revenue'
+    alt: 'You''ll need nearly 800,000 sales on Spotify, vs 3,623 on iTunes'
