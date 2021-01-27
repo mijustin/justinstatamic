@@ -329,3 +329,6 @@ assets:
   content/monthly-sales-needed.png:
     title: 'Sales / plays per month required for $2,500 in revenue'
     alt: 'You''ll need nearly 800,000 sales on Spotify, vs 3,623 on iTunes'
+  content/monthly-podcast-listening-stats.png:
+    title: '2020 Monthly Podcast Listening Stats'
+    alt: '2020 Monthly Podcast Listening Stats'
