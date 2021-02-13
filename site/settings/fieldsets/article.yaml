@@ -26,6 +26,8 @@ sections:
           - h3
           - h4
           - quote
+          - strikethrough
+          - code
         sets:
           image:
             display: 'Single Image'
@@ -82,4 +84,13 @@ sections:
                 restrict_assets: false
                 type: bard
                 display: Text
+        style: sans
+        spellcheck: true
+        allow_source: true
+        allow_internal_links: true
+        link_noopener: false
+        link_noreferrer: false
+        target_blank: false
+        semantic_elements: false
+        restrict_assets: false
 taxonomies: true
