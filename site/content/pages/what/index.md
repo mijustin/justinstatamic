@@ -18,6 +18,7 @@ article_content:
       You might also know me from one of my podcasts (<a href="http://productpeople.tv">Product People</a>, <a href="http://megamaker.co">MegaMaker</a>) or something I've written (<a href="http://justinjackson.ca/words.html">This is a web page</a>, <a href="https://justinjackson.ca/focus-on-your-own-shit/">Focus on your own sh*t</a>, and <a href="https://sprint.ly/blog/your-developers-arent-slow/">Your developers aren't slow</a>).
       </p>
 seo:
+  title: 'A list of Justin Jackson''s projects'
   description: 'Today, I''m the co-founder of a podcast hosting platform called Transistor.fm. Jon Buda and I started working on it together in early 2018. Since then, it''s grow into a small, calm, and profitable company.'
   image: /assets/content/laracon-2019-justin-jackson-speaking.jpg
 fieldset: article
