@@ -1,4 +1,4 @@
-title: 'What has Justin made?'
+title: 'A list of Justin Jackson''s projects'
 article_content:
   -
     type: text
