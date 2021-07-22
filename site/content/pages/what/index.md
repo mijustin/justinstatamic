@@ -2,8 +2,16 @@ title: 'What has Justin made?'
 article_content:
   -
     type: text
+    text: '<p>Today, I''m the co-founder of a podcast hosting platform called <a href="https://transistor.fm/?via=justin">Transistor.fm</a>. Jon Buda and I started working on it together in early 2018. Since then, it''s grow into a small, calm, and profitable company. We told our story on <a href="https://saas.transistor.fm">our podcast</a>.</p>'
+  -
+    type: image
+    image: /assets/content/2019-transistor-jon-justin-go-full-time-mrr.png
+    size: md
+    brutalized: false
+  -
+    type: text
     text: |
-      <p>Today, I'm the co-founder of a podcast hosting platform called <a href="https://transistor.fm/?via=justin">Transistor.fm</a>. Jon Buda and I started working on it together in early 2018. Since then, it's grow into a small, calm, and profitable company. We told our story on <a href="https://saas.transistor.fm">our podcast</a>.</p><p>Previously, I was the Product Manager at two startups: Mailout.com and Sprint.ly.
+      <p>Previously, I was the Product Manager at two startups: Mailout.com and Sprint.ly.
       
       In January, 2016, I became a full-time indie entrepreneur when I released <a href="https://devmarketing.xyz">Marketing for Developers</a>. Here are a few of the things I've launched (or helped launch):
       
