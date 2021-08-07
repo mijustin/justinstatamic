@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="UTF-8"?><feed
+  xmlns="http://www.w3.org/2005/Atom"
+  xmlns:thr="http://purl.org/syndication/thread/1.0"
+  xml:lang="en-US"
+  xml:base="https://justinjackson.ca/wp-atom.php"
+  xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"  >
+	<title type="text">Justin Jackson</title>
+	<subtitle type="text">Make better stuff</subtitle>
+
+	<updated>2018-08-14T22:29:14Z</updated>
+
+	<link rel="alternate" type="text/html" href="https://justinjackson.ca" />
+	<id>https://justinjackson.ca/feed/atom/</id>
+	<link rel="self" type="application/atom+xml" href="https://justinjackson.ca/feed/atom/" />
+
+	<generator uri="https://wordpress.org/" version="4.9.8">WordPress</generator>
+<icon>https://i0.wp.com/justinjackson.ca/contents/data/2017/07/cropped-justin-jackson-halftone.png?fit=32%2C32&ssl=1</icon>
+	<entry>
+		<author>
+			<name>Justin</name>
+					</author>
+		<title type="html"><![CDATA[Bootstrapper&#8217;s paradox]]></title>
+		<link rel="alternate" type="text/html" href="https://justinjackson.ca/bootstrap-reality/" />
+		<id>https://justinjackson.ca/</id>
+		<updated>2018-07-28T22:51:08Z</updated>
+		<published>2018-07-24T04:09:22Z</published>
+		<category scheme="https://justinjackson.ca" term="General" />		<summary type="html"><![CDATA[<p>In 2013, I interviewed Jason Calacanis, the angel investor. I asked him: &#8220;Why do venture capital investors take these big risks with their money?&#8221; He replied: There&#8217;s a lot of money in the world. There are trillions of dollars just sitting around, and people are bored. The money is bored! Money wants to burn! Money [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://justinjackson.ca/bootstrap-reality/">Bootstrapper&#8217;s paradox</a> appeared first on <a rel="nofollow" href="https://justinjackson.ca">Justin Jackson</a>.</p>
+]]></summary>
+		<content type="html" xml:base="https://justinjackson.ca/bootstrap-reality/"><![CDATA[<p>In 2013, I <a href="http://www.productpeople.tv/episodes/ep33-jason-calacanis-of-inside-com-talks-about-bootstrapping-vs-funding">interviewed Jason Calacanis</a>, the angel investor.</p>
+<p>I asked him: &#8220;Why do venture capital investors take these big risks with their money?&#8221;</p>
+<p>He replied:</p>
+<blockquote><p>There&#8217;s a lot of money in the world. There are trillions of dollars just sitting around, and people are bored. The money is bored! Money wants to burn! Money does not want to sit in a safe.</p></blockquote>
+<p>What an interesting idea: &#8220;the money is bored.&#8221;</p>
+<p>Jon Buda and I are bootstrapping <a href="https://transistor.fm">Transistor.fm</a> and <a href="https://spots.fm">Spots.fm</a>. We&#8217;ve invested our own money into both of these projects.</p>
+<p>When you&#8217;re self-funding a startup, your money is the opposite of bored. Your money is stressed.</p>
+<p>You&#8217;re caught between these two realities: you&#8217;re investing real time and money into the product, but the product isn&#8217;t yet giving you anything back.</p>
+<h3>SaaS launch example</h3>
+<p>We&#8217;re launching Transistor.fm on August 1st.</p>
+<p>Currently, we have 51 early access customers and $781 in MRR.</p>
+<p>Let&#8217;s say that after we launch we double MRR to $1,500.</p>
+<p>To get to $21,000 in MRR (enough for Jon and me to focus on Transistor full-time), it will take five years (assuming 10.0% exponential growth and 5.0% churn).</p>
+<p><img data-attachment-id="1836" data-permalink="https://justinjackson.ca/bootstrap-reality/mrr-revenue-forecast-calculator/" data-orig-file="https://i2.wp.com/justinjackson.ca/contents/data/2018/07/mrr-revenue-forecast-calculator.png?fit=1668%2C926&amp;ssl=1" data-orig-size="1668,926" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="MRR Revenue Forecast Calculator" data-image-description="" data-medium-file="https://i2.wp.com/justinjackson.ca/contents/data/2018/07/mrr-revenue-forecast-calculator.png?fit=500%2C278&amp;ssl=1" data-large-file="https://i2.wp.com/justinjackson.ca/contents/data/2018/07/mrr-revenue-forecast-calculator.png?fit=600%2C333&amp;ssl=1" class="alignleft size-full wp-image-1836" src="https://i2.wp.com/justinjackson.ca/contents/data/2018/07/mrr-revenue-forecast-calculator.png?resize=600%2C333&#038;ssl=1" alt="MRR Revenue Forecast Calculator" width="600" height="333" srcset="https://i2.wp.com/justinjackson.ca/contents/data/2018/07/mrr-revenue-forecast-calculator.png?w=1668&amp;ssl=1 1668w, https://i2.wp.com/justinjackson.ca/contents/data/2018/07/mrr-revenue-forecast-calculator.png?resize=500%2C278&amp;ssl=1 500w, https://i2.wp.com/justinjackson.ca/contents/data/2018/07/mrr-revenue-forecast-calculator.png?resize=768%2C426&amp;ssl=1 768w, https://i2.wp.com/justinjackson.ca/contents/data/2018/07/mrr-revenue-forecast-calculator.png?resize=1024%2C568&amp;ssl=1 1024w, https://i2.wp.com/justinjackson.ca/contents/data/2018/07/mrr-revenue-forecast-calculator.png?w=1200&amp;ssl=1 1200w" sizes="(max-width: 600px) 100vw, 600px" data-recalc-dims="1" /></p>
+<p>Five years. 60 months. That&#8217;s a long time to wait for a paycheque. Once Transistor hits $20,000 a month, that&#8217;s dependable, recurring revenue. With that kind of MRR, Transistor also becomes a valuable, saleable asset.</p>
+<p>But at the beginning, before the product has proven itself, it&#8217;s all a big risk.</p>
+<p>It&#8217;s easy to see why bootstrapped founders get stressed. It&#8217;s easy to see why many experience burnout and have to quit.</p>
+<p>Bootstrappers who are building something new have to walk this fine line:</p>
+<ul>
+<li>We need to invest a considerable amount of effort to launch our product.</li>
+<li>But we also need money to live, and it can be years before a SaaS can support you full-time.</li>
+</ul>
+<h3>Basecamp&#8217;s bootstrapping model</h3>
+<p>All of this has me thinking about <a href="https://basecamp.com/">Basecamp</a>.</p>
+<p>What Jason Fried and DHH achieved is what most bootstrappers aspire for. Heck, most of us would be happy for even a fraction of their success.</p>
+<p>Basecamp has long been the example of how you can self-fund a product, bring it to market, grow it, and have it succeed.</p>
+<p>But the story we&#8217;ve been telling ourselves about Basecamp and bootstrapping isn&#8217;t quite right.</p>
+<p>In 2006 David and Jason did something many of us have ignored.</p>
+<p>They took investment!</p>
+<p>I recently read <a href="https://www.startups.co/articles/build-a-kick-ass-startup?ref=quuu&amp;utm_source=quuu">this interview</a> with DHH on Startup.co. The interviewer asked:</p>
+<blockquote><p>As you&#8217;ve built Basecamp you&#8217;ve been very vocal about resisting the temptation of unicorn culture. How have your perspectives changed?</p></blockquote>
+<p>David&#8217;s answer is interesting:</p>
+<blockquote><p>It wasn&#8217;t without temptation or struggle to stay like this. Especially in the early years, before our bombastic views on venture capital, the IPO rat-race, and other ills of funding were known. We had, I think, close to 50 different VCs get in contact.</p>
+<p>Ironically, part of what did give us the confidence to turn down that whole world was a small sale of equity to Jeff Bezos. That gave our personal bank accounts just enough ballast that the big numbers touted by VCs and acquisition hunters lost their lure.</p></blockquote>
+<p>37signals, the poster child of the bootstrapped world, took investment two years after they launched the product.</p>
+<p>That Bezos money didn&#8217;t go into the company. It went into their personal bank accounts.</p>
+<p>It was insurance money.</p>
+<p>Jason and David were able to hedge their bets. That Bezos investment removed a lot of the stress and risk that comes from bootstrapping a product.</p>
+<p>Bootstrappers have created a religion out of building something from scratch and self-funding the entire thing.</p>
+<p>But what if that ideology leads to burnout? Or bankruptcy? Or not being able to go the distance?</p>
+<p>Here&#8217;s David again:</p>
+<blockquote><p>&#8220;<em>I really wish that more founders who are on to something could find ways to diversify their accounts just enough to dare go the distance.&#8221;</em></p></blockquote>
+<p>It&#8217;s something we need to think about.</p>
+<hr />
+<p><em>You can also listen to this article as a podcast here:</em></p>
+<p><iframe src='https://share.transistor.fm/e/8140d13d' width='100%' height='180' frameborder='0' scrolling='no' seamless='true'></iframe></p>
+<p>The post <a rel="nofollow" href="https://justinjackson.ca/bootstrap-reality/">Bootstrapper&#8217;s paradox</a> appeared first on <a rel="nofollow" href="https://justinjackson.ca">Justin Jackson</a>.</p>
+]]></content>
+			<link rel="replies" type="text/html" href="https://justinjackson.ca/bootstrap-reality/#comments" thr:count="1"/>
+		<link rel="replies" type="application/atom+xml" href="https://justinjackson.ca/bootstrap-reality/feed/atom/" thr:count="1"/>
+		<thr:total>1</thr:total>
+		</entry>
+		<entry>
+		<author>
+			<name>Justin</name>
+					</author>
+		<title type="html"><![CDATA[Your business isn&#8217;t about finding a great idea]]></title>
+		<link rel="alternate" type="text/html" href="https://justinjackson.ca/who/" />
+		<id>https://justinjackson.ca/</id>
+		<updated>2018-07-21T07:54:43Z</updated>
+		<published>2018-07-21T07:20:12Z</published>
+		<category scheme="https://justinjackson.ca" term="General" />		<summary type="html"><![CDATA[<p>My friend Adam Wathan and I had a good chat on his podcast. Here&#8217;s a bit of our conversation. Justin Jackson: Tell me about this thing you said on Twitter: &#8220;Racking my brain for ideas is always unproductive, stressful, and makes me feel terrible.&#8221; Adam Wathan: Yeah, so I work for myself, and I can kind [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://justinjackson.ca/who/">Your business isn&#8217;t about finding a great idea</a> appeared first on <a rel="nofollow" href="https://justinjackson.ca">Justin Jackson</a>.</p>
+]]></summary>
+		<content type="html" xml:base="https://justinjackson.ca/who/"><![CDATA[<p><em>My friend Adam Wathan and I had a good chat on <a href="http://www.fullstackradio.com/93">his podcast</a>. Here&#8217;s a bit of our conversation.</em></p>
+<h4><a href="http://twitter.com/mijustin"><img data-attachment-id="1831" data-permalink="https://justinjackson.ca/who/justin-tiny/" data-orig-file="https://i2.wp.com/justinjackson.ca/contents/data/2018/07/justin-tiny.png?fit=32%2C32&amp;ssl=1" data-orig-size="32,32" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="justin-tiny" data-image-description="" data-medium-file="https://i2.wp.com/justinjackson.ca/contents/data/2018/07/justin-tiny.png?fit=32%2C32&amp;ssl=1" data-large-file="https://i2.wp.com/justinjackson.ca/contents/data/2018/07/justin-tiny.png?fit=32%2C32&amp;ssl=1" class="alignleft size-full wp-image-1831" src="https://i2.wp.com/justinjackson.ca/contents/data/2018/07/justin-tiny.png?resize=32%2C32&#038;ssl=1" alt="" width="32" height="32" data-recalc-dims="1" /></a> Justin Jackson:</h4>
+<p>Tell me about this thing you said on <a href="https://twitter.com/adamwathan/status/1015979729013227520">Twitter</a>:</p>
+<blockquote><p>&#8220;Racking my brain for ideas is always unproductive, stressful, and makes me feel terrible.&#8221;</p></blockquote>
+<h4><a href="http://twitter.com/adamwathan"><img data-attachment-id="1832" data-permalink="https://justinjackson.ca/who/adam-tiny/" data-orig-file="https://i1.wp.com/justinjackson.ca/contents/data/2018/07/adam-tiny.png?fit=32%2C32&amp;ssl=1" data-orig-size="32,32" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="adam-tiny" data-image-description="" data-medium-file="https://i1.wp.com/justinjackson.ca/contents/data/2018/07/adam-tiny.png?fit=32%2C32&amp;ssl=1" data-large-file="https://i1.wp.com/justinjackson.ca/contents/data/2018/07/adam-tiny.png?fit=32%2C32&amp;ssl=1" class="alignleft size-full wp-image-1832" src="https://i1.wp.com/justinjackson.ca/contents/data/2018/07/adam-tiny.png?resize=32%2C32&#038;ssl=1" alt="" width="32" height="32" data-recalc-dims="1" /></a> Adam Wathan:</h4>
+<p>Yeah, so I work for myself, and I can kind of spend my time doing whatever I want to do as long as it pays off down the road. I&#8217;ve done a bunch of different stuff:</p>
+<ul>
+<li>I wrote the &#8220;Refactoring to collections&#8221; book</li>
+<li>I did the Test-Driven Laravel course</li>
+<li>Most recently I did like the &#8220;Advanced Vue.js&#8221; course.</li>
+<li>I have a podcast and I have sponsors for that.</li>
+<li>I have a CSS framework call Tailwind that earns a little bit of money from ads.</li>
+</ul>
+<p>But in general, all that stuff felt like scattered ideas. I always have to know what my next project is while I&#8217;m working on the current project. I&#8217;m just hoping that I&#8217;ll have an idea to put after the next one. It feels like I&#8217;m building the bridge as I&#8217;m like walking across it.</p>
+<p>And in the back of my head, I&#8217;m always trying to figure out: &#8220;What do I actually want to be doing long-term?&#8221; Because all these things feel like temporary little projects.</p>
+<p>For example, the Vue.js course: I took maybe eight weeks of actual work. (Obviously, I had to learn the ideas and everything for years before that). But the actual work of deciding to build it, putting up a landing page, and recording the videos, that was an eight-week project.</p>
+<p>A lot of my projects feel like that. They&#8217;re these temporary things that I get an influx of income from.</p>
+<p>So I&#8217;m always trying to figure out: &#8220;what do I actually want to be?&#8221;</p>
+<p>The dream for me has always been to make some sort of SaaS or something, right? I want to be able to sit down, work on features for a product, put it out there, get users, and be able to just focus on one thing and grow it for many years. I feel like I&#8217;m always chasing that.</p>
+<p>Sometimes I get into a little bit of a funk. It&#8217;s usually a few weeks after I finish a project, and before I&#8217;ve started on the next one, where I don&#8217;t have a focus.</p>
+<p>When I&#8217;m working on a course or a book, it feels like I have this purpose. I&#8217;m like: &#8220;Okay. This is the thing that I&#8217;m doing. This is what&#8217;s occupying my mind,&#8221; and I can just hustle on that.</p>
+<p>But when it&#8217;s done I get back into this mode where I&#8217;m thinking: &#8220;Okay, so what&#8217;s next? What am I gonna be working on long-term?&#8221; and it just gets me in the spot where go down this hole:</p>
+<p>&#8220;Okay, I want to make a SaaS. What sort of SaaS could I make?&#8221;</p>
+<p>&#8220;What sort of scratch-my-itch problems do I have?&#8221;</p>
+<p>&#8220;Can I just imagine an idea?&#8221;</p>
+<p>A lot of developers have probably felt the same thing, where you&#8217;re trying to brainstorm and force yourself to come up with some innovative thing that&#8217;s going to be a successful business.</p>
+<p>Of course, it&#8217;s never going to be that easy. You&#8217;re never going to be able to just sit and like force your brain to invent some amazing idea, you know?</p>
+<p>It&#8217;s hard because I feel like I have to keep thinking about it to try and figure it out. But at the same time, I know there&#8217;s no way I&#8217;m going to come up with something trying to invent some idea. It can be really disheartening.</p>
+<p>So I don&#8217;t know. What do you think about this?</p>
+<h4><a href="http://twitter.com/mijustin"><img data-attachment-id="1831" data-permalink="https://justinjackson.ca/who/justin-tiny/" data-orig-file="https://i2.wp.com/justinjackson.ca/contents/data/2018/07/justin-tiny.png?fit=32%2C32&amp;ssl=1" data-orig-size="32,32" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="justin-tiny" data-image-description="" data-medium-file="https://i2.wp.com/justinjackson.ca/contents/data/2018/07/justin-tiny.png?fit=32%2C32&amp;ssl=1" data-large-file="https://i2.wp.com/justinjackson.ca/contents/data/2018/07/justin-tiny.png?fit=32%2C32&amp;ssl=1" class="alignleft size-full wp-image-1831" src="https://i2.wp.com/justinjackson.ca/contents/data/2018/07/justin-tiny.png?resize=32%2C32&#038;ssl=1" alt="" width="32" height="32" data-recalc-dims="1" /></a> Justin Jackson:</h4>
+<p>I mean there&#8217;s so much in there. First of all, I can identify with that pressure. There&#8217;s a big presssure to figure out: &#8220;what is my life&#8217;s work?&#8221;</p>
+<h4><a href="http://twitter.com/adamwathan"><img data-attachment-id="1832" data-permalink="https://justinjackson.ca/who/adam-tiny/" data-orig-file="https://i1.wp.com/justinjackson.ca/contents/data/2018/07/adam-tiny.png?fit=32%2C32&amp;ssl=1" data-orig-size="32,32" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="adam-tiny" data-image-description="" data-medium-file="https://i1.wp.com/justinjackson.ca/contents/data/2018/07/adam-tiny.png?fit=32%2C32&amp;ssl=1" data-large-file="https://i1.wp.com/justinjackson.ca/contents/data/2018/07/adam-tiny.png?fit=32%2C32&amp;ssl=1" class="alignleft size-full wp-image-1832" src="https://i1.wp.com/justinjackson.ca/contents/data/2018/07/adam-tiny.png?resize=32%2C32&#038;ssl=1" alt="" width="32" height="32" data-recalc-dims="1" /></a> Adam Wathan:</h4>
+<p>Yeah, exactly.</p>
+<h4><a href="http://twitter.com/mijustin"><img data-attachment-id="1831" data-permalink="https://justinjackson.ca/who/justin-tiny/" data-orig-file="https://i2.wp.com/justinjackson.ca/contents/data/2018/07/justin-tiny.png?fit=32%2C32&amp;ssl=1" data-orig-size="32,32" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="justin-tiny" data-image-description="" data-medium-file="https://i2.wp.com/justinjackson.ca/contents/data/2018/07/justin-tiny.png?fit=32%2C32&amp;ssl=1" data-large-file="https://i2.wp.com/justinjackson.ca/contents/data/2018/07/justin-tiny.png?fit=32%2C32&amp;ssl=1" class="alignleft size-full wp-image-1831" src="https://i2.wp.com/justinjackson.ca/contents/data/2018/07/justin-tiny.png?resize=32%2C32&#038;ssl=1" alt="" width="32" height="32" data-recalc-dims="1" /></a> Justin Jackson:</h4>
+<p>There&#8217;s this question: &#8220;Is that what I&#8217;ll be known for? Is it enough?&#8221;</p>
+<p>In some ways, I liked it better when 37signals had a bunch of ongoing projects because it was easy to say: &#8220;Cool, they&#8217;ve got a bunch of projects; I&#8217;ve got a bunch of projects.&#8221;</p>
+<p>But then they doubled-down on Basecamp. They said, &#8220;this is our best idea. This is our life&#8217;s work.&#8221;</p>
+<p>That creates this pressure for us because those guys are our heroes. Their move to focus on Basecamp made me panic a bit: &#8220;Dang. Ok, what&#8217;s my best idea? What&#8217;s my life&#8217;s work going to be?&#8221;</p>
+<p>That kind of pressure is terrible for creativity. We lock ourselves in a closet and say, &#8220;Okay, I&#8217;m not getting out of this closet until I&#8217;ve got a good idea.&#8221;</p>
+<h4><a href="http://twitter.com/adamwathan"><img data-attachment-id="1832" data-permalink="https://justinjackson.ca/who/adam-tiny/" data-orig-file="https://i1.wp.com/justinjackson.ca/contents/data/2018/07/adam-tiny.png?fit=32%2C32&amp;ssl=1" data-orig-size="32,32" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="adam-tiny" data-image-description="" data-medium-file="https://i1.wp.com/justinjackson.ca/contents/data/2018/07/adam-tiny.png?fit=32%2C32&amp;ssl=1" data-large-file="https://i1.wp.com/justinjackson.ca/contents/data/2018/07/adam-tiny.png?fit=32%2C32&amp;ssl=1" class="alignleft size-full wp-image-1832" src="https://i1.wp.com/justinjackson.ca/contents/data/2018/07/adam-tiny.png?resize=32%2C32&#038;ssl=1" alt="" width="32" height="32" data-recalc-dims="1" /></a> Adam Wathan:</h4>
+<p>It&#8217;s so true though, man.</p>
+<p>Like I&#8217;m sure people listening to this right now are laughing; they know that feeling.</p>
+<h4><a href="http://twitter.com/mijustin"><img data-attachment-id="1831" data-permalink="https://justinjackson.ca/who/justin-tiny/" data-orig-file="https://i2.wp.com/justinjackson.ca/contents/data/2018/07/justin-tiny.png?fit=32%2C32&amp;ssl=1" data-orig-size="32,32" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="justin-tiny" data-image-description="" data-medium-file="https://i2.wp.com/justinjackson.ca/contents/data/2018/07/justin-tiny.png?fit=32%2C32&amp;ssl=1" data-large-file="https://i2.wp.com/justinjackson.ca/contents/data/2018/07/justin-tiny.png?fit=32%2C32&amp;ssl=1" class="alignleft size-full wp-image-1831" src="https://i2.wp.com/justinjackson.ca/contents/data/2018/07/justin-tiny.png?resize=32%2C32&#038;ssl=1" alt="" width="32" height="32" data-recalc-dims="1" /></a> Justin Jackson:</h4>
+<p>It&#8217;s so dumb though. How many good ideas are created in that &#8220;locked in the closet&#8221; scenario? Very few. It just doesn&#8217;t work that way.</p>
+<p>As an aside, it&#8217;s interesting for me to be looking at this as your friend. Because from the outside, you&#8217;re clearly good at what you do (helping developers).</p>
+<p>When you&#8217;re dealing with this stuff personally, you can&#8217;t see the forest through the trees. It&#8217;s hard to get a sense of the bigger picture. But the people who are around you can see clearly. When you&#8217;re in the forest, and all you can see is the trees, you need folks who can help you zoom out and look at the big picture.</p>
+<p>It sounds like Derek Sivers&#8217; book, &#8220;Anything You Want,&#8221; was kind of your sage, helping you zoom out, hey?</p>
+<h4><a href="http://twitter.com/adamwathan"><img data-attachment-id="1832" data-permalink="https://justinjackson.ca/who/adam-tiny/" data-orig-file="https://i1.wp.com/justinjackson.ca/contents/data/2018/07/adam-tiny.png?fit=32%2C32&amp;ssl=1" data-orig-size="32,32" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="adam-tiny" data-image-description="" data-medium-file="https://i1.wp.com/justinjackson.ca/contents/data/2018/07/adam-tiny.png?fit=32%2C32&amp;ssl=1" data-large-file="https://i1.wp.com/justinjackson.ca/contents/data/2018/07/adam-tiny.png?fit=32%2C32&amp;ssl=1" class="alignleft size-full wp-image-1832" src="https://i1.wp.com/justinjackson.ca/contents/data/2018/07/adam-tiny.png?resize=32%2C32&#038;ssl=1" alt="" width="32" height="32" data-recalc-dims="1" /></a> Adam Wathan:</h4>
+<p>Yeah, I can talk about that a little bit. So the book, &#8220;Anything You Want,&#8221; is Derek Sivers&#8217; story and lessons learned from running CD Baby. It all the philosophies he took away from that experience.</p>
+<h4><a href="http://twitter.com/mijustin"><img data-attachment-id="1831" data-permalink="https://justinjackson.ca/who/justin-tiny/" data-orig-file="https://i2.wp.com/justinjackson.ca/contents/data/2018/07/justin-tiny.png?fit=32%2C32&amp;ssl=1" data-orig-size="32,32" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="justin-tiny" data-image-description="" data-medium-file="https://i2.wp.com/justinjackson.ca/contents/data/2018/07/justin-tiny.png?fit=32%2C32&amp;ssl=1" data-large-file="https://i2.wp.com/justinjackson.ca/contents/data/2018/07/justin-tiny.png?fit=32%2C32&amp;ssl=1" class="alignleft size-full wp-image-1831" src="https://i2.wp.com/justinjackson.ca/contents/data/2018/07/justin-tiny.png?resize=32%2C32&#038;ssl=1" alt="" width="32" height="32" data-recalc-dims="1" /></a> Justin Jackson:</h4>
+<p>For you young folks: the &#8220;CD&#8221; in &#8220;CD Baby&#8221; stands for &#8220;compact disc.&#8221;</p>
+<h4><a href="http://twitter.com/adamwathan"><img data-attachment-id="1832" data-permalink="https://justinjackson.ca/who/adam-tiny/" data-orig-file="https://i1.wp.com/justinjackson.ca/contents/data/2018/07/adam-tiny.png?fit=32%2C32&amp;ssl=1" data-orig-size="32,32" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="adam-tiny" data-image-description="" data-medium-file="https://i1.wp.com/justinjackson.ca/contents/data/2018/07/adam-tiny.png?fit=32%2C32&amp;ssl=1" data-large-file="https://i1.wp.com/justinjackson.ca/contents/data/2018/07/adam-tiny.png?fit=32%2C32&amp;ssl=1" class="alignleft size-full wp-image-1832" src="https://i1.wp.com/justinjackson.ca/contents/data/2018/07/adam-tiny.png?resize=32%2C32&#038;ssl=1" alt="" width="32" height="32" data-recalc-dims="1" /></a> Adam Wathan:</h4>
+<p>Exactly. Haha, so anyways, I&#8217;ve read this book multiple times. It&#8217;s one of those books, where every time I read it there&#8217;s a different message in it for me, depending on where I&#8217;m at with what I&#8217;m doing.</p>
+<p>This time, I had this realization: Derek, at his core, he&#8217;s a musician right? That&#8217;s where CD Baby came from. He&#8217;s a musician. He wanted to sell his CDs online, and he just figured out a way to do it. His friends wanted him to do it for them too. And the next thing you know, he has this successful business that he didn&#8217;t plan on.</p>
+<p>What&#8217;s interesting is he didn&#8217;t go into this problem as a software developer. He didn&#8217;t want to start a software company or a CD warehousing company.</p>
+<p>He&#8217;s a musician and his buddies are musicians and he had musician problems and wanted to make being a musician better. Starting CD Baby was the way he ended up doing that.</p>
+<p>That was my main takeaway: his business was really just helping musicians. That&#8217;s what the mission was. It wasn&#8217;t about any idea. It came from him saying: &#8220;I care about helping musicians be better.&#8221;</p>
+<p>Something about that really flipped my perspective.</p>
+<p>Like I kind of mentioned, all the stuff I do kind of feels scattered. I have a bunch of educational products right? Then I have some open source stuff that I want to pursue. I also do some live-streaming stuff. And they&#8217;ve all felt like these isolated projects. They&#8217;re not pushing in one obvious direction.</p>
+<p>What this book made me realize this time is that I was thinking too much about the category, instead of the job I was trying to solve by creating things in that category. It made me realize I don&#8217;t have to be in the business of creating education products. I don&#8217;t have to exist in that category. I have to think: &#8220;why am I making these courses?&#8221; I&#8217;m making them because I want to help software developers have more fun at their jobs, write code that they&#8217;re happy with, and build better stuff, faster.</p>
+<p>When I flip that around and look at it from that lens, then it removes any guilt that I had about building something that wasn&#8217;t a video course. For example, my framework is totally solving that same problem for those same people. And it&#8217;s in a totally different category than any sort of educational thing.</p>
+<h4><a href="http://twitter.com/mijustin"><img data-attachment-id="1831" data-permalink="https://justinjackson.ca/who/justin-tiny/" data-orig-file="https://i2.wp.com/justinjackson.ca/contents/data/2018/07/justin-tiny.png?fit=32%2C32&amp;ssl=1" data-orig-size="32,32" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="justin-tiny" data-image-description="" data-medium-file="https://i2.wp.com/justinjackson.ca/contents/data/2018/07/justin-tiny.png?fit=32%2C32&amp;ssl=1" data-large-file="https://i2.wp.com/justinjackson.ca/contents/data/2018/07/justin-tiny.png?fit=32%2C32&amp;ssl=1" class="alignleft size-full wp-image-1831" src="https://i2.wp.com/justinjackson.ca/contents/data/2018/07/justin-tiny.png?resize=32%2C32&#038;ssl=1" alt="" width="32" height="32" data-recalc-dims="1" /></a> Justin Jackson:</h4>
+<p>Yeah. I&#8217;ve talked about this a lot: &#8220;don&#8217;t start with an idea start with people.&#8221; You told me you remember me saying that stuff, but that this time around there was a new insight.</p>
+<h4><a href="http://twitter.com/adamwathan"><img data-attachment-id="1832" data-permalink="https://justinjackson.ca/who/adam-tiny/" data-orig-file="https://i1.wp.com/justinjackson.ca/contents/data/2018/07/adam-tiny.png?fit=32%2C32&amp;ssl=1" data-orig-size="32,32" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="adam-tiny" data-image-description="" data-medium-file="https://i1.wp.com/justinjackson.ca/contents/data/2018/07/adam-tiny.png?fit=32%2C32&amp;ssl=1" data-large-file="https://i1.wp.com/justinjackson.ca/contents/data/2018/07/adam-tiny.png?fit=32%2C32&amp;ssl=1" class="alignleft size-full wp-image-1832" src="https://i1.wp.com/justinjackson.ca/contents/data/2018/07/adam-tiny.png?resize=32%2C32&#038;ssl=1" alt="" width="32" height="32" data-recalc-dims="1" /></a> Adam Wathan:</h4>
+<p>It&#8217;s hard to explain. Yes, I&#8217;ve heard you talk about it before and it&#8217;s obviously great advice, but I think I took it as: &#8220;you don&#8217;t want to build something for people who can&#8217;t sustain your business. You don&#8217;t want to make like hobbyist software for hobbyist photographers who don&#8217;t actually have revenue.&#8221;</p>
+<p>So I&#8217;ve always looked at that advice from a cold, clinical perspective: &#8220;make sure the market you&#8217;re choosing as money.&#8221;</p>
+<p>This new insight is that my business isn&#8217;t about &#8220;the idea.&#8221; My business is helping whatever group of people I decide to help make progress with whatever their problems are. And doing that can take the form of just about anything as long as I&#8217;m still focused on the same group.</p>
+<h4><a href="http://twitter.com/mijustin"><img data-attachment-id="1831" data-permalink="https://justinjackson.ca/who/justin-tiny/" data-orig-file="https://i2.wp.com/justinjackson.ca/contents/data/2018/07/justin-tiny.png?fit=32%2C32&amp;ssl=1" data-orig-size="32,32" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="justin-tiny" data-image-description="" data-medium-file="https://i2.wp.com/justinjackson.ca/contents/data/2018/07/justin-tiny.png?fit=32%2C32&amp;ssl=1" data-large-file="https://i2.wp.com/justinjackson.ca/contents/data/2018/07/justin-tiny.png?fit=32%2C32&amp;ssl=1" class="alignleft size-full wp-image-1831" src="https://i2.wp.com/justinjackson.ca/contents/data/2018/07/justin-tiny.png?resize=32%2C32&#038;ssl=1" alt="" width="32" height="32" data-recalc-dims="1" /></a> Justin Jackson:</h4>
+<p>There&#8217;s a lot to unpack with this idea of &#8220;choosing your market first.&#8221;</p>
+<p>Yes, you want to choose a market that pays for things and is easy to reach.</p>
+<p>But you also want &#8220;founder-market fit.&#8221;</p>
+<p>Product-market fit is a good market and a product that satisfies that market. But founder-market is about finding a market that you really want to help.</p>
+<p>It&#8217;s incredibly motivating to wake up every day and go: &#8220;Okay, who am I trying to serve?&#8221;</p>
+<p>If you&#8217;re building something, and you like who you&#8217;re building it for, it&#8217;s energizing. You&#8217;re going to have a much better time. That energy will sustain you on the days where you&#8217;re not feeling particularly creative.</p>
+<p>I have this old tweet that people got angry about:</p>
+<blockquote class="twitter-tweet" data-width="550" data-dnt="true">
+<p lang="en" dir="ltr">Don&#39;t fall in love with the problem.</p>
+<p>Fall in love with the people you want to serve.</p>
+<p>Then, help make their lives better.</p>
+<p>&mdash; Justin Jackson (@mijustin) <a href="https://twitter.com/mijustin/status/864706720366448640?ref_src=twsrc%5Etfw">May 17, 2017</a></p></blockquote>
+<p><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p>I think it&#8217;s true though.</p>
+<p>Let&#8217;s say something bad happens with your CSS framework, Tailwind. Maybe something new comes along that&#8217;s even better and everyone&#8217;s just&#8230;</p>
+<h4><a href="http://twitter.com/adamwathan"><img data-attachment-id="1832" data-permalink="https://justinjackson.ca/who/adam-tiny/" data-orig-file="https://i1.wp.com/justinjackson.ca/contents/data/2018/07/adam-tiny.png?fit=32%2C32&amp;ssl=1" data-orig-size="32,32" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="adam-tiny" data-image-description="" data-medium-file="https://i1.wp.com/justinjackson.ca/contents/data/2018/07/adam-tiny.png?fit=32%2C32&amp;ssl=1" data-large-file="https://i1.wp.com/justinjackson.ca/contents/data/2018/07/adam-tiny.png?fit=32%2C32&amp;ssl=1" class="alignleft size-full wp-image-1832" src="https://i1.wp.com/justinjackson.ca/contents/data/2018/07/adam-tiny.png?resize=32%2C32&#038;ssl=1" alt="" width="32" height="32" data-recalc-dims="1" /></a> Adam Wathan:</h4>
+<p>That&#8217;s happening actually, in some ways so you&#8217;re not far off.</p>
+<h4><a href="http://twitter.com/mijustin"><img data-attachment-id="1831" data-permalink="https://justinjackson.ca/who/justin-tiny/" data-orig-file="https://i2.wp.com/justinjackson.ca/contents/data/2018/07/justin-tiny.png?fit=32%2C32&amp;ssl=1" data-orig-size="32,32" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="justin-tiny" data-image-description="" data-medium-file="https://i2.wp.com/justinjackson.ca/contents/data/2018/07/justin-tiny.png?fit=32%2C32&amp;ssl=1" data-large-file="https://i2.wp.com/justinjackson.ca/contents/data/2018/07/justin-tiny.png?fit=32%2C32&amp;ssl=1" class="alignleft size-full wp-image-1831" src="https://i2.wp.com/justinjackson.ca/contents/data/2018/07/justin-tiny.png?resize=32%2C32&#038;ssl=1" alt="" width="32" height="32" data-recalc-dims="1" /></a> Justin Jackson:</h4>
+<p>So you could have this feeling of: &#8220;Well that sucks because I&#8217;ve invested all this time in it.&#8221; Some people are so in love with their idea that they can&#8217;t let it go. They&#8217;ll say: &#8220;This is my baby, I&#8217;m holding on to this forever.&#8221;</p>
+<p>But you can say: &#8220;Well that sucks, but my mission is to help developers make things they&#8217;re proud of. So if a better solution comes along, that&#8217;s great.&#8221;</p>
+<p>Your mission is about helping the people, not your particular implementation.</p>
+<h4><a href="http://twitter.com/adamwathan"><img data-attachment-id="1832" data-permalink="https://justinjackson.ca/who/adam-tiny/" data-orig-file="https://i1.wp.com/justinjackson.ca/contents/data/2018/07/adam-tiny.png?fit=32%2C32&amp;ssl=1" data-orig-size="32,32" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="adam-tiny" data-image-description="" data-medium-file="https://i1.wp.com/justinjackson.ca/contents/data/2018/07/adam-tiny.png?fit=32%2C32&amp;ssl=1" data-large-file="https://i1.wp.com/justinjackson.ca/contents/data/2018/07/adam-tiny.png?fit=32%2C32&amp;ssl=1" class="alignleft size-full wp-image-1832" src="https://i1.wp.com/justinjackson.ca/contents/data/2018/07/adam-tiny.png?resize=32%2C32&#038;ssl=1" alt="" width="32" height="32" data-recalc-dims="1" /></a> Adam Wathan:</h4>
+<p>Exactly, look at newspapers. Their mission was to deliver the news to people. Their product <em>was </em>printing it and delivering it. But then the internet came along, and a lot of newspapers got killed.</p>
+<p>However, the New York Times evolved. They have a giant tech team doing innovative stuff. They didn&#8217;t just latch on to this sentiment of &#8220;we need to get people reading this paper! Maybe if we make the paper smell better more people will want to buy our paper!&#8221;</p>
+<p>You can&#8217;t get too attached to the implementation.</p>
+<h4><a href="http://twitter.com/mijustin"><img data-attachment-id="1831" data-permalink="https://justinjackson.ca/who/justin-tiny/" data-orig-file="https://i2.wp.com/justinjackson.ca/contents/data/2018/07/justin-tiny.png?fit=32%2C32&amp;ssl=1" data-orig-size="32,32" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="justin-tiny" data-image-description="" data-medium-file="https://i2.wp.com/justinjackson.ca/contents/data/2018/07/justin-tiny.png?fit=32%2C32&amp;ssl=1" data-large-file="https://i2.wp.com/justinjackson.ca/contents/data/2018/07/justin-tiny.png?fit=32%2C32&amp;ssl=1" class="alignleft size-full wp-image-1831" src="https://i2.wp.com/justinjackson.ca/contents/data/2018/07/justin-tiny.png?resize=32%2C32&#038;ssl=1" alt="" width="32" height="32" data-recalc-dims="1" /></a> Justin Jackson:</h4>
+<p>There&#8217;s a strategy piece to this too.</p>
+<p>If you enjoy serving a particular customer and you get to know them better than anybody else you&#8217;ll earn a reputation. And a good reputation is very difficult to duplicate. It&#8217;s a competitive advantage.</p>
+<p>Even if a competitor comes along and steals a piece of your business, you&#8217;ll still have a big asset. You know your customers better than anybody else. Plus: they know who <em>you </em>are.</p>
+<p>Founders should be motivated to help their customers no matter what the medium is. It could be a course, software, or a conference talk.</p>
+<p>It&#8217;s a freeing way to live your life. Instead of getting attached to one idea, you can just move on to the next thing because you&#8217;re still passionate about the people.</p>
+<h4><a href="http://twitter.com/adamwathan"><img data-attachment-id="1832" data-permalink="https://justinjackson.ca/who/adam-tiny/" data-orig-file="https://i1.wp.com/justinjackson.ca/contents/data/2018/07/adam-tiny.png?fit=32%2C32&amp;ssl=1" data-orig-size="32,32" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="adam-tiny" data-image-description="" data-medium-file="https://i1.wp.com/justinjackson.ca/contents/data/2018/07/adam-tiny.png?fit=32%2C32&amp;ssl=1" data-large-file="https://i1.wp.com/justinjackson.ca/contents/data/2018/07/adam-tiny.png?fit=32%2C32&amp;ssl=1" class="alignleft size-full wp-image-1832" src="https://i1.wp.com/justinjackson.ca/contents/data/2018/07/adam-tiny.png?resize=32%2C32&#038;ssl=1" alt="" width="32" height="32" data-recalc-dims="1" /></a> Adam Wathan:</h4>
+<p>Yeah, one hundred percent.</p>
+<h4><a href="http://twitter.com/mijustin"><img data-attachment-id="1831" data-permalink="https://justinjackson.ca/who/justin-tiny/" data-orig-file="https://i2.wp.com/justinjackson.ca/contents/data/2018/07/justin-tiny.png?fit=32%2C32&amp;ssl=1" data-orig-size="32,32" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="justin-tiny" data-image-description="" data-medium-file="https://i2.wp.com/justinjackson.ca/contents/data/2018/07/justin-tiny.png?fit=32%2C32&amp;ssl=1" data-large-file="https://i2.wp.com/justinjackson.ca/contents/data/2018/07/justin-tiny.png?fit=32%2C32&amp;ssl=1" class="alignleft size-full wp-image-1831" src="https://i2.wp.com/justinjackson.ca/contents/data/2018/07/justin-tiny.png?resize=32%2C32&#038;ssl=1" alt="" width="32" height="32" data-recalc-dims="1" /></a> Justin Jackson:</h4>
+<p>I also wonder: in a competitive environment, is this is the only approach that works?</p>
+<p>For example, if someone came along that cared more about Laravel programmers than you do, they would probably kick your ass.</p>
+<p>But the reason you&#8217;re killing it is that you&#8217;ve been doing this forever. Whether it was helping somebody fix a problem in a forum, or helping someone on Twitter, you&#8217;ve been doing this for a long time. You have a heritage. It&#8217;s in your DNA.</p>
+<p>For someone to unseat you, they&#8217;re going to need to have that same DNA, history, and passion. Nobody can just start out and compete with Adam Wathan. It takes years of investment.</p>
+<h4><a href="http://twitter.com/adamwathan"><img data-attachment-id="1832" data-permalink="https://justinjackson.ca/who/adam-tiny/" data-orig-file="https://i1.wp.com/justinjackson.ca/contents/data/2018/07/adam-tiny.png?fit=32%2C32&amp;ssl=1" data-orig-size="32,32" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="adam-tiny" data-image-description="" data-medium-file="https://i1.wp.com/justinjackson.ca/contents/data/2018/07/adam-tiny.png?fit=32%2C32&amp;ssl=1" data-large-file="https://i1.wp.com/justinjackson.ca/contents/data/2018/07/adam-tiny.png?fit=32%2C32&amp;ssl=1" class="alignleft size-full wp-image-1832" src="https://i1.wp.com/justinjackson.ca/contents/data/2018/07/adam-tiny.png?resize=32%2C32&#038;ssl=1" alt="" width="32" height="32" data-recalc-dims="1" /></a> Adam Wathan:</h4>
+<p>Yeah, I totally agree.</p>
+<p>This perspective has also helped me disqualify certain ideas for products.</p>
+<p>I&#8217;ve always been sitting around brainstorming: &#8220;What am I going to build? What problems do I have? What tools could I make?&#8221;</p>
+<p>But now I can see a lot of my ideas would mean helping a totally different group of people; people that I&#8217;m not necessarily motivated to help.</p>
+<h4><a href="http://twitter.com/mijustin"><img data-attachment-id="1831" data-permalink="https://justinjackson.ca/who/justin-tiny/" data-orig-file="https://i2.wp.com/justinjackson.ca/contents/data/2018/07/justin-tiny.png?fit=32%2C32&amp;ssl=1" data-orig-size="32,32" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="justin-tiny" data-image-description="" data-medium-file="https://i2.wp.com/justinjackson.ca/contents/data/2018/07/justin-tiny.png?fit=32%2C32&amp;ssl=1" data-large-file="https://i2.wp.com/justinjackson.ca/contents/data/2018/07/justin-tiny.png?fit=32%2C32&amp;ssl=1" class="alignleft size-full wp-image-1831" src="https://i2.wp.com/justinjackson.ca/contents/data/2018/07/justin-tiny.png?resize=32%2C32&#038;ssl=1" alt="" width="32" height="32" data-recalc-dims="1" /></a> Justin Jackson:</h4>
+<p>This is something Seth Godin hits on all the time. He asks two questions:</p>
+<ol>
+<li>Who is it for?</li>
+<li>What is it for?</li>
+</ol>
+<p>So you could come up with an idea, and ask: &#8220;Ok, who is it for?&#8221; Maybe the idea is for &#8220;course creators.&#8221; Well, you know that doesn&#8217;t fit your mission of helping developers.</p>
+<p>If you have an idea for developers, you could ask: &#8220;Ok, what is it for?&#8221; And that&#8217;s where you see if your idea fits with your mission of making developers happier.</p>
+<p>It&#8217;s a great checklist for ideas. Be honest about &#8220;who it&#8217;s for&#8221; and &#8220;what it&#8217;s for&#8221; and make sure that aligns with you and what you want out of your life.</p>
+<hr />
+<p><em>You can listen to the complete conversation between Adam and me on <a href="http://www.fullstackradio.com/93">Full Stack Radio</a>.</em></p>
+<p>The post <a rel="nofollow" href="https://justinjackson.ca/who/">Your business isn&#8217;t about finding a great idea</a> appeared first on <a rel="nofollow" href="https://justinjackson.ca">Justin Jackson</a>.</p>
+]]></content>
+			<link rel="replies" type="text/html" href="https://justinjackson.ca/who/#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="https://justinjackson.ca/who/feed/atom/" thr:count="0"/>
+		<thr:total>0</thr:total>
+		</entry>
+		<entry>
+		<author>
+			<name>Justin</name>
+					</author>
+		<title type="html"><![CDATA[Maybe you shouldn&#8217;t be a solopreneur]]></title>
+		<link rel="alternate" type="text/html" href="https://justinjackson.ca/solopreneur/" />
+		<id>https://justinjackson.ca/</id>
+		<updated>2018-07-11T21:04:59Z</updated>
+		<published>2018-06-23T06:29:24Z</published>
+		<category scheme="https://justinjackson.ca" term="General" />		<summary type="html"><![CDATA[<p>I was born in Edmonton, and every once in awhile, I go back for a visit. When I&#8217;m in town, I almost always go for coffee with my buddy Tim. He&#8217;s about my age, and he&#8217;s just incredible at sales. Over the years, he&#8217;s pushed himself to build relationships with big brands. He thinks big, [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://justinjackson.ca/solopreneur/">Maybe you shouldn&#8217;t be a solopreneur</a> appeared first on <a rel="nofollow" href="https://justinjackson.ca">Justin Jackson</a>.</p>
+]]></summary>
+		<content type="html" xml:base="https://justinjackson.ca/solopreneur/"><![CDATA[<p>I was born in Edmonton, and every once in awhile, I go back for a visit.</p>
+<p>When I&#8217;m in town, I almost always go for coffee with my buddy Tim. He&#8217;s about my age, and he&#8217;s just incredible at sales. Over the years, he&#8217;s pushed himself to build relationships with big brands. He thinks big, and that&#8217;s what I like about him.</p>
+<p><iframe src='https://share.transistor.fm/e/28f022a7' width='100%' height='180' frameborder='0' scrolling='no' seamless='true'></iframe></p>
+<p>I like to meet with Tim because he gets me to think outside my box. In business, we need people like this: folks who are a few steps ahead of us, who push us to get better.</p>
+<p>Here&#8217;s my situation: I&#8217;ve been running this little solopreneur business for two years. I&#8217;m doing everything. Whenever I come up with an idea, I design the website, and I write the content. If there&#8217;s programming that needs to be done, I&#8217;ll try to do it myself.</p>
+<p>As I&#8217;m meeting Tim, he says: &#8220;why are you doing all that work yourself?&#8221;</p>
+<p><strong>&#8220;I&#8217;m a solopreneur,&#8221; I replied, &#8220;we do it all. That&#8217;s our mantra.&#8221;</strong></p>
+<p>Tim replies:</p>
+<blockquote><p>&#8220;In my business, I&#8217;ve learned its best if I&#8217;m not doing everything. I&#8217;m good at coming up with the vision. But the only way for me to grow is to partner with (or hire) people who can help me do the work.&#8221;</p></blockquote>
+<p>&#8220;Trying to do it all&#8221; is one of my weaknesses. I&#8217;m realizing, that by forcing myself to be a solopreneur, I&#8217;ve been slowing myself down.</p>
+<p>How many successful businesses were genuinely built by solopreneurs?</p>
+<p>Walt needed Roy to build Disney. Jason Fried partnered with DHH to build Basecamp. Macklemore collaborated with Ryan Lewis to produce his breakthrough album, The Heist.</p>
+<p>Greatness is almost never a solo endeavor.</p>
+<p>Maybe, you (and I) shouldn&#8217;t be a solopreneurs.</p>
+<hr />
+<p>In January, I co-founded Transistor.fm with my friend Jon Buda.</p>
+<p>Jon is a talented full-stack web developer. He can he can do all the backend stuff, but he&#8217;s also a pretty good web designer too.</p>
+<p>Here&#8217;s what surprised me since Jon and I teamed up: I can&#8217;t believe how fast we can move together.</p>
+<p>It&#8217;s like I have a superpower because I don&#8217;t have to do all the work myself. If I had to build Transistor on my own, it would take me forever. But now, Jon can focus on his strengths, and I can focus on mine. It feels like I&#8217;m running at full-speed in my lane, and I look over, and Jon&#8217;s right there with me, running in his.</p>
+<p>Another benefit? Entrepreneurship is a hard road. It&#8217;s emotional work. It&#8217;s nice to have someone to help you bear the load when things get tough.</p>
+<hr />
+<p>Here&#8217;s a summary of the lessons I&#8217;ve learned:</p>
+<ol>
+<li>Being a solopreneur doesn&#8217;t mean doing 100% of everything yourself. The most successful solo-founders get outside help (contractors, freelancers, partnerships).</li>
+<li>Most of us weren&#8217;t meant to be solopreneurs. Entrepreneurship is hard; having the right partner helps.</li>
+<li>To succeed in business: leverage your strengths and partner with/hire folks who fill out your weak spots.</li>
+</ol>
+<p>Cheers,<br />
+Justin Jackson<br />
+<a href="https://twitter.com/mijustin">@mijustin</a></p>
+<p><em>Note: I decided to write about this because <a href="https://youtu.be/l2Cu4Gm_oFE">this Youtube video</a> got a lot of traction.</em></p>
+<p>The post <a rel="nofollow" href="https://justinjackson.ca/solopreneur/">Maybe you shouldn&#8217;t be a solopreneur</a> appeared first on <a rel="nofollow" href="https://justinjackson.ca">Justin Jackson</a>.</p>
+]]></content>
+			<link rel="replies" type="text/html" href="https://justinjackson.ca/solopreneur/#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="https://justinjackson.ca/solopreneur/feed/atom/" thr:count="0"/>
+		<thr:total>0</thr:total>
+		</entry>
+		<entry>
+		<author>
+			<name>Justin</name>
+					</author>
+		<title type="html"><![CDATA[Optimize for usage, not just sales]]></title>
+		<link rel="alternate" type="text/html" href="https://justinjackson.ca/usage/" />
+		<id>https://justinjackson.ca/</id>
+		<updated>2018-06-21T19:02:30Z</updated>
+		<published>2018-06-09T01:26:21Z</published>
+		<category scheme="https://justinjackson.ca" term="General" />		<summary type="html"><![CDATA[<p>Do any of these sound familiar? &#8220;I ordered the book, but never read it.&#8221; &#8220;I bought this app, but I never logged in.&#8221; &#8220;I backed it on Kickstarter, but it just sat in its box.&#8221; &#8220;I got the upgrade, but I kept using the old version.&#8221; As product people, we make things so people will [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://justinjackson.ca/usage/">Optimize for usage, not just sales</a> appeared first on <a rel="nofollow" href="https://justinjackson.ca">Justin Jackson</a>.</p>
+]]></summary>
+		<content type="html" xml:base="https://justinjackson.ca/usage/"><![CDATA[<p>Do any of these sound familiar?</p>
+<ul>
+<li>&#8220;I ordered the book, but never read it.&#8221;</li>
+<li>&#8220;I bought this app, but I never logged in.&#8221;</li>
+<li>&#8220;I backed it on Kickstarter, but it just sat in its box.&#8221;</li>
+<li>&#8220;I got the upgrade, but I kept using the old version.&#8221;</li>
+</ul>
+<p>As product people, we make things so people will use them.</p>
+<p>And yet, we optimize a lot of our marketing around merely getting the sale.</p>
+<p><strong>But &#8220;getting the sale&#8221; isn’t enough.</strong></p>
+<p>You can’t build a sustainable business on one sale. You need customers to come back; otherwise, you’re wasting a lot of time, money, and energy on acquisition.</p>
+<p>The truth is, most of the magic happens immediately after purchase. When customers buy something and become activated, that’s where our business’ flywheel starts running.</p>
+<p>Customer activation leads to:</p>
+<ul>
+<li>positive outcomes for your users</li>
+<li>word of mouth, reviews, and case studies</li>
+<li>repeat purchases, upgrades, and expansion revenue</li>
+</ul>
+<p><strong>Activation and usage are what contributes to a business’ longevity.</strong> Instead of being in a never-ending cycle of trying to acquire customers, you’re able to focus on retention. This increases the lifetime value of a customer.</p>
+<p>For example, my friend Bryce owns the local skateboard shop. It doesn&#8217;t help him if he sells someone a board, and they go home and put it in their closet. To have a healthy business long-term, he needs the customer to use the skateboard, and keep using it!</p>
+<p>A few weeks ago, two girls bought their first skateboard. Yesterday, Bryce and I were hanging out in his shop, and they rode by down Main street. This is a good sign. They’re out skateboarding. They’re activated!</p>
+<p>If they keep skating, they’ll progress. They’ll break boards. They’ll buy new shoes. They’ll want to upgrade to better wheels. Tony Hawk is 50 years old, so it’s possible that these girls will skateboard for another 35 years. These are the long-term customers that will help Bryce build and sustain his business.</p>
+<h3>How do you increase activation?</h3>
+<p>Those first moments after the purchase are crucial. Remember, when a customer signs up, they’re highly motivated. They’re eager to see if your product will live up to its hype. They’re asking:</p>
+<blockquote><p>&#8220;Alright, I’m in! What’s this going to do for me?&#8221;</p></blockquote>
+<p>But, if your product feels too complicated, or they get stuck too fast, they’re going to give up. And if they leave, you might never get them back.</p>
+<p>So, when users log in for the first time, you need to give them a quick win.</p>
+<p>Rob Walling calls this the “minimum path to awesome:”</p>
+<blockquote><p>&#8220;If you have invoicing software, maybe it’s when they send their first invoice, maybe it’s when they get paid. It&#8217;s the minimum path from sign-up to something that gives them a dopamine rush.&#8221; – Rob Walling (<a href="https://www.profitwell.com/blog/double-your-trial-to-paid-conversion-rate-with-onboarding">Source</a>)</p></blockquote>
+<p>If your product is new, one way to give customers that feeling is to personally onboard them. Get on the phone! At the beginning of the call, you can determine:</p>
+<ol>
+<li>What’s going on in their world that brought them to your product today?</li>
+<li>What are they hoping to accomplish with your product?</li>
+</ol>
+<blockquote><p>&#8220;The biggest mistake I see new SaaS companies making is they try to increase activation by writing lots of onboarding code and emails. Instead, screen share with every new customer. Figure out why they bought your product and what their goals are. Personally help them &#8220;activate&#8221; what you promised them on your marketing site.&#8221; – Brennan Dunn</p></blockquote>
+<p>For my new startup, Transistor.fm, we’ve done dozens of calls with early-access users. What are we seeing? Two accomplishments make our users feel awesome:</p>
+<ol>
+<li>Uploading their first podcast episode</li>
+<li>Being able to share it with a friend</li>
+</ol>
+<p>Folks want to be able to tweet out: &#8220;HEY! I JUST MADE A PODCAST CHECK IT OUT!&#8221;</p>
+<blockquote class="twitter-tweet" data-width="550" data-dnt="true">
+<p lang="en" dir="ltr">Started a little podcast with <a href="https://twitter.com/jmcharnes?ref_src=twsrc%5Etfw">@jmcharnes</a> to talk about <a href="https://twitter.com/hashtag/ruby?src=hash&amp;ref_src=twsrc%5Etfw">#ruby</a> and <a href="https://twitter.com/hashtag/rails?src=hash&amp;ref_src=twsrc%5Etfw">#rails</a> every week. Let us know what you think! <a href="https://t.co/z8KAw2nRvN">https://t.co/z8KAw2nRvN</a></p>
+<p>&mdash; Chris Oliver (@excid3) <a href="https://twitter.com/excid3/status/1005199575475466240?ref_src=twsrc%5Etfw">June 8, 2018</a></p></blockquote>
+<p><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p>Don’t be satisfied with just taking people’s money. Reach out. Figure out what their goals are, and where they’re getting stuck. Then, help activate them by giving them some initial wins.</p>
+<p>The post <a rel="nofollow" href="https://justinjackson.ca/usage/">Optimize for usage, not just sales</a> appeared first on <a rel="nofollow" href="https://justinjackson.ca">Justin Jackson</a>.</p>
+]]></content>
+			<link rel="replies" type="text/html" href="https://justinjackson.ca/usage/#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="https://justinjackson.ca/usage/feed/atom/" thr:count="0"/>
+		<thr:total>0</thr:total>
+		</entry>
+		<entry>
+		<author>
+			<name>Justin</name>
+					</author>
+		<title type="html"><![CDATA[Don&#8217;t sell to beginners]]></title>
+		<link rel="alternate" type="text/html" href="https://justinjackson.ca/beginners/" />
+		<id>https://justinjackson.ca/</id>
+		<updated>2018-06-04T18:07:07Z</updated>
+		<published>2018-06-02T14:34:14Z</published>
+		<category scheme="https://justinjackson.ca" term="General" />		<summary type="html"><![CDATA[<p>Jon Buda and I are getting closer to launching our SaaS, and that means we need to figure out pricing. We realized a lot of pricing depends on who you&#8217;re selling to. Should we sell to startups? Should we aim at the enterprise? Hobbyists? We reached out to Patrick at Price Intelligently to help walk us through [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://justinjackson.ca/beginners/">Don&#8217;t sell to beginners</a> appeared first on <a rel="nofollow" href="https://justinjackson.ca">Justin Jackson</a>.</p>
+]]></summary>
+		<content type="html" xml:base="https://justinjackson.ca/beginners/"><![CDATA[<p>Jon Buda and I are getting closer to launching <a href="https://transistor.fm">our SaaS</a>, and that means we need to figure out pricing. We realized a lot of pricing depends on <strong>who you&#8217;re selling to</strong>. Should we sell to startups? Should we aim at the enterprise? Hobbyists?</p>
+<p>We reached out to Patrick at Price Intelligently to help walk us through the pricing process.</p>
+<p>During our chat, Patrick said, &#8220;In your early stage two things are essential; if you can nail these two things (even if you get everything else wrong) you&#8217;re typically fine.&#8221; According to him, the two things to focus on are:</p>
+<ul>
+<li>Your customer focus</li>
+<li>Your value metric (I&#8217;ll talk about this in a future post)</li>
+</ul>
+<p>Choosing your target customer is incredibly important. &#8220;From the beginning, you want to figure out who is going to be a sustainable, profitable customer,&#8221; says Patrick &#8220;it&#8217;s going to determine how you do your marketing, and also how you&#8217;re going to structure your pricing.&#8221;</p>
+<p>Patrick helped me realize something:</p>
+<p><strong>If you&#8217;re bootstrapping, you shouldn&#8217;t sell to beginners, new startups, or hobbyists.</strong></p>
+<p>When you&#8217;re building a company, there&#8217;s an inclination to sell to folks who are &#8220;just getting started:&#8221; new companies, people building their skill set, beginners. After all, they need the most help, right? But increasingly, I see this as a trap.</p>
+<p>Why?</p>
+<p>&#8220;Selling to your startup friends probably won&#8217;t be profitable,&#8221; comments Patrick. Startups and beginner customers might be easy to attract (they sign up for free newsletters, guides, and free tools), but they have three significant downsides:</p>
+<ol>
+<li>They&#8217;ll use free tools and resources if they can.</li>
+<li>They don&#8217;t have the same capacity to pay as experts do.</li>
+<li>Most new startups fail, so they don&#8217;t make stable, long-term customers.</li>
+</ol>
+<p>Simply put, it&#8217;s hard to build a sustainable business for beginners. They can&#8217;t pay as much, and they don&#8217;t stick around as long, which results in a lower lifetime value.</p>
+<p><strong>In B2B, it&#8217;s the intermediate to advanced companies who need our help and will pay you for a long time.</strong></p>
+<p>They&#8217;ve proven they can survive the startup stage. But now they&#8217;ve exhausted all of their free resources, and they&#8217;re starting to plateau. To get to the next level, they&#8217;re going to need outside help, and because they have revenue, they can afford to pay for it.</p>
+<blockquote><p>&#8220;Targeting beginners requires you to do more work on the periphery of your core skill set. When you get hyper-focused on what you do best + combine it with supporting intermediate/advanced businesses, you love your work and get paid well for it.&#8221;<br />
+– Val Geisler, <a href="http://valgeisler.com">valgeisler.com</a></p></blockquote>
+<p>The best target market is &#8220;professionals who are already heading in a specific direction.&#8221; They&#8217;re in motion towards a specific goal.</p>
+<p>For example, my friend Brennan&#8217;s company (<a href="https://rightmessage.com?fp_ref=justin12">RightMessage</a>) is almost at <a href="https://rightmessage.baremetrics.com/">$20k in MRR</a>. They&#8217;ve proven they have traction. My guess is their first milestone is to reach $5 million a year in revenue.</p>
+<p>To accomplish that goal, they&#8217;re going to need specific assistance. Things like:</p>
+<ul>
+<li>&#8220;Help me increase sales by 30%.&#8221;</li>
+<li>&#8220;Teach me how to podcast so that I can reach a bigger audience.&#8221;</li>
+<li>&#8220;Take away my downtime.&#8221;</li>
+<li>&#8220;Equip me to design better onboarding flows.&#8221;</li>
+</ul>
+<p>They&#8217;re going to hire outside help to assist them with these things; to help them get to their goal.</p>
+<p>One way to visualize this is a delivery truck driving towards a destination:</p>
+<p><img data-attachment-id="1811" data-permalink="https://justinjackson.ca/beginners/truck-01/" data-orig-file="https://i0.wp.com/justinjackson.ca/contents/data/2018/06/truck-01.png?fit=1538%2C286&amp;ssl=1" data-orig-size="1538,286" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="truck-01" data-image-description="" data-medium-file="https://i0.wp.com/justinjackson.ca/contents/data/2018/06/truck-01.png?fit=500%2C93&amp;ssl=1" data-large-file="https://i0.wp.com/justinjackson.ca/contents/data/2018/06/truck-01.png?fit=600%2C111&amp;ssl=1" class="aligncenter size-large wp-image-1811" src="https://i0.wp.com/justinjackson.ca/contents/data/2018/06/truck-01.png?resize=600%2C111&#038;ssl=1" alt="" width="600" height="111" srcset="https://i0.wp.com/justinjackson.ca/contents/data/2018/06/truck-01.png?resize=1024%2C190&amp;ssl=1 1024w, https://i0.wp.com/justinjackson.ca/contents/data/2018/06/truck-01.png?resize=500%2C93&amp;ssl=1 500w, https://i0.wp.com/justinjackson.ca/contents/data/2018/06/truck-01.png?resize=768%2C143&amp;ssl=1 768w, https://i0.wp.com/justinjackson.ca/contents/data/2018/06/truck-01.png?w=1538&amp;ssl=1 1538w, https://i0.wp.com/justinjackson.ca/contents/data/2018/06/truck-01.png?w=1200&amp;ssl=1 1200w" sizes="(max-width: 600px) 100vw, 600px" data-recalc-dims="1" /></p>
+<p>Along the way, a rockslide covers the road:</p>
+<p><img data-attachment-id="1812" data-permalink="https://justinjackson.ca/beginners/truck-02/" data-orig-file="https://i1.wp.com/justinjackson.ca/contents/data/2018/06/truck-02.png?fit=1540%2C480&amp;ssl=1" data-orig-size="1540,480" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="truck-02" data-image-description="" data-medium-file="https://i1.wp.com/justinjackson.ca/contents/data/2018/06/truck-02.png?fit=500%2C156&amp;ssl=1" data-large-file="https://i1.wp.com/justinjackson.ca/contents/data/2018/06/truck-02.png?fit=600%2C187&amp;ssl=1" class="aligncenter size-large wp-image-1812" src="https://i1.wp.com/justinjackson.ca/contents/data/2018/06/truck-02.png?resize=600%2C187&#038;ssl=1" alt="" width="600" height="187" srcset="https://i1.wp.com/justinjackson.ca/contents/data/2018/06/truck-02.png?resize=1024%2C319&amp;ssl=1 1024w, https://i1.wp.com/justinjackson.ca/contents/data/2018/06/truck-02.png?resize=500%2C156&amp;ssl=1 500w, https://i1.wp.com/justinjackson.ca/contents/data/2018/06/truck-02.png?resize=768%2C239&amp;ssl=1 768w, https://i1.wp.com/justinjackson.ca/contents/data/2018/06/truck-02.png?w=1540&amp;ssl=1 1540w, https://i1.wp.com/justinjackson.ca/contents/data/2018/06/truck-02.png?w=1200&amp;ssl=1 1200w" sizes="(max-width: 600px) 100vw, 600px" data-recalc-dims="1" /></p>
+<p>Who are they going to call?</p>
+<p>(If you yelled out ROCKBUSTERS, you and I could be friends)</p>
+<p>To me, B2B products and services we build are a lot like that. We&#8217;re removing obstacles for businesses, helping them achieve their goals.</p>
+<p>But targetting the right customer is critical. For example, the delivery company has already proven a few things:</p>
+<ul>
+<li>They&#8217;re investing heavily in their equipment (the delivery truck).</li>
+<li>They&#8217;re investing in their personnel (trained truck drivers).</li>
+<li>They have high-value customers who can pay them to haul big loads over long distances.</li>
+<li>They&#8217;re committed to building a company for the long-term.</li>
+</ul>
+<p>Contrast that with a solo bike courier who is just getting started:</p>
+<p><img data-attachment-id="1813" data-permalink="https://justinjackson.ca/beginners/truck-03/" data-orig-file="https://i0.wp.com/justinjackson.ca/contents/data/2018/06/truck-03.png?fit=1530%2C480&amp;ssl=1" data-orig-size="1530,480" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="truck-03" data-image-description="" data-medium-file="https://i0.wp.com/justinjackson.ca/contents/data/2018/06/truck-03.png?fit=500%2C157&amp;ssl=1" data-large-file="https://i0.wp.com/justinjackson.ca/contents/data/2018/06/truck-03.png?fit=600%2C188&amp;ssl=1" class="aligncenter size-large wp-image-1813" src="https://i0.wp.com/justinjackson.ca/contents/data/2018/06/truck-03.png?resize=600%2C188&#038;ssl=1" alt="" width="600" height="188" srcset="https://i0.wp.com/justinjackson.ca/contents/data/2018/06/truck-03.png?resize=1024%2C321&amp;ssl=1 1024w, https://i0.wp.com/justinjackson.ca/contents/data/2018/06/truck-03.png?resize=500%2C157&amp;ssl=1 500w, https://i0.wp.com/justinjackson.ca/contents/data/2018/06/truck-03.png?resize=768%2C241&amp;ssl=1 768w, https://i0.wp.com/justinjackson.ca/contents/data/2018/06/truck-03.png?w=1530&amp;ssl=1 1530w, https://i0.wp.com/justinjackson.ca/contents/data/2018/06/truck-03.png?w=1200&amp;ssl=1 1200w" sizes="(max-width: 600px) 100vw, 600px" data-recalc-dims="1" /></p>
+<p>The biker courier is sending signals that show they probably wouldn&#8217;t make a great customer for a B2B business:</p>
+<ul>
+<li>They have minimal investment in their equipment (bicycle).</li>
+<li>They&#8217;re likely serving low-value customers (short routes, small payments)</li>
+<li>They probably don&#8217;t see themselves being a biker courier for 5-10 years.</li>
+</ul>
+<p>There are all sorts of services the delivery truck company will pay for:</p>
+<ul>
+<li>Nitrous injections, to give their engines more power.</li>
+<li>Roadside assistance, to get the truck back on the road.<br />
+Logistics software, to map the fastest routes.</li>
+</ul>
+<p><strong>Here&#8217;s the crazy thing: </strong>you and I could invest the same amount of energy building products for the truck company as the bike courier.</p>
+<p>Sure, we can sell the cyclist PowerBars (for energy), roadside assistance, and a mapping app, but they don&#8217;t have the same capacity to pay.</p>
+<p>As product people, we need to focus on the right customers. Let&#8217;s not invest in customers who might not be around in 6 months. Instead, let&#8217;s build things for professionals that help unlock their potential.</p>
+<h3>Listen to the whole interview</h3>
+<p>Want to listen to my whole interview with Patrick from Price Intelligently? It&#8217;s here:</p>
+<p><iframe src="https://share.transistor.fm/e/5e5fd303" width="100%" height="180" frameborder="0" scrolling="no" seamless="true"></iframe></p>
+<p>The post <a rel="nofollow" href="https://justinjackson.ca/beginners/">Don&#8217;t sell to beginners</a> appeared first on <a rel="nofollow" href="https://justinjackson.ca">Justin Jackson</a>.</p>
+]]></content>
+			<link rel="replies" type="text/html" href="https://justinjackson.ca/beginners/#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="https://justinjackson.ca/beginners/feed/atom/" thr:count="0"/>
+		<thr:total>0</thr:total>
+		</entry>
+		<entry>
+		<author>
+			<name>Justin</name>
+					</author>
+		<title type="html"><![CDATA[What would you do differently?]]></title>
+		<link rel="alternate" type="text/html" href="https://justinjackson.ca/different/" />
+		<id>https://justinjackson.ca/</id>
+		<updated>2018-05-29T05:10:49Z</updated>
+		<published>2018-05-27T00:17:17Z</published>
+		<category scheme="https://justinjackson.ca" term="General" />		<summary type="html"><![CDATA[<p>Adam Clark recently asked me this question on his podcast: If you woke up tomorrow, and you had to start all over again, what would you do? It&#8217;s a good question. If I didn&#8217;t have Transistor.fm or my existing audience, how would I build a business knowing what I know now? What would I change? Here&#8217;s what I said: [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://justinjackson.ca/different/">What would you do differently?</a> appeared first on <a rel="nofollow" href="https://justinjackson.ca">Justin Jackson</a>.</p>
+]]></summary>
+		<content type="html" xml:base="https://justinjackson.ca/different/"><![CDATA[<p>Adam Clark recently asked me this question <a href="https://thegentlymad.com/podcasts/tgm067-justin-jackson/">on his podcast:</a></p>
+<blockquote><p>If you woke up tomorrow, and you had to start all over again, what would you do?</p></blockquote>
+<p>It&#8217;s a good question. If I didn&#8217;t have <a href="https://transistor.fm">Transistor.fm</a> or my existing audience, how would I build a business knowing what I know now? What would I change?</p>
+<p>Here&#8217;s what I said:</p>
+<h3>First, get a therapist</h3>
+<p>I struggled with depression this past year. I&#8217;ve seen firsthand how mental health affects every part of your life, including your business!</p>
+<p>My first step as a new entrepreneur would be to build rapport with a therapist.</p>
+<p>Talking with a professional counselor on a regular basis has been incredibly valuable for me. On the one hand, it&#8217;s a safe place for me to get my feelings out. On the other, my therapist has helped me avoid knee-jerk reactions, and carefully consider my next steps.</p>
+<p>I avoided my mental health for years and inadvertently buried many issues I should have dealt with a long time ago. <strong>It&#8217;s worth investing in your mental health now!</strong></p>
+<p>Someone on Twitter asked me:</p>
+<blockquote><p>Ok, but how did you find your therapist?</p></blockquote>
+<p>If I remember correctly, I started by googling:</p>
+<p><code>[my hometown] therapist</code></p>
+<p>I looked at dozens of websites.  I emailed three therapists and ended up booking an initial session with two. The idea was to get to know them, describe what was going on with me, and see who would be a good fit.</p>
+<p>My session with one of the counselors went really well; I felt I could trust her. After that, I booked a regular one-hour appointment. Now, I see her at least once a month.</p>
+<p>Your mental health is the foundation you&#8217;ll build your business on; so take care of it first!</p>
+<h3>Second, I wouldn&#8217;t target beginners</h3>
+<p>I&#8217;ve noticed that beginners often don&#8217;t make good customers. (Especially in B2B markets)</p>
+<p>There are a few reasons for this:</p>
+<ul>
+<li>Most free resources and tools target beginners.</li>
+<li>Novices don&#8217;t have the same capacity to pay as experts do.</li>
+<li>Most new startups fail, so they don&#8217;t make stable, long-term customers.</li>
+</ul>
+<p><strong>Here&#8217;s a better plan: help an intermediate go pro.</strong></p>
+<p>Intermediates have proven they can survive the startup stage. However, now they&#8217;ve exhausted all of the free resources, and they&#8217;re starting to plateau. They&#8217;re motivated to get to the next level and are looking for outside help.</p>
+<p>My friend Marcus was a freelance videographer. He saw that his peers knew a lot about camera gear and filming technique, but had a hard time closing sales. They were making some money, but he knew they could unlock more revenue by applying a handful of tactics.</p>
+<p>So he started offering mentoring and workshops to teach business skills to video professionals.</p>
+<h3>Third, I would get a job</h3>
+<p>You can be so much more helpful if you&#8217;ve already been in the trenches. There&#8217;s no replacement for experiencing a struggle first-hand.</p>
+<p>I opened a snowboard shop in my early 20s. I&#8217;d never worked in retail before, and that was a huge mistake. If I could have seen the other side of owning a retail store (the endless paperwork, ordering nightmares, handling inventory, managing employees), I would probably have never started it.</p>
+<p>If I were going to start again, in a new industry, I would get a job or start consulting. As I worked, I would observe, and take notes about the daily struggles people face.</p>
+<p>You&#8217;ll build a better business if you&#8217;ve felt the pain yourself!</p>
+<h3>Fourth, I would meet people</h3>
+<p>Your real unfair advantage in business is your network.</p>
+<p><img data-attachment-id="1745" data-permalink="https://justinjackson.ca/2017-review/breckenridge-colorado-retreat/" data-orig-file="https://i1.wp.com/justinjackson.ca/contents/data/2018/01/breckenridge-colorado-retreat.jpg?fit=2048%2C1536&amp;ssl=1" data-orig-size="2048,1536" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Retreat in Breckenridge, Colorado thanks to Shawn Blanc, Sean McCabe, and James Clear" data-image-description="" data-medium-file="https://i1.wp.com/justinjackson.ca/contents/data/2018/01/breckenridge-colorado-retreat.jpg?fit=500%2C375&amp;ssl=1" data-large-file="https://i1.wp.com/justinjackson.ca/contents/data/2018/01/breckenridge-colorado-retreat.jpg?fit=600%2C450&amp;ssl=1" class="aligncenter size-large wp-image-1745" src="https://i1.wp.com/justinjackson.ca/contents/data/2018/01/breckenridge-colorado-retreat.jpg?resize=600%2C450&#038;ssl=1" alt="Retreat in Breckenridge, Colorado thanks to Shawn Blanc, Sean McCabe, and James Clear" width="600" height="450" srcset="https://i1.wp.com/justinjackson.ca/contents/data/2018/01/breckenridge-colorado-retreat.jpg?resize=1024%2C768&amp;ssl=1 1024w, https://i1.wp.com/justinjackson.ca/contents/data/2018/01/breckenridge-colorado-retreat.jpg?resize=500%2C375&amp;ssl=1 500w, https://i1.wp.com/justinjackson.ca/contents/data/2018/01/breckenridge-colorado-retreat.jpg?resize=768%2C576&amp;ssl=1 768w, https://i1.wp.com/justinjackson.ca/contents/data/2018/01/breckenridge-colorado-retreat.jpg?w=1200&amp;ssl=1 1200w, https://i1.wp.com/justinjackson.ca/contents/data/2018/01/breckenridge-colorado-retreat.jpg?w=1800&amp;ssl=1 1800w" sizes="(max-width: 600px) 100vw, 600px" data-recalc-dims="1" /></p>
+<p>Education, wealth, and skills all help, but it&#8217;s &#8220;who you know&#8221; that makes the difference.</p>
+<p>I&#8217;ve interviewed hundreds of entrepreneurs. In almost every single case, their success didn&#8217;t come from some magical ability or secret life hack. Nope. The big jumps forward came when someone encouraged them to do something, taught them a new skill, or gave them an opportunity.</p>
+<p>&#8220;It was Hiten Shah who told me to start taking <a href="http://mbsy.co/convertkit/75552">ConvertKit</a> seriously, or shut it down, &#8221; says Nathan Barry, &#8220;so I decided to double down. I hired a developer, invested $50k, and shut down my other business.&#8221;</p>
+<p>That paid off pretty good for Nathan (ConvertKit is currently doing over $1 million per month in revenue)</p>
+<p>So if I had to start again, I would focus heavily on building my network.</p>
+<p>I&#8217;d force myself to get out of the house. I&#8217;d go to meetups and conferences.  I would fly to different cities for a week at a time and connect with interesting people. I would start an interview podcast.</p>
+<p>Relationships are worth investing in; they pay big dividends.</p>
+<h3>Listen to the whole interview</h3>
+<p>You can hear the whole conversation between Adam and me here:</p>
+<p><iframe src="https://share.transistor.fm/e/2a84a667" width="100%" height="180" frameborder="0" scrolling="no" seamless="true"></iframe></p>
+<p>Hope this is helpful for you on your journey!</p>
+<p>Cheers,<br />
+Justin Jackson<br />
+<a href="https://twitter.com/mijustin">@mijustin</a></p>
+<p>PS: last week, I opened up 20 more spots for the <a href="https://productvalidationchecklist.com/">Product Validation Checklist</a>. They sold out fast! If you want to get notified when I open up more spots this week, <a href="https://productvalidationchecklist.com/">click here</a>.</p>
+<p>The post <a rel="nofollow" href="https://justinjackson.ca/different/">What would you do differently?</a> appeared first on <a rel="nofollow" href="https://justinjackson.ca">Justin Jackson</a>.</p>
+]]></content>
+		</entry>
+		<entry>
+		<author>
+			<name>Justin</name>
+					</author>
+		<title type="html"><![CDATA[When you&#8217;re building a product, whose opinion should you listen to?]]></title>
+		<link rel="alternate" type="text/html" href="https://justinjackson.ca/opinion/" />
+		<id>https://justinjackson.ca/</id>
+		<updated>2018-06-05T17:37:22Z</updated>
+		<published>2018-04-21T21:41:45Z</published>
+		<category scheme="https://justinjackson.ca" term="General" />		<summary type="html"><![CDATA[<p>It&#8217;s hard to make things that people want. A band might record an album hoping their fans will love it. But when they release it, it doesn&#8217;t sell. A software company releases a new feature thinking it will hockey-stick their growth. But when they deploy it, users complain. A blogger pours hours of research into a single [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://justinjackson.ca/opinion/">When you&#8217;re building a product, whose opinion should you listen to?</a> appeared first on <a rel="nofollow" href="https://justinjackson.ca">Justin Jackson</a>.</p>
+]]></summary>
+		<content type="html" xml:base="https://justinjackson.ca/opinion/"><![CDATA[<p>It&#8217;s hard to make things that people want.</p>
+<p><strong data-redactor-tag="strong">A band might record an album hoping their fans will love it.</strong> But when they release it, it doesn&#8217;t sell.</p>
+<p><strong data-redactor-tag="strong">A software company releases a new feature thinking it will hockey-stick their growth.</strong> But when they deploy it, users complain.</p>
+<p><strong data-redactor-tag="strong">A blogger pours hours of research into a single post</strong>. But when he hits publish, he doesn&#8217;t get any traffic.</p>
+<p>Nobody wants to be out of touch with their audience. But it happens all the time. Even big companies make these mistakes.</p>
+<h3>A story about unmet expectations</h3>
+<p>In 2016, developers, video editors, and other pro users were eagerly awaiting Apple&#8217;s refresh of the MacBook Pro.</p>
+<p>However, when they got their hands on it, it was clear Apple had missed the mark.</p>
+<blockquote class="twitter-tweet" data-lang="en">
+<p dir="ltr" lang="en"><a href="https://twitter.com/Apple?ref_src=twsrc%5Etfw">@Apple</a> Utterly dissapointed with the new macbook pro. The computer is way too expensive. New model removes USB, SD Card slot, magsafe. ????</p>
+<p>— Ivy (@Ivan_Krazy) <a href="https://twitter.com/Ivan_Krazy/status/795197765420650496?ref_src=twsrc%5Etfw">November 6, 2016</a></p></blockquote>
+<p><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<blockquote><p>&#8220;In all my years of using Apple products, I have never returned one. Until now. Last month I purchased the new MacBook Pro with Touch Bar. What a letdown. It&#8217;s the first Apple device that&#8217;s actually made me less productive. The company has lost touch with Steve Jobs&#8217; vision for simple, elegant machines.<span class="redactor-invisible-space" data-verified="redactor" data-redactor-tag="span" data-redactor-class="redactor-invisible-space">&#8221; – <a href="https://michaelhyatt.com/new-macbook-pro/">Michael Hyatt</a></span></p></blockquote>
+<blockquote class="twitter-tweet" data-lang="en">
+<p dir="ltr" lang="en">I&#8217;m actually thinking about returning my 2017 MacBook Pro and getting a used 2015. I&#8217;m not a 100% satisfied right now.</p>
+<p>— Sniper (GER) (@Sniper_GER) <a href="https://twitter.com/Sniper_GER/status/925627468626714626?ref_src=twsrc%5Etfw">November 1, 2017</a></p></blockquote>
+<p>&nbsp;</p>
+<h3>Why did Apple lose touch with their customers?</h3>
+<p>I think they just weren&#8217;t listening.</p>
+<p>Leading up to the 2016 MacBook Pro reveal event, Sascha Segan, writing for <a href="https://www.pcmag.com/article/348897/10-things-we-want-from-the-new-apple-macbook-pro">PC Magazine</a>, said:</p>
+<blockquote><p>To me, the most important aspect of the MacBook Pro is the &#8220;pro&#8221; part. This laptop should be a no-compromise workhorse for getting your business done on the road. I&#8217;ve been reading the rumors of what may be coming and going with some trepidation. Like many pro-level MacBook users, my biggest concern isn&#8217;t about what Apple is adding—it&#8217;s what might be taken away. I chose a Pro because it gives me the power, the ports, and the keyboard to get all of my work done.</p></blockquote>
+<p><span class="redactor-invisible-space" data-verified="redactor" data-redactor-tag="span" data-redactor-class="redactor-invisible-space">Of course, there are many differing perspectives on Apple&#8217;s products.</span></p>
+<p><span class="redactor-invisible-space" data-verified="redactor" data-redactor-tag="span" data-redactor-class="redactor-invisible-space">How could they know which voices to listen to, and which to ignore?</span></p>
+<h3>People are complicated</h3>
+<p>When you put anything out into the world, people will have opinions about it. And, to make things more confusing, everybody wants something different.</p>
+<p><strong data-redactor-tag="strong">Why? People value different things depending on their context.</strong></p>
+<p>With laptops, different groups want different features:</p>
+<ul>
+<li><strong data-redactor-tag="strong">Students </strong>want a laptop that is affordable, and lightweight (because they&#8217;ll be lugging it to class).</li>
+<li><strong data-redactor-tag="strong">Programmers </strong><span class="redactor-invisible-space" data-verified="redactor" data-redactor-tag="span" data-redactor-class="redactor-invisible-space">want a laptop with a high-resolution screen, lots of memory, and a full-size keyboard.<br />
+</span></li>
+<li><span class="redactor-invisible-space" data-verified="redactor" data-redactor-tag="span" data-redactor-class="redactor-invisible-space"><strong data-redactor-tag="strong">Gamers </strong>want a CPU and GPU with a lot of horsepower. They also don&#8217;t mind as much if the laptop is bulky.<br />
+</span></li>
+</ul>
+<p>Even these examples are too general because a person&#8217;s context has multiple dimensions. Some college students are wealthy. Many programmers are assigned computers by their employers and don&#8217;t have a say in what they get. Most gamers prefer a desktop machine because it&#8217;s easier to upgrade individual components.</p>
+<p>So, you could ask a programmer &#8220;what&#8217;s your dream laptop?&#8221; and they might give you a truthful answer. But, if their boss is buying the computer, it might not matter what the programmer thinks. Unless the boss is a good boss, in which case the programmer&#8217;s opinion matters quite a bit.</p>
+<p>Do you see how this can get complicated?</p>
+<p><strong data-redactor-tag="strong">Who you listen to </strong>matters quite a bit.</p>
+<h3>Who you should listen to (and how you should listen)</h3>
+<p>I&#8217;m going to give some very general advice, and some of you might disagree when you hear it:</p>
+<p><em data-redactor-tag="em">When it comes to product feedback, only listen to the people paying for your product. Explore <strong data-redactor-tag="strong">their</strong></em><em data-redactor-tag="em"> context; find out what&#8217;s important to <strong data-redactor-tag="strong">them</strong>.</em></p>
+<p>I know some of you are screaming: &#8220;BUT SOME USERS DON&#8217;T PAY FOR THE PRODUCT AND THEIR VOICES ARE STILL IMPORTANT.&#8221;</p>
+<p>I agree with you. I too want to build products that benefit the actual users.</p>
+<p>But, look at Facebook and Google. Many of us use them every day, but we don&#8217;t pay for them. Advertisers do. Facebook and Google don&#8217;t seem to care much about our privacy. They&#8217;ll track us, and share our information without our consent. Why? Their allegiance is with advertisers.</p>
+<p>Ultimately, a business serves whoever is paying them.</p>
+<p>Let&#8217;s go back to our laptop example.</p>
+<p>Joel Spolsky is the founder of Fogcreek Software and has probably bought hundreds of laptops. If you were trying to sell him your computers, you&#8217;d want to read <a href="https://www.joelonsoftware.com/2005/07/25/hitting-the-high-notes/">his blog</a> and figure out what he values. In his case, he cares about treating developers well. He wants to give them autonomy. He&#8217;ll let them choose their machine and the tools they use.</p>
+<hr />
+<p>Ready to put this principle into action? Here are the steps I recommend:</p>
+<h3>1. Serve a customer you care about</h3>
+<p>You need founder/market fit with the people you&#8217;re serving; product/market fit isn&#8217;t enough.</p>
+<p>Don&#8217;t sell laptops to CTOs who don&#8217;t care about their developers! If you don&#8217;t respect the person paying you for your service,</p>
+<p>&#8220;Giving a damn&#8221; about your customers is a substantial competitive advantage.</p>
+<h3>2. Only take product feedback from people paying for your product</h3>
+<p>The opinion of random people on Twitter&#8217;s doesn&#8217;t matter. Likewise, don&#8217;t listen to folks who keep saying they&#8217;ll buy your product, but never do. Their opinion doesn&#8217;t matter either.</p>
+<p><strong data-redactor-tag="strong">Famously, Jason Fried said he only listens to feedback from customers who just bought or people who just canceled.</strong></p>
+<p><a href="http://danshipper.com/heres-what-i-learned-hanging-out-with-jason-fried">Dan Shipper</a> elaborates:</p>
+<p><em data-redactor-tag="em">A customer who just signed up can give good feedback for this reason: they&#8217;re only recently removed from the buying process. Because of this, it&#8217;s easier to get useful information about why they bought your product, what emotional event caused them to look for it and which part of it is actually useful for them.</em></p>
+<p><em data-redactor-tag="em">Similarly, a customer who just canceled can tell you exactly what you&#8217;re missing. They signed up and put their credit card information in because they thought you would be able to do a job for them. If they cancel, your product didn&#8217;t deliver what they expected.</em></p>
+<p>Don&#8217;t build features for people who aren&#8217;t paying you! Don&#8217;t try to please folks who haven&#8217;t proven that they&#8217;re willing to be your customer.</p>
+<p>Are you a brand new startup with no customers? Jason advises that you talk to people who are paying for your <strong data-redactor-tag="strong">competitor&#8217;s</strong> product.</p>
+<h3>3. Explore your customer&#8217;s context</h3>
+<p>Get close to the customer, and observe how they&#8217;re using your product.</p>
+<p>I&#8217;m one of those people who didn&#8217;t upgrade to the new MacBook Pros. Why? Here&#8217;s what my computer looks like most days:</p>
+<p><img data-attachment-id="1795" data-permalink="https://justinjackson.ca/opinion/macbook-pro-2013-usb-thunderbolt/" data-orig-file="https://i2.wp.com/justinjackson.ca/contents/data/2018/04/macbook-pro-2013-usb-thunderbolt.jpg?fit=2400%2C1218&amp;ssl=1" data-orig-size="2400,1218" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="MacBook Pro 2013 with lots of USB and thunderbolt cables plugged in" data-image-description="" data-medium-file="https://i2.wp.com/justinjackson.ca/contents/data/2018/04/macbook-pro-2013-usb-thunderbolt.jpg?fit=500%2C254&amp;ssl=1" data-large-file="https://i2.wp.com/justinjackson.ca/contents/data/2018/04/macbook-pro-2013-usb-thunderbolt.jpg?fit=600%2C305&amp;ssl=1" class="aligncenter size-large wp-image-1795" src="https://i2.wp.com/justinjackson.ca/contents/data/2018/04/macbook-pro-2013-usb-thunderbolt.jpg?resize=600%2C305&#038;ssl=1" alt="MacBook Pro 2013 with lots of USB and thunderbolt cables plugged in" width="600" height="305" srcset="https://i2.wp.com/justinjackson.ca/contents/data/2018/04/macbook-pro-2013-usb-thunderbolt.jpg?resize=1024%2C520&amp;ssl=1 1024w, https://i2.wp.com/justinjackson.ca/contents/data/2018/04/macbook-pro-2013-usb-thunderbolt.jpg?resize=500%2C254&amp;ssl=1 500w, https://i2.wp.com/justinjackson.ca/contents/data/2018/04/macbook-pro-2013-usb-thunderbolt.jpg?resize=768%2C390&amp;ssl=1 768w, https://i2.wp.com/justinjackson.ca/contents/data/2018/04/macbook-pro-2013-usb-thunderbolt.jpg?w=1200&amp;ssl=1 1200w, https://i2.wp.com/justinjackson.ca/contents/data/2018/04/macbook-pro-2013-usb-thunderbolt.jpg?w=1800&amp;ssl=1 1800w" sizes="(max-width: 600px) 100vw, 600px" data-recalc-dims="1" /></p>
+<p>If Apple had paid attention to how I, and many other pro customers, use their laptops every day, maybe they would have thought differently about what they offered in the new MacBook Pros.</p>
+<blockquote class="twitter-tweet" data-lang="en">
+<p lang="en" dir="ltr">Recently sold my 2017 13&quot; MBP (for a profit), and went back to my 2013 13&quot; MBP. Keyboard was too shallow, TouchBar was pretty useless, and no noticeable boost in performance. It was a beautiful machine though.</p>
+<p>It feels great to have a &quot;normal&quot; keyboard and USB 3 ports again!</p>
+<p>&mdash; Amir Khella (@amirkhella) <a href="https://twitter.com/amirkhella/status/1003775782362087424?ref_src=twsrc%5Etfw">June 4, 2018</a></p></blockquote>
+<p><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<h3>4. Listen to your customers</h3>
+<p>Beyond observing your customers, you should also do customer interviews. Ask customers questions: What are they struggling with? In what ways do they want their lives to be better?</p>
+<p>Going back to the MacBook Pro example, we saw many Apple customers stating: &#8220;This is what I wanted, and I&#8217;m disappointed by what I got.&#8221;</p>
+<p>Users wanted more memory, more power, and a full-size keyboard (&#8220;Don&#8217;t take away my ESC key!&#8221;). Many folks wanted that SD card slot and more ports. But what they got was a thinner, lighter machine with a touch bar. That&#8217;s why there was so much disappointment.</p>
+<p>The new offering didn&#8217;t feel like a step forward. It felt like a step back.</p>
+<p>For years, Apple produced a MacBook Pro that users loved. But, in this case, they got it wrong.</p>
+<p>Their example shows how difficult product/market fit is.</p>
+<p>As entrepreneurs, we need to listen to our customers. What do they care about now? What do they want now?</p>
+<p>Customers are a moving target; their context and desires are continually evolving. Our job is to listen.</p>
+<hr />
+<p>You can listen to an initial draft on the <a href="http://podcast.megamaker.co/episodes/061-youre-out-of-touch">MegaMaker podcast</a>:</p>
+<p><iframe src="https://share.transistor.fm/e/e4771251" width="100%" height="180px" frameborder="0" scrolling="no" seamless="true"></iframe></p>
+<p>Subscribe to my newsletter and get notified whenever I publish something new:</p>
+<p>The post <a rel="nofollow" href="https://justinjackson.ca/opinion/">When you&#8217;re building a product, whose opinion should you listen to?</a> appeared first on <a rel="nofollow" href="https://justinjackson.ca">Justin Jackson</a>.</p>
+]]></content>
+			<link rel="replies" type="text/html" href="https://justinjackson.ca/opinion/#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="https://justinjackson.ca/opinion/feed/atom/" thr:count="0"/>
+		<thr:total>0</thr:total>
+		</entry>
+		<entry>
+		<author>
+			<name>Justin</name>
+					</author>
+		<title type="html"><![CDATA[Why I&#8217;m building a new SaaS in 2018]]></title>
+		<link rel="alternate" type="text/html" href="https://justinjackson.ca/new-saas/" />
+		<id>https://justinjackson.ca/</id>
+		<updated>2018-03-07T19:53:59Z</updated>
+		<published>2018-03-07T19:53:59Z</published>
+		<category scheme="https://justinjackson.ca" term="General" /><category scheme="https://justinjackson.ca" term="SaaS" />		<summary type="html"><![CDATA[<p>Back in the Spring of 2015, I was chatting with Nathan Barry. He&#8217;d recently decided to leave his info-product business behind, and double-down on his SaaS (ConvertKit). At the time, the decision seemed ridiculous to me. I was working as a Product Manager for Sprintly but had just published Marketing for Developers. I was eagerly [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://justinjackson.ca/new-saas/">Why I&#8217;m building a new SaaS in 2018</a> appeared first on <a rel="nofollow" href="https://justinjackson.ca">Justin Jackson</a>.</p>
+]]></summary>
+		<content type="html" xml:base="https://justinjackson.ca/new-saas/"><![CDATA[<p>Back in the Spring of 2015, I was chatting with Nathan Barry.</p>
+<p>He&#8217;d recently decided to leave his info-product business behind, and double-down on his SaaS (ConvertKit).</p>
+<p>At the time, the decision seemed ridiculous to me.</p>
+<p>I was working as a Product Manager for Sprintly but had just published <a href="https://devmarketing.xyz">Marketing for Developers</a>. I was eagerly anticipating a time where I&#8217;d be able to quit my job and go independent.</p>
+<p>To me, Nathan was living the dream. The year previously he&#8217;d done nearly $300,000 in revenue from books and courses.</p>
+<p><img data-attachment-id="1783" data-permalink="https://justinjackson.ca/new-saas/nathan-barry-net-income/" data-orig-file="https://i1.wp.com/justinjackson.ca/contents/data/2018/03/nathan-barry-net-income.png?fit=540%2C358&amp;ssl=1" data-orig-size="540,358" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Nathan Barry net income" data-image-description="" data-medium-file="https://i1.wp.com/justinjackson.ca/contents/data/2018/03/nathan-barry-net-income.png?fit=500%2C331&amp;ssl=1" data-large-file="https://i1.wp.com/justinjackson.ca/contents/data/2018/03/nathan-barry-net-income.png?fit=540%2C358&amp;ssl=1" class="aligncenter size-full wp-image-1783" src="https://i1.wp.com/justinjackson.ca/contents/data/2018/03/nathan-barry-net-income.png?resize=540%2C358&#038;ssl=1" alt="Nathan Barry net income" width="540" height="358" srcset="https://i1.wp.com/justinjackson.ca/contents/data/2018/03/nathan-barry-net-income.png?w=540&amp;ssl=1 540w, https://i1.wp.com/justinjackson.ca/contents/data/2018/03/nathan-barry-net-income.png?resize=500%2C331&amp;ssl=1 500w" sizes="(max-width: 540px) 100vw, 540px" data-recalc-dims="1" /></p>
+<p>As someone who was looking on longingly from the sidelines, I couldn&#8217;t imagine leaving that kind of business behind.</p>
+<p>When I asked him about it, he replied:</p>
+<blockquote><p>There’s a bunch of reasons I decided to focus on ConvertKit. First, I needed a challenge. Second, <strong>I know people that have gotten to half a million or a couple million dollars a year in revenue off books and courses. And when I look at their business models, I just don’t like it.</strong> To get to $1 million in revenue you have to optimize just about everything. It’s diminishing returns; it’s like squeezing blood from a stone. To drive more revenue, you have to do more launches, and hire more people. Folks that are winning at info-products have huge monthly expenses and lower profit margins. With SaaS, I saw a substantial business I could grow for a long time.</p></blockquote>
+<p>I shook my head. It still seemed crazy to me. In 2014, ConvertKit had done about $39,000 in revenue (almost 8x less than his books). I just didn&#8217;t get it.</p>
+<h3>Fast forward two years</h3>
+<p>I followed Nathan&#8217;s playbook, and went independent in 2016, using <a href="https://devmarketing.xyz">Marketing for Developers</a> and <a href="https://megamaker.co">MegaMaker</a> as my platform. In 2017 I added <a href="https://tinymarketingwins.com">Tiny Marketing Wins</a> to my product mix.</p>
+<p>Revenue-wise, my little solo business did pretty well:</p>
+<p><img data-attachment-id="1784" data-permalink="https://justinjackson.ca/new-saas/justin-net-income-books-courses/" data-orig-file="https://i2.wp.com/justinjackson.ca/contents/data/2018/03/justin-net-income-books-courses.png?fit=700%2C371&amp;ssl=1" data-orig-size="700,371" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Justin Jackson product revenue" data-image-description="" data-medium-file="https://i2.wp.com/justinjackson.ca/contents/data/2018/03/justin-net-income-books-courses.png?fit=500%2C265&amp;ssl=1" data-large-file="https://i2.wp.com/justinjackson.ca/contents/data/2018/03/justin-net-income-books-courses.png?fit=600%2C318&amp;ssl=1" class="aligncenter size-full wp-image-1784" src="https://i2.wp.com/justinjackson.ca/contents/data/2018/03/justin-net-income-books-courses.png?resize=600%2C318&#038;ssl=1" alt="Justin Jackson product revenue" width="600" height="318" srcset="https://i2.wp.com/justinjackson.ca/contents/data/2018/03/justin-net-income-books-courses.png?w=700&amp;ssl=1 700w, https://i2.wp.com/justinjackson.ca/contents/data/2018/03/justin-net-income-books-courses.png?resize=500%2C265&amp;ssl=1 500w" sizes="(max-width: 600px) 100vw, 600px" data-recalc-dims="1" /></p>
+<p>But something else happened in my second year of business. Something I didn&#8217;t expect. I got depressed. For the first time in my life, I was dealing with intense mental health issues. There were weeks where I was only able to work five hours total.</p>
+<p>There was a huge downside to solopreneurship that I hadn&#8217;t considered: when you get sick, there&#8217;s nobody else around to keep your business running. Most of my marketing, video tutorials, and coaching require me to be charismatic and energetic; there were many days where I just couldn&#8217;t.</p>
+<p><strong>When the year ended, I was mentally and financially drained.</strong></p>
+<p>Thanks to therapy, I&#8217;m feeling a lot better now. But the experience moved me.</p>
+<h3>What I learned</h3>
+<p>The past two years have taught me some valuable lessons:</p>
+<ul>
+<li><strong>I&#8217;ve worked too hard, and haven&#8217;t left enough margin in my life.</strong> Brennan Dunn warned me about this in a private conversation at MicroConf. I&#8217;ve been doing too much of the work myself, and haven&#8217;t leveraged automation when I should have.</li>
+<li><strong>The info-products business is hard to scale.</strong> Doing courses, workshops, and books have helped me earn an independent income. I plan to continue doing it while we&#8217;re building this new SaaS. But, like Nathan mentioned, scaling it is difficult. You&#8217;re either on a never-ending hamster wheel of launches, or, you&#8217;re investing in employees, sophisticated automation, and non-stop webinars.</li>
+<li><strong>I&#8217;m ready to partner up. </strong>I&#8217;ve always liked working alone. But my health scare this past year changed me. The advantage of having a partner, is you&#8217;ve got someone to lean on when times get tough.</li>
+</ul>
+<h3>The announcement: I&#8217;m building a new podcasting SaaS</h3>
+<p>It&#8217;s called <a href="https://transistor.fm">Transistor.fm</a>. It was started by my friend Jon Buda, in Chicago. I&#8217;m coming on as his co-founder.</p>
+<p>Jon and I were introduced in 2014 by our mutual friend Chase Reeves at XOXO in Portland. Here&#8217;s a photo from the day we met:</p>
+<p><img data-attachment-id="1785" data-permalink="https://justinjackson.ca/new-saas/jon-buda-justin-jackson-portland-xoxo/" data-orig-file="https://i1.wp.com/justinjackson.ca/contents/data/2018/03/jon-buda-justin-jackson-portland-xoxo.jpeg?fit=3264%2C1518&amp;ssl=1" data-orig-size="3264,1518" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Jon Buda and Justin Jackson, Portland, Oregon, XOXO Festival 2014" data-image-description="" data-medium-file="https://i1.wp.com/justinjackson.ca/contents/data/2018/03/jon-buda-justin-jackson-portland-xoxo.jpeg?fit=500%2C233&amp;ssl=1" data-large-file="https://i1.wp.com/justinjackson.ca/contents/data/2018/03/jon-buda-justin-jackson-portland-xoxo.jpeg?fit=600%2C279&amp;ssl=1" class="aligncenter size-large wp-image-1785" src="https://i1.wp.com/justinjackson.ca/contents/data/2018/03/jon-buda-justin-jackson-portland-xoxo.jpeg?resize=600%2C279&#038;ssl=1" alt="Jon Buda and Justin Jackson, Portland, Oregon, XOXO Festival 2014" width="600" height="279" srcset="https://i1.wp.com/justinjackson.ca/contents/data/2018/03/jon-buda-justin-jackson-portland-xoxo.jpeg?resize=1024%2C476&amp;ssl=1 1024w, https://i1.wp.com/justinjackson.ca/contents/data/2018/03/jon-buda-justin-jackson-portland-xoxo.jpeg?resize=500%2C233&amp;ssl=1 500w, https://i1.wp.com/justinjackson.ca/contents/data/2018/03/jon-buda-justin-jackson-portland-xoxo.jpeg?resize=768%2C357&amp;ssl=1 768w, https://i1.wp.com/justinjackson.ca/contents/data/2018/03/jon-buda-justin-jackson-portland-xoxo.jpeg?w=1200&amp;ssl=1 1200w, https://i1.wp.com/justinjackson.ca/contents/data/2018/03/jon-buda-justin-jackson-portland-xoxo.jpeg?w=1800&amp;ssl=1 1800w" sizes="(max-width: 600px) 100vw, 600px" data-recalc-dims="1" /></p>
+<p>At the time, I was writing Marketing for Devs. Jon was working on a podcasting app with someone else. He invited me to host my podcast with him.</p>
+<p>Before we left, we said: &#8220;Let&#8217;s build something together someday.&#8221;</p>
+<p>Jon&#8217;s first partnership didn&#8217;t work out. He eventually got a job doing full-stack web dev in Chicago. We kept in touch and met up again in 2015.</p>
+<p>In June 2016, we tried building a community platform. Ultimately, we decided not to move forward with the idea, but it gave us a chance to work together.</p>
+<p>Finally, in December 2017, Jon told me about a new podcasting project he&#8217;d started: <a href="https://transistor.fm">Transistor</a>. He was getting tired of working on it by himself. I was tired of working solo too. So we started talking about partnering up.</p>
+<p>We finished signing all the legal documents last week. We&#8217;re now official co-founders!</p>
+<h3>What is Transistor.fm? How does it compare to other podcasting hosting apps?</h3>
+<p>Businesses like Basecamp, eBay, and Code Pen have discovered the power of having a branded podcast. Instead of running ads on someone else&#8217;s show, they&#8217;re investing in building their own audience.</p>
+<p><strong>We want to make Transistor the best way to create a podcast for your business.</strong></p>
+<p>We already have users!</p>
+<p><a href="http://www.thegoodnewspodcast.fm/"><img data-attachment-id="1786" data-permalink="https://justinjackson.ca/new-saas/2018-03-07-at-10-55-am/" data-orig-file="https://i0.wp.com/justinjackson.ca/contents/data/2018/03/2018-03-07-at-10.55-AM.png?fit=1365%2C549&amp;ssl=1" data-orig-size="1365,549" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="The Cards Against Humanity podcast hosted on Transistor.fm" data-image-description="" data-medium-file="https://i0.wp.com/justinjackson.ca/contents/data/2018/03/2018-03-07-at-10.55-AM.png?fit=500%2C201&amp;ssl=1" data-large-file="https://i0.wp.com/justinjackson.ca/contents/data/2018/03/2018-03-07-at-10.55-AM.png?fit=600%2C241&amp;ssl=1" class="aligncenter size-large wp-image-1786" src="https://i0.wp.com/justinjackson.ca/contents/data/2018/03/2018-03-07-at-10.55-AM.png?resize=600%2C241&#038;ssl=1" alt="The Cards Against Humanity podcast hosted on Transistor.fm" width="600" height="241" srcset="https://i0.wp.com/justinjackson.ca/contents/data/2018/03/2018-03-07-at-10.55-AM.png?resize=1024%2C412&amp;ssl=1 1024w, https://i0.wp.com/justinjackson.ca/contents/data/2018/03/2018-03-07-at-10.55-AM.png?resize=500%2C201&amp;ssl=1 500w, https://i0.wp.com/justinjackson.ca/contents/data/2018/03/2018-03-07-at-10.55-AM.png?resize=768%2C309&amp;ssl=1 768w, https://i0.wp.com/justinjackson.ca/contents/data/2018/03/2018-03-07-at-10.55-AM.png?w=1365&amp;ssl=1 1365w, https://i0.wp.com/justinjackson.ca/contents/data/2018/03/2018-03-07-at-10.55-AM.png?w=1200&amp;ssl=1 1200w" sizes="(max-width: 600px) 100vw, 600px" data-recalc-dims="1" /></a></p>
+<p>Cards Against Humanity was our first paying customer. Their show, <a href="http://www.thegoodnewspodcast.fm/">The Good News Podcast</a>, is hosted on Transistor.</p>
+<p>Since launching the beta in December, we&#8217;re hosting a handful of shows, and have already served 2 million podcast downloads.</p>
+<p>We aim to help companies overcome the challenges of making a podcast. We want to help them create compelling content, build a podcast website, format their feed correctly, find listeners, and get a good return on their investment.</p>
+<h3>What&#8217;s next?</h3>
+<p><span class=" author-d-iz88z86z86za0dz67zz78zz78zz74zz68zjz80zz71z9iz90z9z84zhz69z8n1jz81zz69zz70zz90zz67zsz78zz68zrz81zz122zz81zcz89zz122zmz89zw2z73zz81zz66zz90z">Jon and I have lots of plans for Transistor</span>. This will be a side-project for both of us in 2018. He&#8217;ll continue to work full-time, and I&#8217;ll continue to sell <a href="https://justinjackson.podia.com">my products</a>, and do <a href="https://megamaker.co/coaching">coaching</a> to pay the bills.</p>
+<p>One thing that excites me, especially for <a href="https://justinjackson.ca/motivation/">Tiny Wins</a> customers, is that I&#8217;ll be able to use Transistor as a live case study for my tutorials. Everything I&#8217;m learning and applying on my SaaS, I&#8217;ll be sharing.</p>
+<p>If you want to follow along with Transistor, subscribe to <a href="https://saas.transistor.fm/">our podcast</a>, follow us <a href="https://twitter.com/transistorfm">on Twitter</a>, or sign-up for our <a href="https://transistor.fm/">waiting list</a>.</p>
+<p>Cheers,<br />
+Justin Jackson<br />
+<a href="https://twitter.com/mijustin">@mijustin</a></p>
+<p>The post <a rel="nofollow" href="https://justinjackson.ca/new-saas/">Why I&#8217;m building a new SaaS in 2018</a> appeared first on <a rel="nofollow" href="https://justinjackson.ca">Justin Jackson</a>.</p>
+]]></content>
+			<link rel="replies" type="text/html" href="https://justinjackson.ca/new-saas/#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="https://justinjackson.ca/new-saas/feed/atom/" thr:count="0"/>
+		<thr:total>0</thr:total>
+		</entry>
+		<entry>
+		<author>
+			<name>Justin</name>
+					</author>
+		<title type="html"><![CDATA[What affects customer motivation?]]></title>
+		<link rel="alternate" type="text/html" href="https://justinjackson.ca/motivation/" />
+		<id>https://justinjackson.ca/</id>
+		<updated>2018-02-24T06:41:19Z</updated>
+		<published>2018-02-24T06:41:19Z</published>
+		<category scheme="https://justinjackson.ca" term="General" />		<summary type="html"><![CDATA[<p>Typically, when I&#8217;m at Safeway, you&#8217;ll find me in the cereal aisle, checking to see if Cheerios are on sale. I have four kids, and cereal is pretty expensive, so I almost always buy what&#8217;s on sale. If I get to the checkout and I&#8217;ve saved $5, I feel like I&#8217;ve succeeded. But today was [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://justinjackson.ca/motivation/">What affects customer motivation?</a> appeared first on <a rel="nofollow" href="https://justinjackson.ca">Justin Jackson</a>.</p>
+]]></summary>
+		<content type="html" xml:base="https://justinjackson.ca/motivation/"><![CDATA[<p>Typically, when I&#8217;m at Safeway, you&#8217;ll find me in the cereal aisle, checking to see if Cheerios are on sale. I have four kids, and cereal is pretty expensive, so I almost always buy what&#8217;s on sale.</p>
+<p>If I get to the checkout and I&#8217;ve saved $5, I feel like I&#8217;ve succeeded.</p>
+<p>But today was different.</p>
+<p>It was the night before Valentine&#8217;s Day, and like twenty other men, I was in the floral section looking for the perfect bouquet.</p>
+<p>I&#8217;ve made a special trip. I&#8217;m walking around with intensity. It&#8217;s crowded; I&#8217;m jostling for position as other men scurry around. I&#8217;m not looking at price tags, but rather which arrangements &#8220;feel&#8221; right. I&#8217;m <strong>highly motivated</strong> to find the right flowers for someone I love.</p>
+<p>Buying flowers is a lot different than buying Cheerios.</p>
+<p>What&#8217;s different is the <strong>emotion</strong> behind the purchase. On Valentine&#8217;s Day, price is no object. Lovers will spend significant amounts on flowers, dinner, and gifts. Why? They&#8217;re motivated to show affection to their partner.</p>
+<p>It&#8217;s incredible how motivation can change behavior. Even a price-conscious customer will jump over hurdles, bypass objections, and get to the sale faster when they&#8217;re motivated.</p>
+<h3>How motivated is your customer?</h3>
+<p>If you&#8217;re selling Cheerios, and they&#8217;re not on sale, maybe I&#8217;ll buy oatmeal instead.</p>
+<p>But if you&#8217;re selling the last seats to a Valentine&#8217;s Day Symphony, and my spouse wants to go, you better believe I&#8217;m motivated to get those tickets (and pay whatever it takes).</p>
+<p>This principle also applies to selling software. I see many developers selling apps to unmotivated customers. If you&#8217;re tugging, pulling, and begging people to try your product, you have a motivation problem.</p>
+<p>The smartest founders look for people already in motion, who are highly motivated to find a solution for an obstacle in their life.</p>
+<h3>A story: Stripe</h3>
+<p>Getting a merchant account used to be hard. You would have to fill out lengthy forms, fax them in, get background checks, and pay high applications fees. The crazy thing? People were doing it! That&#8217;s how motivated they were to accept payments online.</p>
+<p>The Collison brothers noticed this and formed <a href="https://stripe.com">Stripe</a>. They targeted a highly motivated group and made it easier for them to get what they wanted.</p>
+<p><strong>Before:</strong></p>
+<blockquote><p>I really want to get this store online. Oh, damn, I need to fill out this 40-page document, and wait six weeks to get a merchant account?</p></blockquote>
+<p><strong>Now:</strong></p>
+<blockquote><p>I really want to get this store online. Oh sweet! All I need to do is sign up for Stripe, and 30 seconds later, I&#8217;m accepting credit cards!</p></blockquote>
+<p>The customer is still highly motivated, but Stripe has just made it easier for them to make progress.</p>
+<h3>What affects customer motivation?</h3>
+<p>Here are a few factors to keep in mind:</p>
+<ul>
+<li><strong>Societal context: </strong>YouTube beat iFilm, even though iFilm was first. The problem? iFilm launched in 1997 when most consumers were still using dial-up (the 56k modem came out in &#8217;97). YouTube started in 2005, right when broadband was exploding. Over the next year, high-speed internet grew 40% in North America. The time was right for online video.</li>
+<li><strong style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;">Personal context: </strong>As we go through different phases of life, our motivation changes. <a style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;" href="https://open.lib.umn.edu/principlesmarketing/chapter/3-1-factors-that-influence-consumers-buying-behavior/">In this textbook</a><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;">, the authors observe that &#8220;w</span><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;">hen you were a child, the last thing you probably wanted as a gift was clothing. As you became a teen, however, cool clothes probably became a bigger priority.&#8221;</span></li>
+<li><strong>Reference groups:</strong> If all your peers are on Snapchat, you&#8217;ll be more motivated to be there too. And, if everyone leaves for Instagram, you&#8217;ll likely follow. We tend to mirror the people we identify with. It&#8217;s also true in business: notice how many startups moved their blogs to Medium, or have started using live chat on their homepage.</li>
+</ul>
+<p>Timing is crucial. You don&#8217;t want to offer a product too early, and you don&#8217;t want to be too late. It&#8217;s usually best to be a bit ahead of the curve.</p>
+<h3>How to find motivated customers</h3>
+<p>Look for people in motion!</p>
+<ul>
+<li>Are they searching for answers on Google?</li>
+<li>Are they asking for recommendations in Slack?</li>
+<li>Are they sharing hacks and workarounds in private groups?</li>
+<li>Are they hiring contractors and employees to get the task done?</li>
+<li>Are they willing to jump through hoops, just to make the progress they desire?</li>
+</ul>
+<p>Don&#8217;t waste your time trying to convince unmotivated customers.</p>
+<p>Instead, focus on folks who have a strong inward urge to get what they want.</p>
+<p>Cheers,<br />
+Justin Jackson<br />
+<a href="https://twitter.com/mijustin">@mijustin</a></p>
+<p>The post <a rel="nofollow" href="https://justinjackson.ca/motivation/">What affects customer motivation?</a> appeared first on <a rel="nofollow" href="https://justinjackson.ca">Justin Jackson</a>.</p>
+]]></content>
+			<link rel="replies" type="text/html" href="https://justinjackson.ca/motivation/#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="https://justinjackson.ca/motivation/feed/atom/" thr:count="0"/>
+		<thr:total>0</thr:total>
+		</entry>
+		<entry>
+		<author>
+			<name>Justin</name>
+					</author>
+		<title type="html"><![CDATA[I spent $30,000 to get product-market fit]]></title>
+		<link rel="alternate" type="text/html" href="https://justinjackson.ca/30k/" />
+		<id>https://justinjackson.ca/</id>
+		<updated>2018-02-08T19:40:36Z</updated>
+		<published>2018-02-08T19:40:36Z</published>
+		<category scheme="https://justinjackson.ca" term="General" />		<summary type="html"><![CDATA[<p>It was 10pm on a Friday night. I was sitting at my kitchen table with my laptop open. I was watching hundreds of Stripe payment notifications come through: Thousands of dollars were pouring into my account. And I was miserable. A year previous, I&#8217;d launched a new subscription product called Tiny Marketing Wins. People loved it. [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://justinjackson.ca/30k/">I spent $30,000 to get product-market fit</a> appeared first on <a rel="nofollow" href="https://justinjackson.ca">Justin Jackson</a>.</p>
+]]></summary>
+		<content type="html" xml:base="https://justinjackson.ca/30k/"><![CDATA[<p>It was 10pm on a Friday night. I was sitting at my kitchen table with my laptop open.</p>
+<p>I was watching hundreds of Stripe payment notifications come through:</p>
+<p><img data-attachment-id="1762" data-permalink="https://justinjackson.ca/30k/annual/" data-orig-file="https://i0.wp.com/justinjackson.ca/contents/data/2018/02/annual.jpg?fit=719%2C317&amp;ssl=1" data-orig-size="719,317" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Stripe payment notifications in macOs menu bar via CashNotify" data-image-description="" data-medium-file="https://i0.wp.com/justinjackson.ca/contents/data/2018/02/annual.jpg?fit=500%2C220&amp;ssl=1" data-large-file="https://i0.wp.com/justinjackson.ca/contents/data/2018/02/annual.jpg?fit=600%2C265&amp;ssl=1" class="aligncenter size-full wp-image-1762" src="https://i0.wp.com/justinjackson.ca/contents/data/2018/02/annual.jpg?resize=600%2C265&#038;ssl=1" alt="Stripe payment notifications in macOs menu bar via CashNotify" width="600" height="265" srcset="https://i0.wp.com/justinjackson.ca/contents/data/2018/02/annual.jpg?w=719&amp;ssl=1 719w, https://i0.wp.com/justinjackson.ca/contents/data/2018/02/annual.jpg?resize=500%2C220&amp;ssl=1 500w" sizes="(max-width: 600px) 100vw, 600px" data-recalc-dims="1" /></p>
+<p>Thousands of dollars were pouring into my account.</p>
+<p>And I was miserable.</p>
+<p>A year previous, I&#8217;d launched a new subscription product called <a href="https://tinymarketingwins.com/">Tiny Marketing Wins</a>.</p>
+<p>People loved it. I&#8217;d received tons of <a href="https://tinymarketingwins.com/reviews/">good reviews</a>.</p>
+<p>But now it was renewal time. And I started getting emails:</p>
+<blockquote><p>Due to circumstances, I wasn&#8217;t able to take full advantage of TMW last year. This year, I have laid out plans to go from working &#8220;in&#8221; my business to actually changing things around and making progress. But I haven&#8217;t finished last year&#8217;s courses. Do I really need to pay again?</p></blockquote>
+<p><span class="redactor-invisible-space" data-verified="redactor" data-redactor-tag="span" data-redactor-class="redactor-invisible-space">Also common:</span></p>
+<blockquote><p>Sorry, Justin, I had forgotten this was a yearly subscription. I&#8217;m happy with the current version, but I&#8217;m only 50% finished. Could you refund this second payment?</p></blockquote>
+<p>As more emails came in, I got a sinking feeling in my stomach: &#8220;this isn&#8217;t working.&#8221;</p>
+<h3>What went wrong?</h3>
+<p>Tiny Wins started as a free 14-day drip email sequence. Every day, I&#8217;d send you a new marketing tip.</p>
+<p><a href="http://mbsy.co/convertkit/75552"><img data-attachment-id="1763" data-permalink="https://justinjackson.ca/30k/convertkit-sequence/" data-orig-file="https://i2.wp.com/justinjackson.ca/contents/data/2018/02/convertkit-sequence.png?fit=1398%2C571&amp;ssl=1" data-orig-size="1398,571" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="A 14 day ConvertKit drip campaign sequence" data-image-description="" data-medium-file="https://i2.wp.com/justinjackson.ca/contents/data/2018/02/convertkit-sequence.png?fit=500%2C204&amp;ssl=1" data-large-file="https://i2.wp.com/justinjackson.ca/contents/data/2018/02/convertkit-sequence.png?fit=600%2C245&amp;ssl=1" class="aligncenter size-large wp-image-1763" src="https://i2.wp.com/justinjackson.ca/contents/data/2018/02/convertkit-sequence.png?resize=600%2C245&#038;ssl=1" alt="A 14 day ConvertKit drip campaign sequence" width="600" height="245" srcset="https://i2.wp.com/justinjackson.ca/contents/data/2018/02/convertkit-sequence.png?resize=1024%2C418&amp;ssl=1 1024w, https://i2.wp.com/justinjackson.ca/contents/data/2018/02/convertkit-sequence.png?resize=500%2C204&amp;ssl=1 500w, https://i2.wp.com/justinjackson.ca/contents/data/2018/02/convertkit-sequence.png?resize=768%2C314&amp;ssl=1 768w, https://i2.wp.com/justinjackson.ca/contents/data/2018/02/convertkit-sequence.png?w=1398&amp;ssl=1 1398w, https://i2.wp.com/justinjackson.ca/contents/data/2018/02/convertkit-sequence.png?w=1200&amp;ssl=1 1200w" sizes="(max-width: 600px) 100vw, 600px" data-recalc-dims="1" /></a></p>
+<p>It launched on Product Hunt on Oct 29, 2015. Nearly four thousand people signed up.</p>
+<p>Wow.</p>
+<p>After the 14 days was over, people asked me if I was going to keep doing it.</p>
+<p>&#8220;The only way I&#8217;d be able to keep doing it is if it was a paid subscription,&#8221; I said.</p>
+<p><strong>&#8220;We&#8217;ll pay!&#8221; my subscribers said.</strong></p>
+<p>I sat on the idea for awhile but finally launched a paid subscription in February 2017.</p>
+<p>True to form, hundreds of people paid $249 for a year&#8217;s subscription.</p>
+<p>I started sending them weekly marketing tutorial (video + pdf), and they tracked their progress inside the app:</p>
+<p><a href="https://tinymarketingwins.com"><img data-attachment-id="1764" data-permalink="https://justinjackson.ca/30k/origin-tiny-marketing-wins-2017/" data-orig-file="https://i0.wp.com/justinjackson.ca/contents/data/2018/02/origin-tiny-marketing-wins-2017.jpg?fit=2494%2C1182&amp;ssl=1" data-orig-size="2494,1182" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Original Tiny Marketing Wins dashboard in 2017" data-image-description="" data-medium-file="https://i0.wp.com/justinjackson.ca/contents/data/2018/02/origin-tiny-marketing-wins-2017.jpg?fit=500%2C237&amp;ssl=1" data-large-file="https://i0.wp.com/justinjackson.ca/contents/data/2018/02/origin-tiny-marketing-wins-2017.jpg?fit=600%2C284&amp;ssl=1" class="aligncenter size-large wp-image-1764" src="https://i0.wp.com/justinjackson.ca/contents/data/2018/02/origin-tiny-marketing-wins-2017.jpg?resize=600%2C284&#038;ssl=1" alt="Original Tiny Marketing Wins dashboard in 2017" width="600" height="284" srcset="https://i0.wp.com/justinjackson.ca/contents/data/2018/02/origin-tiny-marketing-wins-2017.jpg?resize=1024%2C485&amp;ssl=1 1024w, https://i0.wp.com/justinjackson.ca/contents/data/2018/02/origin-tiny-marketing-wins-2017.jpg?resize=500%2C237&amp;ssl=1 500w, https://i0.wp.com/justinjackson.ca/contents/data/2018/02/origin-tiny-marketing-wins-2017.jpg?resize=768%2C364&amp;ssl=1 768w, https://i0.wp.com/justinjackson.ca/contents/data/2018/02/origin-tiny-marketing-wins-2017.jpg?w=1200&amp;ssl=1 1200w, https://i0.wp.com/justinjackson.ca/contents/data/2018/02/origin-tiny-marketing-wins-2017.jpg?w=1800&amp;ssl=1 1800w" sizes="(max-width: 600px) 100vw, 600px" data-recalc-dims="1" /></a></p>
+<h3>User feedback + iteration</h3>
+<p>In the first few months, I noticed that people were completing the tactics much slower than I&#8217;d anticipated:</p>
+<p><a href="https://wpcomplete.co/?ref=9"><img data-attachment-id="1769" data-permalink="https://justinjackson.ca/30k/completion-rates/" data-orig-file="https://i1.wp.com/justinjackson.ca/contents/data/2018/02/completion-rates.png?fit=1944%2C760&amp;ssl=1" data-orig-size="1944,760" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="WPComplete completion rates" data-image-description="" data-medium-file="https://i1.wp.com/justinjackson.ca/contents/data/2018/02/completion-rates.png?fit=500%2C195&amp;ssl=1" data-large-file="https://i1.wp.com/justinjackson.ca/contents/data/2018/02/completion-rates.png?fit=600%2C234&amp;ssl=1" class="aligncenter size-large wp-image-1769" src="https://i1.wp.com/justinjackson.ca/contents/data/2018/02/completion-rates.png?resize=600%2C234&#038;ssl=1" alt="WPComplete completion rates" width="600" height="234" srcset="https://i1.wp.com/justinjackson.ca/contents/data/2018/02/completion-rates.png?resize=1024%2C400&amp;ssl=1 1024w, https://i1.wp.com/justinjackson.ca/contents/data/2018/02/completion-rates.png?resize=500%2C195&amp;ssl=1 500w, https://i1.wp.com/justinjackson.ca/contents/data/2018/02/completion-rates.png?resize=768%2C300&amp;ssl=1 768w, https://i1.wp.com/justinjackson.ca/contents/data/2018/02/completion-rates.png?w=1200&amp;ssl=1 1200w, https://i1.wp.com/justinjackson.ca/contents/data/2018/02/completion-rates.png?w=1800&amp;ssl=1 1800w" sizes="(max-width: 600px) 100vw, 600px" data-recalc-dims="1" /></a></p>
+<p>I started talking to my users and doing surveys. The results proved my suspicion:</p>
+<p><img data-attachment-id="1766" data-permalink="https://justinjackson.ca/30k/initial-tweet/" data-orig-file="https://i1.wp.com/justinjackson.ca/contents/data/2018/02/initial-tweet.png?fit=475%2C267&amp;ssl=1" data-orig-size="475,267" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Survey results: &#8220;show me how to create a Facebook ad,&#8221; &#8220;help me implement basic SEO,&#8221; &#8220;train me on Google Analytics&#8221;" data-image-description="" data-medium-file="https://i1.wp.com/justinjackson.ca/contents/data/2018/02/initial-tweet.png?fit=475%2C267&amp;ssl=1" data-large-file="https://i1.wp.com/justinjackson.ca/contents/data/2018/02/initial-tweet.png?fit=475%2C267&amp;ssl=1" class="aligncenter size-full wp-image-1766" src="https://i1.wp.com/justinjackson.ca/contents/data/2018/02/initial-tweet.png?resize=475%2C267&#038;ssl=1" alt="Survey results: &quot;show me how to create a Facebook ad,&quot; &quot;help me implement basic SEO,&quot; &quot;train me on Google Analytics&quot;" width="475" height="267" data-recalc-dims="1" /></p>
+<p>So, I tweaked the product to be focused on functional categories. I improved the dashboard as well:</p>
+<p><a href="https://tinymarketingwins.com/tactics/"><img data-attachment-id="1767" data-permalink="https://justinjackson.ca/30k/tiny-marketing-wins-website-tactics/" data-orig-file="https://i1.wp.com/justinjackson.ca/contents/data/2018/02/tiny-marketing-wins-website-tactics.png?fit=2660%2C1482&amp;ssl=1" data-orig-size="2660,1482" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Tiny Marketing Wins dashboard shows you your progress" data-image-description="" data-medium-file="https://i1.wp.com/justinjackson.ca/contents/data/2018/02/tiny-marketing-wins-website-tactics.png?fit=500%2C279&amp;ssl=1" data-large-file="https://i1.wp.com/justinjackson.ca/contents/data/2018/02/tiny-marketing-wins-website-tactics.png?fit=600%2C335&amp;ssl=1" class="aligncenter size-large wp-image-1767" src="https://i1.wp.com/justinjackson.ca/contents/data/2018/02/tiny-marketing-wins-website-tactics.png?resize=600%2C335&#038;ssl=1" alt="Tiny Marketing Wins dashboard shows you your progress" width="600" height="335" srcset="https://i1.wp.com/justinjackson.ca/contents/data/2018/02/tiny-marketing-wins-website-tactics.png?resize=1024%2C571&amp;ssl=1 1024w, https://i1.wp.com/justinjackson.ca/contents/data/2018/02/tiny-marketing-wins-website-tactics.png?resize=500%2C279&amp;ssl=1 500w, https://i1.wp.com/justinjackson.ca/contents/data/2018/02/tiny-marketing-wins-website-tactics.png?resize=768%2C428&amp;ssl=1 768w, https://i1.wp.com/justinjackson.ca/contents/data/2018/02/tiny-marketing-wins-website-tactics.png?w=1200&amp;ssl=1 1200w, https://i1.wp.com/justinjackson.ca/contents/data/2018/02/tiny-marketing-wins-website-tactics.png?w=1800&amp;ssl=1 1800w" sizes="(max-width: 600px) 100vw, 600px" data-recalc-dims="1" /></a></p>
+<p>The feedback from users was good:</p>
+<p><img data-attachment-id="1768" data-permalink="https://justinjackson.ca/30k/caroline-zook-facebook-ads/" data-orig-file="https://i2.wp.com/justinjackson.ca/contents/data/2018/02/caroline-zook-facebook-ads.png?fit=948%2C418&amp;ssl=1" data-orig-size="948,418" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Caroline Zook feedback on the Facebook Ads course" data-image-description="" data-medium-file="https://i2.wp.com/justinjackson.ca/contents/data/2018/02/caroline-zook-facebook-ads.png?fit=500%2C220&amp;ssl=1" data-large-file="https://i2.wp.com/justinjackson.ca/contents/data/2018/02/caroline-zook-facebook-ads.png?fit=600%2C265&amp;ssl=1" class="aligncenter size-medium wp-image-1768" src="https://i2.wp.com/justinjackson.ca/contents/data/2018/02/caroline-zook-facebook-ads.png?resize=500%2C220&#038;ssl=1" alt="Caroline Zook feedback on the Facebook Ads course" width="500" height="220" srcset="https://i2.wp.com/justinjackson.ca/contents/data/2018/02/caroline-zook-facebook-ads.png?resize=500%2C220&amp;ssl=1 500w, https://i2.wp.com/justinjackson.ca/contents/data/2018/02/caroline-zook-facebook-ads.png?resize=768%2C339&amp;ssl=1 768w, https://i2.wp.com/justinjackson.ca/contents/data/2018/02/caroline-zook-facebook-ads.png?w=948&amp;ssl=1 948w" sizes="(max-width: 500px) 100vw, 500px" data-recalc-dims="1" /></p>
+<p>People liked the new format. It also helped me (as the creator) think about specific outcomes my users needed, and respond to those directly.</p>
+<p>But that still left a big question&#8230;</p>
+<h3>What about the business model?</h3>
+<p>The original idea with Tiny Wins is that I&#8217;d send users a new marketing tactic every seven days. That meant recording a new video tutorial and creating the handbook PDF, every week.</p>
+<p>As 2017 came to an end, I took another look at individual completion rates:</p>
+<p><img data-attachment-id="1765" data-permalink="https://justinjackson.ca/30k/tiny-marketing-wins-wpcomplete/" data-orig-file="https://i1.wp.com/justinjackson.ca/contents/data/2018/02/tiny-marketing-wins-wpcomplete.png?fit=1162%2C337&amp;ssl=1" data-orig-size="1162,337" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="WPComplete showed me course completion rates inside of WordPress" data-image-description="" data-medium-file="https://i1.wp.com/justinjackson.ca/contents/data/2018/02/tiny-marketing-wins-wpcomplete.png?fit=500%2C145&amp;ssl=1" data-large-file="https://i1.wp.com/justinjackson.ca/contents/data/2018/02/tiny-marketing-wins-wpcomplete.png?fit=600%2C174&amp;ssl=1" class="aligncenter size-large wp-image-1765" src="https://i1.wp.com/justinjackson.ca/contents/data/2018/02/tiny-marketing-wins-wpcomplete.png?resize=600%2C174&#038;ssl=1" alt="WPComplete showed me course completion rates inside of WordPress" width="600" height="174" srcset="https://i1.wp.com/justinjackson.ca/contents/data/2018/02/tiny-marketing-wins-wpcomplete.png?resize=1024%2C297&amp;ssl=1 1024w, https://i1.wp.com/justinjackson.ca/contents/data/2018/02/tiny-marketing-wins-wpcomplete.png?resize=500%2C145&amp;ssl=1 500w, https://i1.wp.com/justinjackson.ca/contents/data/2018/02/tiny-marketing-wins-wpcomplete.png?resize=768%2C223&amp;ssl=1 768w, https://i1.wp.com/justinjackson.ca/contents/data/2018/02/tiny-marketing-wins-wpcomplete.png?w=1162&amp;ssl=1 1162w" sizes="(max-width: 600px) 100vw, 600px" data-recalc-dims="1" /></p>
+<p>In retrospect, this makes sense. What solopreneur has time to implement a new marketing tactic every week?</p>
+<p>As I was pondering all of this, the annual renewals I was referring to earlier started coming through.</p>
+<p>My stomach started to sink.</p>
+<p>Once I started receiving refund requests, I knew: this wasn&#8217;t going to work as a subscription service.</p>
+<p>I had to make a decision.</p>
+<p>So, that Friday night, I manually refunded hundreds of payments. <strong>In total, I refunded about $30,000.</strong></p>
+<p>I emailed users to tell them I was canceling all annual renewals. They&#8217;d still be able to access the content, and I was going to think about my next steps.</p>
+<h3>Right product, wrong business model</h3>
+<p>Sending that email, and refunding all those charges, was one of the hardest things I had to do.</p>
+<p>But, I started hearing from customers right away:</p>
+<p><img data-attachment-id="1770" data-permalink="https://justinjackson.ca/30k/cancel-encouragement/" data-orig-file="https://i2.wp.com/justinjackson.ca/contents/data/2018/02/cancel-encouragement.png?fit=696%2C266&amp;ssl=1" data-orig-size="696,266" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="A cancelled user sends encouragement" data-image-description="" data-medium-file="https://i2.wp.com/justinjackson.ca/contents/data/2018/02/cancel-encouragement.png?fit=500%2C191&amp;ssl=1" data-large-file="https://i2.wp.com/justinjackson.ca/contents/data/2018/02/cancel-encouragement.png?fit=600%2C229&amp;ssl=1" class="aligncenter size-full wp-image-1770" src="https://i2.wp.com/justinjackson.ca/contents/data/2018/02/cancel-encouragement.png?resize=600%2C229&#038;ssl=1" alt="A cancelled user sends encouragement" width="600" height="229" srcset="https://i2.wp.com/justinjackson.ca/contents/data/2018/02/cancel-encouragement.png?w=696&amp;ssl=1 696w, https://i2.wp.com/justinjackson.ca/contents/data/2018/02/cancel-encouragement.png?resize=500%2C191&amp;ssl=1 500w" sizes="(max-width: 600px) 100vw, 600px" data-recalc-dims="1" /></p>
+<p>Customers liked the product; they didn&#8217;t like the business model.</p>
+<p>I wrote about this threat <a href="https://justinjackson.ca/saas/">back in 2016</a>:</p>
+<blockquote><p>Many founders choose SaaS just because you want the recurring revenue. But just because you like the model as a founder, doesn’t mean it’s the right model for your customers, your product, your niche, or the current market conditions!</p></blockquote>
+<p>In this case, my customers were used to paying <strong>once</strong> for online courses. But here, they had to pay annually, and once their plan expired, they no longer had access.</p>
+<h3>Pivoting to lifetime access</h3>
+<p>After listening to customer feedback, I decided to try a new business model:</p>
+<blockquote><p><em>&#8220;Tiny Marketing Wins is an awesome list of marketing tutorials. And now, you pay once for lifetime access.&#8221;</em></p></blockquote>
+<p>I sent out the announcement email. Here&#8217;s what I heard back:</p>
+<p><img data-attachment-id="1771" data-permalink="https://justinjackson.ca/30k/response1/" data-orig-file="https://i0.wp.com/justinjackson.ca/contents/data/2018/02/response1.png?fit=722%2C107&amp;ssl=1" data-orig-size="722,107" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="response1" data-image-description="" data-medium-file="https://i0.wp.com/justinjackson.ca/contents/data/2018/02/response1.png?fit=500%2C74&amp;ssl=1" data-large-file="https://i0.wp.com/justinjackson.ca/contents/data/2018/02/response1.png?fit=600%2C89&amp;ssl=1" class="aligncenter wp-image-1771 size-full" src="https://i0.wp.com/justinjackson.ca/contents/data/2018/02/response1.png?resize=600%2C89&#038;ssl=1" alt="&quot;Awww yeah! Great decision&quot;" width="600" height="89" srcset="https://i0.wp.com/justinjackson.ca/contents/data/2018/02/response1.png?w=722&amp;ssl=1 722w, https://i0.wp.com/justinjackson.ca/contents/data/2018/02/response1.png?resize=500%2C74&amp;ssl=1 500w" sizes="(max-width: 600px) 100vw, 600px" data-recalc-dims="1" /></p>
+<p><img data-attachment-id="1772" data-permalink="https://justinjackson.ca/30k/response2/" data-orig-file="https://i0.wp.com/justinjackson.ca/contents/data/2018/02/response2.png?fit=721%2C84&amp;ssl=1" data-orig-size="721,84" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="response2" data-image-description="" data-medium-file="https://i0.wp.com/justinjackson.ca/contents/data/2018/02/response2.png?fit=500%2C58&amp;ssl=1" data-large-file="https://i0.wp.com/justinjackson.ca/contents/data/2018/02/response2.png?fit=600%2C70&amp;ssl=1" class="aligncenter wp-image-1772 size-full" src="https://i0.wp.com/justinjackson.ca/contents/data/2018/02/response2.png?resize=600%2C70&#038;ssl=1" alt="&quot;Love it! Tiny Marketing Wins is epic!&quot;" width="600" height="70" srcset="https://i0.wp.com/justinjackson.ca/contents/data/2018/02/response2.png?w=721&amp;ssl=1 721w, https://i0.wp.com/justinjackson.ca/contents/data/2018/02/response2.png?resize=500%2C58&amp;ssl=1 500w" sizes="(max-width: 600px) 100vw, 600px" data-recalc-dims="1" /></p>
+<p><img data-attachment-id="1773" data-permalink="https://justinjackson.ca/30k/response3/" data-orig-file="https://i1.wp.com/justinjackson.ca/contents/data/2018/02/response3.png?fit=718%2C111&amp;ssl=1" data-orig-size="718,111" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="response3" data-image-description="" data-medium-file="https://i1.wp.com/justinjackson.ca/contents/data/2018/02/response3.png?fit=500%2C77&amp;ssl=1" data-large-file="https://i1.wp.com/justinjackson.ca/contents/data/2018/02/response3.png?fit=600%2C93&amp;ssl=1" class="aligncenter wp-image-1773 size-full" src="https://i1.wp.com/justinjackson.ca/contents/data/2018/02/response3.png?resize=600%2C93&#038;ssl=1" alt="&quot;Great to see Tiny Wins back again&quot;" width="600" height="93" srcset="https://i1.wp.com/justinjackson.ca/contents/data/2018/02/response3.png?w=718&amp;ssl=1 718w, https://i1.wp.com/justinjackson.ca/contents/data/2018/02/response3.png?resize=500%2C77&amp;ssl=1 500w" sizes="(max-width: 600px) 100vw, 600px" data-recalc-dims="1" /></p>
+<p>Already, 102 people have registered for <a href="https://tinymarketingwins.com/register/">lifetime access</a>.</p>
+<p>It cost me $30,000 in refunds, but I feel like I may have cracked product-market fit. My plan now is to slowly add new tactics (probably 1-2 a month) to the list.</p>
+<p>Currently, folks have two choices:</p>
+<ol>
+<li>They can buy my Tiny Wins courses <a href="https://justinjackson.podia.com/">individually</a> (currently $600+ in total)</li>
+<li>They can get lifetime access to Tiny Wins for under $300.</li>
+</ol>
+<p>You can <a href="https://tinymarketingwins.com">check out the new Tiny Marketing Wins here</a>. Until Feb 28, 2018, get $50 off lifetime access with the code <code>relaunch</code>.</p>
+<p>Cheers,<br />
+Justin Jackson<br />
+<a href="https://twitter.com/mijustin">@mijustin</a></p>
+<p>The post <a rel="nofollow" href="https://justinjackson.ca/30k/">I spent $30,000 to get product-market fit</a> appeared first on <a rel="nofollow" href="https://justinjackson.ca">Justin Jackson</a>.</p>
+]]></content>
+			<link rel="replies" type="text/html" href="https://justinjackson.ca/30k/#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="https://justinjackson.ca/30k/feed/atom/" thr:count="0"/>
+		<thr:total>0</thr:total>
+		</entry>
+	</feed>

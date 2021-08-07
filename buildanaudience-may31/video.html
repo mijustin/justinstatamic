@@ -1,0 +1,230 @@
+
+<!doctype html>
+<html>
+<head>
+
+<title>Build Your Audience: Main Workshop Video</title>
+
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,700,300' rel='stylesheet' type='text/css'>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<style>
+
+body {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	color: #333;
+	border-top:  solid 5px #0965b1;
+	margin: 0px;
+	background: #20262d; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#container {
+	width: 1000px;
+	margin: 50px auto;
+}
+
+#navigation {
+	float: left;
+	width: 230px;
+	margin: 0px;
+	background: rgba(0,0,0,.6);
+	padding: 20px;
+	color: #ccc;
+}
+
+#navigation h4 {
+	margin-bottom: 0px;
+	font-size: 24px;
+	font-weight: 200;
+	color: #FF3;
+}
+
+
+#navigation ul {
+	padding-left: 20px;
+	margin-top: 0px;
+	list-style-type: square;
+}
+
+#navigation ul a {
+	color: #999;
+	font-size: 13px;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+#navigation ul li.active a {
+	color: #0c8bc8;
+}
+
+#navigation ul a:hover {
+	text-decoration: underline;
+}
+
+#navigation ul a:visited {
+	color: #fff700;
+}
+
+#content {
+	width: 730px;
+	float: left;
+	background: rgba(0,0,0,.4);
+	-webkit-box-shadow: 0px 1px 8px rgba(0,0,0,.2);
+	-moz-box-shadow: 0px 1px 8px rgba(0,0,0,.2);
+	box-shadow: 0px 1px 8px rgba(0,0,0,.2);
+}
+
+.video-info {
+	background: #d2e5f2;
+	padding: 20px 50px;
+	position: relative;
+	margin-top: -5px;
+}
+
+.video-info h1 {
+	font-weight: 200;
+	font-size: 30px;
+}
+
+.video-info .download {
+	position: absolute;
+	top: 40px;
+	right: 50px;
+	padding: 10px 15px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: solid 1px #9bbfda;
+	text-decoration: none;
+	-webkit-box-shadow: 0px 1px 0px rgba(255,255,255,.7), inset 0px 1px 0px rgba(255,255,255,.7);
+	-moz-box-shadow: 0px 1px 0px rgba(255,255,255,.7), inset 0px 1px 0px rgba(255,255,255,.7);
+	box-shadow: 0px 1px 0px rgba(255,255,255,.7), inset 0px 1px 0px rgba(255,255,255,.7);
+	color: #465f71;
+	font-size: 14px;
+}
+
+#transcript {
+	padding: 50px 50px 50px 250px;
+	font-size: 14px;
+	line-height: 1.7em;
+}
+
+#transcript h2 {
+	text-transform: uppercase;
+}
+
+#transcript h3 {
+	color: #3c80ad;
+	font-size: 28px;
+	line-height: 1.5em;
+	padding-top: 5px;
+}
+
+.more-videos {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+}
+
+.more-videos {
+	float: left;
+}
+
+.more-videos .tab {
+	color: #ccc;
+	text-decoration: none;
+	display: block;
+	width: 120px;
+	padding: 10px;
+	border-right: 1px solid rgba(255,255,255,.1);
+	float: left;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+.more-videos .tab em {
+	font-style: normal;
+	text-transform: uppercase;
+	font-size: 10px;
+	color: #777;
+	display: block;
+}
+
+
+.more-videos .tab:hover {
+	background: rgba(0,0,0,.4);
+	color: #ddd;
+}
+
+.more-videos .tab.active {
+	background: #d2e5f2;
+	color: #444;
+}
+
+
+
+</style>
+
+<script>
+
+	$(function() {
+	
+		$('.tab-content').hide();
+		$('#tab1').show();
+	    $('.tab').click(function(e) {
+	        $('.tab').removeClass('active');
+	        $(this).addClass('active');
+	        $('.tab-content').hide();
+	        $('#' + $(this).attr('title')).show();
+	        e.preventDefault();
+	    });
+	});
+
+</script>
+
+</head>
+<body>
+<div id="container">
+<div id="content">
+	
+	<div id="tab1" class="tab-content">
+		<iframe width="730" height="411" src="http://www.youtube.com/embed/3koRP_-zwXM?rel=0" frameborder="0" allowfullscreen></iframe>
+	
+		<div class="video-info">
+		  <h2>Workshop Video</h2>
+			<a href="http://justinjackson.s3.amazonaws.com/buildyouraudiencevideos/Build%20Your%20Audience%20Workshop.mp4" class="download">Download Video</a>
+		</div>
+	</div>
+	
+	
+	<ul class="more-videos">
+		<li><a class="tab active" href="#" title="tab1">Build Your Audience Workshop<br /></a></li>
+	</ul>
+</div>
+
+<div id="navigation">
+    <ul>
+      <li><a href="index.html">Main Workshop Video</a></li>
+      <li><a href="qanda.html">Q&A Video</a></li>
+    </ul>
+    <p>Other resources </p>
+    <ul>
+      <li><a href="http://justinjackson.ca/buildanaudience-may31/docs/Build Your Audience.pdf">Build Your Audience Handbook</a></li>
+      <li><a href="http://justinjackson.ca/buildanaudience-may31/docs/Tools.pdf">Tools Cheat Sheet (PDF)</a></li>
+      <li><a href="http://justinjackson.ca/buildanaudience-may31/docs/Slides.pdf">Workshop Slides (PDF)</a></li>
+      <li><a href="http://justinjackson.ca/buildanaudience-may31/docs/blank-worksheet-venn-diagram.pdf">Choose your audience Venn-Diagram (blank)</a></li>
+      <li><a href="http://justinjackson.ca/buildanaudience-may31/docs/audience-venn-diagram-example.jpg">Choose your audience Venn-Diagram (example)</a></li>
+      <li><a href="http://justinjackson.ca/buildanaudience-may31/docs/fillable-worksheet-venn-diagram.pdf">Choose your audience Venn-Diagram (fillable PDF)</a></li>
+    </ul>
+    <p></p>
+    <h4 class="active">&nbsp;</h4>
+</div>
+
+</div>
+</body>
+</html>

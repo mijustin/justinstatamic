@@ -1,0 +1,102 @@
+@CHARSET "UTF-8";
+
+.postbox p, li {
+  font-size: 1em;
+  line-height: 1.375em;
+  
+
+}
+
+.github, .bunnycdn, .ftp, .dropbox, .netlify, .s3 {
+	display: none;
+}
+
+#downloadZIP {
+	display: none;
+}
+
+.intro-text {
+	font-size: large;
+}
+
+div.postbox-container {
+	float: none;
+	padding: 0;
+	min-width: 650px;
+	width: 100%;
+}
+
+div.postbox div.inside {
+	margin: 14px 18px 18px;
+	position: relative;
+}
+
+.wpsho-report ul {
+	list-style: disc;
+	list-style-position: inside;
+}
+
+.wpsho-report ul li {
+	padding-left: 2em;
+}
+
+.wpsho-export-log {
+	height: 200px;
+	overflow: auto;
+	border: 1px solid #DFDFDF;
+	color: #000;
+	background: #fff;
+	margin: 0 0 15px;
+	padding: 3px 4px;
+	width: 95%;
+}
+
+#exportStatus {
+    width: 100%;
+}
+
+#progress {
+    display: none; 
+}
+
+
+
+
+.error-help-text {
+	display: none;	
+}
+
+.warning {
+  background-color: #ffe7b7;
+}
+
+
+@-webkit-keyframes pulsate {
+    0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
+    50% {opacity: 1.0;}
+    100% {-webkit-transform: scale(1.2, 1.2); opacity: 0.0;}
+}
+
+.pulsate-css {
+    animation: pulsate 1s ease-out;
+    animation-iteration-count: infinite; 
+    opacity: 0.0;
+
+    border: 3px solid #999;
+    border-radius: 30px;
+    height: 18px;
+    width: 18px;
+    position: relative;
+    display: inline-block;
+    margin-top: 0px;
+    margin-right: 10px;
+    text-align: center;
+    float: left;
+}
+
+#current_action {
+  padding-top: 3px;
+  font-size: 14px;
+  
+}
+

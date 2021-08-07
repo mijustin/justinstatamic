@@ -1,0 +1,78 @@
+.tbl1 {
+    margin-top: 20px;
+    text-align: center;
+    border-collapse: collapse;
+}
+.tbl1 tr td,
+.tbl1 tr th {
+    border: 1px solid #c3c3c3;
+}
+.tbl1 tr td {
+    background-color: #FFFFFF;
+    font-size: 14px;
+    padding: 3px;
+}
+.tbl1 tr.hi td,
+.tbl1 tr:nth-child(odd) td {
+    background-color: #F3F3F3;
+}
+.tbl1 tr:hover td {
+    background-color: #E9F0FF;
+}
+.tbl1 tr td.pub {
+    background-color: #E0FFE0;
+}
+.tbl1 tr td.ponly {
+    background-color: #FFE0E0;
+}
+.tbl1 tr.hdr td,
+.tbl1 th,
+.hdr {
+    background-color: #d9d9d9;
+    font-weight: bold;
+    text-align: center;
+}
+.tbl1 tr.hdr2 td,
+.tbl1 th,
+.hdr2 {
+    background-color: #d9d9d9;
+    font-size: 20px;
+    line-height: 1.8em;
+}
+.tbl1 th.left {
+    text-align: center;
+}
+table tr td.rc,
+table.rct tr td:first-child {
+    text-align: right;
+    font-weight: bold;
+    vertical-align: top;
+    padding-top: 5px;
+}
+table tr td.top {
+    vertical-align: top;
+    padding-top: 5px;
+}
+table tr td.rc i {
+    display: block;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 90%;
+}
+.tbl1 tr.trhost td {
+    background: #f3f3ff;
+    padding: 5px;
+    font-weight: bold;
+}
+.tbl1 tr.trhost td b {
+    font: bold 15px Tahoma;
+}
+.tbl1 tr.hi2 td {
+    background-color: #D9ECFF;
+}
+.tbl1 tr td.file_pending {
+    background-color: #FFFFD0;
+}
+.tbl1 tr td.file_locked {
+    background-color: #FFE3E3;
+}

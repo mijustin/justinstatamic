@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEI,qDAAY;EACR,eAAe,EAAE,SAAS;AAI1B,sHAA6B;EACzB,cAAc,EAAE,MAAM;AAG1B,gEAAoB;EAChB,OAAO,EAAE,YAAY;EACrB,WAAW,EAAE,GAAG",
+"sources": ["gdpr-optin-notice.scss"],
+"names": [],
+"file": "gdpr-optin-notice.css"
+}

@@ -1,0 +1,512 @@
+/*
+* SuperNote
+* 2014, Piotr Kananowicz
+* 01/25/2014
+*/
+
+/*
+Table of Content:
+1. Main Style
+2. Header
+3. Intro
+4. About 
+5. Features
+6. FAQ
+7. Clients
+9. Footer
+9. Media Queries
+10. Font-Face
+*/
+
+/*Main Style*/
+
+p {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	color: #3c3c3c;
+}
+
+p.lead {
+	font-size: 16px;
+}
+
+h1,h2,h3,h4,h5 {
+    text-transform: uppercase;
+    font-family: 'Raleway', Georgia, Times, serif;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 34px;
+}
+
+h2 {
+    font-size: 26px;
+    line-height: 30px;
+}
+
+h3 {
+    font-size: 22px;
+    line-height: 24px;
+}
+
+h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+h5 {
+    font-size: 18px
+}
+
+h6 {
+    font-size: 16px
+}
+
+a {
+	text-decoration: none;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/*Header*/
+
+header {
+	padding: 20px 0;
+}
+
+header nav ul {
+	float: right;
+	margin: 0;
+}
+
+header img {
+	vertical-align: middle;
+}
+
+header nav ul li {
+	float: left;
+	margin-left: 15px;
+	line-height: 20px;
+	margin-bottom: 0;
+}
+
+header nav ul li a {
+	color: #414141;
+	text-transform: uppercase;
+	font-size: 13px;
+}
+
+header nav ul li a:hover {
+	color: #636363;
+}
+
+header nav select {
+	display: none;
+}
+
+/*Intro*/
+
+section#intro {
+	background: url(../images/yourbg.jpg) center no-repeat fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+	padding: 50px 0;
+	background-color: #66574a;
+}
+
+section#intro h1 {
+	color: white;
+	font-size: 36px;
+	line-height: 42px;
+}
+
+section#intro p.lead {
+	color: white;
+}
+
+section#intro ul.list-services li {
+	font-family: 'open sans';
+	color: white;
+}
+
+section#intro ul.list-services li i {
+	color: white;
+	margin-right: 5px;
+}
+
+section#intro .order-form div {
+	padding: 15px 20px;
+	width: 75%;
+	float: right;
+	background: white;
+	border: 15px solid rgba(0, 0, 0, 0.3);
+	-moz-background-clip: border;    
+  	-webkit-background-clip: border;
+  	background-clip: border-box;      			
+  	-moz-background-clip: padding;    
+  	-webkit-background-clip: padding;  
+  	background-clip: padding-box;      
+}
+
+section#intro .order-form i {
+	color: #66574a;
+	margin: 10px 0;
+	text-align: center;
+	display: block;
+	font-size: 36px;
+}
+
+section#intro .order-form h2 {
+	text-align: center;
+}
+
+section#intro .order-form p {
+	text-align: center;
+}
+
+section#intro .order-form input,
+section#intro .order-form textarea {
+	width: 100%;
+	--webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: 'open sans';
+}
+
+section#intro .order-form input.required.error {
+	margin-bottom: 10px
+}
+
+section#intro .order-form label.error {
+	margin-bottom: 10px;
+	font-family: 'open sans';
+	font-weight: normal;
+}
+
+section#intro .order-form button.sent {
+	background: #41352B; 
+}
+
+section#intro .order-form button {
+	background: #66574a;
+	outline: none;
+	border: none;
+	display: block;
+	margin-left: auto;
+	border-radius: 0;
+	text-shadow: none;
+	margin-right: auto;
+	color: white;
+	padding: 10px 18px;
+	text-transform: uppercase;
+	-webkit-transition: 0.2s ease-in;
+	-moz-transition: 0.2s ease-in;
+	-ms-transition: 0.2s ease-in;
+	-o-transition: 0.2s ease-in;
+	transition: 0.2s ease-in;
+}
+
+section#intro .order-form button:hover {
+	background: #41352B;
+	cursor: pointer;
+	-webkit-transition: 0.2s ease-in;
+	-moz-transition: 0.2s ease-in;
+	-ms-transition: 0.2s ease-in;
+	-o-transition: 0.2s ease-in;
+	transition: 0.2s ease-in;
+}
+
+/*About*/
+
+section#about {
+	padding: 50px 0;
+}
+
+section#about .preambule {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+section#about .thumbnail img {
+	padding-bottom: 20px;
+	-webkit-transition: 0.2s ease-in;
+	-moz-transition: 0.2s ease-in;
+	-ms-transition: 0.2s ease-in;
+	-o-transition: 0.2s ease-in;
+	transition: 0.2s ease-in;
+}
+
+section#about .thumbnail img:hover {
+	-webkit-filter: grayscale(80%);
+	-moz-filter: grayscale(80%);
+	filter: grayscale(80%);
+	-webkit-transition: 0.2s ease-in;
+	-moz-transition: 0.2s ease-in;
+	-ms-transition: 0.2s ease-in;
+	-o-transition: 0.2s ease-in;
+	transition: 0.2s ease-in;
+}
+
+section#about h5 {
+	margin: 5px 0;
+}
+
+section#about .info ul.list-services li {
+	font-family: 'open sans';
+}
+
+section#about .info ul.list-services li i {
+	color: #66574a;
+	margin-right: 5px;
+}
+
+section#about .testimonials blockquote {
+	font-family: 'open sans';
+	border-left-color: #66574a;
+	font-size: 15px;
+}
+
+section#about .testimonials blockquote span strong {
+	margin-left: 5px;
+	font-style: normal;
+	text-transform: uppercase;
+	font-size: 13px;
+}
+
+/*Features*/
+
+section#features {
+	padding: 50px 0;
+	background: url(../images/yourbg.jpg) center no-repeat fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-color: #66574a;
+}
+
+section#features .preambule h3 {
+	color: white;
+}
+
+section#features .preambule p {
+	color: white;
+}
+
+section#features .preambule {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+section#features .feature h5 {
+	margin: 5px 0;
+	color: white;
+}
+
+section#features .feature p {
+	margin-left: 70px;
+	color: white;
+}
+
+section#features .feature i {
+	font-size: 48px;
+	color: white;
+	display: block;
+	float: left;
+	margin: 10px 20px 0 0;
+	width: 49px;
+}
+
+/*FAQ*/
+
+section#faq {
+	padding: 50px 0;
+}
+
+section#faq .preambule {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+section#faq .question h5 {
+	margin: 5px 0;
+}
+
+section#faq .question i {
+	float: left;
+	margin-right: 5px;
+	font-size: 20px;
+	margin-top: 8px;
+	color: #66574a;
+}
+
+/*Clients*/
+
+section#clients {
+	background: url(../images/yourbg.jpg) center center fixed;
+	-webkit-background-size: cover ;
+	background-size: cover ;
+	padding: 50px 0;
+	background-color: #66574a;
+}
+
+section#clients .preambule h3 {
+	color: white;
+}
+
+section#clients .preambule p {
+	color: white;
+}
+
+section#clients .preambule {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+section#clients a>img {
+	opacity: 0.7;
+	-webkit-transition: 0.2s ease-in;
+	-moz-transition: 0.2s ease-in;
+	-ms-transition: 0.2s ease-in;
+	-o-transition: 0.2s ease-in;
+	transition: 0.2s ease-in;
+}
+
+section#clients a>img:hover {
+	opacity: 1;
+	-webkit-transition: 0.2s ease-in;
+	-moz-transition: 0.2s ease-in;
+	-ms-transition: 0.2s ease-in;
+	-o-transition: 0.2s ease-in;
+	transition: 0.2s ease-in;
+}
+
+/*Footer*/
+
+footer#footer {
+	padding: 50px 0 20px 0;
+}
+
+footer#footer p.copyrights {
+	text-align: center;
+}
+
+footer#footer .social {
+	display: table;
+	text-align: center;
+	margin: 20px auto;
+}
+
+footer#footer .social li {
+	float: left;
+	width: 45px;
+}
+
+footer#footer .social li a {
+	text-align: center;
+	--webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	border: 2px solid #66574a;
+	padding: 6px;
+	width: 15px;
+	height: 15px;
+	display: block;
+	vertical-align: center;
+	-webkit-transition: 0.2s ease-in;
+	-moz-transition: 0.2s ease-in;
+	-ms-transition: 0.2s ease-in;
+	-o-transition: 0.2s ease-in;
+	transition: 0.2s ease-in;
+}
+
+footer#footer .social li a:hover {
+	border-color: #423931;
+	-webkit-transition: 0.2s ease-in;
+	-moz-transition: 0.2s ease-in;
+	-ms-transition: 0.2s ease-in;
+	-o-transition: 0.2s ease-in;
+	transition: 0.2s ease-in;
+}
+
+footer#footer .social li i {
+	color: #66574a;
+	font-size: 16px;
+}
+
+/* #Page Styles
+================================================== */
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		section#intro .order-form input {
+			width: 100% !important;
+		}
+
+		section#intro .order-form button {
+			box-sizing: border-box;
+			width: 100%;
+		}
+
+		header nav ul {
+			display: none;
+		}
+
+		header nav select {
+			display: block !important;
+			box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			width: 100%;
+			height: 30px;
+			margin-top: 20px;
+		}
+
+		section#intro .order-form div {
+			width: 100%;
+			box-sizing: border-box;
+			-moz-box-sizing:border-box;
+		}
+
+		section#clients a>img {
+			display: block;
+			margin: 10px auto;
+		}
+	}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {}
+
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+/* #Font-Face
+	================================================== */
+	
+	/*	@font-face {
+		  font-family: 'FontAwesome';
+		  src: url('../font/fontawesome-webfont.eot');
+		  src: url('../font/fontawesome-webfont.eot?#iefix') format('embedded-opentype'), url('../font/fontawesome-webfont.woff') format('woff'), url('../font/fontawesome-webfont.ttf') format('truetype'), url('../font/fontawesome-webfont.svg#FontAwesome') format('svg');
+		  font-weight: normal;
+		  font-style: normal;
+	}
+	*/

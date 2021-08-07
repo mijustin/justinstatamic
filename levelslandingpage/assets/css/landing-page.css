@@ -1,0 +1,331 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+blockquote {
+  color: #03A678;
+  border-left: none!important;
+  margin-left: -40px;
+  margin-top: 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #03A678;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.intro-header {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #313131;
+    border-top: 6px solid #03A678;
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.intro-message > h1 {
+    margin: 0;
+    font-size: 5em;
+    color: #03A678;
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.intro-message > h3 {
+}
+
+@media(max-width:767px) {
+    .intro-message {
+        padding-bottom: 15%;
+    }
+
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+}
+
+.main-headline-text p {
+	text-align: left;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5em;
+}
+
+.mini-quote {
+	text-align: left;
+	font-size: 15px;
+	font-style: italic;
+	font-weight: 400;
+}
+
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.content-section-call-out {
+	padding: 50px 0;
+	background: #03A678;
+	height: 80px;
+}
+
+.book-icon {
+	background: url('../img/book-icon.png') no-repeat center;
+	height: 400px;
+	color: white;
+}
+
+.book-icon h2 {
+	margin-top: 50%;
+	font-size: 24px;
+	font-weight: 200;
+	text-align: center;
+}
+
+.book-icon h3 {
+	font-size: 18px;
+	font-weight: 300;
+}
+
+.content-section-a {
+    padding: 50px 0;
+    background: #EEEEEE;
+    border-top: 1px solid #e7e7e7;
+}
+
+.content-section-b {
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+
+.banner {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background-size: cover;
+}
+
+.banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+}
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:767px) {
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+footer {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+p.copyright {
+    margin: 15px 0 0;
+}
+
+/* Customer Photos */
+
+.cust-pic {
+	margin-bottom: 40px;
+} 
+
+/* Forms */
+
+#newsletter {
+  background-color: #fff;
+  box-shadow: 0 2px 4px -2px rgba(0,0,0,.4);
+}
+
+#newsletter header {
+  color: #fff;
+  text-align: center;
+  padding: 30px 20px 30px;
+  background-color: #6ACAC3;
+}
+
+#newsletter header i {
+  font-size: 6em;
+}
+
+#newsletter h1 {
+  font-size: 2em;
+  margin: 10px 0 0;
+}
+
+#newsletter form {
+  padding: 14px 0;
+  background-color: #F3F7F6;
+}
+
+#newsletter form input {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.field-container,
+.controls-container {
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.field-container {
+  margin-bottom: 10px;
+}
+
+.field-container label {
+  display: none;
+}
+
+.field-container input {
+  display: block;
+  width: 100%;
+  
+  color: #666;
+  
+  padding: 15px;  
+  border: 0;
+  border-radius: 2px;
+  
+  box-shadow: 0 1px 2px -1px rgba(0,0,0,.3);
+  outline: none;
+}
+
+.field-container i {
+  position: absolute;
+  font-size: 1.4em;
+  color: #6ACAC3;
+  top: 16px;
+  right: 15px;
+  
+  transition: color .4s ease;
+}
+
+.field-container input:focus:invalid ~ i {
+  color: #666;
+}
+
+.field-container input:focus:valid ~ i {
+  color: #6ACAC3;
+}
+
+.controls-container input {
+  position: relative;
+  display: block;
+  width: 100%;
+  
+  color: #fff;
+  font-size: 1.4em;
+  font-weight: 600;
+  
+  padding: 12px;  
+  border: 0;
+  border-radius: 2px;
+  background-color: #6ACAC3;
+  
+  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .3);
+  transition: opacity .4s ease;
+  
+  cursor: pointer;
+}
+
+.controls-container input:hover,
+.controls-container input:focus {
+  opacity: .8;
+}
+
+.controls-container input:active {
+  box-shadow: none;
+  top: 1px;
+}

@@ -1,0 +1,370 @@
+
+// Libraries
+@import "font-awesome/font-awesome.less";
+
+
+// Vars
+
+@major-color: #03A678;
+@ui-color: #e7e7e7;
+
+// Main Styles
+//-----
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+// base styles
+//-----
+
+body {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+}
+h1 {
+ margin: 0;
+ font-size: 5em;
+ color: @major-color;
+}
+
+p {
+  font-size: 18px;
+}
+p.lead {
+  font-size: 22px;
+}
+
+// responsive type
+@media(max-width:767px) {
+  h1 {
+     font-size: 3em;
+  }
+}
+
+blockquote {
+  color: @major-color;
+  border-left: none;
+  quotes: "\201C""\201D""\2018""\2019";
+  
+  footer {
+    font-size: 16px;
+    padding-left: 0.5em;
+  }
+}
+blockquote:before {
+  color: @major-color;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  // margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+
+hr {
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid @ui-color;
+}
+
+// add centering to responsive images in case too small for container
+.img-responsive {
+  margin: 0 auto;
+}
+
+
+// Layout
+//------------
+
+
+// header
+//-------
+
+
+.intro-header {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #313131;
+    border-top: 6px solid @major-color;
+    
+    p {
+      text-align: left
+    }
+    hr {
+      width: 100%;
+    }
+    .mini-quote {
+      text-align: center;
+      margin-left: 0;
+      
+      footer {
+        margin-left: 0;
+      }
+    }
+    
+    
+   @media(min-width:992px) {
+
+       hr {
+        width: 400px;  
+       }
+       .mini-quote {
+         text-align: left;
+         margin-left: 20px;
+       }
+       
+   }
+}
+
+.mini-quote {
+	text-align: left;
+	font-size: 15px;
+	font-style: italic;
+	font-weight: 400;
+}
+
+.book-cover {
+	background: url('../img/book-icon.png') no-repeat center top;
+	height: 400px;
+	color: white;
+  text-align: center;
+  margin-top: 30px;
+  
+  
+  .book-title {
+  	margin-top: 15%;
+    margin-bottom: 0;
+  }
+
+  .book-author {
+    margin: 0;
+  }
+  
+  @media(min-width:992px) {
+    margin-top: 0;
+    
+    .book-title {
+    	margin-top: 25%;
+      margin-bottom: 0;
+    }
+  }
+  
+}
+
+// Section Common Styles
+//-----
+
+.section {
+  padding: 50px 0;
+  border-top: 1px solid @ui-color;
+  
+  //remove top margin for correct alignment
+  h2:first-child {
+    margin-top: 0;
+  }
+}
+.section-stripe {
+  background: #EEEEEE;
+}
+
+
+// Experts Section
+//-----
+
+.experts {
+  text-align: center;
+  
+  .thumbnails {
+    margin-top: 50px;
+  }
+  
+  @media(min-width:992px) {
+    text-align: left;
+    
+    .thumbnails {
+      margin-top: 0;
+    }
+  }
+}
+
+.cust-pic {
+	margin-bottom: 40px;
+} 
+
+// About Me Sections
+//-----
+
+.about h2:first-child {
+  margin-top: 30px;
+  text-align: center;
+  
+  @media(min-width:767px) {
+    margin-top: 0;
+    text-align: left;
+  }
+}
+
+// Product Sections
+//-----
+
+.section-product {
+  
+  img:first-child {
+    margin-bottom: 40px;
+  }
+  
+  img + p {
+    margin: 20px 0 40px;
+  }
+  
+  text-align: center;
+  
+  @media(min-width:767px) {
+    text-align: left;
+    
+    .cta {
+      text-align: right;
+    }
+  }
+  
+}
+
+.product-header {
+  margin-bottom: 50px;
+}
+
+.btn span.price {
+  font-style: italic;
+  display: inline-block;
+  margin-left: 0.25em;
+}
+
+
+// Footer
+//-----
+
+.page-footer {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+p.copyright {
+    margin: 15px 0 0;
+}
+
+
+
+// Newsletter Form
+//-----
+
+#newsletter {
+  background-color: #fff;
+  box-shadow: 0 2px 4px -2px rgba(0,0,0,.4);
+}
+
+#newsletter header {
+  color: #fff;
+  text-align: center;
+  padding: 30px 20px 30px;
+  background-color: #6ACAC3;
+}
+
+#newsletter header i {
+  font-size: 6em;
+}
+
+#newsletter h1 {
+  font-size: 2em;
+  margin: 10px 0 0;
+}
+
+#newsletter form {
+  padding: 14px 0;
+  background-color: #F3F7F6;
+}
+
+#newsletter form input {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.field-container,
+.controls-container {
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.field-container {
+  margin-bottom: 10px;
+}
+
+.field-container label {
+  display: none;
+}
+
+.field-container input {
+  display: block;
+  width: 100%;
+  
+  color: #666;
+  
+  padding: 15px;  
+  border: 0;
+  border-radius: 2px;
+  
+  box-shadow: 0 1px 2px -1px rgba(0,0,0,.3);
+  outline: none;
+}
+
+.field-container i {
+  position: absolute;
+  font-size: 1.4em;
+  color: #6ACAC3;
+  top: 16px;
+  right: 15px;
+  
+  transition: color .4s ease;
+}
+
+.field-container input:focus:invalid ~ i {
+  color: #666;
+}
+
+.field-container input:focus:valid ~ i {
+  color: #6ACAC3;
+}
+
+.controls-container input {
+  position: relative;
+  display: block;
+  width: 100%;
+  
+  color: #fff;
+  font-size: 1.4em;
+  font-weight: 600;
+  
+  padding: 12px;  
+  border: 0;
+  border-radius: 2px;
+  background-color: #6ACAC3;
+  
+  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .3);
+  transition: opacity .4s ease;
+  
+  cursor: pointer;
+}
+
+.controls-container input:hover,
+.controls-container input:focus {
+  opacity: .8;
+}
+
+.controls-container input:active {
+  box-shadow: none;
+  top: 1px;
+}

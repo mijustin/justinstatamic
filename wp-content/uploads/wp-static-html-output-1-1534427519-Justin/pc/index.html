@@ -1,0 +1,1354 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='UTF-8'>
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","queueTime":0,"licenseKey":"e2df38885d","agent":"","transactionName":"Y1NWYkRSXUBRAkIMWVoZckNYUEdaXw8ZFUZrVVtEUx1DUkIVWgxFQBhCX1NEQAlAAEQRWl1FQA==","applicationID":"285320","errorBeacon":"bam.nr-data.net","applicationTime":190}</script>
+
+    <title>System Builder - Core i5-7500 3.4GHz Quad-Core, GeForce GTX 1070 8GB, DUKASE WHV2 ATX Mid Tower - PCPartPicker Canada</title>
+
+    <meta name='description' content=''>
+    <meta name='viewport' content='width=1280'>
+
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
+    <meta name="application-name" content="PCPartPicker"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png" />
+    <!-- TradeDoubler site verification 3034188 -->
+
+    <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic' rel='stylesheet' type='text/css' />
+    <link href='//fonts.googleapis.com/css?family=Merriweather:400,700,400italic,700italic' rel='stylesheet' type='text/css' />
+
+    
+    <link rel="stylesheet" type="text/css" href="//cdn.pcpartpicker.com/static/forever/hash/site-c5f755161d873cdd9125c425cfcd4146.css" />
+    <script type="text/javascript" src="//cdn.pcpartpicker.com/static/forever/hash/site-4611112efbc6ed9ad1c10993c862cea2.js"></script>
+    
+    
+
+    <!--
+
+    This space intentionally left blank.
+
+     -->
+
+    
+    <script>
+      var global_country_sign = '$';
+      $(document).ready(function(){
+        init_consent('.pcpartpicker.com', false, false);
+        init_country_selector('ca');
+        init_live_search(undefined, undefined, true);
+        init_confirm_dialog();
+        init_common_buttons();
+        make_drop_nav('.nav-parts', '.browse-parts-tray');
+        make_drop_nav('.search-parts', '.search-tray', function() {
+          $('#search_q').focus();
+        });
+        
+      });
+      
+
+
+var upp_ids = [];
+
+
+
+
+$(document).ready(function(){
+  
+  
+  init_partlist_save_dialog('ca', 'dTMyZ8');
+  init_partlist_incompatibility_dialog('dTMyZ8');
+  
+  init_partlist_wattage_dialog();
+  
+  init_partlist_markup_dialog('dTMyZ8', '[[\u0022{\u005C\u0022class_slug\u005C\u0022:\u005C\u0022motherboard\u005C\u0022,\u005C\u0022filter_string\u005C\u0022:\u005C\u0022base_ids\u003D81840,81937,82039,82041,82080,82082\u005C\u0022}\u0022,\u0022qjs8TW\u0022],[\u0022{\u005C\u0022class_slug\u005C\u0022:\u005C\u0022memory\u005C\u0022,\u005C\u0022filter_string\u005C\u0022:\u005C\u0022Z\u003D16384002\u0026t\u003D14\u005C\u0022}\u0022,\u00224QNypg\u0022],[\u0022{\u005C\u0022class_slug\u005C\u0022:\u005C\u0022internal\u002Dhard\u002Ddrive\u005C\u0022,\u005C\u0022filter_string\u005C\u0022:\u005C\u0022S\u003D480000,10000000\u0026f\u003D3\u0026i\u003D25\u0026t\u003D0\u005C\u0022}\u0022,\u0022WGZ2FT\u0022],[\u0022{\u005C\u0022class_slug\u005C\u0022:\u005C\u0022internal\u002Dhard\u002Ddrive\u005C\u0022,\u005C\u0022filter_string\u005C\u0022:\u005C\u0022S\u003D2000000,10000000\u0026f\u003D2\u0026i\u003D24,25\u0026t\u003D7200\u005C\u0022}\u0022,\u0022CbL7YJ\u0022],[\u0022{\u005C\u0022class_slug\u005C\u0022:\u005C\u0022video\u002Dcard\u005C\u0022,\u005C\u0022filter_string\u005C\u0022:\u005C\u0022c\u003D369\u0026l\u003D224000000,403000000\u005C\u0022}\u0022,\u0022nk98TW\u0022],[\u0022{\u005C\u0022class_slug\u005C\u0022:\u005C\u0022power\u002Dsupply\u005C\u0022,\u005C\u0022filter_string\u005C\u0022:\u005C\u0022base_ids\u003D2011,14691,25166,46969,49182,69893\u005C\u0022}\u0022,\u0022TgW9TW\u0022]]');
+  
+  init_partlist_history_dialog();
+
+  var request_data = {
+    'products': '81657,81937,88118,108931,53864,53575,53872,2011,85438'
+  }
+  var product_name_map = {
+    
+    81657: "Intel \u002D Core i5\u002D7500 3.4GHz Quad\u002DCore Processor",
+    
+    81937: "MSI \u002D B250M PRO\u002DVDH Micro ATX LGA1151 Motherboard",
+    
+    88118: "Team \u002D Vulcan 16GB (2 x 8GB) DDR4\u002D2400 Memory",
+    
+    108931: "Kingston \u002D A400 480GB 2.5\u0022 Solid State Drive",
+    
+    53864: "Seagate \u002D Barracuda 2TB 3.5\u0022 7200RPM Internal Hard Drive",
+    
+    53575: "MSI \u002D GeForce GTX 1070 8GB Video Card",
+    
+    53872: "Deepcool \u002D DUKASE WHV2 ATX Mid Tower Case",
+    
+    2011: "SeaSonic \u002D 520W 80+ Bronze Certified Fully\u002DModular ATX Power Supply",
+    
+    85438: "CableMod WideBeam Magnetic LED Strip RGB Kit \u002D 30cm / 15 LEDs"
+    
+  };
+  var upps = [
+    
+  ];
+  async_load_partlist_price_history_v2('#price_history', '$', request_data, product_name_map, upps, false, '#price_history_legend');
+  
+  
+});
+
+    </script>
+    
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-16428016-1']);
+      _gaq.push(['_setDomainName', 'pcpartpicker.com']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+    
+
+    <!-- [if lt IE 9]>
+      <script>
+        document.createElement("header")
+        document.createElement("nav");
+        document.createElement("main");
+        document.createElement("footer");
+      </script>
+    <![endif] -->
+
+  </head>
+
+  <body>
+    <header>
+      <div class="page-container">
+        <div class="pcpp-header">
+          <a href="/"><h1>PCPartPicker</h1></a>
+          <ul class="user-nav">
+          
+            <li><a href="/accounts/login/">Log In</a></li>
+            <li><a href="/accounts/register/">Register</a></li>
+          
+            <li>
+              <form method="post" action="/qapi/switch_country/" id="form_country_select">
+              <input type='hidden' name='csrfmiddlewaretoken' value='LJvTsn5nJL52PdRnWVwF4tpCFEJvo5bXuX05vMpzhOJZEJ59EqkGEWGITXtAPEuF' />
+              <select id="country_select" class="language-selector flag-ca" name="cc">
+                
+                
+                <option value="au" >Australia</option>
+                
+                
+                
+                
+                
+                <option value="be" >Belgium</option>
+                
+                
+                
+                
+                
+                <option value="ca" selected="selected">Canada</option>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <option value="de" >Deutschland</option>
+                
+                
+                
+                
+                
+                <option value="es" >España</option>
+                
+                
+                
+                
+                
+                
+                
+                <option value="fr" >France</option>
+                
+                
+                
+                
+                
+                
+                
+                <option value="in" >India</option>
+                
+                
+                
+                <option value="ie" >Ireland</option>
+                
+                
+                
+                <option value="it" >Italia</option>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <option value="nl" >Netherlands</option>
+                
+                
+                
+                <option value="nz" >New Zealand</option>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <option value="se" >Sweden</option>
+                
+                
+                
+                
+                
+                <option value="uk" >United Kingdom</option>
+                
+                
+                
+                <option value="us" >United States</option>
+                
+                
+              </select>
+              <input type="hidden" name="url" value="/list/dTMyZ8" id="form_country_select_url"/>
+              </form>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <nav>
+        <div class="page-container">
+          <div class="nav-wrapper">
+            <div class="primary-nav">
+              <a href="/list/" class="nav-build"><span>Start a</span> System Build</a><a href="/guide/" class="nav-guides"><span>View the</span> Build Guides</a><a href="/builds/" class="nav-builds"><span>See all</span> Completed Builds</a><a id="browse-parts-button" href="/products/" class="nav-parts"><span>Browse by</span> Individual Parts<span class="nav-dropdown"></span></a>
+            </div>
+            <div class="secondary-nav">
+              <div class="sub-links">
+                <a href="/products/pricedrop/">Price Drops</a><a href="/trends/">Price Trends</a><a href="/forums/">Forums</a><a href="/blog/">Blog</a>
+              </div>
+              <div class="search"><a href="/search/" class="search-parts"></a></div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div>
+    
+<div class="system-build user">
+  <div class="hero tabnav-hero">
+    <div class="page-container">
+      <div class="title">
+        
+        <h1>
+          
+          Part List
+          
+        </h1>
+        
+
+        
+        <ul class="tabbed-nav">
+          
+          <li><a href="/list/dTMyZ8" class="active">Overview</a></li>
+          
+          <li><a href="/list/dTMyZ8/by_merchant/" >Prices By Merchant</a></li>
+          
+        </ul>
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="action-bar-wrapper">
+    <div class="page-container">
+        <div class="full-column">
+          <div class="part-list-action-bar">
+            
+            <div class="permalink-markup-social">
+              <div class="part-list-permalink">
+                Permalink: <input type="text" value="https://ca.pcpartpicker.com/list/dTMyZ8" onclick="this.select()" />
+              </div>
+              <div class="markup-block">
+                Markup:
+                <ul class="markup-buttons">
+                  <li class="markup_pcpp"><a href="#export_markup_markdown" id="export_markup_markdown"><img src="//cdn.pcpartpicker.com/static/forever/img/pcpp-markup.png" alt="PCPartPicker Markup" /></a></li>
+                  <li class="markup_reddit"><a href="#export_markup_markdown" id="export_markup_reddit"><img src="//cdn.pcpartpicker.com/static/forever/img/reddit-markup.png" alt="Reddit Markup" /></a></li>
+                  <li class="markup_bbcode"><a href="#export_markup_bbcode" id="export_markup_bbcode"><img src="//cdn.pcpartpicker.com/static/forever/img/bbcode-markup.png" alt="BBCode Markup" /></a></li>
+                  <li class="markup_bbcode"><a href="#export_markup_html" id="export_markup_html"><img src="//cdn.pcpartpicker.com/static/forever/img/html-markup.png" alt="HTML Markup" /></a></li>
+                  <li class="markup_plaintext"><a href="#export_markup_plaintext" id="export_markup_plaintext"><img src="//cdn.pcpartpicker.com/static/forever/img/plaintext-markup.png" alt="Plain Text" /></a></li>
+                </ul>
+              </div>
+              <!-- <ul class="part-list-social-buttons">
+                <li><iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fca.pcpartpicker.com%2Flist%2FdTMyZ8&amp;width&amp;layout=button&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=20&amp;appId=111980575534750" scrolling="no" frameborder="0" style="border:none;overflow:hidden;height:20px;width:50px;" allowTransparency="true"></iframe></li>
+                <li><a href="https://twitter.com/share" class="twitter-share-button" data-text="System Builder" data-count="none" data-via="PCPartPicker" data-url="https://ca.pcpartpicker.com/list/dTMyZ8">Tweet</a><script type="text/javascript" src="//platform.twitter.com/widgets.js"></script></li>
+              </ul> -->
+            </div>
+            <div class="wattage-actions">
+              
+              <div class="part-list-action single-action est-wattage">
+                
+                  <a id="explain_wattage" href="#explain_wattage">316W</a>
+                
+              </div>
+              
+
+              
+              <div class="part-list-action single-action">
+                <a href="#partlist_save" id="partlist_save_button">Save As</a>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+    </div>
+  </div>
+  <div class="details">
+    <div class="page-container">
+      <div class="full-column">
+    
+
+        <div class="block">
+          
+
+
+
+<div class="block part-list">
+  
+  
+  <div class="part-list-compat-wattage">
+
+    
+      
+        <p class="compat-message compat-message-ok"><span>Compatibility Check:</span> No issues/incompatibilities found.</p>
+      
+    
+
+    
+      <span class="header-actions">
+        
+        
+        <a href="#partlist_edit" onClick="pp_partlist_edit('dTMyZ8');return false;" class="part-list-manage btn-mds">Edit This Part List</a>
+        
+        
+      </span>
+    
+  </div>
+  
+  
+
+
+<table class="manual-zebra">
+  
+  <thead>
+    <tr>
+      <th class="tl">Component</th>
+      <th></th>
+      <th class="tl">Selection</th>
+      
+      <th class="tr">Base</th>
+      <th class="tc">Promo</th>
+      <th class="tc">Shipping</th>
+      <th class="tc">Tax</th>
+      
+      <th class="tr">Price</th>
+      
+      <th class="tl">Where</th>
+      
+      
+      
+      <th></th>
+      
+      
+    </tr>
+  </thead>
+  
+  <tbody>
+    
+      
+      <!-- item -->
+
+      
+      <tr class="last zebra">
+        <td class="component-type tl"><a href="/products/cpu/">CPU</a></td>
+        <td class="component-image"><a href="/product/QbGj4D/intel-core-i5-7500-34ghz-quad-core-processor-bx80677i57500" class="image-wrapper "><img src="https://images-na.ssl-images-amazon.com/images/I/51qxDsE-wDL.jpg" class=""></a></td>
+        <td class="component-name tl">
+          <div>
+            
+              <a href="/product/QbGj4D/intel-core-i5-7500-34ghz-quad-core-processor-bx80677i57500">Intel - Core i5-7500 3.4GHz Quad-Core Processor</a>
+            
+            
+          </div>
+          
+        </td>
+       
+        
+        <td class="tr nowrap"><a href="/mr/memoryexpress/QbGj4D" rel="nofollow" target="_blank">$239.99</a></td>
+        <td class="tc nowrap"></td>
+        <td class="tc nowrap">
+          
+        </td>
+        <td class="tr nowrap"></td>
+        
+        <td class="tr price nowrap"><a href="/mr/memoryexpress/QbGj4D" rel="nofollow" target="_blank">$239.99</a></td>
+        
+        <td class="merchant"><a href="/mr/memoryexpress/QbGj4D" rel="nofollow" target="_blank">Memory Express</a></td>
+        
+       
+        
+        
+        <td class="nowrap">
+          
+          <a href="/mr/memoryexpress/QbGj4D" class="btn-mds" rel="nofollow" target="_blank">Buy</a>
+          
+        </td>
+        
+        
+      </tr>
+      
+
+      <!-- end item -->
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+    
+      
+      <!-- item -->
+
+      
+      <tr class="last">
+        <td class="component-type tl"><a href="/products/motherboard/">Motherboard</a></td>
+        <td class="component-image"><a href="/product/qjs8TW/msi-b250m-pro-vdh-micro-atx-lga1151-motherboard-b250m-pro-vdh" class="image-wrapper "><img src="//cdn.pcpartpicker.com/static/forever/images/product/8b8db0fb715c1b3467e9b143c471e89a.256p.jpg" class=""></a></td>
+        <td class="component-name tl">
+          <div>
+            
+              <a href="/product/qjs8TW/msi-b250m-pro-vdh-micro-atx-lga1151-motherboard-b250m-pro-vdh">MSI - B250M PRO-VDH Micro ATX LGA1151 Motherboard</a>
+            
+            
+          </div>
+          
+            <div class="parametric-selection">
+            
+              <div>
+                From parametric selection
+                <span id="parametric_show_1">(<a href="#show_criteria" onClick="$(this).text($(this).text() == 'show' ? 'hide': 'show');$('#parametric_criteria_1').toggle();return false;">show</a>)</span>
+              </div>
+              <ul id="parametric_criteria_1" style="display:none;">
+                
+                  <li><a href="/product/pTVBD3/asus-prime-b250m-a-micro-atx-lga1151-motherboard-prime-b250m-a">Asus - PRIME B250M-A Micro ATX LGA1151 Motherboard</a></li>
+                
+                  <li><a href="/product/qjs8TW/msi-b250m-pro-vdh-micro-atx-lga1151-motherboard-b250m-pro-vdh">MSI - B250M PRO-VDH Micro ATX LGA1151 Motherboard</a></li>
+                
+                  <li><a href="/product/VM2rxr/gigabyte-ga-b250m-ds3h-micro-atx-lga1151-motherboard-ga-b250m-ds3h">Gigabyte - GA-B250M-DS3H Micro ATX LGA1151 Motherboard</a></li>
+                
+                  <li><a href="/product/86PzK8/gigabyte-ga-b250m-d3h-micro-atx-lga1151-motherboard-ga-b250m-d3h">Gigabyte - GA-B250M-D3H Micro ATX LGA1151 Motherboard</a></li>
+                
+                  <li><a href="/product/QXdFf7/asrock-b250m-pro4-micro-atx-lga1151-motherboard-b250m-pro4">ASRock - B250M Pro4 Micro ATX LGA1151 Motherboard</a></li>
+                
+                  <li><a href="/product/36PzK8/asrock-fatal1ty-b250m-performance-micro-atx-lga1151-motherboard-fatal1ty-b250m-performance">ASRock - Fatal1ty B250M Performance Micro ATX LGA1151 Motherboard</a></li>
+                
+              </ul>
+            
+            </div>
+          
+        </td>
+       
+        
+        <td class="tr nowrap"><a href="/mr/amazonca/qjs8TW" rel="nofollow" target="_blank">$80.99</a></td>
+        <td class="tc nowrap"></td>
+        <td class="tc nowrap">
+          
+            
+              <img src="/static/forever/img/amazon-prime.png" alt="Free two-day shipping with Amazon Prime" class="amazon-prime" />
+            
+          
+        </td>
+        <td class="tr nowrap"></td>
+        
+        <td class="tr price nowrap"><a href="/mr/amazonca/qjs8TW" rel="nofollow" target="_blank">$80.99</a></td>
+        
+        <td class="merchant"><a href="/mr/amazonca/qjs8TW" rel="nofollow" target="_blank">Amazon Canada</a></td>
+        
+       
+        
+        
+        <td class="nowrap">
+          
+          <a href="/mr/amazonca/qjs8TW" class="btn-mds" rel="nofollow" target="_blank">Buy</a>
+          
+        </td>
+        
+        
+      </tr>
+      
+
+      <!-- end item -->
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+    
+      
+      <!-- item -->
+
+      
+      <tr class="last zebra">
+        <td class="component-type tl"><a href="/products/memory/">Memory</a></td>
+        <td class="component-image"><a href="/product/4QNypg/team-vulcan-8gb-2-x-4gb-ddr4-2400-memory-tlgd416g2400hc14dc01" class="image-wrapper "><img src="//cdn.pcpartpicker.com/static/forever/images/product/f2da2b3cd490a78e0d3c72634fcd66ca.256p.jpg" class=""></a></td>
+        <td class="component-name tl">
+          <div>
+            
+              <a href="/product/4QNypg/team-vulcan-8gb-2-x-4gb-ddr4-2400-memory-tlgd416g2400hc14dc01">Team - Vulcan 16GB (2 x 8GB) DDR4-2400 Memory</a>
+            
+            
+          </div>
+          
+            <div class="parametric-selection">
+            
+              <a href="/products/memory/#Z=16384002&amp;t=14">From parametric filter</a>
+              <ul class="">
+                
+                  <li>Type: 288-pin DIMM</li>
+                
+                  <li>Size: 16GB (2x8GB)</li>
+                
+              </ul>
+            
+            </div>
+          
+        </td>
+       
+        
+        <td class="tr nowrap"><a href="/mr/neweggca/4QNypg" rel="nofollow" target="_blank">$170.99</a></td>
+        <td class="tc nowrap"></td>
+        <td class="tc nowrap">
+          
+        </td>
+        <td class="tr nowrap"></td>
+        
+        <td class="tr price nowrap"><a href="/mr/neweggca/4QNypg" rel="nofollow" target="_blank">$170.99</a></td>
+        
+        <td class="merchant"><a href="/mr/neweggca/4QNypg" rel="nofollow" target="_blank">Newegg Canada</a></td>
+        
+       
+        
+        
+        <td class="nowrap">
+          
+          <a href="/mr/neweggca/4QNypg" class="btn-mds" rel="nofollow" target="_blank">Buy</a>
+          
+        </td>
+        
+        
+      </tr>
+      
+
+      <!-- end item -->
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+    
+      
+      <!-- item -->
+
+      
+      <tr class="">
+        <td class="component-type tl"><a href="/products/internal-hard-drive/">Storage</a></td>
+        <td class="component-image"><a href="/product/WGZ2FT/kingston-a400-480gb-25-solid-state-drive-sa400s37480g" class="image-wrapper "><img src="https://images-na.ssl-images-amazon.com/images/I/41UKoJx2tZL.jpg" class=""></a></td>
+        <td class="component-name tl">
+          <div>
+            
+              <a href="/product/WGZ2FT/kingston-a400-480gb-25-solid-state-drive-sa400s37480g">Kingston - A400 480GB 2.5&quot; Solid State Drive</a>
+            
+            
+          </div>
+          
+            <div class="parametric-selection">
+            
+              <a href="/products/internal-hard-drive/#S=480000,10000000&amp;f=3&amp;i=25&amp;t=0">From parametric filter</a>
+              <ul class="">
+                
+                  <li>Capacity: 480GB - 10TB</li>
+                
+                  <li>Type: SSD</li>
+                
+                  <li>Interface: SATA 6 Gb/s</li>
+                
+                  <li>Form Factor: 2.5&quot;</li>
+                
+              </ul>
+            
+            </div>
+          
+        </td>
+       
+        
+        <td class="tr nowrap"><a href="/mr/pccanada/WGZ2FT" rel="nofollow" target="_blank">$97.99</a></td>
+        <td class="tc nowrap"></td>
+        <td class="tc nowrap">
+          
+        </td>
+        <td class="tr nowrap"></td>
+        
+        <td class="tr price nowrap"><a href="/mr/pccanada/WGZ2FT" rel="nofollow" target="_blank">$97.99</a></td>
+        
+        <td class="merchant"><a href="/mr/pccanada/WGZ2FT" rel="nofollow" target="_blank">PC-Canada</a></td>
+        
+       
+        
+        
+        <td class="nowrap">
+          
+          <a href="/mr/pccanada/WGZ2FT" class="btn-mds" rel="nofollow" target="_blank">Buy</a>
+          
+        </td>
+        
+        
+      </tr>
+      
+
+      <!-- end item -->
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+    
+      
+      <!-- item -->
+
+      
+      <tr class="last">
+        <td class="component-type tl"></td>
+        <td class="component-image"><a href="/product/CbL7YJ/seagate-barracuda-2tb-35-7200rpm-internal-hard-drive-st2000dm006" class="image-wrapper "><img src="http://ecx.images-amazon.com/images/I/41H888-QJdL.jpg" class=""></a></td>
+        <td class="component-name tl">
+          <div>
+            
+              <a href="/product/CbL7YJ/seagate-barracuda-2tb-35-7200rpm-internal-hard-drive-st2000dm006">Seagate - Barracuda 2TB 3.5&quot; 7200RPM Internal Hard Drive</a>
+            
+            
+          </div>
+          
+            <div class="parametric-selection">
+            
+              <a href="/products/internal-hard-drive/#S=2000000,10000000&amp;f=2&amp;i=24,25&amp;t=7200">From parametric filter</a>
+              <ul class="">
+                
+                  <li>Capacity: 2TB - 10TB</li>
+                
+                  <li>Type: 7200RPM</li>
+                
+                  <li>Interface: SATA 3 Gb/s, SATA 6 Gb/s</li>
+                
+                  <li>Form Factor: 3.5&quot;</li>
+                
+              </ul>
+            
+            </div>
+          
+        </td>
+       
+        
+        <td class="tr nowrap"><a href="/mr/vuugo/CbL7YJ" rel="nofollow" target="_blank">$73.50</a></td>
+        <td class="tc nowrap"></td>
+        <td class="tc nowrap">
+          
+        </td>
+        <td class="tr nowrap"></td>
+        
+        <td class="tr price nowrap"><a href="/mr/vuugo/CbL7YJ" rel="nofollow" target="_blank">$73.50</a></td>
+        
+        <td class="merchant"><a href="/mr/vuugo/CbL7YJ" rel="nofollow" target="_blank">Vuugo</a></td>
+        
+       
+        
+        
+        <td class="nowrap">
+          
+          <a href="/mr/vuugo/CbL7YJ" class="btn-mds" rel="nofollow" target="_blank">Buy</a>
+          
+        </td>
+        
+        
+      </tr>
+      
+
+      <!-- end item -->
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+    
+      
+      <!-- item -->
+
+      
+      <tr class="last zebra">
+        <td class="component-type tl"><a href="/products/video-card/">Video Card</a></td>
+        <td class="component-image"><a href="/product/nk98TW/msi-geforce-gtx-1070-8gb-video-card-gtx-1070-aero-8g-oc" class="image-wrapper "><img src="//cdn.pcpartpicker.com/static/forever/images/product/2dbb2a905f047e521a88c58ba8f63349.256p.jpg" class=""></a></td>
+        <td class="component-name tl">
+          <div>
+            
+              <a href="/product/nk98TW/msi-geforce-gtx-1070-8gb-video-card-gtx-1070-aero-8g-oc">MSI - GeForce GTX 1070 8GB Video Card</a>
+            
+            
+          </div>
+          
+            <div class="parametric-selection">
+            
+              <a href="/products/video-card/#c=369&amp;l=224000000,403000000">From parametric filter</a>
+              <ul class="">
+                
+                  <li>Chipset: GeForce GTX 1070</li>
+                
+                  <li>Length: 224 mm - 403 mm</li>
+                
+              </ul>
+            
+            </div>
+          
+        </td>
+       
+        
+        <td class="tr nowrap"><a href="/mr/memoryexpress/nk98TW" rel="nofollow" target="_blank">$499.99</a></td>
+        <td class="tc nowrap"></td>
+        <td class="tc nowrap">
+          
+        </td>
+        <td class="tr nowrap"></td>
+        
+        <td class="tr price nowrap"><a href="/mr/memoryexpress/nk98TW" rel="nofollow" target="_blank">$499.99</a></td>
+        
+        <td class="merchant"><a href="/mr/memoryexpress/nk98TW" rel="nofollow" target="_blank">Memory Express</a></td>
+        
+       
+        
+        
+        <td class="nowrap">
+          
+          <a href="/mr/memoryexpress/nk98TW" class="btn-mds" rel="nofollow" target="_blank">Buy</a>
+          
+        </td>
+        
+        
+      </tr>
+      
+
+      <!-- end item -->
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+    
+      
+      <!-- item -->
+
+      
+      <tr class="last">
+        <td class="component-type tl"><a href="/products/case/">Case</a></td>
+        <td class="component-image"><a href="/product/XPFXsY/deepcool-dukase-whv2-atx-mid-tower-case-dukase-whv2" class="image-wrapper "><img src="http://ecx.images-amazon.com/images/I/412BSqWdKWL.jpg" class=""></a></td>
+        <td class="component-name tl">
+          <div>
+            
+              <a href="/product/XPFXsY/deepcool-dukase-whv2-atx-mid-tower-case-dukase-whv2">Deepcool - DUKASE WHV2 ATX Mid Tower Case</a>
+            
+            
+          </div>
+          
+        </td>
+       
+        
+        <td class="tr nowrap"><a href="/mr/neweggca/XPFXsY" rel="nofollow" target="_blank">$74.99</a></td>
+        <td class="tc nowrap"></td>
+        <td class="tc nowrap">
+          
+        </td>
+        <td class="tr nowrap"></td>
+        
+        <td class="tr price nowrap"><a href="/mr/neweggca/XPFXsY" rel="nofollow" target="_blank">$74.99</a></td>
+        
+        <td class="merchant"><a href="/mr/neweggca/XPFXsY" rel="nofollow" target="_blank">Newegg Canada</a></td>
+        
+       
+        
+        
+        <td class="nowrap">
+          
+          <a href="/mr/neweggca/XPFXsY" class="btn-mds" rel="nofollow" target="_blank">Buy</a>
+          
+        </td>
+        
+        
+      </tr>
+      
+
+      <!-- end item -->
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+    
+      
+      <!-- item -->
+
+      
+      <tr class="last zebra">
+        <td class="component-type tl"><a href="/products/power-supply/">Power Supply</a></td>
+        <td class="component-image"><a href="/product/TgW9TW/seasonic-power-supply-m12ii520bronze" class="image-wrapper "><img src="http://ecx.images-amazon.com/images/I/51Q-akpuooL.jpg" class=""></a></td>
+        <td class="component-name tl">
+          <div>
+            
+              <a href="/product/TgW9TW/seasonic-power-supply-m12ii520bronze">SeaSonic - 520W 80+ Bronze Certified Fully-Modular ATX Power Supply</a>
+            
+            
+          </div>
+          
+            <div class="parametric-selection">
+            
+              <div>
+                From parametric selection
+                <span id="parametric_show_2">(<a href="#show_criteria" onClick="$(this).text($(this).text() == 'show' ? 'hide': 'show');$('#parametric_criteria_2').toggle();return false;">show</a>)</span>
+              </div>
+              <ul id="parametric_criteria_2" style="display:none;">
+                
+                  <li><a href="/product/TgW9TW/seasonic-power-supply-m12ii520bronze">SeaSonic - 520W 80+ Bronze Certified Fully-Modular ATX Power Supply</a></li>
+                
+                  <li><a href="/product/xVkD4D/seasonic-power-supply-ssr450rm">SeaSonic - 450W 80+ Gold Certified Semi-Modular ATX Power Supply</a></li>
+                
+                  <li><a href="/product/Rkh9TW/xfx-power-supply-p1550bbefx">XFX - XTR 550W 80+ Gold Certified Fully-Modular ATX Power Supply</a></li>
+                
+                  <li><a href="/product/qYTrxr/evga-power-supply-220g20550y1">EVGA - SuperNOVA G2 550W 80+ Gold Certified Fully-Modular ATX Power Supply</a></li>
+                
+                  <li><a href="/product/3zNypg/corsair-power-supply-cp9020090na">Corsair - RMx 550W 80+ Gold Certified Fully-Modular ATX Power Supply</a></li>
+                
+                  <li><a href="/product/sMM323/evga-supernova-g3-550w-80-gold-certified-fully-modular-atx-power-supply-220-g3-0550">EVGA - SuperNOVA G3 550W 80+ Gold Certified Fully-Modular ATX Power Supply</a></li>
+                
+              </ul>
+            
+            </div>
+          
+        </td>
+       
+        
+        <td class="tr nowrap"><a href="/mr/neweggca/TgW9TW" rel="nofollow" target="_blank">$79.99</a></td>
+        <td class="tc nowrap"></td>
+        <td class="tc nowrap">
+          
+        </td>
+        <td class="tr nowrap"></td>
+        
+        <td class="tr price nowrap"><a href="/mr/neweggca/TgW9TW" rel="nofollow" target="_blank">$79.99</a></td>
+        
+        <td class="merchant"><a href="/mr/neweggca/TgW9TW" rel="nofollow" target="_blank">Newegg Canada</a></td>
+        
+       
+        
+        
+        <td class="nowrap">
+          
+          <a href="/mr/neweggca/TgW9TW" class="btn-mds" rel="nofollow" target="_blank">Buy</a>
+          
+        </td>
+        
+        
+      </tr>
+      
+
+      <!-- end item -->
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+    
+      
+      <!-- item -->
+
+      
+      <tr class="last">
+        <td class="component-type tl">Other</td>
+        <td class="component-image"><a href="/product/Ybx9TW/cablemod-widebeam-magnetic-led-strip-rgb-kit-30cm-15-leds" class="image-wrapper "><img src="https://images-na.ssl-images-amazon.com/images/I/41QIauWk1nL.jpg" class=""></a></td>
+        <td class="component-name tl">
+          <div>
+            
+              <a href="/product/Ybx9TW/cablemod-widebeam-magnetic-led-strip-rgb-kit-30cm-15-leds">CableMod WideBeam Magnetic LED Strip RGB Kit - 30cm / 15 LEDs</a>
+            
+            
+          </div>
+          
+        </td>
+       
+        
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        
+        <td></td>
+        
+        <td></td>
+        
+       
+        
+        
+        <td class="nowrap">
+          
+        </td>
+        
+        
+      </tr>
+      
+
+      <!-- end item -->
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+    
+
+
+
+
+            
+            
+            <tr class="total-price part-list-totals">
+              <td colspan="7">Total:</td>
+              <td  class="tr nowrap">$1318.43</td>
+              
+              <td></td>
+              
+              
+              
+              <td></td>
+              
+              <td></td>
+            </tr>
+            
+            
+
+  </tbody>
+</table>
+
+
+<div class="note">* Using <a href="/user_r/preferences/" rel="nofollow">your selected merchants</a> and only including <a href="/user_r/preferences/" rel="nofollow">nearby</a> in-store pickup prices)</div>
+
+
+<div class="note">* Some physical dimension restrictions cannot (yet) be automatically checked, such as cpu cooler / RAM clearance with modules using tall heat spreaders.</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+        </div>
+
+    
+        <div class="block">
+          <a name="historical_prices"></a>
+          <h2>Part List Price History <span class="title-note">(Excluding Tax)</span> (CAD)</h2>
+          <div id="price_history_legend"></div>
+          <div id="price_history" class="partlist-price-history-graph">Loading...</div>
+        </div>
+    
+
+    
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class='hidden-dialog'><div id="flag_incompat_dialog">
+  <div>
+    <div>Reason:</div>
+    <div><textarea id="flag_incompat_comment"></textarea></div>
+  </div>
+  <div class="form-actions">
+    <input type="submit" value="Submit" id="flag_incompat_submit" />
+    <input type="button" value="Cancel" id="flag_incompat_cancel" />
+  </div>
+</div></div>
+
+
+
+<div class='hidden-dialog'>
+  <div id="explain_wattage_dialog">
+    <div><b>Note:</b> Wattages are estimates only.  Actual power draw may differ from listed values.</div>
+    <table id="explain_wattage_table">
+      <thead>
+        <tr>
+          <th>Component</th>
+          
+          <th class="tc">Estimated Wattage</th>
+          
+        </tr>
+      </thead>
+      
+      <tbody>
+        
+        <tr>
+          <td>Intel - Core i5-7500 3.4GHz Quad-Core Processor</td>
+          
+          <td class="tc">8W - 65W</td>
+          
+        </tr>
+        
+        <tr>
+          <td>MSI - B250M PRO-VDH Micro ATX LGA1151 Motherboard</td>
+          
+          <td class="tc">15W - 60W</td>
+          
+        </tr>
+        
+        <tr>
+          <td>Team - Vulcan 16GB (2 x 8GB) DDR4-2400 Memory</td>
+          
+          <td class="tc">11W - 11W</td>
+          
+        </tr>
+        
+        <tr>
+          <td>Kingston - A400 480GB 2.5&quot; Solid State Drive</td>
+          
+          <td class="tc">2W - 10W</td>
+          
+        </tr>
+        
+        <tr>
+          <td>Seagate - Barracuda 2TB 3.5&quot; 7200RPM Internal Hard Drive</td>
+          
+          <td class="tc">4W - 20W</td>
+          
+        </tr>
+        
+        <tr>
+          <td>MSI - GeForce GTX 1070 8GB Video Card</td>
+          
+          <td class="tc">37W - 150W</td>
+          
+        </tr>
+        
+      </tbody>
+      
+      <tfoot>
+        <tr>
+          <td>Total:</td>
+          
+          <td class="tc">77W - 316W</td>
+          
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+</div>
+
+
+<div class='hidden-dialog'>
+  <div id="markup_dialog">
+    <div>
+      <div>
+        <ul id="markup_merchant_select">
+          Show Prices From:
+          <li><input type="radio" id="markup_merchant_all" name="markup_merchants" value="all" /> <label for="markup_merchant_all">All Merchants</label></li>
+          <li><input type="radio" id="markup_merchant_preferred" name="markup_merchants" value="preferred" checked="checked" /> <label for="markup_merchant_preferred">Your Preferred Merchant List</label></li>
+          <li><input type="radio" id="markup_merchant_single" name="markup_merchants" value="single" /> <label for="markup_merchant_single">Single Merchant: </label>
+            <select name="markup_single_merchant" id="markup_single_merchant" disabled="disabled">
+              <option value="14" selected="selected">Amazon Canada</option><option value="75" >Memory Express</option><option value="200" >Mike&#39;s Computer Shop</option><option value="13" >Newegg Canada</option><option value="167" >Newegg Canada Marketplace</option><option value="153" >PC-Canada</option><option value="74" >Vuugo</option><option value="123" >shopRBC</option>
+            </select>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <textarea id="markup_text" rows="8"></textarea>
+  </div>
+</div>
+
+<div class='hidden-dialog'>
+  <div id="change_history_dialog">
+
+  </div>
+</div>
+
+
+
+
+<div id="partlist_save_dialog"><div>Loading...</div></div>
+
+
+
+    </div>
+    <div class="drop">
+      <div id="browse-parts-tray-container">
+        <div class="page-container">
+          <div class="browse-parts-tray">
+            <div class="parts-tray-block-col core-parts">
+              <div>
+                <a href="/products/cpu/" class="parts-tray-block parts-tray-heading"><img src="//cdn.pcpartpicker.com/static/forever/img/nav-cpu.png" alt="CPU" />CPU</a>
+                <a href="/products/cpu-cooler/" class="parts-tray-block parts-tray-heading"><img src="//cdn.pcpartpicker.com/static/forever/img/nav-cpucooler.png" alt="CPU Cooler" />CPU Cooler</a>
+                <a href="/products/motherboard/" class="parts-tray-block parts-tray-heading"><img src="//cdn.pcpartpicker.com/static/forever/img/nav-motherboard.png" alt="Motherboard" />Motherboard</a>
+                <a href="/products/memory/" class="parts-tray-block parts-tray-heading"><img src="//cdn.pcpartpicker.com/static/forever/img/nav-memory.png" alt="Memory" />Memory</a>
+              </div>
+              <div>
+                <a href="/products/internal-hard-drive/" class="parts-tray-block parts-tray-heading"><img src="//cdn.pcpartpicker.com/static/forever/img/nav-ssd.png" alt="Storage" />Storage</a>
+                <a href="/products/video-card/" class="parts-tray-block parts-tray-heading"><img src="//cdn.pcpartpicker.com/static/forever/img/nav-videocard.png" alt="Video Card" />Video Card</a>
+                <a href="/products/power-supply/" class="parts-tray-block parts-tray-heading"><img src="//cdn.pcpartpicker.com/static/forever/img/nav-powersupply.png" alt="Power Supply" />Power Supply</a>
+                <a href="/products/case/" class="parts-tray-block parts-tray-heading"><img src="//cdn.pcpartpicker.com/static/forever/img/nav-case.png" alt="Case" />Case</a>
+              </div>
+            </div>
+            <div class="parts-tray-list-col parts-two">
+              <ul>
+                <li class="parts-tray-heading">Cooling</li>
+                <li><a href="/products/case-fan/">Case Fans</a></li>
+                <li><a href="/products/fan-controller/">Fan Controllers</a></li>
+                <li><a href="/products/thermal-paste/">Thermal Compound</a></li>
+              </ul>
+              <ul>
+                <li class="parts-tray-heading">Drives</li>
+                <li><a href="/products/optical-drive/">Optical Drives</a></li>
+              </ul>
+              <ul>
+                <li class="parts-tray-heading">Expansion</li>
+                <li><a href="/products/sound-card/">Sound Cards</a></li>
+                <li><a href="/products/wired-network-card/">Wired Networking</a></li>
+                <li><a href="/products/wireless-network-card/">Wireless Networking</a></li>
+              </ul>
+            </div>
+            <div class="parts-tray-list-col parts-three">
+              <ul>
+                <li class="parts-tray-heading">Displays</li>
+                <li><a href="/products/monitor/">Monitors</a></li>
+              </ul>
+               <ul>
+                <li class="parts-tray-heading">External Storage</li>
+                <li><a href="/products/external-hard-drive/">External Hard Drives</a></li>
+              </ul>
+              <ul>
+                <li class="parts-tray-heading">Peripherals</li>
+                <li><a href="/products/headphones/">Headphones</a></li>
+                <li><a href="/products/keyboard/">Keyboards</a></li>
+                <li><a href="/products/mouse/">Mice</a></li>
+                <li><a href="/products/speakers/">Speakers</a></li>
+                <li><a href="/products/ups/">Uninterruptible Power Supplies</a></li>
+              </ul>
+            </div>
+            <div class="parts-tray-list-col parts-three">
+              <ul>
+                <li class="parts-tray-heading">Software</li>
+                <li><a href="/products/software/#W=1">Antivirus</a></li>
+                <li><a href="/products/software/#W=8">Audio &amp; Video</a></li>
+                <li><a href="/products/software/#W=2">Backup</a></li>
+                <li><a href="/products/software/#W=3">Design &amp; Illustration</a></li>
+                <li><a href="/products/software/#W=5">Internet Security</a></li>
+                <li><a href="/products/software/#W=7">Office &amp; Productivity</a></li>
+                <li><a href="/products/os/">Operating Systems</a></li>
+                <li><a href="/products/software/#W=6">Photography</a></li>
+              </ul>
+            </div>
+            <div class="parts-tray-list-col parts-four">
+            </div>
+            <div class="parts-tray-col-clear"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="drop">
+      <div id="search-tray-container">
+        <div class="page-container">
+          <div class="search-tray search-box">
+            <form action="/search/" method="get">
+              <input type="hidden" name="cc" value="ca"/>
+              <input id="search_q" type="text" name="q" size="32" autocomplete="off" />
+              <input id="search_go" type="submit" value="Search" />
+            </form>
+            <div id="search_result"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="page-container">
+        <div class="footer-branding">
+          <div class="copyright-notice">&copy;2018 PCPartPicker, LLC.  All rights reserved.</div>
+          <div class="switch-to-mobile"><a href="?flavor=mobile">Switch to Mobile Version</a></div>
+          
+          
+        </div>
+        <ul class="footer-nav">
+          <h4>Sections</h4>
+          <li><a href="/list/">System Builds</a></li>
+          <li><a href="/guide/">Build Guides</a></li>
+          <li><a href="/builds/">Completed Builds</a></li>
+          <li><a href="/products/">Individual Parts</a></li>
+        </ul>
+        <ul class="footer-nav">
+          <h4>PCPP</h4>
+          <li><a href="/forums/">Forums</a></li>
+          <li><a href="/products/pricedrop/">Price Drops</a></li>
+          <li><a href="/trends/">Price Trends</a></li>
+          <li><a href="/blog/">PCPP Blog</a></li>
+        </ul>
+        <ul class="footer-nav">
+          <h4>PCPP</h4>
+          <li><a href="/about/">About</a></li>
+          <li><a href="/contact/">Contact &amp; Imprint</a></li>
+          <li><a href="/tos/">Terms of Service</a></li>
+          <li><a href="/code-of-conduct/">User Code of Conduct</a></li>
+          <li><a href="/code-of-conduct/industry-affiliate/">Industry Code of Conduct</a></li>
+          <li><a href="/privacy/">Privacy Policy</a></li>
+          <li><a href="/disclosure/">Disclosure</a></li>
+        </ul>
+        <ul class="footer-nav">
+          <h4>Elsewhere</h4>
+          <li><a href="https://discord.gg/pcpartpicker">Discord</a></li>
+          <li><a href="https://www.facebook.com/pcpartpicker">Facebook</a></li>
+          <li><a href="https://instagram.com/pcpartpicker">Instagram</a></li>
+          <li><a href="https://twitch.tv/pcpartpicker">Twitch</a></li>
+          <li><a href="https://twitter.com/pcpartpicker">Twitter</a></li>
+          <li><a href="https://www.youtube.com/user/pcpartpicker">YouTube</a></li>
+        </ul>
+      </div>
+      <!-- <div class="page-container">
+        <div class="pcpp-network">
+          <h4>PCPP Network</h4>
+          <div class="title-divider"></div>
+          <ul>
+            <li><a href="http://pcpartpicker.com" id="pcpp"></a></li>
+          </ul>
+        </div>
+      </div> -->
+      
+    </footer>
+    <div id="default_dialog" class="hidden-dialog"></div>
+  </body>
+
+
+  <script>
+    $(document).ready(function(){
+      $('.language-selector').customSelect();
+      $('span.customSelect').css('width', '');
+      $('span.customSelectInner').css('width', '');
+    });
+  </script>
+</html>

@@ -1,0 +1,7 @@
+.svg .wp-badge.welcome__logo {
+    background: url('../../img/icon-128x128.png') center 0px no-repeat #fafafa;
+    background-size: contain;
+    color: #fff;
+    height: 20px;
+    width: 140px;
+}

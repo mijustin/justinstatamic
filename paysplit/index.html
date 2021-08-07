@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Pay Split - split an incoming Stripe payment</title>
+	<meta name="description" content="Split an incoming Stripe payment and deposit into two separate accounts.">
+	<meta name="author" content="Pay Split">
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- Google Fonts
+  ================================================== -->
+	<link href="http://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="stylesheets/base.css">
+	<link rel="stylesheet" href="stylesheets/skeleton.css">
+	<link rel="stylesheet" href="stylesheets/layout.css">
+	<link rel="stylesheet" href="stylesheets/font-awesome.css">
+	<link rel="stylesheet" href="stylesheets/prettyPhoto.css">
+	
+	<!-- Javascript
+  ================================================== -->
+	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script src="js/custom.js"></script>
+	<script src="js/jquery.nav.js"></script>
+	<script src="js/jquery.scrollTo.js"></script>
+	<script src="js/jquery.prettyPhoto.js"></script>
+	<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.0/jquery.validate.min.js"></script>
+	<script src="http://malsup.github.com/jquery.form.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+</head>
+<body>
+
+<!-- Header -->
+<header>
+	<!-- Container -->
+	<div class="container">
+		<div class="four columns logo"> <!-- Logo -->
+			<a href="#" style="text-decoration:none; color:#333;">Pay Split</a>
+		</div>
+		<!-- End logo -->
+		<nav id="navigation" class="twelve columns"> <!-- Nav -->
+			<ul>
+				<li><a href="#intro">Home</a></li>
+				<li><a href="#faq">Questions</a></li>
+			</ul>
+		</nav>
+		<!-- End Nav -->
+	</div>
+	<!-- End Container -->
+</header>
+<!-- End Header -->
+
+<!-- Intro -->
+<section id="intro">
+	<!-- Container -->
+	<div class="container">
+		<div class="seven columns main-text">
+			<h1>Split revenue, immediately, with your partners</h1>
+			<p class="lead">
+		    Put something up for sale, and split all incoming transactions between two partners. If you have Stripe, you can use <em>Pay Split</em>.</p>
+			<p class="lead">With <em>Pay Split</em> you can:</p>
+			<!-- List-services -->
+		  <ul class="list-services">
+				<li><i class="icon-check"></i>Start your own daily deals site</li>
+				<li><i class="icon-check"></i>Partner with a friend and split the revenue 50/50</li>
+				<li><i class="icon-check"></i>Easily create affiliate links for digital products</li>
+                <li><i class="icon-check"></i>Co-organize an event, and divide ticket revenues evenly</li>
+		  </ul>
+			<!-- End List-Services -->
+    </div>
+		<div class="eight columns offset-by-one order-form"> <!-- Order Form -->
+			<div>
+				<i class="icon-shopping-cart"></i>
+				<h2>Be the first to know when we launch</h2>
+				<p>Get on our launch list and we'll send you updates on our progress, plus a discount when we launch!</p>
+				<form id="ck_subscribe_form" class="ck_subscribe_form" action="https://app.convertkit.com/landing_pages/550/subscribe" data-remote="true">
+      <input type="hidden" name="id" value="550" id="landing_page_id"></input>
+                  <input type="email" name="email" placeholder="Your Email" class="required">
+                  <input type="text" name="first_name" placeholder="First Name" class="required">
+                  <button class="submit" type="submit">Get on the list!</button>
+				</form>
+			</div>
+		</div>
+		<!-- End Order-Form -->
+	</div>
+	<!-- End Container -->
+</section>
+<!-- End Intro -->
+
+<!-- FAQ -->
+<section id="faq">
+	<!-- Container -->
+	<div class="container">
+		<!-- Preambule -->
+		<div class="preambule twelve columns offset-by-two">
+			<h3>FAQ</h3>
+			<p class="lead">We're still building Pay Split, but here are a few answers to common questions</p>
+		</div>
+		<!-- End Preambule -->
+		<div class="eight columns question">
+			<i class="icon-comments"></i>
+			<h5>Who is this for?</h5>
+			<p>Anyone who needs to split incoming payments: it will be most useful for people creating products and events together. It can also be used as an affiliate system for paying out commisions, or a daily deals site (like AppSumo or Dealotto) that needs to pay out earnings.</p>
+  </div>
+		<div class="eight columns question">
+			<i class="icon-comments"></i>
+			<h5>What gateways are supported?</h5>
+			<p>Currently, we only plan on supporting <a href="https://stripe.com/">Stripe</a>. Each account will need a master Stripe account, and then separate accounts for each partner.</p>
+		</div>
+	</div>
+	<!-- End Container -->
+</section>
+<!-- End FAQ -->
+
+<!-- Footer -->
+<footer id="footer">
+	<!-- Container -->
+	<div class="container">
+		<p class="copyrights">© 2014 Pay Split ALL RIGHT RESERVED</p> <!-- Copyrights -->
+		
+		<!-- End Social -->
+	</div>
+	<!-- End Container -->
+</footer>
+<!-- End Footer -->
+
+</body>
+</html>
