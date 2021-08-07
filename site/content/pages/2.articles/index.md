@@ -3,6 +3,8 @@ article_content:
   -
     type: text
     text: '<p>Hi, I’m Justin. These are my articles.<br></p>'
+seo:
+  description: 'My writing on bootstrapping a small, calm, profitable SaaS company'
 fieldset: article
 template: articles
 mount: articles
