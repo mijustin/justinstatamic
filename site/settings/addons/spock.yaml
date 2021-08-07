@@ -1,3 +1,5 @@
 environments:
   - production
 git_push: true
+git_username: mijustin
+git_email: justin@bizbox.ca
