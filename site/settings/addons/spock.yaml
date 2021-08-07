@@ -1,0 +1,3 @@
+environments:
+  - production
+git_push: true
