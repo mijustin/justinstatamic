@@ -1,0 +1,17 @@
+fields:
+  auto_redirect_enable:
+    type: toggle
+    display: Enable auto redirects
+    instructions: The module keeps track of changed URLs when moving pages or changing slugs, and automatically redirects old URLs to the new ones.
+  log_404_enable:
+    type: toggle
+    display: Log 404s
+    instructions: Log any 404 requests and show them in the 404 monitor.
+  log_redirects_enable:
+    type: toggle
+    display: Log redirects
+    instructions: Log how many times a manual or auto redirect has been executed.
+  access_roles:
+    type: list
+    display: Access to manage redirects
+    instructions: Restrict access to view and manage redirects to certain roles. If empty, all roles are able to view and manage. Enter role slugs.

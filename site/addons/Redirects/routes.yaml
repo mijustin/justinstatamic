@@ -1,0 +1,43 @@
+routes:
+  /:
+    uses: ManualRedirectsController@index
+    as: redirects.index
+  manual:
+    uses: ManualRedirectsController@show
+    as: redirects.manual.show
+  manual/get:
+    uses: ManualRedirectsController@get
+    as: redirects.manual.get
+  manual/create:
+    uses: ManualRedirectsController@create
+    as: redirects.manual.create
+  manual/edit/{id}:
+    uses: ManualRedirectsController@edit
+    as: redirects.manual.edit
+  post@manual/save:
+    uses: ManualRedirectsController@save
+    as: redirects.manual.save
+  post@manual/reorder:
+    uses: ManualRedirectsController@reorder
+    as: redirects.manual.reorder
+  delete@manual/delete:
+    uses: ManualRedirectsController@delete
+    as: redirects.manual.delete
+  auto:
+    uses: AutoRedirectsController@show
+    as: redirects.auto.show
+  auto/get:
+    uses: AutoRedirectsController@get
+    as: redirects.auto.get
+  delete@auto/delete:
+    uses: AutoRedirectsController@delete
+    as: redirects.auto.delete
+  404:
+    uses: Monitor404Controller@show
+    as: redirects.404.show
+  404/get:
+    uses: Monitor404Controller@get
+    as: redirects.404.get
+  delete@404/delete:
+    uses: Monitor404Controller@delete
+    as: redirects.404.delete

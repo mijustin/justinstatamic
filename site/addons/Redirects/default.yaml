@@ -1,0 +1,4 @@
+access_roles: []
+log_404_enable: true
+log_redirects_enable: true
+auto_redirect_enable: true

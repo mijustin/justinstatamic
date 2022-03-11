@@ -1,0 +1,84 @@
+from:
+  type: text
+  display: Source URL
+  validate: required
+target_type:
+  type: select
+  default: url
+  width: 50
+  options:
+    url: URL
+    page: Page
+    entry: Entry
+    term: Term
+to_url:
+  type: text
+  display: URL
+  width: 50
+  show_when:
+    target_type: url
+to_page:
+  type: pages
+  display: Page
+  max_items: 1
+  width: 50
+  show_when:
+    target_type: page
+to_entry:
+  type: collection
+  display: Entry
+  max_items: 1
+  label: '{{ title }}: {{ url }} [{{ collection }}]'
+  width: 50
+  show_when:
+    target_type: entry
+to_term:
+  type: taxonomy
+  display: Term
+  max_items: 1
+  width: 50
+  show_when:
+    target_type: term
+status_code:
+  type: radio
+  display: Status Code
+  options:
+    301: 301 Moved Permanently
+    302: 302 Moved Temporary
+  default: 301
+  validate: required
+retain_query_strings:
+  type: toggle
+  display: Retain Query Strings
+  instructions: Query strings from the source URL are appended to the redirect target URL.
+  width: 50
+locale:
+  type: select
+  display: Locale
+  instructions: Optionally restrict the redirect to a locale.
+  width: 50
+  options:
+    ~: ''
+timed_activation:
+  type: toggle
+  display: Timed Activation
+  instructions: |
+    Activate to apply this redirect only during a limited period of time.
+    Only specifying a start date delays the activation of the redirect after the given date.
+    Only specifying an end date activates the redirect until the given date.
+    If both dates are specified, a temporary redirect status code (302) gets applied automatically.
+start_date:
+  type: date
+  display: Start Date/Time
+  width: 50
+  allow_blank: true
+  show_when:
+    timed_activation: true
+end_date:
+  type: date
+  display: End Date/Time
+  width: 50
+  allow_blank: true
+  show_when:
+    timed_activation: true
+
