@@ -1,3 +1,6 @@
 /jump:
   to: /fish
   content_id: 11e53a81-5d09-4592-a0ed-4ca3fc000705
+/giveup:
+  to: /quit
+  content_id: c8ae5565-010a-40cd-94cd-061e82eeaf15
