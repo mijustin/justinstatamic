@@ -2,12 +2,12 @@ title: 'Justin Jackson''s newsletter'
 article_content:
   -
     type: text
-    text: '<p>Every Saturday morning I send an email to my list. I talk about bootstrapping, making stuff with computers, and earning a living on the internet.</p><blockquote><p>“I’m on Justin’s newsletter, and I love it!”<br>– Nick Beattie</p></blockquote>'
+    text: '<p>Every Saturday morning I send an email to my list. I talk about bootstrapping, making stuff with computers, and earning a living on the internet. <a href="https://app.convertkit.com/landing_pages/793?v=7">Subscribe here</a>.</p>'
   -
     type: newsletter
   -
     type: text
-    text: '<p>My work has been featured in:</p>'
+    text: '<blockquote><p>“I’m on Justin’s newsletter, and I love it!”<br>– Nick Beattie</p></blockquote><p>My work has been featured in:</p>'
   -
     type: image
     image: /assets/content/as_seen_on_b.png
