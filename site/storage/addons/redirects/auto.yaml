@@ -4,3 +4,6 @@
 /giveup:
   to: /quit
   content_id: c8ae5565-010a-40cd-94cd-061e82eeaf15
+/elon-debate:
+  to: /musk-debate
+  content_id: 68c36d1d-d9ad-43b0-9753-c512ddf00895
