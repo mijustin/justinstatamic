@@ -2,7 +2,7 @@ title: 'Justin Jackson''s newsletter'
 article_content:
   -
     type: text
-    text: '<p>Every Saturday morning I send an email to my list. I talk about bootstrapping, making stuff with computers, and earning a living on the internet. <a href="https://app.convertkit.com/landing_pages/793?v=7">Subscribe here</a>.</p>'
+    text: '<p>I''m trying something new with my newsletter:&nbsp;I''m sending shorter emails, more frequently, featuring a few "thoughts from today."</p><p><a href="https://justinjackson.ck.page/posts">Here''s a sample</a>.</p><p><a href="https://app.convertkit.com/landing_pages/793?v=7">Subscribe here</a>.</p><p>The focus of these emails will be around bootstrapping,&nbsp;<a href="https://justinjackson.ca/the-good-life" target="_blank" rel="noopener noreferrer">the good life</a>, building&nbsp;<a href="https://justinjackson.ca/margin" target="_blank" rel="noopener noreferrer">calm companies</a>, business ethics, creating a better society, and&nbsp;<a href="https://justinjackson.ca/the-ethics-of-ai-driven-content" target="_blank" rel="noopener noreferrer">introspecting the tech industry</a>.​</p><p><strong>I&nbsp;</strong><strong><em>want</em></strong><strong>&nbsp;to hear what you think. I encourage subscribers to respond to each email.</strong>&nbsp;When I get permission, I include reader thoughts when&nbsp;<a href="https://justinjackson.ca/pessimistic#responses" target="_blank">I write these up as longer posts</a>.</p>'
   -
     type: newsletter
   -
