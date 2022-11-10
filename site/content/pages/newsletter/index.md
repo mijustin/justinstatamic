@@ -26,7 +26,7 @@ article_content:
     text: '<p>{{ bio }}</p>'
 seo:
   title: 'Justin Jackson''s newsletter'
-  description: 'Every Saturday morning I send an email to my list. I talk about bootstrapping, making stuff with computers, and earning a living on the internet.'
+  description: 'I write about bootstrapping, the good life, building calm companies, business ethics, creating a better society, and introspecting the tech industry.​'
   image: /assets/content/commodore-vic-20-computer-justin-jackson-1986-basic-1024x838.jpg
 template: newsletter
 fieldset: article
