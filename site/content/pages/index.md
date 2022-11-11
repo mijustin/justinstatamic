@@ -5,7 +5,7 @@ article_content:
     text: '<p>Hi, I’m Justin.</p><p>{{ workingon }}</p><p>{{ bio }}</p>'
   -
     type: text
-    text: '<p>Most Saturday mornings I send an email to my list. I talk about bootstrapping, making stuff with computers, and earning a living on the internet.</p>'
+    text: '<p>I write a&nbsp;<a href="https://justinjackson.ca/cp/globals/%7B%7B%20link:27eaa7bb-7009-4639-bd29-7e8c25984a7b%20%7D%7D">newsletter</a>&nbsp;about bootstrapping,&nbsp;<a href="https://justinjackson.ca/the-good-life" target="_blank" rel="noopener noreferrer">the good life</a>, building&nbsp;<a href="https://justinjackson.ca/margin" target="_blank" rel="noopener noreferrer">calm companies</a>, business ethics, creating a better society, and&nbsp;<a href="https://justinjackson.ca/the-ethics-of-ai-driven-content" target="_blank" rel="noopener noreferrer">introspecting the tech industry</a>.​</p>'
   -
     type: newsletter
   -
