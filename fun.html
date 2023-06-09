@@ -23,9 +23,31 @@
   <meta property="og:image:alt" content="Justin Jackson in 2023, pink shirt, lights, purple background" />
 
   <title>Justin Jackson's FUN.HTML</title>
+  <script>
+    window.addEventListener('keydown', function(e) {
+      var character = document.getElementById('character');
+      var table = document.querySelector('.table');
+      switch(e.key) {
+        case 'ArrowRight':
+          character.style.left = (character.offsetLeft + 10) + 'px';
+          break;
+        case 'ArrowLeft':
+          character.style.left = (character.offsetLeft - 10) + 'px';
+          break;
+        case ' ':
+          table.classList.add('flip');
+          setTimeout(function() {
+            table.classList.remove('flip');
+            table.style.transform = "rotate(0deg)";
+          }, 400);
+          break;
+      }
+    });
+
+  </script>
   <style>
     body {
-      font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 1em; line-height: 1.5em; margin: 2em auto; max-width: 35em;
+      font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 1em; line-height: 1.5em; margin: 2em auto; max-width: 35em; padding-bottom:5em;
     }
     
     img {
@@ -47,6 +69,43 @@
       background-color: lemonchiffon;
       padding: 5px;
     }
+
+    .parent {
+      font-size: 2em ;
+      position: relative;
+      margin-top: 20px;
+    }
+
+    #character {
+      position: absolute;
+      display: inline-block;
+    }
+
+    .table {
+      position: absolute;
+      display: inline-block;
+      width: 100px;
+      left: 160px;
+      top: 0px;
+    }
+
+    .table.flip {
+      animation-name: flip-table;
+      animation-duration: 1s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+    }
+
+    @keyframes flip-table {
+      0%   {left:65px; top:0px; transform: rotate(0deg)}
+      15%  {left:85px; top:10px; transform: rotate(90deg)}
+      30%  {left:105px; top:20px; transform: rotate(180deg)}
+      45%  {left:125px; top:30px; transform: rotate(270deg)}
+      60%  {left:145px; top:40px; transform: rotate(360deg)}
+      75%  {left:165px; top:50px; transform: rotate(450deg)}
+      100%  {left:185px; top:60px; transform: rotate(540deg)}
+    }
+
   </style>  
 </head>
   
@@ -119,5 +178,16 @@
       I blog at <a href="https://justinjackson.ca">justinjackson.ca</a>
     </p>
 
+    <p>
+      Cheers,<br>
+      Justin Jackson
+    </p>
+
+    <p>
+      PS: if you're feeling sassy, flip the table by hitting spacebar.
+    </p>
+    <div class="parent">
+      <div id="character">(╯°□°）╯</div><div class="table">┬─┬</div>
+    </div>
 </body>
 </html>
